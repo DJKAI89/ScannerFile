@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "minStockConf": 60,
+    "pot": 3,
+    "risk": 55,
+    "rr": 1.2,
+    "rsiOS": 30,
+    "rsiOB": 70,
+    "vol": 1.2,
+    "delta": 0.3,
+    "iv": 15,
+    "oi": 5,
+    "optSL": 25,
+    "optTgt": 50,
+    "scanStocks": 15,
+    "tick": 15,
+    "portRef": 15,
+    "scanOpts": 15,
+    "minOptConf": 75,
+    "maxOptCapital": 10001,
+    "moodRefresh": 10,
+    "_v": "v4"
+  },
+  "upstoxId": "132199",
+  "savedAt": "2026-04-09T05:05:47.018Z",
+  "version": "v4"
+}
