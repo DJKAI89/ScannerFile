@@ -3,7 +3,7 @@
     {
       "id": "2026-04-09-NIFTY-23650-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "NIFTY",
       "name": "NIFTY 23650 PE",
@@ -25,7 +25,7 @@
       "rr": 2.25,
       "winRateEst": 55,
       "vix": 20.43,
-      "slTgtMethod": "IV 19% | DTE 4 | Delta 0.38",
+      "slTgtMethod": "IV 19% | DTE 3 | Delta 0.38",
       "status": "OPEN",
       "exitPrice": null,
       "exitTime": null,
@@ -37,7 +37,7 @@
     {
       "id": "2026-04-09-SENSEX-77100-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "SENSEX",
       "name": "SENSEX 77100 PE",
@@ -71,7 +71,7 @@
     {
       "id": "2026-04-09-SENSEX-76700-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "SENSEX",
       "name": "SENSEX 76700 PE",
@@ -105,7 +105,7 @@
     {
       "id": "2026-04-09-SENSEX-76800-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "SENSEX",
       "name": "SENSEX 76800 PE",
@@ -139,7 +139,7 @@
     {
       "id": "2026-04-09-SENSEX-76900-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "SENSEX",
       "name": "SENSEX 76900 PE",
@@ -373,7 +373,7 @@
     {
       "id": "2026-04-09-NIFTY-23550-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "NIFTY",
       "name": "NIFTY 23550 PE",
@@ -395,7 +395,7 @@
       "rr": 2.25,
       "winRateEst": 55,
       "vix": 20.43,
-      "slTgtMethod": "IV 20% | DTE 4 | Delta 0.31",
+      "slTgtMethod": "IV 20% | DTE 3 | Delta 0.31",
       "status": "OPEN",
       "exitPrice": null,
       "exitTime": null,
@@ -407,7 +407,7 @@
     {
       "id": "2026-04-09-NIFTY-23600-PE",
       "date": "2026-04-09",
-      "time": "15:57:53",
+      "time": "21:23:26",
       "type": "OPTION",
       "stock": "NIFTY",
       "name": "NIFTY 23600 PE",
@@ -429,7 +429,7 @@
       "rr": 2.25,
       "winRateEst": 55,
       "vix": 20.43,
-      "slTgtMethod": "IV 20% | DTE 4 | Delta 0.35",
+      "slTgtMethod": "IV 20% | DTE 3 | Delta 0.35",
       "status": "OPEN",
       "exitPrice": null,
       "exitTime": null,
@@ -642,7 +642,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-09T10:54:08.314Z",
+  "lastUpdated": "2026-04-09T15:53:28.101Z",
   "upstoxId": "132199",
   "stats": {
     "total": 19,
