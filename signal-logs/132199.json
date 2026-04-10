@@ -3,7 +3,7 @@
     {
       "id": "2026-04-10-COALINDIA-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "COALINDIA",
       "name": "Coal India",
@@ -31,12 +31,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-INFY-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "INFY",
       "name": "Infosys",
@@ -64,12 +66,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-WIPRO-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "WIPRO",
       "name": "Wipro",
@@ -97,12 +101,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-IRFC-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "IRFC",
       "name": "IRFC",
@@ -130,12 +136,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-TATASTEEL-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "TATASTEEL",
       "name": "Tata Steel",
@@ -163,12 +171,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-CANBK-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "CANBK",
       "name": "Canara Bank",
@@ -196,12 +206,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-SBIN-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "SBIN",
       "name": "State Bank of India",
@@ -229,12 +241,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-NTPC-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "NTPC",
       "name": "NTPC",
@@ -262,18 +276,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-GAIL-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "GAIL",
       "name": "GAIL India",
       "signal": "WATCH",
-      "confidence": 63.5,
-      "strength": "MODERATE",
+      "confidence": 78.5,
+      "strength": "STRONG",
       "numInds": 4,
       "entry": 154.08,
       "sl": 150.39,
@@ -295,7 +311,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-HDFCBANK-STOCK",
@@ -333,12 +351,12 @@
     {
       "id": "2026-04-10-VEDL-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "VEDL",
       "name": "Vedanta",
       "signal": "WATCH",
-      "confidence": 62.8,
+      "confidence": 77.8,
       "strength": "MODERATE",
       "numInds": 3,
       "entry": 745.15,
@@ -361,17 +379,19 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-BHEL-STOCK",
       "date": "2026-04-10",
-      "time": "21:41:21",
+      "time": "21:44:25",
       "type": "STOCK",
       "stock": "BHEL",
       "name": "BHEL",
       "signal": "WATCH",
-      "confidence": 62.099999999999994,
+      "confidence": 77.1,
       "strength": "MODERATE",
       "numInds": 4,
       "entry": 284.71,
@@ -394,7 +414,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-NIFTY-24150-CE",
@@ -907,16 +929,49 @@
       "exitTime": null,
       "pnlPct": null,
       "note": ""
+    },
+    {
+      "id": "2026-04-10-ICICIBANK-STOCK",
+      "date": "2026-04-10",
+      "time": "21:44:25",
+      "type": "STOCK",
+      "stock": "ICICIBANK",
+      "name": "ICICI Bank",
+      "signal": "WATCH",
+      "confidence": 72,
+      "strength": "MODERATE",
+      "numInds": 3,
+      "entry": 1321.9,
+      "sl": 1275.62,
+      "target": 1414.46,
+      "targetCons": 1391.32,
+      "targetMod": 1414.46,
+      "targetAgg": 1507.02,
+      "rr": 2,
+      "winRateEst": 58,
+      "risk": 28.3,
+      "rsi": 49.7,
+      "vix": 18.85,
+      "reversal": "BEARISH_REVERSAL",
+      "trigger": 1321.9,
+      "triggerMethod": "Market",
+      "slMethod": "ATR+VIX",
+      "tgtMethod": "2:1 R:R",
+      "status": "OPEN",
+      "exitPrice": null,
+      "exitTime": null,
+      "pnlPct": null,
+      "note": ""
     }
   ],
-  "lastUpdated": "2026-04-10T16:12:15.793Z",
+  "lastUpdated": "2026-04-10T16:14:26.710Z",
   "upstoxId": "132199",
   "stats": {
-    "total": 28,
+    "total": 29,
     "hits": 0,
     "sls": 0,
-    "open": 28,
+    "open": 29,
     "winRate": null,
-    "avgConf": 77
+    "avgConf": 79
   }
 }
