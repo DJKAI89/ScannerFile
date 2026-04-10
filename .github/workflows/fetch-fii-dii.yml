@@ -2,7 +2,7 @@ name: Fetch NSE FII/DII Data Daily
 
 on:
   schedule:
-    - cron: '0 11 * * 1-5'
+    - cron: '30 14 * * 1-5'
   workflow_dispatch:
 
 # FIX 1: Grant write permission so github-actions[bot] can commit & push
