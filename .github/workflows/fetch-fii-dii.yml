@@ -5,6 +5,10 @@ on:
     - cron: '0 11 * * 1-5'
   workflow_dispatch:
 
+# FIX 1: Grant write permission so github-actions[bot] can commit & push
+permissions:
+  contents: write
+
 jobs:
   fetch-data:
     runs-on: ubuntu-latest
@@ -72,77 +76,56 @@ jobs:
 
           if fno_resp.status_code == 200:
             fno_json = fno_resp.json()
-            print(f"F&O type: {type(fno_json)}")
             if isinstance(fno_json, dict):
-              print(f"F&O keys: {list(fno_json.keys())}")
               data = fno_json.get('data', fno_json.get('FIIData', list(fno_json.values())[0] if fno_json else []))
             elif isinstance(fno_json, list):
               data = fno_json
             else:
               data = []
 
-            print(f"F&O rows: {len(data)}")
-            if len(data) > 0:
-              print(f"Row 0: {json.dumps(data[0])[:600]}")
+            fii_row = None
+            for row in data:
+              if not isinstance(row, dict): continue
+              cat = ''
+              for key in ['clientType','category','participant','clienttype']:
+                if row.get(key):
+                  cat = str(row[key]).upper()
+                  break
+              if any(k in cat for k in ['FII','FPI','FOREIGN']):
+                fii_row = row
+                break
 
-              fii_row = None
-              dii_row = None
-              for row in data:
-                if not isinstance(row, dict): continue
-                cat = ''
-                for key in ['clientType','category','participant','clienttype','Client Type']:
-                  if row.get(key):
-                    cat = str(row[key]).upper()
-                    break
-                print(f"  cat='{cat}'")
-                if any(k in cat for k in ['FII','FPI','FOREIGN']):
-                  fii_row = row
-                elif any(k in cat for k in ['DII','MF','MUTUAL','DOMESTIC','INSURANCE']):
-                  dii_row = row
+            def gv(row, *keys):
+              if not row: return 0.0
+              for k in keys:
+                v = row.get(k)
+                if v not in (None,'',0,'0','-','--'):
+                  try: return float(str(v).replace(',','').replace(' ',''))
+                  except: pass
+              return 0.0
 
-              def gv(row, *keys):
-                if not row: return 0.0
-                for k in keys:
-                  for attempt in [k, k.lower(), k[0].lower()+k[1:] if k else k]:
-                    v = row.get(attempt)
-                    if v not in (None,'',0,'0','-','--'):
-                      try: return float(str(v).replace(',','').replace(' ',''))
-                      except: pass
-                return 0.0
+            if fii_row:
+              result['fii_idx_fut_long']   = gv(fii_row,'futureIndexLong','indexFutLong','futIdxLong')
+              result['fii_idx_fut_short']  = gv(fii_row,'futureIndexShort','indexFutShort','futIdxShort')
+              result['fii_stk_fut_long']   = gv(fii_row,'futureStockLong','stockFutLong')
+              result['fii_stk_fut_short']  = gv(fii_row,'futureStockShort','stockFutShort')
+              result['fii_idx_call_long']  = gv(fii_row,'optionIndexCallLong','idxCallLong','callLong')
+              result['fii_idx_call_short'] = gv(fii_row,'optionIndexCallShort','idxCallShort','callShort')
+              result['fii_idx_put_long']   = gv(fii_row,'optionIndexPutLong','idxPutLong','putLong')
+              result['fii_idx_put_short']  = gv(fii_row,'optionIndexPutShort','idxPutShort','putShort')
+              print(f"FII Fut L={result['fii_idx_fut_long']} S={result['fii_idx_fut_short']}")
 
-              if fii_row:
-                print(f"\nFII keys: {list(fii_row.keys())}")
-                result['fii_idx_fut_long']   = gv(fii_row,'futureIndexLong','indexFutLong','futIdxLong','FutureIndexLong','futIdxLongContracts','fut_index_long')
-                result['fii_idx_fut_short']  = gv(fii_row,'futureIndexShort','indexFutShort','futIdxShort','FutureIndexShort','futIdxShortContracts','fut_index_short')
-                result['fii_stk_fut_long']   = gv(fii_row,'futureStockLong','stockFutLong','FutureStockLong','stkFutLongContracts','fut_stock_long')
-                result['fii_stk_fut_short']  = gv(fii_row,'futureStockShort','stockFutShort','FutureStockShort','stkFutShortContracts','fut_stock_short')
-                result['fii_idx_call_long']  = gv(fii_row,'optionIndexCallLong','idxCallLong','callLong','OptionIndexCallLong','opt_idx_call_long')
-                result['fii_idx_call_short'] = gv(fii_row,'optionIndexCallShort','idxCallShort','callShort','OptionIndexCallShort','opt_idx_call_short')
-                result['fii_idx_put_long']   = gv(fii_row,'optionIndexPutLong','idxPutLong','putLong','OptionIndexPutLong','opt_idx_put_long')
-                result['fii_idx_put_short']  = gv(fii_row,'optionIndexPutShort','idxPutShort','putShort','OptionIndexPutShort','opt_idx_put_short')
-                print(f"FII IdxFut L={result['fii_idx_fut_long']} S={result['fii_idx_fut_short']}")
-                print(f"FII Calls  L={result['fii_idx_call_long']} S={result['fii_idx_call_short']}")
-                print(f"FII Puts   L={result['fii_idx_put_long']} S={result['fii_idx_put_short']}")
-
-              if dii_row:
-                result['dii_idx_fut_long']  = gv(dii_row,'futureIndexLong','indexFutLong','FutureIndexLong')
-                result['dii_idx_fut_short'] = gv(dii_row,'futureIndexShort','indexFutShort','FutureIndexShort')
-                result['dii_stk_fut_long']  = gv(dii_row,'futureStockLong','stockFutLong','FutureStockLong')
-                result['dii_stk_fut_short'] = gv(dii_row,'futureStockShort','stockFutShort','FutureStockShort')
-                print(f"DII IdxFut L={result['dii_idx_fut_long']} S={result['dii_idx_fut_short']}")
-          else:
-            print(f"F&O failed: {fno_resp.text[:400]}")
-
-          os.makedirs('data', exist_ok=True)
-          with open('data/latest.json', 'w') as f:
+          # FIX 2: Save to fii-dii/latest.json (matches what FRIDAY reads)
+          os.makedirs('fii-dii', exist_ok=True)
+          with open('fii-dii/latest.json', 'w') as f:
             json.dump(result, f, indent=2)
-          print(f"\nSaved. Has F&O: {'fii_idx_fut_long' in result and result['fii_idx_fut_long'] > 0}")
+          print(f"\nSaved to fii-dii/latest.json — Date={result['date']} FII={result['fii_net']} DII={result['dii_net']}")
           PYEOF
 
       - name: Commit and push if data changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
+          git add fii-dii/latest.json
           git diff --staged --quiet || git commit -m "Auto-update: NSE FII/DII data $(date +'%d %b %Y')"
           git push
