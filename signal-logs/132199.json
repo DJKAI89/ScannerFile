@@ -3,7 +3,7 @@
     {
       "id": "2026-04-10-COALINDIA-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "COALINDIA",
       "name": "Coal India",
@@ -38,7 +38,7 @@
     {
       "id": "2026-04-10-INFY-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "INFY",
       "name": "Infosys",
@@ -73,7 +73,7 @@
     {
       "id": "2026-04-10-WIPRO-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "WIPRO",
       "name": "Wipro",
@@ -108,7 +108,7 @@
     {
       "id": "2026-04-10-IRFC-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "IRFC",
       "name": "IRFC",
@@ -143,7 +143,7 @@
     {
       "id": "2026-04-10-TATASTEEL-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "TATASTEEL",
       "name": "Tata Steel",
@@ -178,7 +178,7 @@
     {
       "id": "2026-04-10-CANBK-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "CANBK",
       "name": "Canara Bank",
@@ -213,7 +213,7 @@
     {
       "id": "2026-04-10-SBIN-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "SBIN",
       "name": "State Bank of India",
@@ -248,7 +248,7 @@
     {
       "id": "2026-04-10-NTPC-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "NTPC",
       "name": "NTPC",
@@ -283,7 +283,7 @@
     {
       "id": "2026-04-10-GAIL-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "GAIL",
       "name": "GAIL India",
@@ -351,7 +351,7 @@
     {
       "id": "2026-04-10-VEDL-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "VEDL",
       "name": "Vedanta",
@@ -386,7 +386,7 @@
     {
       "id": "2026-04-10-BHEL-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "BHEL",
       "name": "BHEL",
@@ -965,7 +965,7 @@
     {
       "id": "2026-04-10-ICICIBANK-STOCK",
       "date": "2026-04-10",
-      "time": "21:44:25",
+      "time": "21:54:08",
       "type": "STOCK",
       "stock": "ICICIBANK",
       "name": "ICICI Bank",
@@ -993,7 +993,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-10-NIFTY-24400-CE",
@@ -1744,7 +1746,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-04-10T16:23:50.642Z",
+  "lastUpdated": "2026-04-10T16:24:09.855Z",
   "upstoxId": "132199",
   "stats": {
     "total": 51,
