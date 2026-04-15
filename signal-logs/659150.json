@@ -191,11 +191,13 @@
       "winRateEst": 55,
       "vix": 18.85,
       "slTgtMethod": "IV 15% | DTE 1 | Delta 0.40",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "21:27:40",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-11-NIFTY-24250-CE",
@@ -223,11 +225,13 @@
       "winRateEst": 55,
       "vix": 18.85,
       "slTgtMethod": "IV 15% | DTE 1 | Delta 0.29",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "21:27:40",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-04-11-SENSEX-78100-CE",
@@ -1296,13 +1300,13 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-15T10:18:34.505Z",
+  "lastUpdated": "2026-04-15T15:57:40.525Z",
   "upstoxId": "659150",
   "stats": {
     "total": 40,
     "hits": 0,
     "sls": 0,
-    "open": 40,
+    "open": 38,
     "winRate": null,
     "avgConf": 83
   }
