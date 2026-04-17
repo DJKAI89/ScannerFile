@@ -1,0 +1,3012 @@
+{
+  "updated_at": "2026-04-17T16:53:20.939082",
+  "count": 501,
+  "data": [
+    {
+      "key": "NSE_EQ|NIFTY 500",
+      "s": "NIFTY 500",
+      "n": null,
+      "isin": null
+    },
+    {
+      "key": "NSE_EQ|SCI",
+      "s": "SCI",
+      "n": "Shipping Corporation Of India Limited",
+      "isin": "INE109A01011"
+    },
+    {
+      "key": "NSE_EQ|HDFCBANK",
+      "s": "HDFCBANK",
+      "n": "HDFC Bank Limited",
+      "isin": "INE040A01034"
+    },
+    {
+      "key": "NSE_EQ|ANGELONE",
+      "s": "ANGELONE",
+      "n": "Angel One Limited",
+      "isin": "INE732I01021"
+    },
+    {
+      "key": "NSE_EQ|ICICIBANK",
+      "s": "ICICIBANK",
+      "n": "ICICI Bank Limited",
+      "isin": "INE090A01021"
+    },
+    {
+      "key": "NSE_EQ|GMDCLTD",
+      "s": "GMDCLTD",
+      "n": "Gujarat Mineral Development Corporation Limited",
+      "isin": "INE131A01031"
+    },
+    {
+      "key": "NSE_EQ|BSE",
+      "s": "BSE",
+      "n": "BSE Limited",
+      "isin": "INE118H01025"
+    },
+    {
+      "key": "NSE_EQ|RELIANCE",
+      "s": "RELIANCE",
+      "n": "Reliance Industries Limited",
+      "isin": "INE002A01018"
+    },
+    {
+      "key": "NSE_EQ|ADANIPOWER",
+      "s": "ADANIPOWER",
+      "n": "Adani Power Limited",
+      "isin": "INE814H01029"
+    },
+    {
+      "key": "NSE_EQ|SBIN",
+      "s": "SBIN",
+      "n": "State Bank of India",
+      "isin": "INE062A01020"
+    },
+    {
+      "key": "NSE_EQ|NAVA",
+      "s": "NAVA",
+      "n": "NAVA LIMITED",
+      "isin": "INE725A01030"
+    },
+    {
+      "key": "NSE_EQ|SUZLON",
+      "s": "SUZLON",
+      "n": "Suzlon Energy Limited",
+      "isin": "INE040H01021"
+    },
+    {
+      "key": "NSE_EQ|WIPRO",
+      "s": "WIPRO",
+      "n": "Wipro Limited",
+      "isin": "INE075A01022"
+    },
+    {
+      "key": "NSE_EQ|INFY",
+      "s": "INFY",
+      "n": "Infosys Limited",
+      "isin": "INE009A01021"
+    },
+    {
+      "key": "NSE_EQ|GALLANTT",
+      "s": "GALLANTT",
+      "n": "Gallantt Ispat Limited",
+      "isin": "INE297H01019"
+    },
+    {
+      "key": "NSE_EQ|OLAELEC",
+      "s": "OLAELEC",
+      "n": "Ola Electric Mobility Limited",
+      "isin": "INE0LXG01040"
+    },
+    {
+      "key": "NSE_EQ|GROWW",
+      "s": "GROWW",
+      "n": "Billionbrains Garage Ventures Limited",
+      "isin": "INE0HOQ01053"
+    },
+    {
+      "key": "NSE_EQ|BHARTIARTL",
+      "s": "BHARTIARTL",
+      "n": "Bharti Airtel Limited",
+      "isin": "INE397D01024"
+    },
+    {
+      "key": "NSE_EQ|WAAREEENER",
+      "s": "WAAREEENER",
+      "n": "Waaree Energies Limited",
+      "isin": "INE377N01017"
+    },
+    {
+      "key": "NSE_EQ|JIOFIN",
+      "s": "JIOFIN",
+      "n": "Jio Financial Services Limited",
+      "isin": "INE758E01017"
+    },
+    {
+      "key": "NSE_EQ|RVNL",
+      "s": "RVNL",
+      "n": "Rail Vikas Nigam Limited",
+      "isin": "INE415G01027"
+    },
+    {
+      "key": "NSE_EQ|LT",
+      "s": "LT",
+      "n": "Larsen & Toubro Limited",
+      "isin": "INE018A01030"
+    },
+    {
+      "key": "NSE_EQ|MCX",
+      "s": "MCX",
+      "n": "Multi Commodity Exchange of India Limited",
+      "isin": "INE745G01043"
+    },
+    {
+      "key": "NSE_EQ|HINDUNILVR",
+      "s": "HINDUNILVR",
+      "n": "Hindustan Unilever Limited",
+      "isin": "INE030A01027"
+    },
+    {
+      "key": "NSE_EQ|ITC",
+      "s": "ITC",
+      "n": "ITC Limited",
+      "isin": "INE154A01025"
+    },
+    {
+      "key": "NSE_EQ|TITAN",
+      "s": "TITAN",
+      "n": "Titan Company Limited",
+      "isin": "INE280A01028"
+    },
+    {
+      "key": "NSE_EQ|ADANIPORTS",
+      "s": "ADANIPORTS",
+      "n": "Adani Ports and Special Economic Zone Limited",
+      "isin": "INE742F01042"
+    },
+    {
+      "key": "NSE_EQ|ETERNAL",
+      "s": "ETERNAL",
+      "n": "ETERNAL LIMITED",
+      "isin": "INE758T01015"
+    },
+    {
+      "key": "NSE_EQ|GSPL",
+      "s": "GSPL",
+      "n": "Gujarat State Petronet Limited",
+      "isin": "INE246F01010"
+    },
+    {
+      "key": "NSE_EQ|DIXON",
+      "s": "DIXON",
+      "n": "Dixon Technologies (India) Limited",
+      "isin": "INE935N01020"
+    },
+    {
+      "key": "NSE_EQ|BHEL",
+      "s": "BHEL",
+      "n": "Bharat Heavy Electricals Limited",
+      "isin": "INE257A01026"
+    },
+    {
+      "key": "NSE_EQ|GODFRYPHLP",
+      "s": "GODFRYPHLP",
+      "n": "Godfrey Phillips India Limited",
+      "isin": "INE260B01028"
+    },
+    {
+      "key": "NSE_EQ|VEDL",
+      "s": "VEDL",
+      "n": "Vedanta Limited",
+      "isin": "INE205A01025"
+    },
+    {
+      "key": "NSE_EQ|PREMIERENE",
+      "s": "PREMIERENE",
+      "n": "Premier Energies Limited",
+      "isin": "INE0BS701011"
+    },
+    {
+      "key": "NSE_EQ|MARUTI",
+      "s": "MARUTI",
+      "n": "Maruti Suzuki India Limited",
+      "isin": "INE585B01010"
+    },
+    {
+      "key": "NSE_EQ|KALYANKJIL",
+      "s": "KALYANKJIL",
+      "n": "Kalyan Jewellers India Limited",
+      "isin": "INE303R01014"
+    },
+    {
+      "key": "NSE_EQ|NETWEB",
+      "s": "NETWEB",
+      "n": "Netweb Technologies India Limited",
+      "isin": "INE0NT901020"
+    },
+    {
+      "key": "NSE_EQ|TCS",
+      "s": "TCS",
+      "n": "Tata Consultancy Services Limited",
+      "isin": "INE467B01029"
+    },
+    {
+      "key": "NSE_EQ|M&M",
+      "s": "M&M",
+      "n": "Mahindra & Mahindra Limited",
+      "isin": "INE101A01026"
+    },
+    {
+      "key": "NSE_EQ|MMTC",
+      "s": "MMTC",
+      "n": "MMTC Limited",
+      "isin": "INE123F01029"
+    },
+    {
+      "key": "NSE_EQ|ADANIGREEN",
+      "s": "ADANIGREEN",
+      "n": "Adani Green Energy Limited",
+      "isin": "INE364U01010"
+    },
+    {
+      "key": "NSE_EQ|MAZDOCK",
+      "s": "MAZDOCK",
+      "n": "Mazagon Dock Shipbuilders Limited",
+      "isin": "INE249Z01020"
+    },
+    {
+      "key": "NSE_EQ|BEL",
+      "s": "BEL",
+      "n": "Bharat Electronics Limited",
+      "isin": "INE263A01024"
+    },
+    {
+      "key": "NSE_EQ|IRCON",
+      "s": "IRCON",
+      "n": "Ircon International Limited",
+      "isin": "INE962Y01021"
+    },
+    {
+      "key": "NSE_EQ|DMART",
+      "s": "DMART",
+      "n": "Avenue Supermarts Limited",
+      "isin": "INE192R01011"
+    },
+    {
+      "key": "NSE_EQ|HDFCAMC",
+      "s": "HDFCAMC",
+      "n": "HDFC Asset Management Company Limited",
+      "isin": "INE127D01025"
+    },
+    {
+      "key": "NSE_EQ|ADANIENSOL",
+      "s": "ADANIENSOL",
+      "n": "Adani Energy Solutions Limited",
+      "isin": "INE931S01010"
+    },
+    {
+      "key": "NSE_EQ|ENGINERSIN",
+      "s": "ENGINERSIN",
+      "n": "Engineers India Limited",
+      "isin": "INE510A01028"
+    },
+    {
+      "key": "NSE_EQ|POLICYBZR",
+      "s": "POLICYBZR",
+      "n": "PB Fintech Limited",
+      "isin": "INE417T01026"
+    },
+    {
+      "key": "NSE_EQ|NTPC",
+      "s": "NTPC",
+      "n": "NTPC Limited",
+      "isin": "INE733E01010"
+    },
+    {
+      "key": "NSE_EQ|GRSE",
+      "s": "GRSE",
+      "n": "Garden Reach Shipbuilders & Engineers Limited",
+      "isin": "INE382Z01011"
+    },
+    {
+      "key": "NSE_EQ|VBL",
+      "s": "VBL",
+      "n": "Varun Beverages Limited",
+      "isin": "INE200M01039"
+    },
+    {
+      "key": "NSE_EQ|RECLTD",
+      "s": "RECLTD",
+      "n": "REC Limited",
+      "isin": "INE020B01018"
+    },
+    {
+      "key": "NSE_EQ|POLYCAB",
+      "s": "POLYCAB",
+      "n": "Polycab India Limited",
+      "isin": "INE455K01017"
+    },
+    {
+      "key": "NSE_EQ|ATGL",
+      "s": "ATGL",
+      "n": "Adani Total Gas Limited",
+      "isin": "INE399L01023"
+    },
+    {
+      "key": "NSE_EQ|COCHINSHIP",
+      "s": "COCHINSHIP",
+      "n": "Cochin Shipyard Limited",
+      "isin": "INE704P01025"
+    },
+    {
+      "key": "NSE_EQ|AXISBANK",
+      "s": "AXISBANK",
+      "n": "Axis Bank Limited",
+      "isin": "INE238A01034"
+    },
+    {
+      "key": "NSE_EQ|BAJFINANCE",
+      "s": "BAJFINANCE",
+      "n": "Bajaj Finance Limited",
+      "isin": "INE296A01032"
+    },
+    {
+      "key": "NSE_EQ|HFCL",
+      "s": "HFCL",
+      "n": "HFCL Limited",
+      "isin": "INE548A01028"
+    },
+    {
+      "key": "NSE_EQ|ADANIENT",
+      "s": "ADANIENT",
+      "n": "Adani Enterprises Limited",
+      "isin": "INE423A01024"
+    },
+    {
+      "key": "NSE_EQ|COHANCE",
+      "s": "COHANCE",
+      "n": "Cohance Lifesciences Limited",
+      "isin": "INE03QK01018"
+    },
+    {
+      "key": "NSE_EQ|SUNPHARMA",
+      "s": "SUNPHARMA",
+      "n": "Sun Pharmaceutical Industries Limited",
+      "isin": "INE044A01036"
+    },
+    {
+      "key": "NSE_EQ|TRENT",
+      "s": "TRENT",
+      "n": "Trent Limited",
+      "isin": "INE849A01020"
+    },
+    {
+      "key": "NSE_EQ|ONGC",
+      "s": "ONGC",
+      "n": "Oil & Natural Gas Corporation Limited",
+      "isin": "INE213A01029"
+    },
+    {
+      "key": "NSE_EQ|HDFCLIFE",
+      "s": "HDFCLIFE",
+      "n": "HDFC Life Insurance Company Limited",
+      "isin": "INE795G01014"
+    },
+    {
+      "key": "NSE_EQ|AEGISLOG",
+      "s": "AEGISLOG",
+      "n": "Aegis Logistics Limited",
+      "isin": "INE208C01025"
+    },
+    {
+      "key": "NSE_EQ|KAYNES",
+      "s": "KAYNES",
+      "n": "Kaynes Technology India Limited",
+      "isin": "INE918Z01012"
+    },
+    {
+      "key": "NSE_EQ|TATASTEEL",
+      "s": "TATASTEEL",
+      "n": "Tata Steel Limited",
+      "isin": "INE081A01020"
+    },
+    {
+      "key": "NSE_EQ|HCLTECH",
+      "s": "HCLTECH",
+      "n": "HCL Technologies Limited",
+      "isin": "INE860A01027"
+    },
+    {
+      "key": "NSE_EQ|PFC",
+      "s": "PFC",
+      "n": "Power Finance Corporation Limited",
+      "isin": "INE134E01011"
+    },
+    {
+      "key": "NSE_EQ|COALINDIA",
+      "s": "COALINDIA",
+      "n": "Coal India Limited",
+      "isin": "INE522F01014"
+    },
+    {
+      "key": "NSE_EQ|INOXWIND",
+      "s": "INOXWIND",
+      "n": "Inox Wind Limited",
+      "isin": "INE066P01011"
+    },
+    {
+      "key": "NSE_EQ|PERSISTENT",
+      "s": "PERSISTENT",
+      "n": "Persistent Systems Limited",
+      "isin": "INE262H01021"
+    },
+    {
+      "key": "NSE_EQ|HAL",
+      "s": "HAL",
+      "n": "Hindustan Aeronautics Limited",
+      "isin": "INE066F01020"
+    },
+    {
+      "key": "NSE_EQ|SHRIRAMFIN",
+      "s": "SHRIRAMFIN",
+      "n": "Shriram Finance Limited",
+      "isin": "INE721A01047"
+    },
+    {
+      "key": "NSE_EQ|KOTAKBANK",
+      "s": "KOTAKBANK",
+      "n": "Kotak Mahindra Bank Limited",
+      "isin": "INE237A01036"
+    },
+    {
+      "key": "NSE_EQ|HINDALCO",
+      "s": "HINDALCO",
+      "n": "Hindalco Industries Limited",
+      "isin": "INE038A01020"
+    },
+    {
+      "key": "NSE_EQ|COLPAL",
+      "s": "COLPAL",
+      "n": "Colgate Palmolive (India) Limited",
+      "isin": "INE259A01022"
+    },
+    {
+      "key": "NSE_EQ|INDUSTOWER",
+      "s": "INDUSTOWER",
+      "n": "Indus Towers Limited",
+      "isin": "INE121J01017"
+    },
+    {
+      "key": "NSE_EQ|SUPREMEIND",
+      "s": "SUPREMEIND",
+      "n": "Supreme Industries Limited",
+      "isin": "INE195A01028"
+    },
+    {
+      "key": "NSE_EQ|POWERGRID",
+      "s": "POWERGRID",
+      "n": "Power Grid Corporation of India Limited",
+      "isin": "INE752E01010"
+    },
+    {
+      "key": "NSE_EQ|SAIL",
+      "s": "SAIL",
+      "n": "Steel Authority of India Limited",
+      "isin": "INE114A01011"
+    },
+    {
+      "key": "NSE_EQ|EICHERMOT",
+      "s": "EICHERMOT",
+      "n": "Eicher Motors Limited",
+      "isin": "INE066A01021"
+    },
+    {
+      "key": "NSE_EQ|NHPC",
+      "s": "NHPC",
+      "n": "NHPC Limited",
+      "isin": "INE848E01016"
+    },
+    {
+      "key": "NSE_EQ|ABB",
+      "s": "ABB",
+      "n": "ABB India Limited",
+      "isin": "INE117A01022"
+    },
+    {
+      "key": "NSE_EQ|JPPOWER",
+      "s": "JPPOWER",
+      "n": "Jaiprakash Power Ventures Limited",
+      "isin": "INE351F01018"
+    },
+    {
+      "key": "NSE_EQ|TMCV",
+      "s": "TMCV",
+      "n": "Tata Motors Limited",
+      "isin": "INE1TAE01010"
+    },
+    {
+      "key": "NSE_EQ|FACT",
+      "s": "FACT",
+      "n": "Fertilizers and Chemicals Travancore Limited",
+      "isin": "INE188A01015"
+    },
+    {
+      "key": "NSE_EQ|ASHOKLEY",
+      "s": "ASHOKLEY",
+      "n": "Ashok Leyland Limited",
+      "isin": "INE208A01029"
+    },
+    {
+      "key": "NSE_EQ|CHENNPETRO",
+      "s": "CHENNPETRO",
+      "n": "Chennai Petroleum Corporation Limited",
+      "isin": "INE178A01016"
+    },
+    {
+      "key": "NSE_EQ|SIEMENS",
+      "s": "SIEMENS",
+      "n": "Siemens Limited",
+      "isin": "INE003A01024"
+    },
+    {
+      "key": "NSE_EQ|HINDCOPPER",
+      "s": "HINDCOPPER",
+      "n": "Hindustan Copper Limited",
+      "isin": "INE531E01026"
+    },
+    {
+      "key": "NSE_EQ|RADICO",
+      "s": "RADICO",
+      "n": "Radico Khaitan Limited",
+      "isin": "INE944F01028"
+    },
+    {
+      "key": "NSE_EQ|COFORGE",
+      "s": "COFORGE",
+      "n": "Coforge Limited",
+      "isin": "INE591G01025"
+    },
+    {
+      "key": "NSE_EQ|NTPCGREEN",
+      "s": "NTPCGREEN",
+      "n": "NTPC Green Energy Limited",
+      "isin": "INE0ONG01011"
+    },
+    {
+      "key": "NSE_EQ|NMDC",
+      "s": "NMDC",
+      "n": "NMDC Limited",
+      "isin": "INE584A01023"
+    },
+    {
+      "key": "NSE_EQ|IDEA",
+      "s": "IDEA",
+      "n": "Vodafone Idea Limited",
+      "isin": "INE669E01016"
+    },
+    {
+      "key": "NSE_EQ|NATIONALUM",
+      "s": "NATIONALUM",
+      "n": "National Aluminium Company Limited",
+      "isin": "INE139A01034"
+    },
+    {
+      "key": "NSE_EQ|UNITDSPR",
+      "s": "UNITDSPR",
+      "n": "United Spirits Limited",
+      "isin": "INE854D01024"
+    },
+    {
+      "key": "NSE_EQ|VMM",
+      "s": "VMM",
+      "n": "Vishal Mega Mart Limited",
+      "isin": "INE01EA01019"
+    },
+    {
+      "key": "NSE_EQ|JINDALSTEL",
+      "s": "JINDALSTEL",
+      "n": "JINDAL STEEL LIMITED",
+      "isin": "INE749A01030"
+    },
+    {
+      "key": "NSE_EQ|INDIGO",
+      "s": "INDIGO",
+      "n": "InterGlobe Aviation Limited",
+      "isin": "INE646L01027"
+    },
+    {
+      "key": "NSE_EQ|IRFC",
+      "s": "IRFC",
+      "n": "Indian Railway Finance Corporation Limited",
+      "isin": "INE053F01010"
+    },
+    {
+      "key": "NSE_EQ|ATHERENERG",
+      "s": "ATHERENERG",
+      "n": "Ather Energy Limited",
+      "isin": "INE0LEZ01016"
+    },
+    {
+      "key": "NSE_EQ|DATAPATTNS",
+      "s": "DATAPATTNS",
+      "n": "Data Patterns (India) Limited",
+      "isin": "INE0IX101010"
+    },
+    {
+      "key": "NSE_EQ|CDSL",
+      "s": "CDSL",
+      "n": "Central Depository Services (India) Limited",
+      "isin": "INE736A01011"
+    },
+    {
+      "key": "NSE_EQ|BPCL",
+      "s": "BPCL",
+      "n": "Bharat Petroleum Corporation Limited",
+      "isin": "INE029A01011"
+    },
+    {
+      "key": "NSE_EQ|TRITURBINE",
+      "s": "TRITURBINE",
+      "n": "Triveni Turbine Limited",
+      "isin": "INE152M01016"
+    },
+    {
+      "key": "NSE_EQ|CPPLUS",
+      "s": "CPPLUS",
+      "n": "Aditya Infotech Limited",
+      "isin": "INE819V01029"
+    },
+    {
+      "key": "NSE_EQ|CGPOWER",
+      "s": "CGPOWER",
+      "n": "CG Power and Industrial Solutions Limited",
+      "isin": "INE067A01029"
+    },
+    {
+      "key": "NSE_EQ|ASIANPAINT",
+      "s": "ASIANPAINT",
+      "n": "Asian Paints Limited",
+      "isin": "INE021A01026"
+    },
+    {
+      "key": "NSE_EQ|HYUNDAI",
+      "s": "HYUNDAI",
+      "n": "Hyundai Motor India Limited",
+      "isin": "INE0V6F01027"
+    },
+    {
+      "key": "NSE_EQ|TATAPOWER",
+      "s": "TATAPOWER",
+      "n": "Tata Power Company Limited",
+      "isin": "INE245A01021"
+    },
+    {
+      "key": "NSE_EQ|DRREDDY",
+      "s": "DRREDDY",
+      "n": "Dr. Reddy's Laboratories Limited",
+      "isin": "INE089A01031"
+    },
+    {
+      "key": "NSE_EQ|AMBER",
+      "s": "AMBER",
+      "n": "Amber Enterprises India Limited",
+      "isin": "INE371P01015"
+    },
+    {
+      "key": "NSE_EQ|POWERINDIA",
+      "s": "POWERINDIA",
+      "n": "Hitachi Energy India Limited",
+      "isin": "INE07Y701011"
+    },
+    {
+      "key": "NSE_EQ|360ONE",
+      "s": "360ONE",
+      "n": "360 ONE WAM LIMITED",
+      "isin": "INE466L01038"
+    },
+    {
+      "key": "NSE_EQ|HEROMOTOCO",
+      "s": "HEROMOTOCO",
+      "n": "Hero MotoCorp Limited",
+      "isin": "INE158A01026"
+    },
+    {
+      "key": "NSE_EQ|CIPLA",
+      "s": "CIPLA",
+      "n": "Cipla Limited",
+      "isin": "INE059A01026"
+    },
+    {
+      "key": "NSE_EQ|TECHM",
+      "s": "TECHM",
+      "n": "Tech Mahindra Limited",
+      "isin": "INE669C01036"
+    },
+    {
+      "key": "NSE_EQ|REDINGTON",
+      "s": "REDINGTON",
+      "n": "Redington Limited",
+      "isin": "INE891D01026"
+    },
+    {
+      "key": "NSE_EQ|CUMMINSIND",
+      "s": "CUMMINSIND",
+      "n": "Cummins India Limited",
+      "isin": "INE298A01020"
+    },
+    {
+      "key": "NSE_EQ|FIRSTCRY",
+      "s": "FIRSTCRY",
+      "n": "Brainbees Solutions Limited",
+      "isin": "INE02RE01045"
+    },
+    {
+      "key": "NSE_EQ|FEDERALBNK",
+      "s": "FEDERALBNK",
+      "n": "The Federal Bank  Limited",
+      "isin": "INE171A01029"
+    },
+    {
+      "key": "NSE_EQ|GVT&D",
+      "s": "GVT&D",
+      "n": "GE Vernova T&D India Limited",
+      "isin": "INE200A01026"
+    },
+    {
+      "key": "NSE_EQ|APOLLOHOSP",
+      "s": "APOLLOHOSP",
+      "n": "Apollo Hospitals Enterprise Limited",
+      "isin": "INE437A01024"
+    },
+    {
+      "key": "NSE_EQ|TMPV",
+      "s": "TMPV",
+      "n": "Tata Motors Passenger Vehicles Limited",
+      "isin": "INE155A01022"
+    },
+    {
+      "key": "NSE_EQ|YESBANK",
+      "s": "YESBANK",
+      "n": "Yes Bank Limited",
+      "isin": "INE528G01035"
+    },
+    {
+      "key": "NSE_EQ|ASTRAL",
+      "s": "ASTRAL",
+      "n": "Astral Limited",
+      "isin": "INE006I01046"
+    },
+    {
+      "key": "NSE_EQ|BAJAJ-AUTO",
+      "s": "BAJAJ-AUTO",
+      "n": "Bajaj Auto Limited",
+      "isin": "INE917I01010"
+    },
+    {
+      "key": "NSE_EQ|NESTLEIND",
+      "s": "NESTLEIND",
+      "n": "Nestle India Limited",
+      "isin": "INE239A01024"
+    },
+    {
+      "key": "NSE_EQ|LLOYDSME",
+      "s": "LLOYDSME",
+      "n": "Lloyds Metals And Energy Limited",
+      "isin": "INE281B01032"
+    },
+    {
+      "key": "NSE_EQ|PAGEIND",
+      "s": "PAGEIND",
+      "n": "Page Industries Limited",
+      "isin": "INE761H01022"
+    },
+    {
+      "key": "NSE_EQ|DLF",
+      "s": "DLF",
+      "n": "DLF Limited",
+      "isin": "INE271C01023"
+    },
+    {
+      "key": "NSE_EQ|PIDILITIND",
+      "s": "PIDILITIND",
+      "n": "Pidilite Industries Limited",
+      "isin": "INE318A01026"
+    },
+    {
+      "key": "NSE_EQ|HEG",
+      "s": "HEG",
+      "n": "HEG Limited",
+      "isin": "INE545A01024"
+    },
+    {
+      "key": "NSE_EQ|APARINDS",
+      "s": "APARINDS",
+      "n": "Apar Industries Limited",
+      "isin": "INE372A01015"
+    },
+    {
+      "key": "NSE_EQ|KEI",
+      "s": "KEI",
+      "n": "KEI Industries Limited",
+      "isin": "INE878B01027"
+    },
+    {
+      "key": "NSE_EQ|NAM-INDIA",
+      "s": "NAM-INDIA",
+      "n": "Nippon Life India Asset Management Limited",
+      "isin": "INE298J01013"
+    },
+    {
+      "key": "NSE_EQ|HINDPETRO",
+      "s": "HINDPETRO",
+      "n": "Hindustan Petroleum Corporation Limited",
+      "isin": "INE094A01015"
+    },
+    {
+      "key": "NSE_EQ|LUPIN",
+      "s": "LUPIN",
+      "n": "Lupin Limited",
+      "isin": "INE326A01037"
+    },
+    {
+      "key": "NSE_EQ|JSWSTEEL",
+      "s": "JSWSTEEL",
+      "n": "JSW Steel Limited",
+      "isin": "INE019A01038"
+    },
+    {
+      "key": "NSE_EQ|DELHIVERY",
+      "s": "DELHIVERY",
+      "n": "Delhivery Limited",
+      "isin": "INE148O01028"
+    },
+    {
+      "key": "NSE_EQ|IREDA",
+      "s": "IREDA",
+      "n": "Indian Renewable Energy Development Agency Limited",
+      "isin": "INE202E01016"
+    },
+    {
+      "key": "NSE_EQ|MOTHERSON",
+      "s": "MOTHERSON",
+      "n": "Samvardhana Motherson International Limited",
+      "isin": "INE775A01035"
+    },
+    {
+      "key": "NSE_EQ|AUROPHARMA",
+      "s": "AUROPHARMA",
+      "n": "Aurobindo Pharma Limited",
+      "isin": "INE406A01037"
+    },
+    {
+      "key": "NSE_EQ|NLCINDIA",
+      "s": "NLCINDIA",
+      "n": "NLC India Limited",
+      "isin": "INE589A01014"
+    },
+    {
+      "key": "NSE_EQ|DABUR",
+      "s": "DABUR",
+      "n": "Dabur India Limited",
+      "isin": "INE016A01026"
+    },
+    {
+      "key": "NSE_EQ|MUTHOOTFIN",
+      "s": "MUTHOOTFIN",
+      "n": "Muthoot Finance Limited",
+      "isin": "INE414G01012"
+    },
+    {
+      "key": "NSE_EQ|ICICIAMC",
+      "s": "ICICIAMC",
+      "n": "ICICI Prudential Asset Management Company Limited",
+      "isin": "INE346A01027"
+    },
+    {
+      "key": "NSE_EQ|TVSMOTOR",
+      "s": "TVSMOTOR",
+      "n": "TVS Motor Company Limited",
+      "isin": "INE494B01023"
+    },
+    {
+      "key": "NSE_EQ|RPOWER",
+      "s": "RPOWER",
+      "n": "Reliance Power Limited",
+      "isin": "INE614G01033"
+    },
+    {
+      "key": "NSE_EQ|SWIGGY",
+      "s": "SWIGGY",
+      "n": "Swiggy Limited",
+      "isin": "INE00H001014"
+    },
+    {
+      "key": "NSE_EQ|FORCEMOT",
+      "s": "FORCEMOT",
+      "n": "FORCE MOTORS LTD",
+      "isin": "INE451A01017"
+    },
+    {
+      "key": "NSE_EQ|GAIL",
+      "s": "GAIL",
+      "n": "GAIL (India) Limited",
+      "isin": "INE129A01019"
+    },
+    {
+      "key": "NSE_EQ|LENSKART",
+      "s": "LENSKART",
+      "n": "Lenskart Solutions Limited",
+      "isin": "INE956O01016"
+    },
+    {
+      "key": "NSE_EQ|KFINTECH",
+      "s": "KFINTECH",
+      "n": "Kfin Technologies Limited",
+      "isin": "INE138Y01010"
+    },
+    {
+      "key": "NSE_EQ|ZENTEC",
+      "s": "ZENTEC",
+      "n": "Zen Technologies Limited",
+      "isin": "INE251B01027"
+    },
+    {
+      "key": "NSE_EQ|LODHA",
+      "s": "LODHA",
+      "n": "Lodha Developers Limited",
+      "isin": "INE670K01029"
+    },
+    {
+      "key": "NSE_EQ|PAYTM",
+      "s": "PAYTM",
+      "n": "One 97 Communications Limited",
+      "isin": "INE982J01020"
+    },
+    {
+      "key": "NSE_EQ|MRPL",
+      "s": "MRPL",
+      "n": "Mangalore Refinery and Petrochemicals Limited",
+      "isin": "INE103A01014"
+    },
+    {
+      "key": "NSE_EQ|INDIANB",
+      "s": "INDIANB",
+      "n": "Indian Bank",
+      "isin": "INE562A01011"
+    },
+    {
+      "key": "NSE_EQ|FSL",
+      "s": "FSL",
+      "n": "Firstsource Solutions Limited",
+      "isin": "INE684F01012"
+    },
+    {
+      "key": "NSE_EQ|JINDALSAW",
+      "s": "JINDALSAW",
+      "n": "Jindal Saw Limited",
+      "isin": "INE324A01032"
+    },
+    {
+      "key": "NSE_EQ|BRITANNIA",
+      "s": "BRITANNIA",
+      "n": "Britannia Industries Limited",
+      "isin": "INE216A01030"
+    },
+    {
+      "key": "NSE_EQ|JSWENERGY",
+      "s": "JSWENERGY",
+      "n": "JSW Energy Limited",
+      "isin": "INE121E01018"
+    },
+    {
+      "key": "NSE_EQ|ULTRACEMCO",
+      "s": "ULTRACEMCO",
+      "n": "UltraTech Cement Limited",
+      "isin": "INE481G01011"
+    },
+    {
+      "key": "NSE_EQ|PNBHOUSING",
+      "s": "PNBHOUSING",
+      "n": "PNB Housing Finance Limited",
+      "isin": "INE572E01012"
+    },
+    {
+      "key": "NSE_EQ|SOLARINDS",
+      "s": "SOLARINDS",
+      "n": "Solar Industries India Limited",
+      "isin": "INE343H01029"
+    },
+    {
+      "key": "NSE_EQ|CANBK",
+      "s": "CANBK",
+      "n": "Canara Bank",
+      "isin": "INE476A01022"
+    },
+    {
+      "key": "NSE_EQ|BHARATFORG",
+      "s": "BHARATFORG",
+      "n": "Bharat Forge Limited",
+      "isin": "INE465A01025"
+    },
+    {
+      "key": "NSE_EQ|CRISIL",
+      "s": "CRISIL",
+      "n": "CRISIL Limited",
+      "isin": "INE007A01025"
+    },
+    {
+      "key": "NSE_EQ|BANKBARODA",
+      "s": "BANKBARODA",
+      "n": "Bank of Baroda",
+      "isin": "INE028A01039"
+    },
+    {
+      "key": "NSE_EQ|GODREJCP",
+      "s": "GODREJCP",
+      "n": "Godrej Consumer Products Limited",
+      "isin": "INE102D01028"
+    },
+    {
+      "key": "NSE_EQ|ICICIPRULI",
+      "s": "ICICIPRULI",
+      "n": "ICICI Prudential Life Insurance Company Limited",
+      "isin": "INE726G01019"
+    },
+    {
+      "key": "NSE_EQ|CHOLAFIN",
+      "s": "CHOLAFIN",
+      "n": "Cholamandalam Investment and Finance Company Limited",
+      "isin": "INE121A01024"
+    },
+    {
+      "key": "NSE_EQ|VOLTAS",
+      "s": "VOLTAS",
+      "n": "Voltas Limited",
+      "isin": "INE226A01021"
+    },
+    {
+      "key": "NSE_EQ|HINDZINC",
+      "s": "HINDZINC",
+      "n": "Hindustan Zinc Limited",
+      "isin": "INE267A01025"
+    },
+    {
+      "key": "NSE_EQ|SONACOMS",
+      "s": "SONACOMS",
+      "n": "Sona BLW Precision Forgings Limited",
+      "isin": "INE073K01018"
+    },
+    {
+      "key": "NSE_EQ|INDHOTEL",
+      "s": "INDHOTEL",
+      "n": "The Indian Hotels Company Limited",
+      "isin": "INE053A01029"
+    },
+    {
+      "key": "NSE_EQ|IOC",
+      "s": "IOC",
+      "n": "Indian Oil Corporation Limited",
+      "isin": "INE242A01010"
+    },
+    {
+      "key": "NSE_EQ|BALKRISIND",
+      "s": "BALKRISIND",
+      "n": "Balkrishna Industries Limited",
+      "isin": "INE787D01026"
+    },
+    {
+      "key": "NSE_EQ|CAMS",
+      "s": "CAMS",
+      "n": "Computer Age Management Services Limited",
+      "isin": "INE596I01020"
+    },
+    {
+      "key": "NSE_EQ|TATAELXSI",
+      "s": "TATAELXSI",
+      "n": "Tata Elxsi Limited",
+      "isin": "INE670A01012"
+    },
+    {
+      "key": "NSE_EQ|OIL",
+      "s": "OIL",
+      "n": "Oil India Limited",
+      "isin": "INE274J01014"
+    },
+    {
+      "key": "NSE_EQ|UNIONBANK",
+      "s": "UNIONBANK",
+      "n": "Union Bank of India",
+      "isin": "INE692A01016"
+    },
+    {
+      "key": "NSE_EQ|TARIL",
+      "s": "TARIL",
+      "n": "Transformers And Rectifiers (India) Limited",
+      "isin": "INE763I01026"
+    },
+    {
+      "key": "NSE_EQ|PNB",
+      "s": "PNB",
+      "n": "Punjab National Bank",
+      "isin": "INE160A01022"
+    },
+    {
+      "key": "NSE_EQ|MAXHEALTH",
+      "s": "MAXHEALTH",
+      "n": "Max Healthcare Institute Limited",
+      "isin": "INE027H01010"
+    },
+    {
+      "key": "NSE_EQ|MOTILALOFS",
+      "s": "MOTILALOFS",
+      "n": "Motilal Oswal Financial Services Limited",
+      "isin": "INE338I01027"
+    },
+    {
+      "key": "NSE_EQ|LTM",
+      "s": "LTM",
+      "n": "LTM Limited",
+      "isin": "INE214T01019"
+    },
+    {
+      "key": "NSE_EQ|SYRMA",
+      "s": "SYRMA",
+      "n": "Syrma SGS Technology Limited",
+      "isin": "INE0DYJ01015"
+    },
+    {
+      "key": "NSE_EQ|PGEL",
+      "s": "PGEL",
+      "n": "PG Electroplast Limited",
+      "isin": "INE457L01029"
+    },
+    {
+      "key": "NSE_EQ|INDUSINDBK",
+      "s": "INDUSINDBK",
+      "n": "IndusInd Bank Limited",
+      "isin": "INE095A01012"
+    },
+    {
+      "key": "NSE_EQ|BDL",
+      "s": "BDL",
+      "n": "Bharat Dynamics Limited",
+      "isin": "INE171Z01026"
+    },
+    {
+      "key": "NSE_EQ|MARICO",
+      "s": "MARICO",
+      "n": "Marico Limited",
+      "isin": "INE196A01026"
+    },
+    {
+      "key": "NSE_EQ|JWL",
+      "s": "JWL",
+      "n": "Jupiter Wagons Limited",
+      "isin": "INE209L01016"
+    },
+    {
+      "key": "NSE_EQ|ENRIN",
+      "s": "ENRIN",
+      "n": "Siemens Energy India Limited",
+      "isin": "INE1NPP01017"
+    },
+    {
+      "key": "NSE_EQ|APLAPOLLO",
+      "s": "APLAPOLLO",
+      "n": "APL Apollo Tubes Limited",
+      "isin": "INE702C01027"
+    },
+    {
+      "key": "NSE_EQ|BELRISE",
+      "s": "BELRISE",
+      "n": "Belrise Industries Limited",
+      "isin": "INE894V01022"
+    },
+    {
+      "key": "NSE_EQ|TORNTPOWER",
+      "s": "TORNTPOWER",
+      "n": "Torrent Power Limited",
+      "isin": "INE813H01021"
+    },
+    {
+      "key": "NSE_EQ|PIIND",
+      "s": "PIIND",
+      "n": "PI Industries Limited",
+      "isin": "INE603J01030"
+    },
+    {
+      "key": "NSE_EQ|RAILTEL",
+      "s": "RAILTEL",
+      "n": "Railtel Corporation Of India Limited",
+      "isin": "INE0DD101019"
+    },
+    {
+      "key": "NSE_EQ|MFSL",
+      "s": "MFSL",
+      "n": "Max Financial Services Limited",
+      "isin": "INE180A01020"
+    },
+    {
+      "key": "NSE_EQ|TATACONSUM",
+      "s": "TATACONSUM",
+      "n": "TATA CONSUMER PRODUCTS LIMITED",
+      "isin": "INE192A01025"
+    },
+    {
+      "key": "NSE_EQ|IGL",
+      "s": "IGL",
+      "n": "Indraprastha Gas Limited",
+      "isin": "INE203G01027"
+    },
+    {
+      "key": "NSE_EQ|ZEEL",
+      "s": "ZEEL",
+      "n": "Zee Entertainment Enterprises Limited",
+      "isin": "INE256A01028"
+    },
+    {
+      "key": "NSE_EQ|LAURUSLABS",
+      "s": "LAURUSLABS",
+      "n": "Laurus Labs Limited",
+      "isin": "INE947Q01028"
+    },
+    {
+      "key": "NSE_EQ|OFSS",
+      "s": "OFSS",
+      "n": "Oracle Financial Services Software Limited",
+      "isin": "INE881D01027"
+    },
+    {
+      "key": "NSE_EQ|PARADEEP",
+      "s": "PARADEEP",
+      "n": "Paradeep Phosphates Limited",
+      "isin": "INE088F01024"
+    },
+    {
+      "key": "NSE_EQ|IFCI",
+      "s": "IFCI",
+      "n": "IFCI Limited",
+      "isin": "INE039A01010"
+    },
+    {
+      "key": "NSE_EQ|SAMMAANCAP",
+      "s": "SAMMAANCAP",
+      "n": "Sammaan Capital Limited",
+      "isin": "INE148I01020"
+    },
+    {
+      "key": "NSE_EQ|BANKINDIA",
+      "s": "BANKINDIA",
+      "n": "Bank of India",
+      "isin": "INE084A01016"
+    },
+    {
+      "key": "NSE_EQ|TORNTPHARM",
+      "s": "TORNTPHARM",
+      "n": "Torrent Pharmaceuticals Limited",
+      "isin": "INE685A01028"
+    },
+    {
+      "key": "NSE_EQ|JUBLFOOD",
+      "s": "JUBLFOOD",
+      "n": "Jubilant Foodworks Limited",
+      "isin": "INE797F01020"
+    },
+    {
+      "key": "NSE_EQ|HUDCO",
+      "s": "HUDCO",
+      "n": "Housing & Urban Development Corporation Limited",
+      "isin": "INE031A01017"
+    },
+    {
+      "key": "NSE_EQ|HSCL",
+      "s": "HSCL",
+      "n": "Himadri Speciality Chemical Limited",
+      "isin": "INE019C01026"
+    },
+    {
+      "key": "NSE_EQ|PATANJALI",
+      "s": "PATANJALI",
+      "n": "Patanjali Foods Limited",
+      "isin": "INE619A01035"
+    },
+    {
+      "key": "NSE_EQ|MAHABANK",
+      "s": "MAHABANK",
+      "n": "Bank of Maharashtra",
+      "isin": "INE457A01014"
+    },
+    {
+      "key": "NSE_EQ|TEJASNET",
+      "s": "TEJASNET",
+      "n": "Tejas Networks Limited",
+      "isin": "INE010J01012"
+    },
+    {
+      "key": "NSE_EQ|HDBFS",
+      "s": "HDBFS",
+      "n": "HDB Financial Services Limited",
+      "isin": "INE756I01012"
+    },
+    {
+      "key": "NSE_EQ|GODREJPROP",
+      "s": "GODREJPROP",
+      "n": "Godrej Properties Limited",
+      "isin": "INE484J01027"
+    },
+    {
+      "key": "NSE_EQ|BEML",
+      "s": "BEML",
+      "n": "BEML Limited",
+      "isin": "INE258A01024"
+    },
+    {
+      "key": "NSE_EQ|AUBANK",
+      "s": "AUBANK",
+      "n": "AU Small Finance Bank Limited",
+      "isin": "INE949L01017"
+    },
+    {
+      "key": "NSE_EQ|EMMVEE",
+      "s": "EMMVEE",
+      "n": "Emmvee Photovoltaic Power Limited",
+      "isin": "INE1C6T01020"
+    },
+    {
+      "key": "NSE_EQ|NATCOPHARM",
+      "s": "NATCOPHARM",
+      "n": "Natco Pharma Limited",
+      "isin": "INE987B01026"
+    },
+    {
+      "key": "NSE_EQ|MANKIND",
+      "s": "MANKIND",
+      "n": "Mankind Pharma Limited",
+      "isin": "INE634S01028"
+    },
+    {
+      "key": "NSE_EQ|GRASIM",
+      "s": "GRASIM",
+      "n": "Grasim Industries Limited",
+      "isin": "INE047A01021"
+    },
+    {
+      "key": "NSE_EQ|GESHIP",
+      "s": "GESHIP",
+      "n": "The Great Eastern Shipping Company Limited",
+      "isin": "INE017A01032"
+    },
+    {
+      "key": "NSE_EQ|KPITTECH",
+      "s": "KPITTECH",
+      "n": "KPIT Technologies Limited",
+      "isin": "INE04I401011"
+    },
+    {
+      "key": "NSE_EQ|CROMPTON",
+      "s": "CROMPTON",
+      "n": "Crompton Greaves Consumer Electricals Limited",
+      "isin": "INE299U01018"
+    },
+    {
+      "key": "NSE_EQ|LICI",
+      "s": "LICI",
+      "n": "Life Insurance Corporation Of India",
+      "isin": "INE0J1Y01017"
+    },
+    {
+      "key": "NSE_EQ|IDFCFIRSTB",
+      "s": "IDFCFIRSTB",
+      "n": "IDFC First Bank Limited",
+      "isin": "INE092T01019"
+    },
+    {
+      "key": "NSE_EQ|ACMESOLAR",
+      "s": "ACMESOLAR",
+      "n": "Acme Solar Holdings Limited",
+      "isin": "INE622W01025"
+    },
+    {
+      "key": "NSE_EQ|PWL",
+      "s": "PWL",
+      "n": "Physicswallah Limited",
+      "isin": "INE0LP301011"
+    },
+    {
+      "key": "NSE_EQ|JKTYRE",
+      "s": "JKTYRE",
+      "n": "JK Tyre & Industries Limited",
+      "isin": "INE573A01042"
+    },
+    {
+      "key": "NSE_EQ|GMRAIRPORT",
+      "s": "GMRAIRPORT",
+      "n": "GMR AIRPORTS LIMITED",
+      "isin": "INE776C01039"
+    },
+    {
+      "key": "NSE_EQ|POONAWALLA",
+      "s": "POONAWALLA",
+      "n": "Poonawalla Fincorp Limited",
+      "isin": "INE511C01022"
+    },
+    {
+      "key": "NSE_EQ|NAUKRI",
+      "s": "NAUKRI",
+      "n": "Info Edge (India) Limited",
+      "isin": "INE663F01032"
+    },
+    {
+      "key": "NSE_EQ|UNOMINDA",
+      "s": "UNOMINDA",
+      "n": "UNO Minda Limited",
+      "isin": "INE405E01023"
+    },
+    {
+      "key": "NSE_EQ|WOCKPHARMA",
+      "s": "WOCKPHARMA",
+      "n": "Wockhardt Limited",
+      "isin": "INE049B01025"
+    },
+    {
+      "key": "NSE_EQ|AWL",
+      "s": "AWL",
+      "n": "AWL Agri Business Limited",
+      "isin": "INE699H01024"
+    },
+    {
+      "key": "NSE_EQ|BOSCHLTD",
+      "s": "BOSCHLTD",
+      "n": "Bosch Limited",
+      "isin": "INE323A01026"
+    },
+    {
+      "key": "NSE_EQ|TITAGARH",
+      "s": "TITAGARH",
+      "n": "TITAGARH RAIL SYSTEMS LIMITED",
+      "isin": "INE615H01020"
+    },
+    {
+      "key": "NSE_EQ|DIVISLAB",
+      "s": "DIVISLAB",
+      "n": "Divi's Laboratories Limited",
+      "isin": "INE361B01024"
+    },
+    {
+      "key": "NSE_EQ|IRCTC",
+      "s": "IRCTC",
+      "n": "Indian Railway Catering And Tourism Corporation Limited",
+      "isin": "INE335Y01020"
+    },
+    {
+      "key": "NSE_EQ|NBCC",
+      "s": "NBCC",
+      "n": "NBCC (India) Limited",
+      "isin": "INE095N01031"
+    },
+    {
+      "key": "NSE_EQ|SBILIFE",
+      "s": "SBILIFE",
+      "n": "SBI Life Insurance Company Limited",
+      "isin": "INE123W01016"
+    },
+    {
+      "key": "NSE_EQ|COROMANDEL",
+      "s": "COROMANDEL",
+      "n": "Coromandel International Limited",
+      "isin": "INE169A01031"
+    },
+    {
+      "key": "NSE_EQ|PRESTIGE",
+      "s": "PRESTIGE",
+      "n": "Prestige Estates Projects Limited",
+      "isin": "INE811K01011"
+    },
+    {
+      "key": "NSE_EQ|MPHASIS",
+      "s": "MPHASIS",
+      "n": "MphasiS Limited",
+      "isin": "INE356A01018"
+    },
+    {
+      "key": "NSE_EQ|LGEINDIA",
+      "s": "LGEINDIA",
+      "n": "LG Electronics India Limited",
+      "isin": "INE324D01010"
+    },
+    {
+      "key": "NSE_EQ|DEEPAKFERT",
+      "s": "DEEPAKFERT",
+      "n": "Deepak Fertilizers and Petrochemicals Corporation Limited",
+      "isin": "INE501A01019"
+    },
+    {
+      "key": "NSE_EQ|GPIL",
+      "s": "GPIL",
+      "n": "Godawari Power And Ispat limited",
+      "isin": "INE177H01039"
+    },
+    {
+      "key": "NSE_EQ|RBLBANK",
+      "s": "RBLBANK",
+      "n": "RBL Bank Limited",
+      "isin": "INE976G01028"
+    },
+    {
+      "key": "NSE_EQ|HAVELLS",
+      "s": "HAVELLS",
+      "n": "Havells India Limited",
+      "isin": "INE176B01034"
+    },
+    {
+      "key": "NSE_EQ|JYOTICNC",
+      "s": "JYOTICNC",
+      "n": "Jyoti CNC Automation Limited",
+      "isin": "INE980O01024"
+    },
+    {
+      "key": "NSE_EQ|ECLERX",
+      "s": "ECLERX",
+      "n": "eClerx Services Limited",
+      "isin": "INE738I01010"
+    },
+    {
+      "key": "NSE_EQ|NYKAA",
+      "s": "NYKAA",
+      "n": "FSN E-Commerce Ventures Limited",
+      "isin": "INE388Y01029"
+    },
+    {
+      "key": "NSE_EQ|LTF",
+      "s": "LTF",
+      "n": "L&T Finance Limited",
+      "isin": "INE498L01015"
+    },
+    {
+      "key": "NSE_EQ|ANANDRATHI",
+      "s": "ANANDRATHI",
+      "n": "Anand Rathi Wealth Limited",
+      "isin": "INE463V01026"
+    },
+    {
+      "key": "NSE_EQ|KEC",
+      "s": "KEC",
+      "n": "KEC International Limited",
+      "isin": "INE389H01022"
+    },
+    {
+      "key": "NSE_EQ|ITI",
+      "s": "ITI",
+      "n": "ITI Limited",
+      "isin": "INE248A01017"
+    },
+    {
+      "key": "NSE_EQ|HBLENGINE",
+      "s": "HBLENGINE",
+      "n": "HBL Engineering Limited",
+      "isin": "INE292B01021"
+    },
+    {
+      "key": "NSE_EQ|TTML",
+      "s": "TTML",
+      "n": "Tata Teleservices (Maharashtra) Limited",
+      "isin": "INE517B01013"
+    },
+    {
+      "key": "NSE_EQ|GRAPHITE",
+      "s": "GRAPHITE",
+      "n": "Graphite India Limited",
+      "isin": "INE371A01025"
+    },
+    {
+      "key": "NSE_EQ|CARTRADE",
+      "s": "CARTRADE",
+      "n": "Cartrade Tech Limited",
+      "isin": "INE290S01011"
+    },
+    {
+      "key": "NSE_EQ|BAJAJFINSV",
+      "s": "BAJAJFINSV",
+      "n": "Bajaj Finserv Limited",
+      "isin": "INE918I01026"
+    },
+    {
+      "key": "NSE_EQ|CUB",
+      "s": "CUB",
+      "n": "City Union Bank Limited",
+      "isin": "INE491A01021"
+    },
+    {
+      "key": "NSE_EQ|THERMAX",
+      "s": "THERMAX",
+      "n": "Thermax Limited",
+      "isin": "INE152A01029"
+    },
+    {
+      "key": "NSE_EQ|TATACOMM",
+      "s": "TATACOMM",
+      "n": "Tata Communications Limited",
+      "isin": "INE151A01013"
+    },
+    {
+      "key": "NSE_EQ|AMBUJACEM",
+      "s": "AMBUJACEM",
+      "n": "Ambuja Cements Limited",
+      "isin": "INE079A01024"
+    },
+    {
+      "key": "NSE_EQ|OBEROIRLTY",
+      "s": "OBEROIRLTY",
+      "n": "Oberoi Realty Limited",
+      "isin": "INE093I01010"
+    },
+    {
+      "key": "NSE_EQ|AFFLE",
+      "s": "AFFLE",
+      "n": "Affle 3i Limited",
+      "isin": "INE00WC01027"
+    },
+    {
+      "key": "NSE_EQ|BIOCON",
+      "s": "BIOCON",
+      "n": "Biocon Limited",
+      "isin": "INE376G01013"
+    },
+    {
+      "key": "NSE_EQ|ABCAPITAL",
+      "s": "ABCAPITAL",
+      "n": "Aditya Birla Capital Limited",
+      "isin": "INE674K01013"
+    },
+    {
+      "key": "NSE_EQ|CONCOR",
+      "s": "CONCOR",
+      "n": "Container Corporation of India Limited",
+      "isin": "INE111A01025"
+    },
+    {
+      "key": "NSE_EQ|CONCORDBIO",
+      "s": "CONCORDBIO",
+      "n": "Concord Biotech Limited",
+      "isin": "INE338H01029"
+    },
+    {
+      "key": "NSE_EQ|GLENMARK",
+      "s": "GLENMARK",
+      "n": "Glenmark Pharmaceuticals Limited",
+      "isin": "INE935A01035"
+    },
+    {
+      "key": "NSE_EQ|BLUESTARCO",
+      "s": "BLUESTARCO",
+      "n": "Blue Star Limited",
+      "isin": "INE472A01039"
+    },
+    {
+      "key": "NSE_EQ|BAJAJHFL",
+      "s": "BAJAJHFL",
+      "n": "Bajaj Housing Finance Limited",
+      "isin": "INE377Y01014"
+    },
+    {
+      "key": "NSE_EQ|CARBORUNIV",
+      "s": "CARBORUNIV",
+      "n": "Carborundum Universal Limited",
+      "isin": "INE120A01034"
+    },
+    {
+      "key": "NSE_EQ|FORTIS",
+      "s": "FORTIS",
+      "n": "Fortis Healthcare Limited",
+      "isin": "INE061F01013"
+    },
+    {
+      "key": "NSE_EQ|KAJARIACER",
+      "s": "KAJARIACER",
+      "n": "Kajaria Ceramics Limited",
+      "isin": "INE217B01036"
+    },
+    {
+      "key": "NSE_EQ|ICICIGI",
+      "s": "ICICIGI",
+      "n": "ICICI Lombard General Insurance Company Limited",
+      "isin": "INE765G01017"
+    },
+    {
+      "key": "NSE_EQ|ACUTAAS",
+      "s": "ACUTAAS",
+      "n": "Acutaas Chemicals Limited",
+      "isin": "INE00FF01025"
+    },
+    {
+      "key": "NSE_EQ|RRKABEL",
+      "s": "RRKABEL",
+      "n": "R R Kabel Limited",
+      "isin": "INE777K01022"
+    },
+    {
+      "key": "NSE_EQ|SJVN",
+      "s": "SJVN",
+      "n": "SJVN Limited",
+      "isin": "INE002L01015"
+    },
+    {
+      "key": "NSE_EQ|NCC",
+      "s": "NCC",
+      "n": "NCC Limited",
+      "isin": "INE868B01028"
+    },
+    {
+      "key": "NSE_EQ|TIINDIA",
+      "s": "TIINDIA",
+      "n": "Tube Investments of India Limited",
+      "isin": "INE974X01010"
+    },
+    {
+      "key": "NSE_EQ|ANANTRAJ",
+      "s": "ANANTRAJ",
+      "n": "Anant Raj Limited",
+      "isin": "INE242C01024"
+    },
+    {
+      "key": "NSE_EQ|KARURVYSYA",
+      "s": "KARURVYSYA",
+      "n": "Karur Vysya Bank Limited",
+      "isin": "INE036D01028"
+    },
+    {
+      "key": "NSE_EQ|BANDHANBNK",
+      "s": "BANDHANBNK",
+      "n": "Bandhan Bank Limited",
+      "isin": "INE545U01014"
+    },
+    {
+      "key": "NSE_EQ|GRANULES",
+      "s": "GRANULES",
+      "n": "Granules India Limited",
+      "isin": "INE101D01020"
+    },
+    {
+      "key": "NSE_EQ|ACC",
+      "s": "ACC",
+      "n": "ACC Limited",
+      "isin": "INE012A01025"
+    },
+    {
+      "key": "NSE_EQ|IEX",
+      "s": "IEX",
+      "n": "Indian Energy Exchange Limited",
+      "isin": "INE022Q01020"
+    },
+    {
+      "key": "NSE_EQ|ALKEM",
+      "s": "ALKEM",
+      "n": "Alkem Laboratories Limited",
+      "isin": "INE540L01014"
+    },
+    {
+      "key": "NSE_EQ|SRF",
+      "s": "SRF",
+      "n": "SRF Limited",
+      "isin": "INE647A01010"
+    },
+    {
+      "key": "NSE_EQ|CESC",
+      "s": "CESC",
+      "n": "CESC Limited",
+      "isin": "INE486A01021"
+    },
+    {
+      "key": "NSE_EQ|MEESHO",
+      "s": "MEESHO",
+      "n": "Meesho Limited",
+      "isin": "INE0VDM01015"
+    },
+    {
+      "key": "NSE_EQ|UPL",
+      "s": "UPL",
+      "n": "UPL Limited",
+      "isin": "INE628A01036"
+    },
+    {
+      "key": "NSE_EQ|OLECTRA",
+      "s": "OLECTRA",
+      "n": "Olectra Greentech Limited",
+      "isin": "INE260D01016"
+    },
+    {
+      "key": "NSE_EQ|LATENTVIEW",
+      "s": "LATENTVIEW",
+      "n": "Latent View Analytics Limited",
+      "isin": "INE0I7C01011"
+    },
+    {
+      "key": "NSE_EQ|KPRMILL",
+      "s": "KPRMILL",
+      "n": "K.P.R. Mill Limited",
+      "isin": "INE930H01031"
+    },
+    {
+      "key": "NSE_EQ|M&MFIN",
+      "s": "M&MFIN",
+      "n": "Mahindra & Mahindra Financial Services Limited",
+      "isin": "INE774D01024"
+    },
+    {
+      "key": "NSE_EQ|MRF",
+      "s": "MRF",
+      "n": "MRF Limited",
+      "isin": "INE883A01011"
+    },
+    {
+      "key": "NSE_EQ|PHOENIXLTD",
+      "s": "PHOENIXLTD",
+      "n": "The Phoenix Mills Limited",
+      "isin": "INE211B01039"
+    },
+    {
+      "key": "NSE_EQ|FINCABLES",
+      "s": "FINCABLES",
+      "n": "Finolex Cables Limited",
+      "isin": "INE235A01022"
+    },
+    {
+      "key": "NSE_EQ|WELCORP",
+      "s": "WELCORP",
+      "n": "Welspun Corp Limited",
+      "isin": "INE191B01025"
+    },
+    {
+      "key": "NSE_EQ|EMAMILTD",
+      "s": "EMAMILTD",
+      "n": "Emami Limited",
+      "isin": "INE548C01032"
+    },
+    {
+      "key": "NSE_EQ|BRIGADE",
+      "s": "BRIGADE",
+      "n": "Brigade Enterprises Limited",
+      "isin": "INE791I01019"
+    },
+    {
+      "key": "NSE_EQ|MANAPPURAM",
+      "s": "MANAPPURAM",
+      "n": "Manappuram Finance Limited",
+      "isin": "INE522D01027"
+    },
+    {
+      "key": "NSE_EQ|LICHSGFIN",
+      "s": "LICHSGFIN",
+      "n": "LIC Housing Finance Limited",
+      "isin": "INE115A01026"
+    },
+    {
+      "key": "NSE_EQ|J&KBANK",
+      "s": "J&KBANK",
+      "n": "The Jammu & Kashmir Bank Limited",
+      "isin": "INE168A01041"
+    },
+    {
+      "key": "NSE_EQ|ITCHOTELS",
+      "s": "ITCHOTELS",
+      "n": "ITC Hotels Limited",
+      "isin": "INE379A01028"
+    },
+    {
+      "key": "NSE_EQ|ABDL",
+      "s": "ABDL",
+      "n": "Allied Blenders and Distillers Limited",
+      "isin": "INE552Z01027"
+    },
+    {
+      "key": "NSE_EQ|NH",
+      "s": "NH",
+      "n": "Narayana Hrudayalaya Ltd.",
+      "isin": "INE410P01011"
+    },
+    {
+      "key": "NSE_EQ|AFCONS",
+      "s": "AFCONS",
+      "n": "Afcons Infrastructure Limited",
+      "isin": "INE101I01011"
+    },
+    {
+      "key": "NSE_EQ|DEEPAKNTR",
+      "s": "DEEPAKNTR",
+      "n": "Deepak Nitrite Limited",
+      "isin": "INE288B01029"
+    },
+    {
+      "key": "NSE_EQ|PIRAMALFIN",
+      "s": "PIRAMALFIN",
+      "n": "Piramal Finance Limited",
+      "isin": "INE202B01038"
+    },
+    {
+      "key": "NSE_EQ|TATACAP",
+      "s": "TATACAP",
+      "n": "Tata Capital Limited",
+      "isin": "INE976I01016"
+    },
+    {
+      "key": "NSE_EQ|NAVINFLUOR",
+      "s": "NAVINFLUOR",
+      "n": "Navin Fluorine International Limited",
+      "isin": "INE048G01026"
+    },
+    {
+      "key": "NSE_EQ|WHIRLPOOL",
+      "s": "WHIRLPOOL",
+      "n": "Whirlpool of India Limited",
+      "isin": "INE716A01013"
+    },
+    {
+      "key": "NSE_EQ|SWANCORP",
+      "s": "SWANCORP",
+      "n": "SWAN CORP LIMITED",
+      "isin": "INE665A01038"
+    },
+    {
+      "key": "NSE_EQ|RAMCOCEM",
+      "s": "RAMCOCEM",
+      "n": "The Ramco Cements Limited",
+      "isin": "INE331A01037"
+    },
+    {
+      "key": "NSE_EQ|ONESOURCE",
+      "s": "ONESOURCE",
+      "n": "Onesource Specialty Pharma Limited",
+      "isin": "INE013P01021"
+    },
+    {
+      "key": "NSE_EQ|SAGILITY",
+      "s": "SAGILITY",
+      "n": "SAGILITY LIMITED",
+      "isin": "INE0W2G01015"
+    },
+    {
+      "key": "NSE_EQ|SBICARD",
+      "s": "SBICARD",
+      "n": "SBI Cards and Payment Services Limited",
+      "isin": "INE018E01016"
+    },
+    {
+      "key": "NSE_EQ|IDBI",
+      "s": "IDBI",
+      "n": "IDBI Bank Limited",
+      "isin": "INE008A01015"
+    },
+    {
+      "key": "NSE_EQ|UBL",
+      "s": "UBL",
+      "n": "United Breweries Limited",
+      "isin": "INE686F01025"
+    },
+    {
+      "key": "NSE_EQ|NUVAMA",
+      "s": "NUVAMA",
+      "n": "Nuvama Wealth Management Limited",
+      "isin": "INE531F01023"
+    },
+    {
+      "key": "NSE_EQ|SARDAEN",
+      "s": "SARDAEN",
+      "n": "Sarda Energy & Minerals Limited",
+      "isin": "INE385C01021"
+    },
+    {
+      "key": "NSE_EQ|IKS",
+      "s": "IKS",
+      "n": "Inventurus Knowledge Solutions Limited",
+      "isin": "INE115Q01022"
+    },
+    {
+      "key": "NSE_EQ|LEMONTREE",
+      "s": "LEMONTREE",
+      "n": "Lemon Tree Hotels Limited",
+      "isin": "INE970X01018"
+    },
+    {
+      "key": "NSE_EQ|BAJAJHLDNG",
+      "s": "BAJAJHLDNG",
+      "n": "Bajaj Holdings & Investment Limited",
+      "isin": "INE118A01012"
+    },
+    {
+      "key": "NSE_EQ|PETRONET",
+      "s": "PETRONET",
+      "n": "Petronet LNG Limited",
+      "isin": "INE347G01014"
+    },
+    {
+      "key": "NSE_EQ|CHOICEIN",
+      "s": "CHOICEIN",
+      "n": "Choice International Limited",
+      "isin": "INE102B01014"
+    },
+    {
+      "key": "NSE_EQ|TATAINVEST",
+      "s": "TATAINVEST",
+      "n": "Tata Investment Corporation Limited",
+      "isin": "INE672A01026"
+    },
+    {
+      "key": "NSE_EQ|ZYDUSLIFE",
+      "s": "ZYDUSLIFE",
+      "n": "Zydus Lifesciences Limited",
+      "isin": "INE010B01027"
+    },
+    {
+      "key": "NSE_EQ|EXIDEIND",
+      "s": "EXIDEIND",
+      "n": "Exide Industries Limited",
+      "isin": "INE302A01020"
+    },
+    {
+      "key": "NSE_EQ|MGL",
+      "s": "MGL",
+      "n": "Mahanagar Gas Limited",
+      "isin": "INE002S01010"
+    },
+    {
+      "key": "NSE_EQ|KIRLOSENG",
+      "s": "KIRLOSENG",
+      "n": "Kirloskar Oil Engines Limited",
+      "isin": "INE146L01010"
+    },
+    {
+      "key": "NSE_EQ|FIVESTAR",
+      "s": "FIVESTAR",
+      "n": "Five-Star Business Finance Limited",
+      "isin": "INE128S01021"
+    },
+    {
+      "key": "NSE_EQ|IIFL",
+      "s": "IIFL",
+      "n": "IIFL Finance Limited",
+      "isin": "INE530B01024"
+    },
+    {
+      "key": "NSE_EQ|ZYDUSWELL",
+      "s": "ZYDUSWELL",
+      "n": "Zydus Wellness Limited",
+      "isin": "INE768C01028"
+    },
+    {
+      "key": "NSE_EQ|MSUMI",
+      "s": "MSUMI",
+      "n": "Motherson Sumi Wiring India Limited",
+      "isin": "INE0FS801015"
+    },
+    {
+      "key": "NSE_EQ|PVRINOX",
+      "s": "PVRINOX",
+      "n": "PVR INOX Limited",
+      "isin": "INE191H01014"
+    },
+    {
+      "key": "NSE_EQ|ARE&M",
+      "s": "ARE&M",
+      "n": "Amara Raja Energy & Mobility Limited",
+      "isin": "INE885A01032"
+    },
+    {
+      "key": "NSE_EQ|MINDACORP",
+      "s": "MINDACORP",
+      "n": "Minda Corporation Limited",
+      "isin": "INE842C01021"
+    },
+    {
+      "key": "NSE_EQ|SONATSOFTW",
+      "s": "SONATSOFTW",
+      "n": "Sonata Software Limited",
+      "isin": "INE269A01021"
+    },
+    {
+      "key": "NSE_EQ|TENNIND",
+      "s": "TENNIND",
+      "n": "Tenneco Clean Air India Limited",
+      "isin": "INE19RI01016"
+    },
+    {
+      "key": "NSE_EQ|SHREECEM",
+      "s": "SHREECEM",
+      "n": "SHREE CEMENT LIMITED",
+      "isin": "INE070A01015"
+    },
+    {
+      "key": "NSE_EQ|PINELABS",
+      "s": "PINELABS",
+      "n": "Pine Labs Limited",
+      "isin": "INE15B701018"
+    },
+    {
+      "key": "NSE_EQ|RITES",
+      "s": "RITES",
+      "n": "RITES Limited",
+      "isin": "INE320J01015"
+    },
+    {
+      "key": "NSE_EQ|NEWGEN",
+      "s": "NEWGEN",
+      "n": "Newgen Software Technologies Limited",
+      "isin": "INE619B01017"
+    },
+    {
+      "key": "NSE_EQ|DALBHARAT",
+      "s": "DALBHARAT",
+      "n": "Dalmia Bharat Limited",
+      "isin": "INE00R701025"
+    },
+    {
+      "key": "NSE_EQ|NIACL",
+      "s": "NIACL",
+      "n": "The New India Assurance Company Limited",
+      "isin": "INE470Y01017"
+    },
+    {
+      "key": "NSE_EQ|ABSLAMC",
+      "s": "ABSLAMC",
+      "n": "Aditya Birla Sun Life AMC Limited",
+      "isin": "INE404A01024"
+    },
+    {
+      "key": "NSE_EQ|JMFINANCIL",
+      "s": "JMFINANCIL",
+      "n": "JM Financial Limited",
+      "isin": "INE780C01023"
+    },
+    {
+      "key": "NSE_EQ|JSL",
+      "s": "JSL",
+      "n": "Jindal Stainless Limited",
+      "isin": "INE220G01021"
+    },
+    {
+      "key": "NSE_EQ|ABBOTINDIA",
+      "s": "ABBOTINDIA",
+      "n": "Abbott India Limited",
+      "isin": "INE358A01014"
+    },
+    {
+      "key": "NSE_EQ|FLUOROCHEM",
+      "s": "FLUOROCHEM",
+      "n": "Gujarat Fluorochemicals Limited",
+      "isin": "INE09N301011"
+    },
+    {
+      "key": "NSE_EQ|GRAVITA",
+      "s": "GRAVITA",
+      "n": "Gravita India Limited",
+      "isin": "INE024L01027"
+    },
+    {
+      "key": "NSE_EQ|HONAUT",
+      "s": "HONAUT",
+      "n": "Honeywell Automation India Limited",
+      "isin": "INE671A01010"
+    },
+    {
+      "key": "NSE_EQ|NEULANDLAB",
+      "s": "NEULANDLAB",
+      "n": "Neuland Laboratories Limited",
+      "isin": "INE794A01010"
+    },
+    {
+      "key": "NSE_EQ|JKCEMENT",
+      "s": "JKCEMENT",
+      "n": "JK Cement Limited",
+      "isin": "INE823G01014"
+    },
+    {
+      "key": "NSE_EQ|TATACHEM",
+      "s": "TATACHEM",
+      "n": "Tata Chemicals Limited",
+      "isin": "INE092A01019"
+    },
+    {
+      "key": "NSE_EQ|ABFRL",
+      "s": "ABFRL",
+      "n": "Aditya Birla Fashion and Retail Limited",
+      "isin": "INE647O01011"
+    },
+    {
+      "key": "NSE_EQ|CYIENT",
+      "s": "CYIENT",
+      "n": "Cyient Limited",
+      "isin": "INE136B01020"
+    },
+    {
+      "key": "NSE_EQ|JSWINFRA",
+      "s": "JSWINFRA",
+      "n": "JSW Infrastructure Limited",
+      "isin": "INE880J01026"
+    },
+    {
+      "key": "NSE_EQ|BLS",
+      "s": "BLS",
+      "n": "BLS International Services Limited",
+      "isin": "INE153T01027"
+    },
+    {
+      "key": "NSE_EQ|CREDITACC",
+      "s": "CREDITACC",
+      "n": "CREDITACCESS GRAMEEN LIMITED",
+      "isin": "INE741K01010"
+    },
+    {
+      "key": "NSE_EQ|AARTIIND",
+      "s": "AARTIIND",
+      "n": "Aarti Industries Limited",
+      "isin": "INE769A01020"
+    },
+    {
+      "key": "NSE_EQ|TATATECH",
+      "s": "TATATECH",
+      "n": "Tata Technologies Limited",
+      "isin": "INE142M01025"
+    },
+    {
+      "key": "NSE_EQ|CEATLTD",
+      "s": "CEATLTD",
+      "n": "CEAT Limited",
+      "isin": "INE482A01020"
+    },
+    {
+      "key": "NSE_EQ|APTUS",
+      "s": "APTUS",
+      "n": "Aptus Value Housing Finance India Limited",
+      "isin": "INE852O01025"
+    },
+    {
+      "key": "NSE_EQ|JAINREC",
+      "s": "JAINREC",
+      "n": "Jain Resource Recycling Limited",
+      "isin": "INE0YD401026"
+    },
+    {
+      "key": "NSE_EQ|APOLLOTYRE",
+      "s": "APOLLOTYRE",
+      "n": "Apollo Tyres Limited",
+      "isin": "INE438A01022"
+    },
+    {
+      "key": "NSE_EQ|UTIAMC",
+      "s": "UTIAMC",
+      "n": "UTI Asset Management Company Limited",
+      "isin": "INE094J01016"
+    },
+    {
+      "key": "NSE_EQ|AJANTPHARM",
+      "s": "AJANTPHARM",
+      "n": "Ajanta Pharma Limited",
+      "isin": "INE031B01049"
+    },
+    {
+      "key": "NSE_EQ|PPLPHARMA",
+      "s": "PPLPHARMA",
+      "n": "Piramal Pharma Limited",
+      "isin": "INE0DK501011"
+    },
+    {
+      "key": "NSE_EQ|ZENSARTECH",
+      "s": "ZENSARTECH",
+      "n": "Zensar Technologies Limited",
+      "isin": "INE520A01027"
+    },
+    {
+      "key": "NSE_EQ|PCBL",
+      "s": "PCBL",
+      "n": "PCBL Chemical Limited",
+      "isin": "INE602A01031"
+    },
+    {
+      "key": "NSE_EQ|ASTERDM",
+      "s": "ASTERDM",
+      "n": "Aster DM Healthcare Limited",
+      "isin": "INE914M01019"
+    },
+    {
+      "key": "NSE_EQ|CASTROLIND",
+      "s": "CASTROLIND",
+      "n": "Castrol India Limited",
+      "isin": "INE172A01027"
+    },
+    {
+      "key": "NSE_EQ|CHAMBLFERT",
+      "s": "CHAMBLFERT",
+      "n": "Chambal Fertilizers & Chemicals Limited",
+      "isin": "INE085A01013"
+    },
+    {
+      "key": "NSE_EQ|EMCURE",
+      "s": "EMCURE",
+      "n": "Emcure Pharmaceuticals Limited",
+      "isin": "INE168P01015"
+    },
+    {
+      "key": "NSE_EQ|SAILIFE",
+      "s": "SAILIFE",
+      "n": "Sai Life Sciences Limited",
+      "isin": "INE570L01029"
+    },
+    {
+      "key": "NSE_EQ|INDIAMART",
+      "s": "INDIAMART",
+      "n": "Indiamart Intermesh Limited",
+      "isin": "INE933S01016"
+    },
+    {
+      "key": "NSE_EQ|TECHNOE",
+      "s": "TECHNOE",
+      "n": "Techno Electric & Engineering Company Limited",
+      "isin": "INE285K01026"
+    },
+    {
+      "key": "NSE_EQ|BHARTIHEXA",
+      "s": "BHARTIHEXA",
+      "n": "Bharti Hexacom Limited",
+      "isin": "INE343G01021"
+    },
+    {
+      "key": "NSE_EQ|IRB",
+      "s": "IRB",
+      "n": "IRB Infrastructure Developers Limited",
+      "isin": "INE821I01022"
+    },
+    {
+      "key": "NSE_EQ|GABRIEL",
+      "s": "GABRIEL",
+      "n": "Gabriel India Limited",
+      "isin": "INE524A01029"
+    },
+    {
+      "key": "NSE_EQ|ELECON",
+      "s": "ELECON",
+      "n": "Elecon Engineering Company Limited",
+      "isin": "INE205B01031"
+    },
+    {
+      "key": "NSE_EQ|JBMA",
+      "s": "JBMA",
+      "n": "JBM Auto Limited",
+      "isin": "INE927D01051"
+    },
+    {
+      "key": "NSE_EQ|ELGIEQUIP",
+      "s": "ELGIEQUIP",
+      "n": "Elgi Equipments Limited",
+      "isin": "INE285A01027"
+    },
+    {
+      "key": "NSE_EQ|MAPMYINDIA",
+      "s": "MAPMYINDIA",
+      "n": "C.E. Info Systems Limited",
+      "isin": "INE0BV301023"
+    },
+    {
+      "key": "NSE_EQ|DEVYANI",
+      "s": "DEVYANI",
+      "n": "Devyani International Limited",
+      "isin": "INE872J01023"
+    },
+    {
+      "key": "NSE_EQ|URBANCO",
+      "s": "URBANCO",
+      "n": "Urban Company Limited",
+      "isin": "INE0CAZ01013"
+    },
+    {
+      "key": "NSE_EQ|CHOLAHLDNG",
+      "s": "CHOLAHLDNG",
+      "n": "Cholamandalam Financial Holdings Limited",
+      "isin": "INE149A01033"
+    },
+    {
+      "key": "NSE_EQ|GILLETTE",
+      "s": "GILLETTE",
+      "n": "Gillette India Limited",
+      "isin": "INE322A01010"
+    },
+    {
+      "key": "NSE_EQ|GICRE",
+      "s": "GICRE",
+      "n": "General Insurance Corporation of India",
+      "isin": "INE481Y01014"
+    },
+    {
+      "key": "NSE_EQ|ESCORTS",
+      "s": "ESCORTS",
+      "n": "Escorts Kubota Limited",
+      "isin": "INE042A01014"
+    },
+    {
+      "key": "NSE_EQ|LTTS",
+      "s": "LTTS",
+      "n": "L&T Technology Services Limited",
+      "isin": "INE010V01017"
+    },
+    {
+      "key": "NSE_EQ|SAPPHIRE",
+      "s": "SAPPHIRE",
+      "n": "Sapphire Foods India Limited",
+      "isin": "INE806T01020"
+    },
+    {
+      "key": "NSE_EQ|BSOFT",
+      "s": "BSOFT",
+      "n": "BIRLASOFT LIMITED",
+      "isin": "INE836A01035"
+    },
+    {
+      "key": "NSE_EQ|ANURAS",
+      "s": "ANURAS",
+      "n": "Anupam Rasayan India Limited",
+      "isin": "INE930P01018"
+    },
+    {
+      "key": "NSE_EQ|CAPLIPOINT",
+      "s": "CAPLIPOINT",
+      "n": "Caplin Point Laboratories Limited",
+      "isin": "INE475E01026"
+    },
+    {
+      "key": "NSE_EQ|RKFORGE",
+      "s": "RKFORGE",
+      "n": "Ramkrishna Forgings Limited",
+      "isin": "INE399G01023"
+    },
+    {
+      "key": "NSE_EQ|STARHEALTH",
+      "s": "STARHEALTH",
+      "n": "Star Health and Allied Insurance Company Limited",
+      "isin": "INE575P01011"
+    },
+    {
+      "key": "NSE_EQ|LALPATHLAB",
+      "s": "LALPATHLAB",
+      "n": "Dr. Lal Path Labs Ltd.",
+      "isin": "INE600L01024"
+    },
+    {
+      "key": "NSE_EQ|SCHAEFFLER",
+      "s": "SCHAEFFLER",
+      "n": "Schaeffler India Limited",
+      "isin": "INE513A01022"
+    },
+    {
+      "key": "NSE_EQ|GLAND",
+      "s": "GLAND",
+      "n": "Gland Pharma Limited",
+      "isin": "INE068V01023"
+    },
+    {
+      "key": "NSE_EQ|NUVOCO",
+      "s": "NUVOCO",
+      "n": "Nuvoco Vistas Corporation Limited",
+      "isin": "INE118D01016"
+    },
+    {
+      "key": "NSE_EQ|SIGNATURE",
+      "s": "SIGNATURE",
+      "n": "Signatureglobal (India) Limited",
+      "isin": "INE903U01023"
+    },
+    {
+      "key": "NSE_EQ|SCHNEIDER",
+      "s": "SCHNEIDER",
+      "n": "Schneider Electric Infrastructure Limited",
+      "isin": "INE839M01018"
+    },
+    {
+      "key": "NSE_EQ|SYNGENE",
+      "s": "SYNGENE",
+      "n": "Syngene International Limited",
+      "isin": "INE398R01022"
+    },
+    {
+      "key": "NSE_EQ|ASAHIINDIA",
+      "s": "ASAHIINDIA",
+      "n": "Asahi India Glass Limited",
+      "isin": "INE439A01020"
+    },
+    {
+      "key": "NSE_EQ|INTELLECT",
+      "s": "INTELLECT",
+      "n": "Intellect Design Arena Limited",
+      "isin": "INE306R01017"
+    },
+    {
+      "key": "NSE_EQ|TBOTEK",
+      "s": "TBOTEK",
+      "n": "TBO Tek Limited",
+      "isin": "INE673O01025"
+    },
+    {
+      "key": "NSE_EQ|IGIL",
+      "s": "IGIL",
+      "n": "International Gemmological Institute (India) Limited",
+      "isin": "INE0Q9301021"
+    },
+    {
+      "key": "NSE_EQ|KIMS",
+      "s": "KIMS",
+      "n": "Krishna Institute of Medical Sciences Limited",
+      "isin": "INE967H01025"
+    },
+    {
+      "key": "NSE_EQ|BLUEJET",
+      "s": "BLUEJET",
+      "n": "Blue Jet Healthcare Limited",
+      "isin": "INE0KBH01020"
+    },
+    {
+      "key": "NSE_EQ|AEGISVOPAK",
+      "s": "AEGISVOPAK",
+      "n": "Aegis Vopak Terminals Limited",
+      "isin": "INE0INX01018"
+    },
+    {
+      "key": "NSE_EQ|ACE",
+      "s": "ACE",
+      "n": "Action Construction Equipment Limited",
+      "isin": "INE731H01025"
+    },
+    {
+      "key": "NSE_EQ|HONASA",
+      "s": "HONASA",
+      "n": "Honasa Consumer Limited",
+      "isin": "INE0J5401028"
+    },
+    {
+      "key": "NSE_EQ|NSLNISP",
+      "s": "NSLNISP",
+      "n": "NMDC Steel Limited",
+      "isin": "INE0NNS01018"
+    },
+    {
+      "key": "NSE_EQ|MEDANTA",
+      "s": "MEDANTA",
+      "n": "Global Health Limited",
+      "isin": "INE474Q01031"
+    },
+    {
+      "key": "NSE_EQ|CRAFTSMAN",
+      "s": "CRAFTSMAN",
+      "n": "Craftsman Automation Limited",
+      "isin": "INE00LO01017"
+    },
+    {
+      "key": "NSE_EQ|PTCIL",
+      "s": "PTCIL",
+      "n": "PTC Industries Limited",
+      "isin": "INE596F01018"
+    },
+    {
+      "key": "NSE_EQ|EIDPARRY",
+      "s": "EIDPARRY",
+      "n": "EID Parry India Limited",
+      "isin": "INE126A01031"
+    },
+    {
+      "key": "NSE_EQ|LINDEINDIA",
+      "s": "LINDEINDIA",
+      "n": "Linde India Limited",
+      "isin": "INE473A01011"
+    },
+    {
+      "key": "NSE_EQ|SUNDARMFIN",
+      "s": "SUNDARMFIN",
+      "n": "Sundaram Finance Limited",
+      "isin": "INE660A01013"
+    },
+    {
+      "key": "NSE_EQ|IPCALAB",
+      "s": "IPCALAB",
+      "n": "IPCA Laboratories Limited",
+      "isin": "INE571A01038"
+    },
+    {
+      "key": "NSE_EQ|CENTRALBK",
+      "s": "CENTRALBK",
+      "n": "Central Bank of India",
+      "isin": "INE483A01010"
+    },
+    {
+      "key": "NSE_EQ|ANTHEM",
+      "s": "ANTHEM",
+      "n": "Anthem Biosciences Limited",
+      "isin": "INE0CZ201020"
+    },
+    {
+      "key": "NSE_EQ|LTFOODS",
+      "s": "LTFOODS",
+      "n": "LT Foods Limited",
+      "isin": "INE818H01020"
+    },
+    {
+      "key": "NSE_EQ|BALRAMCHIN",
+      "s": "BALRAMCHIN",
+      "n": "Balrampur Chini Mills Limited",
+      "isin": "INE119A01028"
+    },
+    {
+      "key": "NSE_EQ|ENDURANCE",
+      "s": "ENDURANCE",
+      "n": "Endurance Technologies Limited",
+      "isin": "INE913H01037"
+    },
+    {
+      "key": "NSE_EQ|SHYAMMETL",
+      "s": "SHYAMMETL",
+      "n": "Shyam Metalics and Energy Limited",
+      "isin": "INE810G01011"
+    },
+    {
+      "key": "NSE_EQ|TRIDENT",
+      "s": "TRIDENT",
+      "n": "Trident Limited",
+      "isin": "INE064C01022"
+    },
+    {
+      "key": "NSE_EQ|AADHARHFC",
+      "s": "AADHARHFC",
+      "n": "Aadhar Housing Finance Limited",
+      "isin": "INE883F01010"
+    },
+    {
+      "key": "NSE_EQ|CLEAN",
+      "s": "CLEAN",
+      "n": "Clean Science and Technology Limited",
+      "isin": "INE227W01023"
+    },
+    {
+      "key": "NSE_EQ|AIIL",
+      "s": "AIIL",
+      "n": "Authum Investment & Infrastructure Limited",
+      "isin": "INE206F01022"
+    },
+    {
+      "key": "NSE_EQ|BIKAJI",
+      "s": "BIKAJI",
+      "n": "Bikaji Foods International Limited",
+      "isin": "INE00E101023"
+    },
+    {
+      "key": "NSE_EQ|HEXT",
+      "s": "HEXT",
+      "n": "Hexaware Technologies Limited",
+      "isin": "INE093A01041"
+    },
+    {
+      "key": "NSE_EQ|SUNTV",
+      "s": "SUNTV",
+      "n": "Sun TV Network Limited",
+      "isin": "INE424H01027"
+    },
+    {
+      "key": "NSE_EQ|CGCL",
+      "s": "CGCL",
+      "n": "Capri Global Capital Limited",
+      "isin": "INE180C01042"
+    },
+    {
+      "key": "NSE_EQ|JBCHEPHARM",
+      "s": "JBCHEPHARM",
+      "n": "JB Chemicals & Pharmaceuticals Limited",
+      "isin": "INE572A01036"
+    },
+    {
+      "key": "NSE_EQ|VTL",
+      "s": "VTL",
+      "n": "Vardhman Textiles Limited",
+      "isin": "INE825A01020"
+    },
+    {
+      "key": "NSE_EQ|CCL",
+      "s": "CCL",
+      "n": "CCL Products (India) Limited",
+      "isin": "INE421D01022"
+    },
+    {
+      "key": "NSE_EQ|WELSPUNLIV",
+      "s": "WELSPUNLIV",
+      "n": "Welspun Living Limited",
+      "isin": "INE192B01031"
+    },
+    {
+      "key": "NSE_EQ|TIMKEN",
+      "s": "TIMKEN",
+      "n": "Timken India Limited",
+      "isin": "INE325A01013"
+    },
+    {
+      "key": "NSE_EQ|IOB",
+      "s": "IOB",
+      "n": "Indian Overseas Bank",
+      "isin": "INE565A01014"
+    },
+    {
+      "key": "NSE_EQ|UCOBANK",
+      "s": "UCOBANK",
+      "n": "UCO Bank",
+      "isin": "INE691A01018"
+    },
+    {
+      "key": "NSE_EQ|KPIL",
+      "s": "KPIL",
+      "n": "Kalpataru Projects International Limited",
+      "isin": "INE220B01022"
+    },
+    {
+      "key": "NSE_EQ|BBTC",
+      "s": "BBTC",
+      "n": "The Bombay Burmah Trading Corporation Limited",
+      "isin": "INE050A01025"
+    },
+    {
+      "key": "NSE_EQ|ATUL",
+      "s": "ATUL",
+      "n": "Atul Limited",
+      "isin": "INE100A01010"
+    },
+    {
+      "key": "NSE_EQ|SUMICHEM",
+      "s": "SUMICHEM",
+      "n": "Sumitomo Chemical India Limited",
+      "isin": "INE258G01013"
+    },
+    {
+      "key": "NSE_EQ|JSWCEMENT",
+      "s": "JSWCEMENT",
+      "n": "JSW Cement Limited",
+      "isin": "INE718I01012"
+    },
+    {
+      "key": "NSE_EQ|POLYMED",
+      "s": "POLYMED",
+      "n": "Poly Medicure Limited",
+      "isin": "INE205C01021"
+    },
+    {
+      "key": "NSE_EQ|USHAMART",
+      "s": "USHAMART",
+      "n": "Usha Martin Limited",
+      "isin": "INE228A01035"
+    },
+    {
+      "key": "NSE_EQ|CEMPRO",
+      "s": "CEMPRO",
+      "n": "Cemindia Projects Limited",
+      "isin": "INE686A01026"
+    },
+    {
+      "key": "NSE_EQ|BATAINDIA",
+      "s": "BATAINDIA",
+      "n": "Bata India Limited",
+      "isin": "INE176A01028"
+    },
+    {
+      "key": "NSE_EQ|ZFCVINDIA",
+      "s": "ZFCVINDIA",
+      "n": "ZF Commercial Vehicle Control Systems India Limited",
+      "isin": "INE342J01019"
+    },
+    {
+      "key": "NSE_EQ|ABREL",
+      "s": "ABREL",
+      "n": "Aditya Birla Real Estate Limited",
+      "isin": "INE055A01016"
+    },
+    {
+      "key": "NSE_EQ|VIJAYA",
+      "s": "VIJAYA",
+      "n": "Vijaya Diagnostic Centre Limited",
+      "isin": "INE043W01024"
+    },
+    {
+      "key": "NSE_EQ|DOMS",
+      "s": "DOMS",
+      "n": "DOMS Industries Limited",
+      "isin": "INE321T01012"
+    },
+    {
+      "key": "NSE_EQ|HOMEFIRST",
+      "s": "HOMEFIRST",
+      "n": "Home First Finance Company India Limited",
+      "isin": "INE481N01025"
+    },
+    {
+      "key": "NSE_EQ|AAVAS",
+      "s": "AAVAS",
+      "n": "Aavas Financiers Limited",
+      "isin": "INE216P01012"
+    },
+    {
+      "key": "NSE_EQ|GLAXO",
+      "s": "GLAXO",
+      "n": "GlaxoSmithKline Pharmaceuticals Limited",
+      "isin": "INE159A01016"
+    },
+    {
+      "key": "NSE_EQ|JUBLINGREA",
+      "s": "JUBLINGREA",
+      "n": "Jubilant Ingrevia Limited",
+      "isin": "INE0BY001018"
+    },
+    {
+      "key": "NSE_EQ|SAREGAMA",
+      "s": "SAREGAMA",
+      "n": "Saregama India Limited",
+      "isin": "INE979A01025"
+    },
+    {
+      "key": "NSE_EQ|INDIACEM",
+      "s": "INDIACEM",
+      "n": "The India Cements Limited",
+      "isin": "INE383A01012"
+    },
+    {
+      "key": "NSE_EQ|3MINDIA",
+      "s": "3MINDIA",
+      "n": "3M India Limited",
+      "isin": "INE470A01017"
+    },
+    {
+      "key": "NSE_EQ|TRAVELFOOD",
+      "s": "TRAVELFOOD",
+      "n": "Travel Food Services Limited",
+      "isin": "INE103V01028"
+    },
+    {
+      "key": "NSE_EQ|ERIS",
+      "s": "ERIS",
+      "n": "Eris Lifesciences Limited",
+      "isin": "INE406M01024"
+    },
+    {
+      "key": "NSE_EQ|CANFINHOME",
+      "s": "CANFINHOME",
+      "n": "Can Fin Homes Limited",
+      "isin": "INE477A01020"
+    },
+    {
+      "key": "NSE_EQ|RAINBOW",
+      "s": "RAINBOW",
+      "n": "Rainbow Childrens Medicare Limited",
+      "isin": "INE961O01016"
+    },
+    {
+      "key": "NSE_EQ|NIVABUPA",
+      "s": "NIVABUPA",
+      "n": "Niva Bupa Health Insurance Company Limited",
+      "isin": "INE995S01015"
+    },
+    {
+      "key": "NSE_EQ|AIAENG",
+      "s": "AIAENG",
+      "n": "AIA Engineering Limited",
+      "isin": "INE212H01026"
+    },
+    {
+      "key": "NSE_EQ|BLUEDART",
+      "s": "BLUEDART",
+      "n": "Blue Dart Express Limited",
+      "isin": "INE233B01017"
+    },
+    {
+      "key": "NSE_EQ|SPLPETRO",
+      "s": "SPLPETRO",
+      "n": "Supreme Petrochem Limited",
+      "isin": "INE663A01033"
+    },
+    {
+      "key": "NSE_EQ|RHIM",
+      "s": "RHIM",
+      "n": "RHI MAGNESITA INDIA LIMITED",
+      "isin": "INE743M01012"
+    },
+    {
+      "key": "NSE_EQ|DCMSHRIRAM",
+      "s": "DCMSHRIRAM",
+      "n": "DCM Shriram Limited",
+      "isin": "INE499A01024"
+    },
+    {
+      "key": "NSE_EQ|SOBHA",
+      "s": "SOBHA",
+      "n": "Sobha Limited",
+      "isin": "INE671H01015"
+    },
+    {
+      "key": "NSE_EQ|BERGEPAINT",
+      "s": "BERGEPAINT",
+      "n": "Berger Paints (I) Limited",
+      "isin": "INE463A01038"
+    },
+    {
+      "key": "NSE_EQ|CANHLIFE",
+      "s": "CANHLIFE",
+      "n": "Canara HSBC Life Insurance Company Limited",
+      "isin": "INE01TY01017"
+    },
+    {
+      "key": "NSE_EQ|SBFC",
+      "s": "SBFC",
+      "n": "SBFC Finance Limited",
+      "isin": "INE423Y01016"
+    },
+    {
+      "key": "NSE_EQ|JUBLPHARMA",
+      "s": "JUBLPHARMA",
+      "n": "Jubilant Pharmova Limited",
+      "isin": "INE700A01033"
+    },
+    {
+      "key": "NSE_EQ|EIHOTEL",
+      "s": "EIHOTEL",
+      "n": "EIH Limited",
+      "isin": "INE230A01023"
+    },
+    {
+      "key": "NSE_EQ|TEGA",
+      "s": "TEGA",
+      "n": "Tega Industries Limited",
+      "isin": "INE011K01018"
+    },
+    {
+      "key": "NSE_EQ|CHALET",
+      "s": "CHALET",
+      "n": "Chalet Hotels Limited",
+      "isin": "INE427F01016"
+    },
+    {
+      "key": "NSE_EQ|GODREJIND",
+      "s": "GODREJIND",
+      "n": "Godrej Industries Limited",
+      "isin": "INE233A01035"
+    },
+    {
+      "key": "NSE_EQ|PFIZER",
+      "s": "PFIZER",
+      "n": "Pfizer Limited",
+      "isin": "INE182A01018"
+    },
+    {
+      "key": "NSE_EQ|ABLBL",
+      "s": "ABLBL",
+      "n": "Aditya Birla Lifestyle Brands Limited",
+      "isin": "INE14LE01019"
+    },
+    {
+      "key": "NSE_EQ|BAYERCROP",
+      "s": "BAYERCROP",
+      "n": "Bayer Cropscience Limited",
+      "isin": "INE462A01022"
+    },
+    {
+      "key": "NSE_EQ|JSWDULUX",
+      "s": "JSWDULUX",
+      "n": "JSW Dulux Limited",
+      "isin": "INE133A01011"
+    },
+    {
+      "key": "NSE_EQ|INDGN",
+      "s": "INDGN",
+      "n": "Indegene Limited",
+      "isin": "INE065X01017"
+    },
+    {
+      "key": "NSE_EQ|GODIGIT",
+      "s": "GODIGIT",
+      "n": "Go Digit General Insurance Limited",
+      "isin": "INE03JT01014"
+    },
+    {
+      "key": "NSE_EQ|THELEELA",
+      "s": "THELEELA",
+      "n": "Leela Palaces Hotels & Resorts Limited",
+      "isin": "INE0AQ201015"
+    }
+  ]
+}
