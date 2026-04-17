@@ -1,4 +1,4 @@
-name: Fetch NIFTY 500 Stock Keys (Weekly)
+name: Fetch NIFTY 500 Stock Master (Weekly)
 
 on:
   schedule:
@@ -13,18 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
+      - run: pip install requests
 
-      - name: Fetch NIFTY 500 stocks (Key + Name + ISIN)
+      - name: Fetch NIFTY 500 stocks
         run: |
           python3 << 'PYEOF'
           import requests, json, time, os
@@ -38,38 +35,34 @@ jobs:
 
           session = requests.Session()
 
-          print("Step 1: Get NSE cookies...")
+          print("Getting NSE cookies...")
           session.get("https://www.nseindia.com", headers=HEADERS)
           time.sleep(2)
 
-          print("Step 2: Fetch NIFTY 500 data...")
+          print("Fetching NIFTY 500 data...")
           url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
-          resp = session.get(url, headers=HEADERS, timeout=15)
-          resp.raise_for_status()
-          data = resp.json()
+          data = session.get(url, headers=HEADERS).json()
 
           stocks = data.get("data", [])
           result = []
 
-          print(f"Total stocks fetched: {len(stocks)}")
-
           for s in stocks:
               symbol = s.get("symbol")
               meta = s.get("meta", {})
+              isin = meta.get("isin")
 
-              if not symbol:
+              if not symbol or not isin:
                   continue
 
               result.append({
-                  "key": f"NSE_EQ|{symbol}",
-                  "s": symbol,
-                  "n": meta.get("companyName"),
-                  "isin": meta.get("isin")
+                  "symbol": symbol,
+                  "isin": isin,
+                  "key": f"NSE_EQ|{isin}"   # ✅ your requirement
               })
 
-          print("Step 3: Save JSON file...")
-          os.makedirs("stocks", exist_ok=True)
+          print(f"Total stocks: {len(result)}")
 
+          os.makedirs("stocks", exist_ok=True)
           with open("stocks/stocks.json", "w") as f:
               json.dump({
                   "updated_at": datetime.utcnow().isoformat(),
@@ -77,13 +70,13 @@ jobs:
                   "data": result
               }, f, indent=2)
 
-          print("Saved stocks/stocks.json successfully")
+          print("Saved stocks/stocks.json")
           PYEOF
 
-      - name: Commit & Push changes
+      - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Auto-update: NIFTY 500 stock keys $(date +'%d %b %Y')"
+          git diff --staged --quiet || git commit -m "Update stock master (ISIN-based)"
           git push
