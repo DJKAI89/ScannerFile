@@ -1,0 +1,89 @@
+name: Fetch NIFTY 500 Stock Keys (Weekly)
+
+on:
+  schedule:
+    - cron: '0 15 * * 0'   # Sunday 8:30 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-stocks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch NIFTY 500 stocks (Key + Name + ISIN)
+        run: |
+          python3 << 'PYEOF'
+          import requests, json, time, os
+          from datetime import datetime
+
+          HEADERS = {
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'application/json',
+            'Referer': 'https://www.nseindia.com/',
+          }
+
+          session = requests.Session()
+
+          print("Step 1: Get NSE cookies...")
+          session.get("https://www.nseindia.com", headers=HEADERS)
+          time.sleep(2)
+
+          print("Step 2: Fetch NIFTY 500 data...")
+          url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
+          resp = session.get(url, headers=HEADERS, timeout=15)
+          resp.raise_for_status()
+          data = resp.json()
+
+          stocks = data.get("data", [])
+          result = []
+
+          print(f"Total stocks fetched: {len(stocks)}")
+
+          for s in stocks:
+              symbol = s.get("symbol")
+              meta = s.get("meta", {})
+
+              if not symbol:
+                  continue
+
+              result.append({
+                  "key": f"NSE_EQ|{symbol}",
+                  "s": symbol,
+                  "n": meta.get("companyName"),
+                  "isin": meta.get("isin")
+              })
+
+          print("Step 3: Save JSON file...")
+          os.makedirs("stocks", exist_ok=True)
+
+          with open("stocks/stocks.json", "w") as f:
+              json.dump({
+                  "updated_at": datetime.utcnow().isoformat(),
+                  "count": len(result),
+                  "data": result
+              }, f, indent=2)
+
+          print("Saved stocks/stocks.json successfully")
+          PYEOF
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stocks/stocks.json
+          git diff --staged --quiet || git commit -m "Auto-update: NIFTY 500 stock keys $(date +'%d %b %Y')"
+          git push
