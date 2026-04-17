@@ -1370,8 +1370,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 190.65,
+      "livePnlPct": -13.18,
+      "targetProgress": 11
     },
     {
       "id": "2026-04-10-BANKNIFTY-58200-CE",
@@ -1404,8 +1405,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 175.15,
+      "livePnlPct": -12.67,
+      "targetProgress": 11
     },
     {
       "id": "2026-04-10-BANKNIFTY-58300-CE",
@@ -1438,8 +1440,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 157.85,
+      "livePnlPct": -15.13,
+      "targetProgress": 14
     },
     {
       "id": "2026-04-10-BANKNIFTY-57900-CE",
@@ -1472,8 +1475,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 230.9,
+      "livePnlPct": -11.6,
+      "targetProgress": 10
     },
     {
       "id": "2026-04-10-SENSEX-79600-CE",
@@ -1676,8 +1680,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 57.65,
+      "livePnlPct": -22.82,
+      "targetProgress": 21
     },
     {
       "id": "2026-04-10-FINNIFTY-27500-CE",
@@ -1710,8 +1715,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 50.45,
+      "livePnlPct": -29.14,
+      "targetProgress": 26
     },
     {
       "id": "2026-04-10-FINNIFTY-27600-CE",
@@ -1744,8 +1750,9 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": null,
-      "livePnlPct": null
+      "livePrice": 40.35,
+      "livePnlPct": -30.97,
+      "targetProgress": 28
     },
     {
       "id": "2026-04-10-NHPC-STOCK",
@@ -3999,7 +4006,10 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 46.35,
+      "livePnlPct": -53.9,
+      "targetProgress": 0
     },
     {
       "id": "2026-04-16-SENSEX-78500-CE",
@@ -4378,7 +4388,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-17T04:03:34.545Z",
+  "lastUpdated": "2026-04-17T04:04:24.141Z",
   "upstoxId": "132199",
   "stats": {
     "total": 128,
