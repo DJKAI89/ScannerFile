@@ -16,12 +16,12 @@
     "tick": 15,
     "portRef": 15,
     "scanOpts": 15,
+    "moodRefresh": 5,
     "minOptConf": 75,
     "maxOptCapital": 10001,
-    "moodRefresh": 10,
     "_v": "v4"
   },
   "upstoxId": "132199",
-  "savedAt": "2026-04-09T05:05:47.018Z",
+  "savedAt": "2026-04-17T04:13:14.045Z",
   "version": "v4"
 }
