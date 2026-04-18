@@ -30,94 +30,136 @@ jobs:
 
           # -----------------------------------------------
           # Step 1: NIFTY 500 from niftyindices.com
-          # (public, no cookies, no NSE dependency)
           # -----------------------------------------------
-          print("Fetching NIFTY 500 list from niftyindices.com...")
+          print("=== NIFTY 500 FETCH ===")
           nifty500_url = "https://niftyindices.com/IndexConstituents/ind_nifty500list.csv"
           resp = requests.get(
             nifty500_url,
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=15
           )
-          print(f"NIFTY 500 status: {resp.status_code}")
+          print(f"Status: {resp.status_code}")
+          print(f"Content-Type: {resp.headers.get('Content-Type')}")
+          print(f"Raw first 500 chars:\n{resp.text[:500]}")
+          print()
 
           nifty500 = []
+          lines = resp.text.splitlines()
+          if lines:
+            print(f"Header line: {lines[0]}")
+            print(f"First data line: {lines[1] if len(lines) > 1 else 'NONE'}")
+          print()
+
           reader = csv.DictReader(StringIO(resp.text))
+          print(f"CSV fieldnames: {reader.fieldnames}")
+
           for row in reader:
+            print(f"RAW ROW: {dict(row)}")  # print first few rows
+            if len(nifty500) >= 3:
+              break
             symbol = (row.get("Symbol") or "").strip().upper()
             isin   = (row.get("ISIN Code") or "").strip()
             name   = (row.get("Company Name") or "").strip()
             if symbol and isin and name:
               nifty500.append({"s": symbol, "n": name, "isin": isin})
 
-          print(f"NIFTY 500 stocks loaded: {len(nifty500)}")
+          print(f"Parsed so far: {nifty500}")
+          print()
+
+          # Re-read fully after debug
+          nifty500 = []
+          reader = csv.DictReader(StringIO(resp.text))
+          for row in reader:
+            # Try multiple possible column name variants
+            symbol = (
+              row.get("Symbol") or
+              row.get("symbol") or
+              row.get("SYMBOL") or
+              row.get("Trading Symbol") or
+              ""
+            ).strip().upper()
+            isin = (
+              row.get("ISIN Code") or
+              row.get("ISIN") or
+              row.get("isin") or
+              row.get("Isin Code") or
+              ""
+            ).strip()
+            name = (
+              row.get("Company Name") or
+              row.get("company name") or
+              row.get("Name") or
+              row.get("CompanyName") or
+              ""
+            ).strip()
+            if symbol and isin and name:
+              nifty500.append({"s": symbol, "n": name, "isin": isin})
+
+          print(f"NIFTY 500 total loaded: {len(nifty500)}")
 
           # -----------------------------------------------
-          # Step 2: F&O list from Upstox complete instruments
-          # Public CDN — no auth, no NSE cookies needed
+          # Step 2: Upstox F&O instruments
           # -----------------------------------------------
-          print("Fetching Upstox instruments for F&O map...")
+          print()
+          print("=== UPSTOX F&O FETCH ===")
           upstox_url = "https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz"
-          resp = requests.get(
+          resp2 = requests.get(
             upstox_url,
             headers={"User-Agent": "Mozilla/5.0"},
             timeout=30
           )
-          print(f"Upstox instruments status: {resp.status_code}")
+          print(f"Status: {resp2.status_code}")
+          print(f"Content-Length: {len(resp2.content)} bytes")
 
-          fno_map = {}  # symbol -> lot_size
+          fno_map = {}
+          nfo_row_count = 0
 
-          with gzip.open(BytesIO(resp.content), "rt", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            headers = reader.fieldnames
-            print(f"Instrument columns: {headers}")
+          with gzip.open(BytesIO(resp2.content), "rt", encoding="utf-8") as f:
+            reader2 = csv.DictReader(f)
+            print(f"ALL columns: {reader2.fieldnames}")
+            print()
 
-            for row in reader:
+            for row in reader2:
               exchange = (row.get("exchange") or "").strip().upper()
               itype    = (row.get("instrument_type") or "").strip().upper()
 
-              # Only NFO futures (one entry per underlying per expiry)
-              if exchange != "NFO" or itype != "FUT":
-                continue
+              if exchange == "NFO" and itype == "FUT":
+                nfo_row_count += 1
+                if nfo_row_count <= 5:
+                  print(f"NFO FUT row sample: {dict(row)}")
 
-              tradingsymbol = (row.get("tradingsymbol") or "").strip().upper()
-              lot_raw       = row.get("lot_size") or "0"
+                underlying = (
+                  row.get("underlying_symbol") or
+                  row.get("parent_symbol") or
+                  row.get("name") or
+                  ""
+                ).strip().upper()
 
-              # Extract underlying symbol:
-              # Upstox NFO tradingsymbol format: RELIANCE24JANFUT or RELIANCE24JAN25FUT
-              # Try 'underlying_symbol' field first, then parse tradingsymbol
-              underlying = (
-                row.get("underlying_symbol") or
-                row.get("parent_symbol") or
-                ""
-              ).strip().upper()
+                tradingsymbol = (row.get("tradingsymbol") or "").strip().upper()
+                lot_raw = row.get("lot_size") or "0"
 
-              if not underlying:
-                # Parse: strip trailing DDMMMYYFUT or MMMYYFUT
-                m = re.match(r'^([A-Z0-9&\-]+?)(\d{2}[A-Z]{3}\d{2}FUT|\d{2}[A-Z]{3}FUT)$', tradingsymbol)
-                if m:
-                  underlying = m.group(1)
-                else:
-                  # Last resort: strip last 9-11 chars
-                  underlying = re.sub(r'\d{2}[A-Z]{3}(\d{2})?FUT$', '', tradingsymbol)
+                if not underlying:
+                  m = re.match(r'^([A-Z0-9&\-]+?)(\d{2}[A-Z]{3}\d{2,4}FUT)$', tradingsymbol)
+                  if m:
+                    underlying = m.group(1)
 
-              if not underlying:
-                continue
+                if not underlying:
+                  continue
 
-              try:
-                lot = int(float(lot_raw))
-              except:
-                lot = None
+                try:
+                  lot = int(float(lot_raw))
+                except:
+                  lot = None
 
-              # Keep first (nearest expiry) lot size found
-              if underlying not in fno_map:
-                fno_map[underlying] = lot
+                if underlying not in fno_map:
+                  fno_map[underlying] = lot
 
+          print(f"Total NFO FUT rows: {nfo_row_count}")
           print(f"F&O symbols found: {len(fno_map)}")
           print(f"Sample F&O: {list(fno_map.items())[:10]}")
 
           # -----------------------------------------------
-          # Step 3: Merge NIFTY 500 + F&O
+          # Step 3: Merge
           # -----------------------------------------------
           result = []
           for stock in nifty500:
@@ -133,11 +175,8 @@ jobs:
             })
 
           fno_count = sum(1 for r in result if r["hasOption"])
-          print(f"Stocks with hasOption=True: {fno_count} / {len(result)}")
+          print(f"Final: {len(result)} stocks, {fno_count} with F&O")
 
-          # -----------------------------------------------
-          # Step 4: Save
-          # -----------------------------------------------
           os.makedirs("stocks", exist_ok=True)
           with open("stocks/stocks.json", "w") as f:
             json.dump({
