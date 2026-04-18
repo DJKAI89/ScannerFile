@@ -1,4 +1,4 @@
-name: Fetch NIFTY 500 Stock Master (Weekly)
+name: Fetch NIFTY 500 Stock Master (Weekly + F&O)
 
 on:
   schedule:
@@ -21,7 +21,7 @@ jobs:
 
       - run: pip install requests
 
-      - name: Fetch NIFTY 500 stocks
+      - name: Fetch Stocks + F&O Data
         run: |
           python3 << 'PYEOF'
           import requests, json, time, os
@@ -35,11 +35,34 @@ jobs:
 
           session = requests.Session()
 
-          print("Step 1: Get NSE cookies...")
+          # -------------------------------
+          # Step 1: NSE cookies
+          # -------------------------------
+          print("Getting NSE cookies...")
           session.get("https://www.nseindia.com", headers=HEADERS)
           time.sleep(2)
 
-          print("Step 2: Fetch NIFTY 500 data...")
+          # -------------------------------
+          # Step 2: Fetch F&O stock list
+          # -------------------------------
+          print("Fetching F&O stock list...")
+          fno_url = "https://archives.nseindia.com/content/fo/fo_mktlots.csv"
+          fno_text = session.get(fno_url).text.splitlines()
+
+          fno_set = set()
+          for row in fno_text[1:]:
+              parts = row.split(',')
+              if len(parts) > 1:
+                  sym = parts[1].strip()
+                  if sym:
+                      fno_set.add(sym)
+
+          print(f"Total F&O stocks: {len(fno_set)}")
+
+          # -------------------------------
+          # Step 3: Fetch NIFTY 500 stocks
+          # -------------------------------
+          print("Fetching NIFTY 500 data...")
           url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
           resp = session.get(url, headers=HEADERS, timeout=15)
           resp.raise_for_status()
@@ -48,36 +71,44 @@ jobs:
           stocks = data.get("data", [])
           result = []
 
+          # -------------------------------
+          # Step 4: Process stocks
+          # -------------------------------
           for s in stocks:
               symbol = s.get("symbol")
               meta = s.get("meta", {})
               isin = meta.get("isin")
               name = meta.get("companyName")
 
-              # ✅ FIX: skip invalid + index rows
+              # Skip invalid rows (like NIFTY 500)
               if (
                   not symbol
                   or not isin
                   or not name
                   or "NIFTY" in symbol.upper()
               ):
-                  print(f"Skipping invalid: {symbol}")
                   continue
 
               result.append({
-                  "symbol": symbol,
-                  "name": name,
+                  "s": symbol,
+                  "n": name,
                   "isin": isin,
-                  "key": f"NSE_EQ|{isin}"
+                  "key": f"NSE_EQ|{isin}",
+                  "hasOption": symbol in fno_set   # 🔥 NEW FIELD
               })
 
           print(f"Total valid stocks: {len(result)}")
 
+          # -------------------------------
+          # Step 5: Save JSON
+          # -------------------------------
           os.makedirs("stocks", exist_ok=True)
+
           with open("stocks/stocks.json", "w") as f:
               json.dump({
                   "updated_at": datetime.utcnow().isoformat(),
                   "count": len(result),
+                  "fno_count": len(fno_set),
                   "data": result
               }, f, indent=2)
 
@@ -89,5 +120,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Auto-update: Clean NIFTY 500 stock master"
+          git diff --staged --quiet || git commit -m "Auto-update: Stock master with F&O flag"
           git push
