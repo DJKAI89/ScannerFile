@@ -1,8 +1,8 @@
-name: Fetch NIFTY 500 Stock Master (Weekly + F&O Bulletproof)
+name: Fetch NIFTY 500 Stock Master (Weekly)
 
 on:
   schedule:
-    - cron: '0 15 * * 0'
+    - cron: '0 15 * * 0'   # Sunday 8:30 PM IST
   workflow_dispatch:
 
 permissions:
@@ -21,179 +21,62 @@ jobs:
 
       - run: pip install requests
 
-      - name: Fetch Stocks + F&O
+      - name: Fetch NIFTY 500 stocks
         run: |
-          cat << 'PYEOF' > fetch_stocks.py
-          import requests, json, time, os, csv, gzip, re
+          python3 << 'PYEOF'
+          import requests, json, time, os
           from datetime import datetime
-          from io import StringIO, BytesIO
 
-          # -----------------------------------------------
-          # Step 1: NIFTY 500 from niftyindices.com
-          # -----------------------------------------------
-          print("=== NIFTY 500 FETCH ===")
-          nifty500_url = "https://niftyindices.com/IndexConstituents/ind_nifty500list.csv"
-          resp = requests.get(
-            nifty500_url,
-            headers={"User-Agent": "Mozilla/5.0"},
-            timeout=15
-          )
-          print(f"Status: {resp.status_code}")
-          print(f"Content-Type: {resp.headers.get('Content-Type')}")
-          print(f"Raw first 500 chars:\n{resp.text[:500]}")
-          print()
+          HEADERS = {
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'application/json',
+            'Referer': 'https://www.nseindia.com/',
+          }
 
-          nifty500 = []
-          lines = resp.text.splitlines()
-          if lines:
-            print(f"Header line: {lines[0]}")
-            print(f"First data line: {lines[1] if len(lines) > 1 else 'NONE'}")
-          print()
+          session = requests.Session()
 
-          reader = csv.DictReader(StringIO(resp.text))
-          print(f"CSV fieldnames: {reader.fieldnames}")
+          print("Getting NSE cookies...")
+          session.get("https://www.nseindia.com", headers=HEADERS)
+          time.sleep(2)
 
-          for row in reader:
-            print(f"RAW ROW: {dict(row)}")  # print first few rows
-            if len(nifty500) >= 3:
-              break
-            symbol = (row.get("Symbol") or "").strip().upper()
-            isin   = (row.get("ISIN Code") or "").strip()
-            name   = (row.get("Company Name") or "").strip()
-            if symbol and isin and name:
-              nifty500.append({"s": symbol, "n": name, "isin": isin})
+          print("Fetching NIFTY 500 data...")
+          url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
+          data = session.get(url, headers=HEADERS).json()
 
-          print(f"Parsed so far: {nifty500}")
-          print()
+          stocks = data.get("data", [])
+          result = []
 
-          # Re-read fully after debug
-          nifty500 = []
-          reader = csv.DictReader(StringIO(resp.text))
-          for row in reader:
-            # Try multiple possible column name variants
-            symbol = (
-              row.get("Symbol") or
-              row.get("symbol") or
-              row.get("SYMBOL") or
-              row.get("Trading Symbol") or
-              ""
-            ).strip().upper()
-            isin = (
-              row.get("ISIN Code") or
-              row.get("ISIN") or
-              row.get("isin") or
-              row.get("Isin Code") or
-              ""
-            ).strip()
-            name = (
-              row.get("Company Name") or
-              row.get("company name") or
-              row.get("Name") or
-              row.get("CompanyName") or
-              ""
-            ).strip()
-            if symbol and isin and name:
-              nifty500.append({"s": symbol, "n": name, "isin": isin})
+          for s in stocks:
+              symbol = s.get("symbol")
+              meta = s.get("meta", {})
+              isin = meta.get("isin")
 
-          print(f"NIFTY 500 total loaded: {len(nifty500)}")
-
-          # -----------------------------------------------
-          # Step 2: Upstox F&O instruments
-          # -----------------------------------------------
-          print()
-          print("=== UPSTOX F&O FETCH ===")
-          upstox_url = "https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz"
-          resp2 = requests.get(
-            upstox_url,
-            headers={"User-Agent": "Mozilla/5.0"},
-            timeout=30
-          )
-          print(f"Status: {resp2.status_code}")
-          print(f"Content-Length: {len(resp2.content)} bytes")
-
-          fno_map = {}
-          nfo_row_count = 0
-
-          with gzip.open(BytesIO(resp2.content), "rt", encoding="utf-8") as f:
-            reader2 = csv.DictReader(f)
-            print(f"ALL columns: {reader2.fieldnames}")
-            print()
-
-            for row in reader2:
-              exchange = (row.get("exchange") or "").strip().upper()
-              itype    = (row.get("instrument_type") or "").strip().upper()
-
-              if exchange == "NFO" and itype == "FUT":
-                nfo_row_count += 1
-                if nfo_row_count <= 5:
-                  print(f"NFO FUT row sample: {dict(row)}")
-
-                underlying = (
-                  row.get("underlying_symbol") or
-                  row.get("parent_symbol") or
-                  row.get("name") or
-                  ""
-                ).strip().upper()
-
-                tradingsymbol = (row.get("tradingsymbol") or "").strip().upper()
-                lot_raw = row.get("lot_size") or "0"
-
-                if not underlying:
-                  m = re.match(r'^([A-Z0-9&\-]+?)(\d{2}[A-Z]{3}\d{2,4}FUT)$', tradingsymbol)
-                  if m:
-                    underlying = m.group(1)
-
-                if not underlying:
+              if not symbol or not isin:
                   continue
 
-                try:
-                  lot = int(float(lot_raw))
-                except:
-                  lot = None
+              result.append({
+                  "symbol": symbol,
+                  "isin": isin,
+                  "key": f"NSE_EQ|{isin}"   # ✅ your requirement
+              })
 
-                if underlying not in fno_map:
-                  fno_map[underlying] = lot
-
-          print(f"Total NFO FUT rows: {nfo_row_count}")
-          print(f"F&O symbols found: {len(fno_map)}")
-          print(f"Sample F&O: {list(fno_map.items())[:10]}")
-
-          # -----------------------------------------------
-          # Step 3: Merge
-          # -----------------------------------------------
-          result = []
-          for stock in nifty500:
-            sym = stock["s"]
-            has_option = sym in fno_map
-            result.append({
-              "s":         sym,
-              "n":         stock["n"],
-              "isin":      stock["isin"],
-              "key":       f"NSE_EQ|{stock['isin']}",
-              "hasOption": has_option,
-              "lotSize":   fno_map.get(sym)
-            })
-
-          fno_count = sum(1 for r in result if r["hasOption"])
-          print(f"Final: {len(result)} stocks, {fno_count} with F&O")
+          print(f"Total stocks: {len(result)}")
 
           os.makedirs("stocks", exist_ok=True)
           with open("stocks/stocks.json", "w") as f:
-            json.dump({
-              "updated_at": datetime.utcnow().isoformat(),
-              "count":      len(result),
-              "fno_count":  fno_count,
-              "data":       result
-            }, f, indent=2)
+              json.dump({
+                  "updated_at": datetime.utcnow().isoformat(),
+                  "count": len(result),
+                  "data": result
+              }, f, indent=2)
 
-          print("Done")
+          print("Saved stocks/stocks.json")
           PYEOF
-          python3 fetch_stocks.py
 
-      - name: Commit
+      - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Update stock master"
+          git diff --staged --quiet || git commit -m "Update stock master (ISIN-based)"
           git push
