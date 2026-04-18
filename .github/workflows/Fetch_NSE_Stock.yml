@@ -21,158 +21,130 @@ jobs:
 
       - run: pip install requests
 
-      - name: Fetch Stocks + F&O (Bulletproof)
+      - name: Fetch Stocks + F&O
         run: |
           cat << 'PYEOF' > fetch_stocks.py
-          import requests, json, time, os, csv
+          import requests, json, time, os, csv, gzip, re
           from datetime import datetime
-          from io import StringIO
+          from io import StringIO, BytesIO
 
-          HEADERS = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.nseindia.com/',
-          }
-
-          session = requests.Session()
-
-          # Step 1: Warm up cookies properly
-          session.get("https://www.nseindia.com", headers=HEADERS, timeout=10)
-          time.sleep(3)
-          session.get(
-            "https://www.nseindia.com/market-data/futures-and-options-expiry-dates-with-circuit-limits",
-            headers=HEADERS, timeout=10
-          )
-          time.sleep(2)
-
-          fno_map = {}
-
-          # Step 2: Try API (primary)
-          print("Trying F&O API...")
-          try:
-            api_headers = {**HEADERS, 'Accept': 'application/json, text/plain, */*'}
-            resp = session.get(
-              "https://www.nseindia.com/api/derivatives-stock",
-              headers=api_headers,
-              timeout=10
-            )
-            print(f"F&O API status: {resp.status_code}")
-
-            if resp.status_code == 200:
-              data = resp.json()
-              rows = data.get("data", [])
-              print(f"API rows: {len(rows)}")
-              if rows:
-                print("Sample keys:", list(rows[0].keys()))
-
-              for row in rows:
-                sym = (
-                  row.get("underlying") or
-                  row.get("symbol") or
-                  row.get("SYMBOL") or
-                  row.get("UNDERLYING") or ""
-                ).strip().upper()
-                lot = row.get("marketLot") or row.get("lotSize") or row.get("market_lot")
-                if sym and "NIFTY" not in sym and "SENSEX" not in sym:
-                  fno_map[sym] = lot
-
-          except Exception as e:
-            print("API failed:", e)
-
-          # Step 3: CSV fallback
-          if not fno_map:
-            print("Falling back to CSV...")
-            try:
-              csv_resp = session.get(
-                "https://archives.nseindia.com/content/fo/fo_mktlots.csv",
-                headers={**HEADERS, "Host": "archives.nseindia.com"},
-                timeout=15
-              )
-              print(f"CSV status: {csv_resp.status_code}")
-
-              csv_data = StringIO(csv_resp.text)
-              reader = csv.reader(csv_data)
-              headers = None
-
-              for row in reader:
-                if headers is None:
-                  headers = [h.strip() for h in row]
-                  print("CSV headers:", headers[:5])
-                  continue
-
-                if len(row) < 2:
-                  continue
-
-                try:
-                  sym_idx = headers.index("SYMBOL") if "SYMBOL" in headers else 1
-                except:
-                  sym_idx = 1
-
-                sym = row[sym_idx].strip().upper()
-                if not sym or sym == "SYMBOL" or "NIFTY" in sym or "SENSEX" in sym:
-                  continue
-
-                lot = None
-                for i in range(sym_idx + 1, len(row)):
-                  val = row[i].strip()
-                  if val and val.isdigit():
-                    lot = int(val)
-                    break
-
-                fno_map[sym] = lot
-
-            except Exception as e:
-              print("CSV fallback failed:", e)
-
-          print(f"F&O stocks found: {len(fno_map)}")
-          if fno_map:
-            print("Sample F&O symbols:", list(fno_map.keys())[:10])
-
-          # Step 4: Fetch NIFTY 500
-          time.sleep(2)
-          resp = session.get(
-            "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500",
-            headers={**HEADERS, 'Accept': 'application/json, text/plain, */*'},
+          # -----------------------------------------------
+          # Step 1: NIFTY 500 from niftyindices.com
+          # (public, no cookies, no NSE dependency)
+          # -----------------------------------------------
+          print("Fetching NIFTY 500 list from niftyindices.com...")
+          nifty500_url = "https://niftyindices.com/IndexConstituents/ind_nifty500list.csv"
+          resp = requests.get(
+            nifty500_url,
+            headers={"User-Agent": "Mozilla/5.0"},
             timeout=15
           )
+          print(f"NIFTY 500 status: {resp.status_code}")
 
-          data = resp.json()
-          stocks = data.get("data", [])
-          print(f"NIFTY 500 stocks fetched: {len(stocks)}")
+          nifty500 = []
+          reader = csv.DictReader(StringIO(resp.text))
+          for row in reader:
+            symbol = (row.get("Symbol") or "").strip().upper()
+            isin   = (row.get("ISIN Code") or "").strip()
+            name   = (row.get("Company Name") or "").strip()
+            if symbol and isin and name:
+              nifty500.append({"s": symbol, "n": name, "isin": isin})
 
+          print(f"NIFTY 500 stocks loaded: {len(nifty500)}")
+
+          # -----------------------------------------------
+          # Step 2: F&O list from Upstox complete instruments
+          # Public CDN — no auth, no NSE cookies needed
+          # -----------------------------------------------
+          print("Fetching Upstox instruments for F&O map...")
+          upstox_url = "https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz"
+          resp = requests.get(
+            upstox_url,
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=30
+          )
+          print(f"Upstox instruments status: {resp.status_code}")
+
+          fno_map = {}  # symbol -> lot_size
+
+          with gzip.open(BytesIO(resp.content), "rt", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            headers = reader.fieldnames
+            print(f"Instrument columns: {headers}")
+
+            for row in reader:
+              exchange = (row.get("exchange") or "").strip().upper()
+              itype    = (row.get("instrument_type") or "").strip().upper()
+
+              # Only NFO futures (one entry per underlying per expiry)
+              if exchange != "NFO" or itype != "FUT":
+                continue
+
+              tradingsymbol = (row.get("tradingsymbol") or "").strip().upper()
+              lot_raw       = row.get("lot_size") or "0"
+
+              # Extract underlying symbol:
+              # Upstox NFO tradingsymbol format: RELIANCE24JANFUT or RELIANCE24JAN25FUT
+              # Try 'underlying_symbol' field first, then parse tradingsymbol
+              underlying = (
+                row.get("underlying_symbol") or
+                row.get("parent_symbol") or
+                ""
+              ).strip().upper()
+
+              if not underlying:
+                # Parse: strip trailing DDMMMYYFUT or MMMYYFUT
+                m = re.match(r'^([A-Z0-9&\-]+?)(\d{2}[A-Z]{3}\d{2}FUT|\d{2}[A-Z]{3}FUT)$', tradingsymbol)
+                if m:
+                  underlying = m.group(1)
+                else:
+                  # Last resort: strip last 9-11 chars
+                  underlying = re.sub(r'\d{2}[A-Z]{3}(\d{2})?FUT$', '', tradingsymbol)
+
+              if not underlying:
+                continue
+
+              try:
+                lot = int(float(lot_raw))
+              except:
+                lot = None
+
+              # Keep first (nearest expiry) lot size found
+              if underlying not in fno_map:
+                fno_map[underlying] = lot
+
+          print(f"F&O symbols found: {len(fno_map)}")
+          print(f"Sample F&O: {list(fno_map.items())[:10]}")
+
+          # -----------------------------------------------
+          # Step 3: Merge NIFTY 500 + F&O
+          # -----------------------------------------------
           result = []
-
-          for s in stocks:
-            symbol = (s.get("symbol") or "").strip().upper()
-            meta = s.get("meta", {})
-            isin = meta.get("isin")
-            name = meta.get("companyName")
-
-            if not symbol or not isin or not name or "NIFTY" in symbol:
-              continue
-
-            has_option = symbol in fno_map
+          for stock in nifty500:
+            sym = stock["s"]
+            has_option = sym in fno_map
             result.append({
-              "s": symbol,
-              "n": name,
-              "isin": isin,
-              "key": f"NSE_EQ|{isin}",
+              "s":         sym,
+              "n":         stock["n"],
+              "isin":      stock["isin"],
+              "key":       f"NSE_EQ|{stock['isin']}",
               "hasOption": has_option,
-              "lotSize": fno_map.get(symbol)
+              "lotSize":   fno_map.get(sym)
             })
 
-          fno_in_result = sum(1 for r in result if r["hasOption"])
-          print(f"Stocks with hasOption=True: {fno_in_result} / {len(result)}")
+          fno_count = sum(1 for r in result if r["hasOption"])
+          print(f"Stocks with hasOption=True: {fno_count} / {len(result)}")
 
+          # -----------------------------------------------
+          # Step 4: Save
+          # -----------------------------------------------
           os.makedirs("stocks", exist_ok=True)
           with open("stocks/stocks.json", "w") as f:
             json.dump({
               "updated_at": datetime.utcnow().isoformat(),
-              "count": len(result),
-              "fno_count": len(fno_map),
-              "data": result
+              "count":      len(result),
+              "fno_count":  fno_count,
+              "data":       result
             }, f, indent=2)
 
           print("Done")
