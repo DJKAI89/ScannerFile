@@ -1,4 +1,4 @@
-name: Fetch NIFTY 500 Stock Master (Weekly + F&O)
+name: Fetch NIFTY 500 Stock Master (Weekly + F&O Safe)
 
 on:
   schedule:
@@ -13,15 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Fetch Stocks + F&O Data
+      - name: Fetch Stocks + F&O (Safe)
         run: |
           python3 << 'PYEOF'
           import requests, json, time, os
@@ -38,35 +41,67 @@ jobs:
           # -------------------------------
           # Step 1: NSE cookies
           # -------------------------------
-          print("Getting NSE cookies...")
-          session.get("https://www.nseindia.com", headers=HEADERS)
+          print("Step 1: Getting NSE cookies...")
+          try:
+              session.get("https://www.nseindia.com", headers=HEADERS, timeout=10)
+          except Exception as e:
+              print("Cookie fetch failed:", e)
           time.sleep(2)
 
           # -------------------------------
-          # Step 2: Fetch F&O stock list
+          # Step 2: Fetch F&O list (SAFE)
           # -------------------------------
-          print("Fetching F&O stock list...")
+          print("Step 2: Fetching F&O stock list...")
           fno_url = "https://archives.nseindia.com/content/fo/fo_mktlots.csv"
-          fno_text = session.get(fno_url).text.splitlines()
-
           fno_set = set()
-          for row in fno_text[1:]:
-              parts = row.split(',')
-              if len(parts) > 1:
-                  sym = parts[1].strip()
-                  if sym:
-                      fno_set.add(sym)
 
-          print(f"Total F&O stocks: {len(fno_set)}")
+          for attempt in range(3):
+              try:
+                  resp = session.get(
+                      fno_url,
+                      headers={**HEADERS, "Host": "archives.nseindia.com"},
+                      timeout=20
+                  )
+
+                  if resp.status_code == 200:
+                      lines = resp.text.splitlines()
+                      for row in lines[1:]:
+                          parts = row.split(',')
+                          if len(parts) > 1:
+                              sym = parts[1].strip()
+                              if sym and sym != "SYMBOL":
+                                  fno_set.add(sym)
+                      break
+                  else:
+                      print(f"F&O retry {attempt+1} status: {resp.status_code}")
+                      time.sleep(2)
+
+              except Exception as e:
+                  print(f"F&O retry {attempt+1} failed:", e)
+                  time.sleep(2)
+
+          print(f"F&O stocks found: {len(fno_set)}")
 
           # -------------------------------
-          # Step 3: Fetch NIFTY 500 stocks
+          # Step 3: Fetch NIFTY 500
           # -------------------------------
-          print("Fetching NIFTY 500 data...")
+          print("Step 3: Fetching NIFTY 500 data...")
           url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
-          resp = session.get(url, headers=HEADERS, timeout=15)
-          resp.raise_for_status()
-          data = resp.json()
+
+          for attempt in range(3):
+              try:
+                  resp = session.get(url, headers=HEADERS, timeout=15)
+                  if resp.status_code == 200:
+                      data = resp.json()
+                      break
+                  else:
+                      print(f"NIFTY retry {attempt+1} status: {resp.status_code}")
+                      time.sleep(2)
+              except Exception as e:
+                  print(f"NIFTY retry {attempt+1} failed:", e)
+                  time.sleep(2)
+          else:
+              raise Exception("Failed to fetch NIFTY 500 data")
 
           stocks = data.get("data", [])
           result = []
@@ -80,7 +115,7 @@ jobs:
               isin = meta.get("isin")
               name = meta.get("companyName")
 
-              # Skip invalid rows (like NIFTY 500)
+              # Skip invalid/index rows
               if (
                   not symbol
                   or not isin
@@ -94,10 +129,10 @@ jobs:
                   "n": name,
                   "isin": isin,
                   "key": f"NSE_EQ|{isin}",
-                  "hasOption": symbol in fno_set   # 🔥 NEW FIELD
+                  "hasOption": symbol in fno_set
               })
 
-          print(f"Total valid stocks: {len(result)}")
+          print(f"Valid stocks: {len(result)}")
 
           # -------------------------------
           # Step 5: Save JSON
@@ -120,5 +155,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Auto-update: Stock master with F&O flag"
+          git diff --staged --quiet || git commit -m "Auto-update: Stock master (safe + F&O)"
           git push
