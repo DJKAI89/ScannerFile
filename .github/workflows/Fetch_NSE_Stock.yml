@@ -1,4 +1,4 @@
-name: Fetch NIFTY 500 Stock Master (Weekly + F&O Safe)
+name: Fetch NIFTY 500 Stock Master (Weekly + F&O Fixed)
 
 on:
   schedule:
@@ -24,11 +24,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Stocks + F&O (Safe)
+      - name: Fetch Stocks + F&O (Corrected)
         run: |
           python3 << 'PYEOF'
-          import requests, json, time, os
+          import requests, json, time, os, csv
           from datetime import datetime
+          from io import StringIO
 
           HEADERS = {
             'User-Agent': 'Mozilla/5.0',
@@ -49,7 +50,7 @@ jobs:
           time.sleep(2)
 
           # -------------------------------
-          # Step 2: Fetch F&O list (SAFE)
+          # Step 2: Fetch F&O list (FIXED)
           # -------------------------------
           print("Step 2: Fetching F&O stock list...")
           fno_url = "https://archives.nseindia.com/content/fo/fo_mktlots.csv"
@@ -64,13 +65,14 @@ jobs:
                   )
 
                   if resp.status_code == 200:
-                      lines = resp.text.splitlines()
-                      for row in lines[1:]:
-                          parts = row.split(',')
-                          if len(parts) > 1:
-                              sym = parts[1].strip()
-                              if sym and sym != "SYMBOL":
-                                  fno_set.add(sym)
+                      csv_data = StringIO(resp.text)
+                      reader = csv.DictReader(csv_data)
+
+                      for row in reader:
+                          sym = (row.get("SYMBOL") or "").strip().upper()
+                          if sym:
+                              fno_set.add(sym)
+
                       break
                   else:
                       print(f"F&O retry {attempt+1} status: {resp.status_code}")
@@ -110,7 +112,7 @@ jobs:
           # Step 4: Process stocks
           # -------------------------------
           for s in stocks:
-              symbol = s.get("symbol")
+              symbol = (s.get("symbol") or "").strip().upper()
               meta = s.get("meta", {})
               isin = meta.get("isin")
               name = meta.get("companyName")
@@ -120,7 +122,7 @@ jobs:
                   not symbol
                   or not isin
                   or not name
-                  or "NIFTY" in symbol.upper()
+                  or "NIFTY" in symbol
               ):
                   continue
 
@@ -129,7 +131,7 @@ jobs:
                   "n": name,
                   "isin": isin,
                   "key": f"NSE_EQ|{isin}",
-                  "hasOption": symbol in fno_set
+                  "hasOption": symbol in fno_set   # ✅ FIXED
               })
 
           print(f"Valid stocks: {len(result)}")
@@ -155,5 +157,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Auto-update: Stock master (safe + F&O)"
+          git diff --staged --quiet || git commit -m "Auto-update: Stock master (F&O fixed)"
           git push
