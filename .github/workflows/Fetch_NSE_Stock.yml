@@ -1,26 +1,3 @@
-name: Fetch NIFTY 500 Stock Master (Weekly + F&O Bulletproof)
-
-on:
-  schedule:
-    - cron: '0 15 * * 0'
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  fetch-stocks:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - run: pip install requests
-
       - name: Fetch Stocks + F&O (Bulletproof)
         run: |
           python3 << 'PYEOF'
@@ -29,44 +6,59 @@ jobs:
           from io import StringIO
 
           HEADERS = {
-            'User-Agent': 'Mozilla/5.0',
-            'Accept': 'application/json',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Encoding': 'gzip, deflate, br',
             'Referer': 'https://www.nseindia.com/',
           }
 
           session = requests.Session()
 
           # -------------------------------
-          # Step 1: Cookies
+          # Step 1: Warm up cookies properly
           # -------------------------------
-          session.get("https://www.nseindia.com", headers=HEADERS)
+          session.get("https://www.nseindia.com", headers=HEADERS, timeout=10)
+          time.sleep(3)
+          session.get("https://www.nseindia.com/market-data/futures-and-options-expiry-dates-with-circuit-limits", 
+                      headers=HEADERS, timeout=10)
           time.sleep(2)
 
-          # -------------------------------
-          # Step 2: Try API (primary)
-          # -------------------------------
           fno_map = {}
 
+          # -------------------------------
+          # Step 2: Try API (primary) — check both field names
+          # -------------------------------
           print("Trying F&O API...")
           try:
+              api_headers = {**HEADERS, 'Accept': 'application/json, text/plain, */*'}
               resp = session.get(
                   "https://www.nseindia.com/api/derivatives-stock",
-                  headers=HEADERS,
+                  headers=api_headers,
                   timeout=10
               )
+              print(f"F&O API status: {resp.status_code}")
 
               if resp.status_code == 200:
                   data = resp.json()
-                  for row in data.get("data", []):
-                      sym = (row.get("underlying") or "").strip().upper()
-                      lot = row.get("marketLot")
-                      if sym:
+                  rows = data.get("data", [])
+                  print(f"API rows: {len(rows)}")
+                  if rows:
+                      print("Sample keys:", list(rows[0].keys()))  # debug field names
+
+                  for row in rows:
+                      # Try both field name variants
+                      sym = (row.get("underlying") or row.get("symbol") or 
+                             row.get("SYMBOL") or row.get("UNDERLYING") or "").strip().upper()
+                      lot = row.get("marketLot") or row.get("lotSize") or row.get("market_lot")
+                      if sym and "NIFTY" not in sym and "SENSEX" not in sym:
                           fno_map[sym] = lot
+
           except Exception as e:
               print("API failed:", e)
 
           # -------------------------------
-          # Step 3: Fallback CSV (if empty)
+          # Step 3: CSV fallback — fixed header parsing
           # -------------------------------
           if not fno_map:
               print("Falling back to CSV...")
@@ -76,42 +68,68 @@ jobs:
                       headers={**HEADERS, "Host": "archives.nseindia.com"},
                       timeout=15
                   )
+                  print(f"CSV status: {csv_resp.status_code}")
 
+                  lines = csv_resp.text.splitlines()
+                  # fo_mktlots.csv first line is headers, may have leading spaces
+                  # Format: ,SYMBOL ,JAN 2025,FEB 2025,...
                   csv_data = StringIO(csv_resp.text)
-                  reader = csv.DictReader(csv_data)
+                  reader = csv.reader(csv_data)
+                  headers = None
 
                   for row in reader:
-                      sym = (row.get("SYMBOL") or "").strip().upper()
-                      lot = row.get("MARKET LOT") or row.get("MARKETLOT")
-                      if sym:
-                          try:
-                              lot = int(lot)
-                          except:
-                              lot = None
-                          fno_map[sym] = lot
+                      if headers is None:
+                          # Strip spaces from all header names
+                          headers = [h.strip() for h in row]
+                          print("CSV headers:", headers[:5])  # debug
+                          continue
+
+                      if len(row) < 2:
+                          continue
+
+                      # SYMBOL is typically the 2nd column (index 1), first col is row number
+                      try:
+                          sym_idx = headers.index("SYMBOL") if "SYMBOL" in headers else 1
+                      except:
+                          sym_idx = 1
+
+                      sym = row[sym_idx].strip().upper()
+                      if not sym or sym == "SYMBOL" or "NIFTY" in sym or "SENSEX" in sym:
+                          continue
+
+                      # Lot size is the first month column (index after SYMBOL)
+                      lot = None
+                      for i in range(sym_idx + 1, len(row)):
+                          val = row[i].strip()
+                          if val and val.isdigit():
+                              lot = int(val)
+                              break
+
+                      fno_map[sym] = lot
 
               except Exception as e:
                   print("CSV fallback failed:", e)
 
-          print(f"F&O stocks: {len(fno_map)}")
+          print(f"F&O stocks found: {len(fno_map)}")
+          if fno_map:
+              print("Sample F&O symbols:", list(fno_map.keys())[:10])
 
           # -------------------------------
           # Step 4: Fetch NIFTY 500
           # -------------------------------
+          time.sleep(2)
           resp = session.get(
               "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500",
-              headers=HEADERS,
+              headers={**HEADERS, 'Accept': 'application/json, text/plain, */*'},
               timeout=15
           )
 
           data = resp.json()
           stocks = data.get("data", [])
+          print(f"NIFTY 500 stocks fetched: {len(stocks)}")
 
           result = []
 
-          # -------------------------------
-          # Step 5: Process
-          # -------------------------------
           for s in stocks:
               symbol = (s.get("symbol") or "").strip().upper()
               meta = s.get("meta", {})
@@ -121,20 +139,20 @@ jobs:
               if not symbol or not isin or not name or "NIFTY" in symbol:
                   continue
 
+              has_option = symbol in fno_map
               result.append({
                   "s": symbol,
                   "n": name,
                   "isin": isin,
                   "key": f"NSE_EQ|{isin}",
-                  "hasOption": symbol in fno_map,
+                  "hasOption": has_option,
                   "lotSize": fno_map.get(symbol)
               })
 
-          # -------------------------------
-          # Step 6: Save
-          # -------------------------------
-          os.makedirs("stocks", exist_ok=True)
+          fno_in_result = sum(1 for r in result if r["hasOption"])
+          print(f"Stocks with hasOption=True: {fno_in_result} / {len(result)}")
 
+          os.makedirs("stocks", exist_ok=True)
           with open("stocks/stocks.json", "w") as f:
               json.dump({
                   "updated_at": datetime.utcnow().isoformat(),
@@ -145,11 +163,3 @@ jobs:
 
           print("Done")
           PYEOF
-
-      - name: Commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "bot@users.noreply.github.com"
-          git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Update stock master"
-          git push
