@@ -1,4 +1,4 @@
-name: Fetch Stock Master (Weekly Full)
+name: Fetch NIFTY 500 Stock Master (Weekly)
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch-all:
+  fetch-stocks:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,117 +21,64 @@ jobs:
 
       - run: pip install requests
 
-      - name: Fetch Everything
+      - name: Fetch NIFTY 500 stocks
         run: |
           python3 << 'PYEOF'
-          import requests, csv, json, time, os
-          from io import StringIO
+          import requests, json, time, os
           from datetime import datetime
 
           HEADERS = {
-            "User-Agent": "Mozilla/5.0",
-            "Referer": "https://www.nseindia.com/"
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'application/json',
+            'Referer': 'https://www.nseindia.com/',
           }
 
           session = requests.Session()
 
-          # ---------------------------------
-          # Step 1: Get cookies
-          # ---------------------------------
+          print("Getting NSE cookies...")
           session.get("https://www.nseindia.com", headers=HEADERS)
           time.sleep(2)
 
-          # ---------------------------------
-          # Step 2: Fetch F&O (CSV)
-          # ---------------------------------
-          print("Fetching F&O list...")
-          fno_map = {}
+          print("Fetching NIFTY 500 data...")
+          url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
+          data = session.get(url, headers=HEADERS).json()
 
-          try:
-              resp = session.get(
-                  "https://archives.nseindia.com/content/fo/fo_mktlots.csv",
-                  headers={**HEADERS, "Host": "archives.nseindia.com"},
-                  timeout=15
-              )
-
-              csv_data = StringIO(resp.text)
-              reader = csv.DictReader(csv_data)
-
-              for row in reader:
-                  sym = (row.get("SYMBOL") or "").strip().upper()
-                  lot = row.get("MARKET LOT") or row.get("MARKETLOT")
-
-                  if sym:
-                      try:
-                          lot = int(lot)
-                      except:
-                          lot = None
-
-                      fno_map[sym] = lot
-
-          except Exception as e:
-              print("F&O fetch failed:", e)
-
-          print("F&O count:", len(fno_map))
-
-          # ---------------------------------
-          # Step 3: Fetch NIFTY 500
-          # ---------------------------------
-          print("Fetching NIFTY 500...")
-          resp = session.get(
-              "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500",
-              headers=HEADERS,
-              timeout=15
-          )
-
-          data = resp.json()
           stocks = data.get("data", [])
-
           result = []
 
-          # ---------------------------------
-          # Step 4: Merge
-          # ---------------------------------
           for s in stocks:
-              symbol = (s.get("symbol") or "").strip().upper()
+              symbol = s.get("symbol")
               meta = s.get("meta", {})
               isin = meta.get("isin")
               name = meta.get("companyName")
-
-              if not symbol or not isin or not name or "NIFTY" in symbol:
+              
+              if not symbol or not isin:
                   continue
 
               result.append({
-                  "s": symbol,
-                  "n": name,
+                  "symbol": symbol,
                   "isin": isin,
-                  "key": f"NSE_EQ|{isin}",
-                  "hasOption": symbol in fno_map,
-                  "lotSize": fno_map.get(symbol)
+                   "name": name,
+                    "key": f"NSE_EQ|{isin}" 
               })
 
-          print("Final stock count:", len(result))
+          print(f"Total stocks: {len(result)}")
 
-          # ---------------------------------
-          # Step 5: Save
-          # ---------------------------------
           os.makedirs("stocks", exist_ok=True)
-
           with open("stocks/stocks.json", "w") as f:
               json.dump({
                   "updated_at": datetime.utcnow().isoformat(),
                   "count": len(result),
-                  "fno_count": len(fno_map),
                   "data": result
               }, f, indent=2)
 
           print("Saved stocks/stocks.json")
           PYEOF
 
-      - name: Commit
+      - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Update stock master"
+          git diff --staged --quiet || git commit -m "Update stock master (ISIN-based)"
           git push
