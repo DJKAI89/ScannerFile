@@ -1,4 +1,4 @@
-name: Fetch NIFTY 500 Stock Master (Weekly + F&O Fixed)
+name: Fetch NIFTY 500 Stock Master (Weekly + F&O + LotSize)
 
 on:
   schedule:
@@ -13,23 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
+      - run: pip install requests
 
-      - name: Fetch Stocks + F&O (Corrected)
+      - name: Fetch Stocks + F&O (Accurate)
         run: |
           python3 << 'PYEOF'
-          import requests, json, time, os, csv
+          import requests, json, time, os
           from datetime import datetime
-          from io import StringIO
 
           HEADERS = {
             'User-Agent': 'Mozilla/5.0',
@@ -40,54 +36,45 @@ jobs:
           session = requests.Session()
 
           # -------------------------------
-          # Step 1: NSE cookies
+          # Step 1: Get cookies
           # -------------------------------
-          print("Step 1: Getting NSE cookies...")
-          try:
-              session.get("https://www.nseindia.com", headers=HEADERS, timeout=10)
-          except Exception as e:
-              print("Cookie fetch failed:", e)
+          print("Getting NSE cookies...")
+          session.get("https://www.nseindia.com", headers=HEADERS)
           time.sleep(2)
 
           # -------------------------------
-          # Step 2: Fetch F&O list (FIXED)
+          # Step 2: Fetch F&O stocks (BEST SOURCE)
           # -------------------------------
-          print("Step 2: Fetching F&O stock list...")
-          fno_url = "https://archives.nseindia.com/content/fo/fo_mktlots.csv"
-          fno_set = set()
+          print("Fetching F&O data...")
+          fno_url = "https://www.nseindia.com/api/derivatives-stock"
+
+          fno_map = {}
 
           for attempt in range(3):
               try:
-                  resp = session.get(
-                      fno_url,
-                      headers={**HEADERS, "Host": "archives.nseindia.com"},
-                      timeout=20
-                  )
-
+                  resp = session.get(fno_url, headers=HEADERS, timeout=15)
                   if resp.status_code == 200:
-                      csv_data = StringIO(resp.text)
-                      reader = csv.DictReader(csv_data)
+                      data = resp.json()
 
-                      for row in reader:
-                          sym = (row.get("SYMBOL") or "").strip().upper()
+                      for row in data.get("data", []):
+                          sym = (row.get("underlying") or "").strip().upper()
+                          lot = row.get("marketLot")
+
                           if sym:
-                              fno_set.add(sym)
+                              fno_map[sym] = lot
 
                       break
                   else:
-                      print(f"F&O retry {attempt+1} status: {resp.status_code}")
                       time.sleep(2)
-
-              except Exception as e:
-                  print(f"F&O retry {attempt+1} failed:", e)
+              except:
                   time.sleep(2)
 
-          print(f"F&O stocks found: {len(fno_set)}")
+          print(f"F&O stocks found: {len(fno_map)}")
 
           # -------------------------------
           # Step 3: Fetch NIFTY 500
           # -------------------------------
-          print("Step 3: Fetching NIFTY 500 data...")
+          print("Fetching NIFTY 500...")
           url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
 
           for attempt in range(3):
@@ -97,19 +84,17 @@ jobs:
                       data = resp.json()
                       break
                   else:
-                      print(f"NIFTY retry {attempt+1} status: {resp.status_code}")
                       time.sleep(2)
-              except Exception as e:
-                  print(f"NIFTY retry {attempt+1} failed:", e)
+              except:
                   time.sleep(2)
           else:
-              raise Exception("Failed to fetch NIFTY 500 data")
+              raise Exception("Failed to fetch NIFTY 500")
 
           stocks = data.get("data", [])
           result = []
 
           # -------------------------------
-          # Step 4: Process stocks
+          # Step 4: Process
           # -------------------------------
           for s in stocks:
               symbol = (s.get("symbol") or "").strip().upper()
@@ -117,7 +102,6 @@ jobs:
               isin = meta.get("isin")
               name = meta.get("companyName")
 
-              # Skip invalid/index rows
               if (
                   not symbol
                   or not isin
@@ -131,13 +115,14 @@ jobs:
                   "n": name,
                   "isin": isin,
                   "key": f"NSE_EQ|{isin}",
-                  "hasOption": symbol in fno_set   # ✅ FIXED
+                  "hasOption": symbol in fno_map,
+                  "lotSize": fno_map.get(symbol)
               })
 
           print(f"Valid stocks: {len(result)}")
 
           # -------------------------------
-          # Step 5: Save JSON
+          # Step 5: Save
           # -------------------------------
           os.makedirs("stocks", exist_ok=True)
 
@@ -145,17 +130,17 @@ jobs:
               json.dump({
                   "updated_at": datetime.utcnow().isoformat(),
                   "count": len(result),
-                  "fno_count": len(fno_set),
+                  "fno_count": len(fno_map),
                   "data": result
               }, f, indent=2)
 
-          print("Saved stocks/stocks.json successfully")
+          print("Saved stocks/stocks.json")
           PYEOF
 
-      - name: Commit & Push changes
+      - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Auto-update: Stock master (F&O fixed)"
+          git diff --staged --quiet || git commit -m "Update stock master with F&O + lot size"
           git push
