@@ -8484,12 +8484,12 @@
     {
       "id": "2026-04-19-SENSEX-79100-CE",
       "date": "2026-04-19",
-      "time": "09:17:12",
+      "time": "12:12:58",
       "type": "OPTION",
       "stock": "SENSEX",
       "name": "SENSEX 79100 CE",
       "signal": "BUY",
-      "confidence": 77,
+      "confidence": 75,
       "strength": "STRONG",
       "numInds": 8,
       "entry": 482.8,
@@ -8511,17 +8511,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-SENSEX-79200-CE",
       "date": "2026-04-19",
-      "time": "09:17:12",
+      "time": "12:12:58",
       "type": "OPTION",
       "stock": "SENSEX",
       "name": "SENSEX 79200 CE",
       "signal": "BUY",
-      "confidence": 77,
+      "confidence": 75,
       "strength": "STRONG",
       "numInds": 8,
       "entry": 440.05,
@@ -8543,7 +8546,10 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-SENSEX-79300-CE",
@@ -8841,7 +8847,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-19T06:42:52.185Z",
+  "lastUpdated": "2026-04-19T06:42:59.081Z",
   "upstoxId": "132199",
   "stats": {
     "total": 264,
