@@ -8079,7 +8079,7 @@
     {
       "id": "2026-04-19-GROWW-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "GROWW",
       "name": "Billionbrains Garage Ventures Limited",
@@ -8107,17 +8107,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-RVNL-STOCK",
       "date": "2026-04-19",
-      "time": "12:12:52",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "RVNL",
-      "name": "Rail Vikas Nigam",
+      "name": "Rail Vikas Nigam Limited",
       "signal": "WATCH",
-      "confidence": 74.3,
+      "confidence": 75.3,
       "strength": "STRONG",
       "numInds": 5,
       "entry": 303.06,
@@ -8148,12 +8151,12 @@
     {
       "id": "2026-04-19-WIPRO-STOCK",
       "date": "2026-04-19",
-      "time": "12:12:52",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "WIPRO",
-      "name": "Wipro",
+      "name": "Wipro Limited",
       "signal": "WATCH",
-      "confidence": 72.3,
+      "confidence": 74.3,
       "strength": "STRONG",
       "numInds": 5,
       "entry": 204.32,
@@ -8184,7 +8187,7 @@
     {
       "id": "2026-04-19-OLAELEC-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "OLAELEC",
       "name": "Ola Electric Mobility Limited",
@@ -8212,12 +8215,15 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-INOXWIND-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "INOXWIND",
       "name": "Inox Wind Limited",
@@ -8245,12 +8251,15 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-IRCON-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "IRCON",
       "name": "Ircon International Limited",
@@ -8278,12 +8287,15 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-IDEA-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "IDEA",
       "name": "Vodafone Idea Limited",
@@ -8311,17 +8323,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-SUZLON-STOCK",
       "date": "2026-04-19",
-      "time": "12:12:52",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "SUZLON",
-      "name": "Suzlon Energy",
+      "name": "Suzlon Energy Limited",
       "signal": "MODERATE",
-      "confidence": 63.8,
+      "confidence": 64.8,
       "strength": "MODERATE",
       "numInds": 3,
       "entry": 52.93,
@@ -8352,7 +8367,7 @@
     {
       "id": "2026-04-19-SCI-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "SCI",
       "name": "Shipping Corporation Of India Limited",
@@ -8380,12 +8395,15 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-MMTC-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "MMTC",
       "name": "MMTC Limited",
@@ -8413,12 +8431,15 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-JIOFIN-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "JIOFIN",
       "name": "Jio Financial Services Limited",
@@ -8446,12 +8467,15 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-RPOWER-STOCK",
       "date": "2026-04-19",
-      "time": "09:17:06",
+      "time": "12:13:10",
       "type": "STOCK",
       "stock": "RPOWER",
       "name": "Reliance Power Limited",
@@ -8479,7 +8503,10 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-19-SENSEX-79100-CE",
@@ -8847,7 +8874,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-19T06:42:59.081Z",
+  "lastUpdated": "2026-04-19T06:43:12.704Z",
   "upstoxId": "132199",
   "stats": {
     "total": 264,
