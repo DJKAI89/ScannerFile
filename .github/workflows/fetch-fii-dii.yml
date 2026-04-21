@@ -2,10 +2,9 @@ name: Fetch NSE FII/DII Data Daily
 
 on:
   schedule:
-    - cron: '30 14 * * 1-5'
+    - cron: '30 14 * * 1-5'   # 8:00 PM IST (Mon–Fri)
   workflow_dispatch:
 
-# FIX 1: Grant write permission so github-actions[bot] can commit & push
 permissions:
   contents: write
 
@@ -32,94 +31,141 @@ jobs:
           from datetime import datetime
 
           HEADERS = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0',
             'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'en-US,en;q=0.9',
             'Referer': 'https://www.nseindia.com/',
           }
 
           session = requests.Session()
-          print("Step 1: Getting NSE session cookies...")
-          r = session.get('https://www.nseindia.com', headers=HEADERS, timeout=15)
-          print(f"Homepage status: {r.status_code}")
+
+          print("Step 1: Initialize NSE session...")
+          session.get('https://www.nseindia.com', headers=HEADERS, timeout=15)
           time.sleep(3)
 
-          print("\nStep 2: Fetching cash market FII/DII data...")
-          resp = session.get('https://www.nseindia.com/api/fiidiiTradeReact', headers=HEADERS, timeout=15)
-          print(f"Cash market status: {resp.status_code}")
-          resp.raise_for_status()
-          raw = resp.json()
+          print("\nStep 2: Fetching CASH market data...")
+          cash_resp = session.get('https://www.nseindia.com/api/fiidiiTradeReact', headers=HEADERS, timeout=15)
+          cash_resp.raise_for_status()
+          raw = cash_resp.json()
 
           result = {
-            'date': '', 'fii_buy': 0.0, 'fii_sell': 0.0, 'fii_net': 0.0,
-            'dii_buy': 0.0, 'dii_sell': 0.0, 'dii_net': 0.0,
-            'fetched_at': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+            "date": "",
+            "cash": {
+              "FII": {"buy": 0, "sell": 0, "net": 0},
+              "DII": {"buy": 0, "sell": 0, "net": 0}
+            },
+            "fetched_at": datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
           }
+
           for row in raw:
             cat = (row.get('category') or '').upper()
-            if 'FII' in cat or 'FPI' in cat:
-              result['fii_buy'] = float(row.get('buyValue') or 0)
-              result['fii_sell'] = float(row.get('sellValue') or 0)
-              result['fii_net'] = float(row.get('netValue') or 0)
-              result['date'] = row.get('date') or ''
-            elif 'DII' in cat:
-              result['dii_buy'] = float(row.get('buyValue') or 0)
-              result['dii_sell'] = float(row.get('sellValue') or 0)
-              result['dii_net'] = float(row.get('netValue') or 0)
 
-          print(f"Cash: Date={result['date']} FII={result['fii_net']} DII={result['dii_net']}")
+            if 'FII' in cat or 'FPI' in cat:
+              result["cash"]["FII"] = {
+                "buy": float(row.get('buyValue') or 0),
+                "sell": float(row.get('sellValue') or 0),
+                "net": float(row.get('netValue') or 0)
+              }
+              result["date"] = row.get('date') or ""
+
+            elif 'DII' in cat:
+              result["cash"]["DII"] = {
+                "buy": float(row.get('buyValue') or 0),
+                "sell": float(row.get('sellValue') or 0),
+                "net": float(row.get('netValue') or 0)
+              }
+
+          print(f"CASH: {result['date']} | FII={result['cash']['FII']['net']} | DII={result['cash']['DII']['net']}")
 
           print("\nStep 3: Fetching F&O data...")
           time.sleep(2)
+
           fno_resp = session.get('https://www.nseindia.com/api/fiiDerivativeTradeReact', headers=HEADERS, timeout=15)
-          print(f"F&O status: {fno_resp.status_code}")
+
+          def parse_participant(row):
+              def gv(*keys):
+                  for k in keys:
+                      v = row.get(k)
+                      if v not in (None,'',0,'0','-','--'):
+                          try:
+                              return float(str(v).replace(',','').replace(' ',''))
+                          except:
+                              pass
+                  return 0.0
+
+              data = {
+                  "index_futures": {
+                      "long": gv('futureIndexLong','indexFutLong'),
+                      "short": gv('futureIndexShort','indexFutShort')
+                  },
+                  "stock_futures": {
+                      "long": gv('futureStockLong','stockFutLong'),
+                      "short": gv('futureStockShort','stockFutShort')
+                  },
+                  "index_options": {
+                      "call_long": gv('optionIndexCallLong','idxCallLong'),
+                      "call_short": gv('optionIndexCallShort','idxCallShort'),
+                      "put_long": gv('optionIndexPutLong','idxPutLong'),
+                      "put_short": gv('optionIndexPutShort','idxPutShort')
+                  }
+              }
+
+              data["net"] = {
+                  "index_futures": data["index_futures"]["long"] - data["index_futures"]["short"],
+                  "stock_futures": data["stock_futures"]["long"] - data["stock_futures"]["short"],
+                  "index_call": data["index_options"]["call_long"] - data["index_options"]["call_short"],
+                  "index_put": data["index_options"]["put_long"] - data["index_options"]["put_short"]
+              }
+
+              return data
+
+          participants = {
+            "FII": {},
+            "DII": {},
+            "PRO": {},
+            "CLIENT": {}
+          }
 
           if fno_resp.status_code == 200:
-            fno_json = fno_resp.json()
-            if isinstance(fno_json, dict):
-              data = fno_json.get('data', fno_json.get('FIIData', list(fno_json.values())[0] if fno_json else []))
-            elif isinstance(fno_json, list):
-              data = fno_json
-            else:
-              data = []
+              fno_json = fno_resp.json()
 
-            fii_row = None
-            for row in data:
-              if not isinstance(row, dict): continue
-              cat = ''
-              for key in ['clientType','category','participant','clienttype']:
-                if row.get(key):
-                  cat = str(row[key]).upper()
-                  break
-              if any(k in cat for k in ['FII','FPI','FOREIGN']):
-                fii_row = row
-                break
+              if isinstance(fno_json, dict):
+                  rows = fno_json.get('data', [])
+              elif isinstance(fno_json, list):
+                  rows = fno_json
+              else:
+                  rows = []
 
-            def gv(row, *keys):
-              if not row: return 0.0
-              for k in keys:
-                v = row.get(k)
-                if v not in (None,'',0,'0','-','--'):
-                  try: return float(str(v).replace(',','').replace(' ',''))
-                  except: pass
-              return 0.0
+              for row in rows:
+                  if not isinstance(row, dict):
+                      continue
 
-            if fii_row:
-              result['fii_idx_fut_long']   = gv(fii_row,'futureIndexLong','indexFutLong','futIdxLong')
-              result['fii_idx_fut_short']  = gv(fii_row,'futureIndexShort','indexFutShort','futIdxShort')
-              result['fii_stk_fut_long']   = gv(fii_row,'futureStockLong','stockFutLong')
-              result['fii_stk_fut_short']  = gv(fii_row,'futureStockShort','stockFutShort')
-              result['fii_idx_call_long']  = gv(fii_row,'optionIndexCallLong','idxCallLong','callLong')
-              result['fii_idx_call_short'] = gv(fii_row,'optionIndexCallShort','idxCallShort','callShort')
-              result['fii_idx_put_long']   = gv(fii_row,'optionIndexPutLong','idxPutLong','putLong')
-              result['fii_idx_put_short']  = gv(fii_row,'optionIndexPutShort','idxPutShort','putShort')
-              print(f"FII Fut L={result['fii_idx_fut_long']} S={result['fii_idx_fut_short']}")
+                  cat = ''
+                  for key in ['clientType','category','participant','clienttype']:
+                      if row.get(key):
+                          cat = str(row[key]).upper()
+                          break
 
-          # FIX 2: Save to fii-dii/latest.json (matches what FRIDAY reads)
+                  if 'FII' in cat or 'FPI' in cat:
+                      participants["FII"] = parse_participant(row)
+                  elif 'DII' in cat:
+                      participants["DII"] = parse_participant(row)
+                  elif 'PRO' in cat:
+                      participants["PRO"] = parse_participant(row)
+                  elif 'CLIENT' in cat:
+                      participants["CLIENT"] = parse_participant(row)
+
+          result["fno"] = participants
+
+          print("\nF&O Summary:")
+          for k, v in participants.items():
+              if v:
+                  print(f"{k}: Index Fut Net = {v['net']['index_futures']}")
+
           os.makedirs('fii-dii', exist_ok=True)
           with open('fii-dii/latest.json', 'w') as f:
-            json.dump(result, f, indent=2)
-          print(f"\nSaved to fii-dii/latest.json — Date={result['date']} FII={result['fii_net']} DII={result['dii_net']}")
+              json.dump(result, f, indent=2)
+
+          print("\nSaved to fii-dii/latest.json")
           PYEOF
 
       - name: Commit and push if data changed
