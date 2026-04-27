@@ -33147,10 +33147,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 216.6,
+      "livePnlPct": 20.63,
+      "targetProgress": 29,
+      "slDistance": 60.6
     }
   ],
-  "lastUpdated": "2026-04-27T04:10:43.249Z",
+  "lastUpdated": "2026-04-27T04:22:09.228Z",
   "upstoxId": "132199",
   "stats": {
     "total": 933,
