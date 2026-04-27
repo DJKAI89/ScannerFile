@@ -27,11 +27,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-PNBHOUSING-STOCK",
@@ -60,11 +63,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-MAHABANK-STOCK",
@@ -93,11 +99,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-LEMONTREE-STOCK",
@@ -126,11 +135,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-MEESHO-STOCK",
@@ -159,11 +171,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-VEDL-STOCK",
@@ -192,11 +207,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-SAMMAANCAP-STOCK",
@@ -225,11 +243,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-ETERNAL-STOCK",
@@ -258,11 +279,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-OLAELEC-STOCK",
@@ -291,11 +315,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-ZEEL-STOCK",
@@ -324,11 +351,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-SAIL-STOCK",
@@ -357,11 +387,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-YESBANK-STOCK",
@@ -390,11 +423,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1235-NIFTY-24450-CE",
@@ -2079,11 +2115,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1256-MEESHO-STOCK",
@@ -2112,11 +2151,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1256-JIOFIN-STOCK",
@@ -2145,11 +2187,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1256-SAIL-STOCK",
@@ -2178,11 +2223,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1256-NIFTY-24450-CE",
@@ -3435,11 +3483,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1338-PNBHOUSING-STOCK",
@@ -3468,11 +3519,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1338-YESBANK-STOCK",
@@ -3501,11 +3555,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1338-NMDC-STOCK",
@@ -3534,11 +3591,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1338-NIFTY-24500-CE",
@@ -5619,11 +5679,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1339-NIFTY-24450-CE",
@@ -6732,11 +6795,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1422-PNBHOUSING-STOCK",
@@ -6765,11 +6831,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1422-LEMONTREE-STOCK",
@@ -6798,11 +6867,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1422-MEESHO-STOCK",
@@ -6831,11 +6903,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1422-RPOWER-STOCK",
@@ -6864,11 +6939,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1422-YESBANK-STOCK",
@@ -6897,11 +6975,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1422-NIFTY-24450-CE",
@@ -9810,11 +9891,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1443-LEMONTREE-STOCK",
@@ -9843,11 +9927,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1443-MAHABANK-STOCK",
@@ -9876,11 +9963,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1443-VEDL-STOCK",
@@ -9909,11 +9999,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1443-YESBANK-STOCK",
@@ -9942,11 +10035,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1443-NIFTY-24450-CE",
@@ -11775,11 +11871,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1634-MAHABANK-STOCK",
@@ -11808,11 +11907,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1634-RPOWER-STOCK",
@@ -11841,11 +11943,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1634-ICICIBANK-STOCK",
@@ -11874,11 +11979,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1634-MOTHERSON-STOCK",
@@ -11907,11 +12015,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1634-YESBANK-STOCK",
@@ -11940,11 +12051,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-21-1634-BANKNIFTY-60300-CE",
@@ -15105,11 +15219,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-HCLTECH-STOCK",
@@ -15138,11 +15255,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-PINELABS-STOCK",
@@ -15171,11 +15291,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-OLAELEC-STOCK",
@@ -15204,11 +15327,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-YESBANK-STOCK",
@@ -15237,11 +15363,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-JPPOWER-STOCK",
@@ -15270,11 +15399,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-URBANCO-STOCK",
@@ -15303,11 +15435,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-MMTC-STOCK",
@@ -15336,11 +15471,14 @@
       "triggerMethod": "Break above Pivot R1",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-SAIL-STOCK",
@@ -15369,11 +15507,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-0939-NIFTY-24150-PE",
@@ -15978,11 +16119,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1120-ITI-STOCK",
@@ -16011,11 +16155,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1120-OLAELEC-STOCK",
@@ -16044,11 +16191,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1120-GROWW-STOCK",
@@ -16077,11 +16227,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1120-MAHABANK-STOCK",
@@ -16110,11 +16263,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1120-NIFTY-24150-PE",
@@ -16863,11 +17019,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1147-URBANCO-STOCK",
@@ -16896,11 +17055,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1147-ITI-STOCK",
@@ -16929,11 +17091,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1147-INOXWIND-STOCK",
@@ -16962,11 +17127,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1147-NIFTY-24100-PE",
@@ -18687,11 +18855,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-HCLTECH-STOCK",
@@ -18720,11 +18891,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-IREDA-STOCK",
@@ -18753,11 +18927,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-ITI-STOCK",
@@ -18786,11 +18963,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-MOTHERSON-STOCK",
@@ -18819,11 +18999,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-ADANIPOWER-STOCK",
@@ -18852,11 +19035,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-OLAELEC-STOCK",
@@ -18885,11 +19071,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-JPPOWER-STOCK",
@@ -18918,11 +19107,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-RPOWER-STOCK",
@@ -18951,11 +19143,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1414-NIFTY-24150-PE",
@@ -19776,11 +19971,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1521-URBANCO-STOCK",
@@ -19809,11 +20007,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1521-JPPOWER-STOCK",
@@ -19842,11 +20043,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1521-ADANIPOWER-STOCK",
@@ -19875,11 +20079,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1521-RPOWER-STOCK",
@@ -19908,11 +20115,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1521-SUZLON-STOCK",
@@ -19941,11 +20151,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1521-OLAELEC-STOCK",
@@ -19974,11 +20187,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1545-IREDA-STOCK",
@@ -20007,11 +20223,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1545-INOXWIND-STOCK",
@@ -20040,11 +20259,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1545-RPOWER-STOCK",
@@ -20073,11 +20295,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1545-JPPOWER-STOCK",
@@ -20106,11 +20331,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1545-MAHABANK-STOCK",
@@ -20139,11 +20367,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-22-1545-NIFTY-23950-PE",
@@ -20784,11 +21015,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0922-SUZLON-STOCK",
@@ -20817,11 +21051,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0922-IRFC-STOCK",
@@ -20850,11 +21087,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0922-IFCI-STOCK",
@@ -20883,11 +21123,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0922-RPOWER-STOCK",
@@ -20916,11 +21159,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0922-JPPOWER-STOCK",
@@ -20949,11 +21195,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0922-NIFTY-23950-PE",
@@ -21342,11 +21591,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0925-IFCI-STOCK",
@@ -21375,11 +21627,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0925-NIFTY-23950-PE",
@@ -21768,11 +22023,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0927-JPPOWER-STOCK",
@@ -21801,11 +22059,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0929-ARE&M-STOCK",
@@ -21834,11 +22095,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0929-RPOWER-STOCK",
@@ -21867,11 +22131,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0929-IRFC-STOCK",
@@ -21900,11 +22167,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0929-NIFTY-23950-PE",
@@ -22725,11 +22995,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0941-IRFC-STOCK",
@@ -22758,11 +23031,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0941-RPOWER-STOCK",
@@ -22791,11 +23067,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0941-NIFTY-23950-PE",
@@ -23220,11 +23499,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0956-JPPOWER-STOCK",
@@ -23253,11 +23535,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0956-YESBANK-STOCK",
@@ -23286,11 +23571,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-0956-ZEEL-STOCK",
@@ -23319,11 +23607,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1014-NIFTY-24050-PE",
@@ -24000,11 +24291,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1014-JPPOWER-STOCK",
@@ -24033,11 +24327,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1014-SENSEX-78100-PE",
@@ -24354,11 +24651,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1037-ZEEL-STOCK",
@@ -24387,11 +24687,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1037-RPOWER-STOCK",
@@ -24420,11 +24723,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1037-NIFTY-23950-PE",
@@ -25713,11 +26019,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1048-PPLPHARMA-STOCK",
@@ -25746,11 +26055,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1048-ZEEL-STOCK",
@@ -25779,11 +26091,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1048-NIFTY-23650-PE",
@@ -26892,11 +27207,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1119-ZEEL-STOCK",
@@ -26925,11 +27243,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1119-PPLPHARMA-STOCK",
@@ -26958,11 +27279,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1119-RPOWER-STOCK",
@@ -26991,11 +27315,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1119-NIFTY-23800-PE",
@@ -27492,11 +27819,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1151-NIFTY-23950-PE",
@@ -28029,11 +28359,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1255-UNIONBANK-STOCK",
@@ -28062,11 +28395,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1255-JPPOWER-STOCK",
@@ -28095,11 +28431,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1255-NIFTY-24050-PE",
@@ -28812,11 +29151,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1348-UNIONBANK-STOCK",
@@ -28845,11 +29187,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1348-PPLPHARMA-STOCK",
@@ -28878,11 +29223,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1348-JIOFIN-STOCK",
@@ -28911,11 +29259,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1348-VMM-STOCK",
@@ -28944,11 +29295,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1348-SUZLON-STOCK",
@@ -28977,11 +29331,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1348-NIFTY-24050-PE",
@@ -30318,11 +30675,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1547-RPOWER-STOCK",
@@ -30351,11 +30711,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1547-JPPOWER-STOCK",
@@ -30384,11 +30747,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1547-TTML-STOCK",
@@ -30417,11 +30783,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1547-PPLPHARMA-STOCK",
@@ -30450,11 +30819,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-23-1547-NIFTY-23950-PE",
@@ -30951,11 +31323,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-MRPL-STOCK",
@@ -30984,11 +31359,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-RPOWER-STOCK",
@@ -31017,11 +31395,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-YESBANK-STOCK",
@@ -31050,11 +31431,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-IRFC-STOCK",
@@ -31083,11 +31467,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-ETERNAL-STOCK",
@@ -31116,11 +31503,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-TATACAP-STOCK",
@@ -31149,11 +31539,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-SUZLON-STOCK",
@@ -31182,11 +31575,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-OLAELEC-STOCK",
@@ -31215,11 +31611,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-MAHABANK-STOCK",
@@ -31248,11 +31647,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-JPPOWER-STOCK",
@@ -31281,11 +31683,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-GROWW-STOCK",
@@ -31314,11 +31719,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "14:48:34",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-24-0919-NIFTY-24250-CE",
@@ -33148,10 +33556,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 164.95,
-      "livePnlPct": -8.13,
-      "targetProgress": -12,
-      "slDistance": 31.9
+      "livePrice": 180.4,
+      "livePnlPct": 0.47,
+      "targetProgress": 1,
+      "slDistance": 40.5
     },
     {
       "id": "2026-04-27-0952-PAYTM-STOCK",
@@ -33319,13 +33727,13 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-27T09:18:21.025Z",
+  "lastUpdated": "2026-04-27T09:18:34.498Z",
   "upstoxId": "132199",
   "stats": {
     "total": 938,
     "hits": 163,
     "sls": 163,
-    "open": 145,
+    "open": 9,
     "winRate": 50,
     "avgConf": 82
   }
