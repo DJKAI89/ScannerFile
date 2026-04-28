@@ -1,4 +1,4 @@
-name: Build Sector Master (Weekly)
+name: Build Sector Master (Weekly Optimized)
 
 on:
   schedule:
@@ -13,18 +13,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - run: pip install requests
+      - name: Install deps
+        run: pip install requests
 
-      - name: Build sector map (optimized incremental)
+      - name: Build sector map (fast + safe)
         run: |
           python3 << 'PYEOF'
           import requests, json, time, os
+          from concurrent.futures import ThreadPoolExecutor, as_completed
 
           HEADERS = {
             'User-Agent': 'Mozilla/5.0',
@@ -38,7 +42,7 @@ jobs:
           session.get("https://www.nseindia.com", headers=HEADERS)
           time.sleep(2)
 
-          # Load existing map (incremental update)
+          # Load existing sector map (incremental)
           sector_map = {}
           if os.path.exists("stocks/sector_map.json"):
               with open("stocks/sector_map.json") as f:
@@ -48,50 +52,71 @@ jobs:
           url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
           stocks = session.get(url, headers=HEADERS).json().get("data", [])
 
+          symbols_to_fetch = [
+              s.get("symbol") for s in stocks
+              if s.get("symbol") and not sector_map.get(s.get("symbol"))
+          ]
+
+          print(f"Need to fetch: {len(symbols_to_fetch)}")
+
           def fetch_sector(symbol):
-              for attempt in range(3):  # retry
+              for attempt in range(3):
                   try:
                       url = f"https://www.nseindia.com/api/quote-equity?symbol={symbol}"
                       r = session.get(url, headers=HEADERS, timeout=10)
                       data = r.json()
                       info = data.get("industryInfo", {})
-                      return info.get("sector") or "Unknown"
+                      return symbol, info.get("sector") or "Unknown"
                   except Exception as e:
-                      print(f"Retry {symbol} ({attempt+1})...")
                       time.sleep(1.5)
-              return "Unknown"
+              return symbol, "Unknown"
 
+          MAX_WORKERS = 5
           updated = 0
 
-          for s in stocks:
-              symbol = s.get("symbol")
-              if not symbol:
-                  continue
+          with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+              futures = [executor.submit(fetch_sector, sym) for sym in symbols_to_fetch]
 
-              # Skip if already exists (optimization 🚀)
-              if symbol in sector_map and sector_map[symbol]:
-                  continue
+              for future in as_completed(futures):
+                  symbol, sector = future.result()
+                  sector_map[symbol] = sector
+                  updated += 1
+                  print(f"{symbol} -> {sector}")
+                  time.sleep(0.2)  # throttle
 
-              sector = fetch_sector(symbol)
-              sector_map[symbol] = sector
-              updated += 1
-
-              print(f"{symbol} -> {sector}")
-              time.sleep(0.6)  # prevent blocking
-
+          # Ensure directory exists
           os.makedirs("stocks", exist_ok=True)
 
+          # Always write file (even if empty)
           with open("stocks/sector_map.json", "w") as f:
-              json.dump(sector_map, f, indent=2)
+              json.dump(sector_map or {}, f, indent=2)
 
           print(f"Updated {updated} stocks")
-          print("Saved sector_map.json")
+          print("Saved stocks/sector_map.json")
           PYEOF
 
-      - name: Commit & Push
+      - name: Debug files (optional but useful)
+        run: |
+          echo "Repo structure:"
+          ls -R
+
+      - name: Commit & Push (safe)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Ensure file exists
+          if [ ! -f stocks/sector_map.json ]; then
+            echo "File missing, creating fallback"
+            mkdir -p stocks
+            echo "{}" > stocks/sector_map.json
+          fi
+
           git add stocks/sector_map.json
-          git diff --staged --quiet || git commit -m "Update sector map (incremental)"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update sector map (optimized)"
+            git push
+        
