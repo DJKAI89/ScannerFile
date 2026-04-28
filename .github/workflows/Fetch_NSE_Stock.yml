@@ -1,27 +1,30 @@
-name: Fetch NIFTY 500 Stock Master (Weekly)
+name: Fetch NIFTY 500 Stock Master with sector (Weekly)
 
 on:
   schedule:
-    - cron: '0 15 * * 0'   # Sunday 8:30 PM IST
+    - cron: '30 2 * * 0'   # Sunday 8:00 AM IST
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  fetch-stocks:
+  build-stocks:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - run: pip install requests
+      - name: Install deps
+        run: pip install requests
 
-      - name: Fetch NIFTY 500 stocks
+      - name: Fetch stocks + merge sector
         run: |
           python3 << 'PYEOF'
           import requests, json, time, os
@@ -35,15 +38,25 @@ jobs:
 
           session = requests.Session()
 
-          print("Getting NSE cookies...")
+          print("Init NSE session...")
           session.get("https://www.nseindia.com", headers=HEADERS)
           time.sleep(2)
 
-          print("Fetching NIFTY 500 data...")
+          print("Fetching NIFTY 500...")
           url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
           data = session.get(url, headers=HEADERS).json()
 
           stocks = data.get("data", [])
+
+          # Load sector map
+          sector_map = {}
+          if os.path.exists("stocks/sector_map.json"):
+              try:
+                  with open("stocks/sector_map.json") as f:
+                      sector_map = json.load(f)
+              except:
+                  sector_map = {}
+
           result = []
 
           for s in stocks:
@@ -51,20 +64,24 @@ jobs:
               meta = s.get("meta", {})
               isin = meta.get("isin")
               name = meta.get("companyName")
-              
+
               if not symbol or not isin:
                   continue
+
+              sector = sector_map.get(symbol, "Unknown")
 
               result.append({
                   "symbol": symbol,
                   "isin": isin,
-                   "name": name,
-                    "key": f"NSE_EQ|{isin}" 
+                  "name": name,
+                  "key": f"NSE_EQ|{isin}",
+                  "sector": sector
               })
 
           print(f"Total stocks: {len(result)}")
 
           os.makedirs("stocks", exist_ok=True)
+
           with open("stocks/stocks.json", "w") as f:
               json.dump({
                   "updated_at": datetime.utcnow().isoformat(),
@@ -75,10 +92,33 @@ jobs:
           print("Saved stocks/stocks.json")
           PYEOF
 
-      - name: Commit & Push
+      - name: Debug files (optional)
         run: |
+          echo "Repo structure:"
+          ls -R
+
+      - name: Commit & Push (safe)
+        shell: bash
+        run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          echo "Checking file..."
+
+          if [ ! -f "stocks/stocks.json" ]; then
+            echo "stocks.json missing, creating fallback"
+            mkdir -p stocks
+            echo "{}" > stocks/stocks.json
+          fi
+
           git add stocks/stocks.json
-          git diff --staged --quiet || git commit -m "Update stock master (ISIN-based)"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Changes detected, committing..."
+            git commit -m "Update stock master with sector"
+            git push
+          fi
