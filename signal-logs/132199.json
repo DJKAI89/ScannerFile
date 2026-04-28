@@ -33519,11 +33519,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-0939-FINNIFTY-26100-CE",
@@ -33588,11 +33591,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1212-INDIACEM-STOCK",
@@ -33621,11 +33627,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1423-VBL-STOCK",
@@ -33654,11 +33663,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1432-WIPRO-STOCK",
@@ -33687,11 +33699,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1448-INDIACEM-STOCK",
@@ -33720,11 +33735,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1736-NMDC-STOCK",
@@ -33753,11 +33771,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:43:08",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-0938-CUB-STOCK",
@@ -33855,7 +33876,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 95,
+      "livePnlPct": 5.15,
+      "targetProgress": 9,
+      "slDistance": 45.1
     },
     {
       "id": "2026-04-28-0938-NIFTY-24100-CE",
@@ -33887,7 +33912,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 63.15,
+      "livePnlPct": 4.99,
+      "targetProgress": 8,
+      "slDistance": 45
     },
     {
       "id": "2026-04-28-0938-BANKNIFTY-55800-CE",
@@ -33919,7 +33948,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 323.2,
+      "livePnlPct": -7.66,
+      "targetProgress": -13,
+      "slDistance": 32.3
     },
     {
       "id": "2026-04-28-0938-BANKNIFTY-55900-CE",
@@ -33951,7 +33984,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 250.3,
+      "livePnlPct": -10.06,
+      "targetProgress": -17,
+      "slDistance": 29.9
     },
     {
       "id": "2026-04-28-0938-SENSEX-77100-CE",
@@ -33983,7 +34020,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 574,
+      "livePnlPct": 0.67,
+      "targetProgress": 1,
+      "slDistance": 40.7
     },
     {
       "id": "2026-04-28-0938-SENSEX-77200-CE",
@@ -34015,7 +34056,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 516.8,
+      "livePnlPct": 1.53,
+      "targetProgress": 2,
+      "slDistance": 41.5
     },
     {
       "id": "2026-04-28-0938-SENSEX-77300-CE",
@@ -34047,7 +34092,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 461.8,
+      "livePnlPct": 1.32,
+      "targetProgress": 2,
+      "slDistance": 41.3
     },
     {
       "id": "2026-04-28-0938-FINNIFTY-26050-CE",
@@ -34079,16 +34128,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 160.95,
+      "livePnlPct": 2.52,
+      "targetProgress": 4,
+      "slDistance": 42.5
     }
   ],
-  "lastUpdated": "2026-04-28T04:08:37.868Z",
+  "lastUpdated": "2026-04-28T04:13:08.176Z",
   "upstoxId": "132199",
   "stats": {
     "total": 949,
     "hits": 163,
     "sls": 165,
-    "open": 18,
+    "open": 11,
     "winRate": 50,
     "avgConf": 82
   }
