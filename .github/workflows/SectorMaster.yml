@@ -101,22 +101,28 @@ jobs:
           ls -R
 
       - name: Commit & Push (safe)
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Ensure file exists
-          if [ ! -f stocks/sector_map.json ]; then
+          echo "Checking file..."
+
+          if [ ! -f "stocks/sector_map.json" ]; then
             echo "File missing, creating fallback"
             mkdir -p stocks
             echo "{}" > stocks/sector_map.json
           fi
 
-          git add stocks/sector_map.json
+        git add stocks/sector_map.json
 
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update sector map (optimized)"
-            git push
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          echo "Changes detected, committing..."
+          git commit -m "Update sector map (optimized)"
+          git push
+        fi
         
