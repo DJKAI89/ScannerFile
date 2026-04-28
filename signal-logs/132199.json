@@ -34021,10 +34021,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -16.71,
-      "targetProgress": -24,
-      "slDistance": 23.3
+      "livePrice": 409.45,
+      "livePnlPct": -28.19,
+      "targetProgress": -40,
+      "slDistance": 11.8
     },
     {
       "id": "2026-04-28-0938-SENSEX-77200-CE",
@@ -34057,10 +34057,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -17.12,
-      "targetProgress": -24,
-      "slDistance": 22.9
+      "livePrice": 361.6,
+      "livePnlPct": -28.96,
+      "targetProgress": -41,
+      "slDistance": 11
     },
     {
       "id": "2026-04-28-0938-SENSEX-77300-CE",
@@ -34093,10 +34093,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -18.13,
-      "targetProgress": -26,
-      "slDistance": 21.9
+      "livePrice": 317.45,
+      "livePnlPct": -30.35,
+      "targetProgress": -43,
+      "slDistance": 9.6
     },
     {
       "id": "2026-04-28-0938-FINNIFTY-26050-CE",
@@ -34591,10 +34591,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 593.95,
-      "livePnlPct": -17.75,
-      "targetProgress": -25,
-      "slDistance": 22.2
+      "livePrice": 515.8,
+      "livePnlPct": -28.57,
+      "targetProgress": -41,
+      "slDistance": 11.4
     },
     {
       "id": "2026-04-28-0949-SENSEX-77100-CE",
@@ -34627,10 +34627,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -20.66,
-      "targetProgress": -30,
-      "slDistance": 19.3
+      "livePrice": 409.45,
+      "livePnlPct": -31.59,
+      "targetProgress": -45,
+      "slDistance": 8.4
     },
     {
       "id": "2026-04-28-0949-SENSEX-77200-CE",
@@ -34663,10 +34663,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -21.81,
-      "targetProgress": -31,
-      "slDistance": 18.2
+      "livePrice": 361.6,
+      "livePnlPct": -32.98,
+      "targetProgress": -47,
+      "slDistance": 7
     },
     {
       "id": "2026-04-28-0949-SENSEX-77300-CE",
@@ -34699,10 +34699,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -22.86,
-      "targetProgress": -33,
-      "slDistance": 17.1
+      "livePrice": 317.45,
+      "livePnlPct": -34.38,
+      "targetProgress": -49,
+      "slDistance": 5.6
     },
     {
       "id": "2026-04-28-0949-SENSEX-77400-CE",
@@ -34735,10 +34735,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -23.88,
-      "targetProgress": -34,
-      "slDistance": 16.1
+      "livePrice": 279.25,
+      "livePnlPct": -35.36,
+      "targetProgress": -50,
+      "slDistance": 4.6
     },
     {
       "id": "2026-04-28-0949-SENSEX-77600-CE",
@@ -34771,10 +34771,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -25.71,
-      "targetProgress": -37,
-      "slDistance": 14.3
+      "livePrice": 211,
+      "livePnlPct": -37.79,
+      "targetProgress": -50,
+      "slDistance": 2.2
     },
     {
       "id": "2026-04-28-0949-FINNIFTY-26050-CE",
@@ -35341,10 +35341,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -27.52,
-      "targetProgress": -39,
-      "slDistance": 12.5
+      "livePrice": 409.45,
+      "livePnlPct": -37.51,
+      "targetProgress": -50,
+      "slDistance": 2.5
     },
     {
       "id": "2026-04-28-1008-SENSEX-77200-CE",
@@ -35377,10 +35377,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -28.58,
-      "targetProgress": -41,
-      "slDistance": 11.4
+      "livePrice": 361.6,
+      "livePnlPct": -38.78,
+      "targetProgress": -50,
+      "slDistance": 1.2
     },
     {
       "id": "2026-04-28-1008-SENSEX-77300-CE",
@@ -35408,14 +35408,14 @@
       "winRateEst": 55,
       "vix": 17.65,
       "slTgtMethod": "IV 19% | DTE 2 | Delta 0.56",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 318.78,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -29.77,
-      "targetProgress": -43,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 10.2
     },
     {
@@ -35444,14 +35444,14 @@
       "winRateEst": 55,
       "vix": 17.65,
       "slTgtMethod": "IV 19% | DTE 2 | Delta 0.52",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 285.9,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -30.99,
-      "targetProgress": -44,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 9
     },
     {
@@ -35480,14 +35480,14 @@
       "winRateEst": 55,
       "vix": 17.65,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.45",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 224.34,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -32.6,
-      "targetProgress": -47,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 7.4
     },
     {
@@ -35516,14 +35516,14 @@
       "winRateEst": 55,
       "vix": 17.65,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.35",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 151.65,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 161.8,
-      "livePnlPct": -35.98,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 4
     },
     {
@@ -36094,10 +36094,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -28.84,
-      "targetProgress": -41,
-      "slDistance": 11.2
+      "livePrice": 409.45,
+      "livePnlPct": -38.65,
+      "targetProgress": -50,
+      "slDistance": 1.4
     },
     {
       "id": "2026-04-28-1056-SENSEX-77200-CE",
@@ -36125,14 +36125,14 @@
       "winRateEst": 55,
       "vix": 17.32,
       "slTgtMethod": "IV 19% | DTE 2 | Delta 0.61",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 362.25,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -30.13,
-      "targetProgress": -43,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 9.9
     },
     {
@@ -36161,14 +36161,14 @@
       "winRateEst": 55,
       "vix": 17.32,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.54",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 291.54,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -32.32,
-      "targetProgress": -46,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 7.7
     },
     {
@@ -36197,14 +36197,14 @@
       "winRateEst": 55,
       "vix": 17.32,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.50",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 259.2,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 288.3,
-      "livePnlPct": -33.26,
-      "targetProgress": -48,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 6.7
     },
     {
@@ -36233,14 +36233,14 @@
       "winRateEst": 55,
       "vix": 17.32,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.57",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 325.83,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -31.29,
-      "targetProgress": -45,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 8.7
     },
     {
@@ -36269,14 +36269,14 @@
       "winRateEst": 55,
       "vix": 17.32,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.46",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 229.47,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -34.11,
-      "targetProgress": -49,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 5.9
     },
     {
@@ -36305,14 +36305,14 @@
       "winRateEst": 55,
       "vix": 17.32,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.36",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 153.78,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 161.8,
-      "livePnlPct": -36.87,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 3.1
     },
     {
@@ -36922,10 +36922,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -26.57,
-      "targetProgress": -38,
-      "slDistance": 13.4
+      "livePrice": 409.45,
+      "livePnlPct": -36.69,
+      "targetProgress": -50,
+      "slDistance": 3.3
     },
     {
       "id": "2026-04-28-1101-SENSEX-77400-CE",
@@ -36953,14 +36953,14 @@
       "winRateEst": 55,
       "vix": 17.31,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.53",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 279.72,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -29.46,
-      "targetProgress": -42,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 10.5
     },
     {
@@ -36994,10 +36994,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -27.59,
-      "targetProgress": -39,
-      "slDistance": 12.4
+      "livePrice": 361.6,
+      "livePnlPct": -37.93,
+      "targetProgress": -50,
+      "slDistance": 2.1
     },
     {
       "id": "2026-04-28-1101-SENSEX-77300-CE",
@@ -37030,10 +37030,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -28.54,
-      "targetProgress": -41,
-      "slDistance": 11.5
+      "livePrice": 317.45,
+      "livePnlPct": -39.21,
+      "targetProgress": -50,
+      "slDistance": 0.8
     },
     {
       "id": "2026-04-28-1101-SENSEX-77500-CE",
@@ -37061,14 +37061,14 @@
       "winRateEst": 55,
       "vix": 17.31,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.49",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 249.33,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 288.3,
-      "livePnlPct": -30.62,
-      "targetProgress": -44,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 9.4
     },
     {
@@ -37097,14 +37097,14 @@
       "winRateEst": 55,
       "vix": 17.31,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.46",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 219.87,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -31.23,
-      "targetProgress": -45,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 8.8
     },
     {
@@ -37133,14 +37133,14 @@
       "winRateEst": 55,
       "vix": 17.31,
       "slTgtMethod": "IV 18% | DTE 2 | Delta 0.35",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 145.5,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 161.8,
-      "livePnlPct": -33.28,
-      "targetProgress": -48,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 6.7
     },
     {
@@ -37641,10 +37641,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -19.23,
-      "targetProgress": -27,
-      "slDistance": 20.8
+      "livePrice": 409.45,
+      "livePnlPct": -30.37,
+      "targetProgress": -43,
+      "slDistance": 9.6
     },
     {
       "id": "2026-04-28-1112-SENSEX-77200-CE",
@@ -37677,10 +37677,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -20.15,
-      "targetProgress": -29,
-      "slDistance": 19.9
+      "livePrice": 361.6,
+      "livePnlPct": -31.55,
+      "targetProgress": -45,
+      "slDistance": 8.4
     },
     {
       "id": "2026-04-28-1112-SENSEX-77300-CE",
@@ -37713,10 +37713,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -21.01,
-      "targetProgress": -30,
-      "slDistance": 19
+      "livePrice": 317.45,
+      "livePnlPct": -32.8,
+      "targetProgress": -47,
+      "slDistance": 7.2
     },
     {
       "id": "2026-04-28-1112-SENSEX-77400-CE",
@@ -37749,10 +37749,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -21.64,
-      "targetProgress": -31,
-      "slDistance": 18.4
+      "livePrice": 279.25,
+      "livePnlPct": -33.46,
+      "targetProgress": -48,
+      "slDistance": 6.5
     },
     {
       "id": "2026-04-28-1112-SENSEX-77500-CE",
@@ -37785,10 +37785,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 288.3,
-      "livePnlPct": -22.72,
-      "targetProgress": -32,
-      "slDistance": 17.3
+      "livePrice": 245.8,
+      "livePnlPct": -34.11,
+      "targetProgress": -49,
+      "slDistance": 5.9
     },
     {
       "id": "2026-04-28-1112-SENSEX-77600-CE",
@@ -37821,10 +37821,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -23.25,
-      "targetProgress": -33,
-      "slDistance": 16.7
+      "livePrice": 211,
+      "livePnlPct": -35.74,
+      "targetProgress": -50,
+      "slDistance": 4.3
     },
     {
       "id": "2026-04-28-1112-SENSEX-77900-CE",
@@ -37857,10 +37857,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 161.8,
-      "livePnlPct": -25.73,
-      "targetProgress": -37,
-      "slDistance": 14.3
+      "livePrice": 134.15,
+      "livePnlPct": -38.42,
+      "targetProgress": -50,
+      "slDistance": 1.6
     },
     {
       "id": "2026-04-28-1112-FINNIFTY-26050-CE",
@@ -38073,10 +38073,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 127.75,
-      "livePnlPct": -6.92,
-      "targetProgress": -12,
-      "slDistance": 33.1
+      "livePrice": 97.7,
+      "livePnlPct": -28.82,
+      "targetProgress": -48,
+      "slDistance": 11.2
     },
     {
       "id": "2026-04-28-1126-NIFTY-24000-CE",
@@ -38109,10 +38109,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 85.8,
-      "livePnlPct": -9.49,
-      "targetProgress": -16,
-      "slDistance": 30.5
+      "livePrice": 59.15,
+      "livePnlPct": -37.61,
+      "targetProgress": -50,
+      "slDistance": 2.4
     },
     {
       "id": "2026-04-28-1126-NIFTY-23900-CE",
@@ -38145,10 +38145,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 175,
-      "livePnlPct": -4.32,
-      "targetProgress": -7,
-      "slDistance": 35.7
+      "livePrice": 142.45,
+      "livePnlPct": -22.12,
+      "targetProgress": -37,
+      "slDistance": 17.9
     },
     {
       "id": "2026-04-28-1126-NIFTY-24050-CE",
@@ -38176,14 +38176,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 20% | DTE 0 | Delta 0.62",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 35.46,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 50.45,
-      "livePnlPct": -14.64,
-      "targetProgress": -24,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 25.4
     },
     {
@@ -38212,14 +38212,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 20% | DTE 0 | Delta 0.43",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 19.74,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 26.6,
-      "livePnlPct": -19.15,
-      "targetProgress": -32,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 20.9
     },
     {
@@ -38253,10 +38253,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 367.2,
-      "livePnlPct": -13.11,
-      "targetProgress": -22,
-      "slDistance": 26.9
+      "livePrice": 312.6,
+      "livePnlPct": -26.03,
+      "targetProgress": -43,
+      "slDistance": 14
     },
     {
       "id": "2026-04-28-1126-BANKNIFTY-55500-CE",
@@ -38289,10 +38289,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 284.15,
-      "livePnlPct": -16.33,
-      "targetProgress": -27,
-      "slDistance": 23.7
+      "livePrice": 230,
+      "livePnlPct": -32.27,
+      "targetProgress": -50,
+      "slDistance": 7.7
     },
     {
       "id": "2026-04-28-1126-BANKNIFTY-55600-CE",
@@ -38325,10 +38325,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 210.15,
-      "livePnlPct": -19.33,
-      "targetProgress": -32,
-      "slDistance": 20.7
+      "livePrice": 162.1,
+      "livePnlPct": -37.77,
+      "targetProgress": -50,
+      "slDistance": 2.2
     },
     {
       "id": "2026-04-28-1126-BANKNIFTY-55700-CE",
@@ -38356,14 +38356,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 28% | DTE 0 | Delta 0.62",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 114.72,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 147.45,
-      "livePnlPct": -22.88,
-      "targetProgress": -38,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 17.1
     },
     {
@@ -38392,14 +38392,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 28% | DTE 0 | Delta 0.51",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 79.8,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 98.5,
-      "livePnlPct": -25.94,
-      "targetProgress": -43,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 14.1
     },
     {
@@ -38433,10 +38433,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 593.95,
-      "livePnlPct": -1.78,
-      "targetProgress": -3,
-      "slDistance": 38.2
+      "livePrice": 515.8,
+      "livePnlPct": -14.7,
+      "targetProgress": -21,
+      "slDistance": 25.3
     },
     {
       "id": "2026-04-28-1126-SENSEX-77100-CE",
@@ -38469,10 +38469,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": -2.68,
-      "targetProgress": -4,
-      "slDistance": 37.3
+      "livePrice": 409.45,
+      "livePnlPct": -16.1,
+      "targetProgress": -23,
+      "slDistance": 23.9
     },
     {
       "id": "2026-04-28-1126-SENSEX-77200-CE",
@@ -38505,10 +38505,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -3.03,
-      "targetProgress": -4,
-      "slDistance": 37
+      "livePrice": 361.6,
+      "livePnlPct": -16.88,
+      "targetProgress": -24,
+      "slDistance": 23.1
     },
     {
       "id": "2026-04-28-1126-SENSEX-77300-CE",
@@ -38541,10 +38541,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -3.38,
-      "targetProgress": -5,
-      "slDistance": 36.6
+      "livePrice": 317.45,
+      "livePnlPct": -17.8,
+      "targetProgress": -25,
+      "slDistance": 22.2
     },
     {
       "id": "2026-04-28-1126-SENSEX-77400-CE",
@@ -38577,10 +38577,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -3.41,
-      "targetProgress": -5,
-      "slDistance": 36.6
+      "livePrice": 279.25,
+      "livePnlPct": -17.98,
+      "targetProgress": -26,
+      "slDistance": 22
     },
     {
       "id": "2026-04-28-1126-SENSEX-77500-CE",
@@ -38613,10 +38613,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 288.3,
-      "livePnlPct": -4.54,
-      "targetProgress": -6,
-      "slDistance": 35.5
+      "livePrice": 245.8,
+      "livePnlPct": -18.61,
+      "targetProgress": -27,
+      "slDistance": 21.4
     },
     {
       "id": "2026-04-28-1126-SENSEX-77600-CE",
@@ -38649,10 +38649,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -4.36,
-      "targetProgress": -6,
-      "slDistance": 35.6
+      "livePrice": 211,
+      "livePnlPct": -19.92,
+      "targetProgress": -28,
+      "slDistance": 20.1
     },
     {
       "id": "2026-04-28-1126-FINNIFTY-25950-CE",
@@ -38680,14 +38680,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 32% | DTE 0 | Delta 0.79",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 99.69,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 123.5,
-      "livePnlPct": -25.67,
-      "targetProgress": -43,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 14.3
     },
     {
@@ -38716,14 +38716,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 27% | DTE 0 | Delta 0.74",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 71.37,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 85.9,
-      "livePnlPct": -27.78,
-      "targetProgress": -46,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 12.2
     },
     {
@@ -38752,14 +38752,14 @@
       "winRateEst": 55,
       "vix": 17.62,
       "slTgtMethod": "IV 27% | DTE 0 | Delta 0.62",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 51.51,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 58.45,
-      "livePnlPct": -31.92,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 8.1
     },
     {
@@ -38793,10 +38793,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 127.75,
-      "livePnlPct": 7.94,
-      "targetProgress": 13,
-      "slDistance": 47.9
+      "livePrice": 97.7,
+      "livePnlPct": -17.45,
+      "targetProgress": -29,
+      "slDistance": 22.6
     },
     {
       "id": "2026-04-28-1131-NIFTY-24000-CE",
@@ -38829,10 +38829,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 85.8,
-      "livePnlPct": 8.95,
-      "targetProgress": 15,
-      "slDistance": 49
+      "livePrice": 59.15,
+      "livePnlPct": -24.89,
+      "targetProgress": -41,
+      "slDistance": 15.1
     },
     {
       "id": "2026-04-28-1131-NIFTY-23900-CE",
@@ -38865,10 +38865,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 175,
-      "livePnlPct": 7.1,
-      "targetProgress": 12,
-      "slDistance": 47.1
+      "livePrice": 142.45,
+      "livePnlPct": -12.82,
+      "targetProgress": -21,
+      "slDistance": 27.2
     },
     {
       "id": "2026-04-28-1131-NIFTY-24050-CE",
@@ -38901,10 +38901,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 50.45,
-      "livePnlPct": 6.32,
-      "targetProgress": 11,
-      "slDistance": 46.3
+      "livePrice": 29.85,
+      "livePnlPct": -37.09,
+      "targetProgress": -50,
+      "slDistance": 2.9
     },
     {
       "id": "2026-04-28-1131-NIFTY-24100-CE",
@@ -38932,14 +38932,14 @@
       "winRateEst": 55,
       "vix": 17.77,
       "slTgtMethod": "IV 21% | DTE 0 | Delta 0.36",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 15.3,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 26.6,
-      "livePnlPct": 4.31,
-      "targetProgress": 7,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 44.3
     },
     {
@@ -38973,10 +38973,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 452,
-      "livePnlPct": -4.49,
-      "targetProgress": -7,
-      "slDistance": 35.5
+      "livePrice": 404.4,
+      "livePnlPct": -14.55,
+      "targetProgress": -24,
+      "slDistance": 25.5
     },
     {
       "id": "2026-04-28-1131-BANKNIFTY-55400-CE",
@@ -39009,10 +39009,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 367.2,
-      "livePnlPct": -4.87,
-      "targetProgress": -8,
-      "slDistance": 35.1
+      "livePrice": 312.6,
+      "livePnlPct": -19.02,
+      "targetProgress": -32,
+      "slDistance": 21
     },
     {
       "id": "2026-04-28-1131-BANKNIFTY-55500-CE",
@@ -39045,10 +39045,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 284.15,
-      "livePnlPct": -4.9,
-      "targetProgress": -8,
-      "slDistance": 35.1
+      "livePrice": 230,
+      "livePnlPct": -23.03,
+      "targetProgress": -38,
+      "slDistance": 17
     },
     {
       "id": "2026-04-28-1131-BANKNIFTY-55600-CE",
@@ -39081,10 +39081,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 210.15,
-      "livePnlPct": -7.07,
-      "targetProgress": -12,
-      "slDistance": 32.9
+      "livePrice": 162.1,
+      "livePnlPct": -28.32,
+      "targetProgress": -47,
+      "slDistance": 11.7
     },
     {
       "id": "2026-04-28-1131-BANKNIFTY-55700-CE",
@@ -39117,10 +39117,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 147.45,
-      "livePnlPct": -9.73,
-      "targetProgress": -16,
-      "slDistance": 30.3
+      "livePrice": 107.75,
+      "livePnlPct": -34.04,
+      "targetProgress": -50,
+      "slDistance": 6
     },
     {
       "id": "2026-04-28-1131-SENSEX-76900-CE",
@@ -39153,10 +39153,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 593.95,
-      "livePnlPct": 6.03,
-      "targetProgress": 9,
-      "slDistance": 46
+      "livePrice": 515.8,
+      "livePnlPct": -7.92,
+      "targetProgress": -11,
+      "slDistance": 32.1
     },
     {
       "id": "2026-04-28-1131-SENSEX-77000-CE",
@@ -39189,10 +39189,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 525.4,
-      "livePnlPct": 3.84,
-      "targetProgress": 5,
-      "slDistance": 43.8
+      "livePrice": 469.7,
+      "livePnlPct": -7.16,
+      "targetProgress": -10,
+      "slDistance": 32.8
     },
     {
       "id": "2026-04-28-1131-SENSEX-77100-CE",
@@ -39225,10 +39225,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": 5.19,
-      "targetProgress": 7,
-      "slDistance": 45.2
+      "livePrice": 409.45,
+      "livePnlPct": -9.3,
+      "targetProgress": -13,
+      "slDistance": 30.7
     },
     {
       "id": "2026-04-28-1131-SENSEX-77200-CE",
@@ -39261,10 +39261,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": 5.11,
-      "targetProgress": 7,
-      "slDistance": 45.1
+      "livePrice": 361.6,
+      "livePnlPct": -9.9,
+      "targetProgress": -14,
+      "slDistance": 30.1
     },
     {
       "id": "2026-04-28-1131-SENSEX-77300-CE",
@@ -39297,10 +39297,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": 4.82,
-      "targetProgress": 7,
-      "slDistance": 44.8
+      "livePrice": 317.45,
+      "livePnlPct": -10.83,
+      "targetProgress": -15,
+      "slDistance": 29.2
     },
     {
       "id": "2026-04-28-1131-SENSEX-77400-CE",
@@ -39333,10 +39333,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": 4.51,
-      "targetProgress": 6,
-      "slDistance": 44.5
+      "livePrice": 279.25,
+      "livePnlPct": -11.25,
+      "targetProgress": -16,
+      "slDistance": 28.7
     },
     {
       "id": "2026-04-28-1131-SENSEX-77500-CE",
@@ -39369,10 +39369,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 288.3,
-      "livePnlPct": 3.56,
-      "targetProgress": 5,
-      "slDistance": 43.6
+      "livePrice": 245.8,
+      "livePnlPct": -11.71,
+      "targetProgress": -17,
+      "slDistance": 28.3
     },
     {
       "id": "2026-04-28-1131-SENSEX-77600-CE",
@@ -39405,10 +39405,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": 3.38,
-      "targetProgress": 5,
-      "slDistance": 43.4
+      "livePrice": 211,
+      "livePnlPct": -13.44,
+      "targetProgress": -19,
+      "slDistance": 26.6
     },
     {
       "id": "2026-04-28-1131-FINNIFTY-25950-CE",
@@ -39441,10 +39441,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 123.5,
-      "livePnlPct": -1.79,
-      "targetProgress": -3,
-      "slDistance": 38.2
+      "livePrice": 90.65,
+      "livePnlPct": -27.91,
+      "targetProgress": -47,
+      "slDistance": 12.1
     },
     {
       "id": "2026-04-28-1131-FINNIFTY-26000-CE",
@@ -39477,10 +39477,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 85.9,
-      "livePnlPct": -6.02,
-      "targetProgress": -10,
-      "slDistance": 34
+      "livePrice": 61.95,
+      "livePnlPct": -32.22,
+      "targetProgress": -50,
+      "slDistance": 7.8
     },
     {
       "id": "2026-04-28-1139-VEDL-STOCK",
@@ -39810,10 +39810,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 127.75,
-      "livePnlPct": -3.22,
-      "targetProgress": -5,
-      "slDistance": 36.8
+      "livePrice": 97.7,
+      "livePnlPct": -25.98,
+      "targetProgress": -43,
+      "slDistance": 14
     },
     {
       "id": "2026-04-28-1139-NIFTY-24000-CE",
@@ -39846,10 +39846,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 85.8,
-      "livePnlPct": -4.83,
-      "targetProgress": -8,
-      "slDistance": 35.2
+      "livePrice": 59.15,
+      "livePnlPct": -34.39,
+      "targetProgress": -50,
+      "slDistance": 5.6
     },
     {
       "id": "2026-04-28-1139-NIFTY-24050-CE",
@@ -39877,14 +39877,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 19% | DTE 0 | Delta 0.62",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 32.61,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 50.45,
-      "livePnlPct": -7.18,
-      "targetProgress": -12,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 32.8
     },
     {
@@ -39913,14 +39913,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 19% | DTE 0 | Delta 0.41",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 17.7,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 26.6,
-      "livePnlPct": -9.83,
-      "targetProgress": -16,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 30.2
     },
     {
@@ -39949,14 +39949,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 20% | DTE 0 | Delta 0.24",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 8.85,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 12.1,
-      "livePnlPct": -17.97,
-      "targetProgress": -30,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 22
     },
     {
@@ -39985,14 +39985,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 21% | DTE 0 | Delta 0.13",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 4.41,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 5.85,
-      "livePnlPct": -20.41,
-      "targetProgress": -34,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 19.6
     },
     {
@@ -40026,10 +40026,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 3.05,
-      "livePnlPct": -16.44,
-      "targetProgress": -27,
-      "slDistance": 23.6
+      "livePrice": 2.2,
+      "livePnlPct": -39.73,
+      "targetProgress": -50,
+      "slDistance": 0.3
     },
     {
       "id": "2026-04-28-1139-NIFTY-24300-CE",
@@ -40062,10 +40062,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1.85,
-      "livePnlPct": -13.95,
-      "targetProgress": -23,
-      "slDistance": 26
+      "livePrice": 1.7,
+      "livePnlPct": -20.93,
+      "targetProgress": -35,
+      "slDistance": 19.1
     },
     {
       "id": "2026-04-28-1139-BANKNIFTY-55500-CE",
@@ -40098,10 +40098,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 284.15,
-      "livePnlPct": -10.92,
-      "targetProgress": -18,
-      "slDistance": 29.1
+      "livePrice": 230,
+      "livePnlPct": -27.9,
+      "targetProgress": -46,
+      "slDistance": 12.1
     },
     {
       "id": "2026-04-28-1139-BANKNIFTY-55600-CE",
@@ -40134,10 +40134,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 210.15,
-      "livePnlPct": -12.8,
-      "targetProgress": -21,
-      "slDistance": 27.2
+      "livePrice": 162.1,
+      "livePnlPct": -32.74,
+      "targetProgress": -50,
+      "slDistance": 7.3
     },
     {
       "id": "2026-04-28-1139-BANKNIFTY-55700-CE",
@@ -40170,10 +40170,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 147.45,
-      "livePnlPct": -15.04,
-      "targetProgress": -25,
-      "slDistance": 25
+      "livePrice": 107.75,
+      "livePnlPct": -37.91,
+      "targetProgress": -50,
+      "slDistance": 2.1
     },
     {
       "id": "2026-04-28-1139-BANKNIFTY-55800-CE",
@@ -40201,14 +40201,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 24% | DTE 0 | Delta 0.50",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 70.83,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 98.5,
-      "livePnlPct": -16.56,
-      "targetProgress": -28,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 23.4
     },
     {
@@ -40237,14 +40237,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 25% | DTE 0 | Delta 0.36",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 45.93,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 60.9,
-      "livePnlPct": -20.44,
-      "targetProgress": -34,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 19.6
     },
     {
@@ -40273,14 +40273,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 26% | DTE 0 | Delta 0.25",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 28.86,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 37.75,
-      "livePnlPct": -21.52,
-      "targetProgress": -36,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 18.5
     },
     {
@@ -40309,14 +40309,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 27% | DTE 0 | Delta 0.17",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 17.52,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 23.3,
-      "livePnlPct": -20.21,
-      "targetProgress": -34,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 19.8
     },
     {
@@ -40345,14 +40345,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 28% | DTE 0 | Delta 0.11",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 10.86,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 14.75,
-      "livePnlPct": -18.51,
-      "targetProgress": -31,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 21.5
     },
     {
@@ -40386,10 +40386,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 9.35,
-      "livePnlPct": -21.76,
-      "targetProgress": -36,
-      "slDistance": 18.2
+      "livePrice": 7.2,
+      "livePnlPct": -39.75,
+      "targetProgress": -50,
+      "slDistance": 0.3
     },
     {
       "id": "2026-04-28-1139-SENSEX-77100-CE",
@@ -40422,10 +40422,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 474.9,
-      "livePnlPct": 0.08,
-      "targetProgress": 0,
-      "slDistance": 40.1
+      "livePrice": 409.45,
+      "livePnlPct": -13.71,
+      "targetProgress": -20,
+      "slDistance": 26.3
     },
     {
       "id": "2026-04-28-1139-SENSEX-77200-CE",
@@ -40458,10 +40458,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 421.85,
-      "livePnlPct": -0.25,
-      "targetProgress": 0,
-      "slDistance": 39.8
+      "livePrice": 361.6,
+      "livePnlPct": -14.5,
+      "targetProgress": -21,
+      "slDistance": 25.5
     },
     {
       "id": "2026-04-28-1139-SENSEX-77300-CE",
@@ -40494,10 +40494,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 373.15,
-      "livePnlPct": -0.64,
-      "targetProgress": -1,
-      "slDistance": 39.4
+      "livePrice": 317.45,
+      "livePnlPct": -15.47,
+      "targetProgress": -22,
+      "slDistance": 24.5
     },
     {
       "id": "2026-04-28-1139-SENSEX-77400-CE",
@@ -40530,10 +40530,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 328.85,
-      "livePnlPct": -0.69,
-      "targetProgress": -1,
-      "slDistance": 39.3
+      "livePrice": 279.25,
+      "livePnlPct": -15.67,
+      "targetProgress": -22,
+      "slDistance": 24.3
     },
     {
       "id": "2026-04-28-1139-SENSEX-77500-CE",
@@ -40566,10 +40566,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 288.3,
-      "livePnlPct": -1.25,
-      "targetProgress": -2,
-      "slDistance": 38.7
+      "livePrice": 245.8,
+      "livePnlPct": -15.81,
+      "targetProgress": -23,
+      "slDistance": 24.2
     },
     {
       "id": "2026-04-28-1139-SENSEX-77600-CE",
@@ -40602,10 +40602,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 252,
-      "livePnlPct": -0.79,
-      "targetProgress": -1,
-      "slDistance": 39.2
+      "livePrice": 211,
+      "livePnlPct": -16.93,
+      "targetProgress": -24,
+      "slDistance": 23.1
     },
     {
       "id": "2026-04-28-1139-SENSEX-77700-CE",
@@ -40638,10 +40638,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 213.1,
-      "livePnlPct": -3.38,
-      "targetProgress": -5,
-      "slDistance": 36.6
+      "livePrice": 187.65,
+      "livePnlPct": -14.92,
+      "targetProgress": -21,
+      "slDistance": 25.1
     },
     {
       "id": "2026-04-28-1139-SENSEX-77900-CE",
@@ -40674,10 +40674,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 161.8,
-      "livePnlPct": -1.52,
-      "targetProgress": -2,
-      "slDistance": 38.5
+      "livePrice": 134.15,
+      "livePnlPct": -18.35,
+      "targetProgress": -26,
+      "slDistance": 21.6
     },
     {
       "id": "2026-04-28-1139-SENSEX-78000-CE",
@@ -40710,10 +40710,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 136.95,
-      "livePnlPct": -2.84,
-      "targetProgress": -4,
-      "slDistance": 37.2
+      "livePrice": 118.1,
+      "livePnlPct": -16.21,
+      "targetProgress": -23,
+      "slDistance": 23.8
     },
     {
       "id": "2026-04-28-1139-SENSEX-78100-CE",
@@ -40746,10 +40746,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 115.5,
-      "livePnlPct": -2.74,
-      "targetProgress": -4,
-      "slDistance": 37.3
+      "livePrice": 99.95,
+      "livePnlPct": -15.83,
+      "targetProgress": -23,
+      "slDistance": 24.2
     },
     {
       "id": "2026-04-28-1139-SENSEX-78200-CE",
@@ -40782,10 +40782,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 98.2,
-      "livePnlPct": -3.3,
-      "targetProgress": -5,
-      "slDistance": 36.7
+      "livePrice": 84.7,
+      "livePnlPct": -16.59,
+      "targetProgress": -24,
+      "slDistance": 23.4
     },
     {
       "id": "2026-04-28-1139-SENSEX-78300-CE",
@@ -40818,10 +40818,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 82.5,
-      "livePnlPct": -3.57,
-      "targetProgress": -5,
-      "slDistance": 36.4
+      "livePrice": 71.45,
+      "livePnlPct": -16.48,
+      "targetProgress": -24,
+      "slDistance": 23.5
     },
     {
       "id": "2026-04-28-1139-SENSEX-77800-CE",
@@ -40854,10 +40854,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 185.25,
-      "livePnlPct": -3.09,
-      "targetProgress": -4,
-      "slDistance": 36.9
+      "livePrice": 161.25,
+      "livePnlPct": -15.64,
+      "targetProgress": -22,
+      "slDistance": 24.4
     },
     {
       "id": "2026-04-28-1139-SENSEX-78400-CE",
@@ -40890,10 +40890,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 69.9,
-      "livePnlPct": -2.98,
-      "targetProgress": -4,
-      "slDistance": 37
+      "livePrice": 61.15,
+      "livePnlPct": -15.13,
+      "targetProgress": -22,
+      "slDistance": 24.9
     },
     {
       "id": "2026-04-28-1139-SENSEX-78500-CE",
@@ -40926,10 +40926,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 59.35,
-      "livePnlPct": -2.14,
-      "targetProgress": -3,
-      "slDistance": 37.9
+      "livePrice": 51.75,
+      "livePnlPct": -14.67,
+      "targetProgress": -21,
+      "slDistance": 25.3
     },
     {
       "id": "2026-04-28-1139-SENSEX-78600-CE",
@@ -40962,10 +40962,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 50.3,
-      "livePnlPct": -2.42,
-      "targetProgress": -3,
-      "slDistance": 37.6
+      "livePrice": 44.3,
+      "livePnlPct": -14.06,
+      "targetProgress": -20,
+      "slDistance": 25.9
     },
     {
       "id": "2026-04-28-1139-SENSEX-78700-CE",
@@ -40998,10 +40998,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 42.85,
-      "livePnlPct": -1.49,
-      "targetProgress": -2,
-      "slDistance": 38.5
+      "livePrice": 38.05,
+      "livePnlPct": -12.53,
+      "targetProgress": -18,
+      "slDistance": 27.5
     },
     {
       "id": "2026-04-28-1139-SENSEX-78800-CE",
@@ -41034,10 +41034,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 37,
-      "livePnlPct": -0.54,
-      "targetProgress": -1,
-      "slDistance": 39.5
+      "livePrice": 32.55,
+      "livePnlPct": -12.5,
+      "targetProgress": -18,
+      "slDistance": 27.5
     },
     {
       "id": "2026-04-28-1139-SENSEX-78900-CE",
@@ -41070,10 +41070,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 31.75,
-      "livePnlPct": -0.47,
-      "targetProgress": -1,
-      "slDistance": 39.5
+      "livePrice": 28.25,
+      "livePnlPct": -11.44,
+      "targetProgress": -16,
+      "slDistance": 28.6
     },
     {
       "id": "2026-04-28-1139-SENSEX-79000-CE",
@@ -41106,10 +41106,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 28,
-      "livePnlPct": 1.08,
-      "targetProgress": 2,
-      "slDistance": 41.1
+      "livePrice": 25.05,
+      "livePnlPct": -9.57,
+      "targetProgress": -14,
+      "slDistance": 30.4
     },
     {
       "id": "2026-04-28-1139-SENSEX-79100-CE",
@@ -41142,10 +41142,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 24.3,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 40
+      "livePrice": 22.15,
+      "livePnlPct": -8.85,
+      "targetProgress": -13,
+      "slDistance": 31.2
     },
     {
       "id": "2026-04-28-1139-SENSEX-79200-CE",
@@ -41178,10 +41178,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 21,
-      "livePnlPct": 0.24,
-      "targetProgress": 0,
-      "slDistance": 40.2
+      "livePrice": 19.25,
+      "livePnlPct": -8.11,
+      "targetProgress": -12,
+      "slDistance": 31.9
     },
     {
       "id": "2026-04-28-1139-SENSEX-79300-CE",
@@ -41214,10 +41214,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 18.4,
-      "livePnlPct": 2.22,
-      "targetProgress": 3,
-      "slDistance": 42.2
+      "livePrice": 17.35,
+      "livePnlPct": -3.61,
+      "targetProgress": -5,
+      "slDistance": 36.4
     },
     {
       "id": "2026-04-28-1139-SENSEX-80800-CE",
@@ -41250,10 +41250,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 4.05,
-      "livePnlPct": -1.22,
-      "targetProgress": -2,
-      "slDistance": 38.8
+      "livePrice": 4.45,
+      "livePnlPct": 8.54,
+      "targetProgress": 12,
+      "slDistance": 48.5
     },
     {
       "id": "2026-04-28-1139-SENSEX-79700-CE",
@@ -41286,10 +41286,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 12,
-      "livePnlPct": 5.73,
-      "targetProgress": 8,
-      "slDistance": 45.7
+      "livePrice": 11.85,
+      "livePnlPct": 4.41,
+      "targetProgress": 6,
+      "slDistance": 44.4
     },
     {
       "id": "2026-04-28-1139-SENSEX-79800-CE",
@@ -41322,10 +41322,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 10.95,
-      "livePnlPct": 3.3,
-      "targetProgress": 5,
-      "slDistance": 43.3
+      "livePrice": 11.2,
+      "livePnlPct": 5.66,
+      "targetProgress": 8,
+      "slDistance": 45.7
     },
     {
       "id": "2026-04-28-1139-SENSEX-79900-CE",
@@ -41358,10 +41358,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 10.1,
-      "livePnlPct": 6.32,
-      "targetProgress": 9,
-      "slDistance": 46.3
+      "livePrice": 10.2,
+      "livePnlPct": 7.37,
+      "targetProgress": 11,
+      "slDistance": 47.4
     },
     {
       "id": "2026-04-28-1139-SENSEX-80000-CE",
@@ -41430,10 +41430,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 7.9,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 40
+      "livePrice": 8.5,
+      "livePnlPct": 7.59,
+      "targetProgress": 11,
+      "slDistance": 47.6
     },
     {
       "id": "2026-04-28-1139-SENSEX-80400-CE",
@@ -41466,10 +41466,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 6.35,
-      "livePnlPct": 5.83,
-      "targetProgress": 8,
-      "slDistance": 45.8
+      "livePrice": 6.65,
+      "livePnlPct": 10.83,
+      "targetProgress": 15,
+      "slDistance": 50.8
     },
     {
       "id": "2026-04-28-1139-SENSEX-79400-CE",
@@ -41502,10 +41502,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 16.35,
-      "livePnlPct": 3.48,
-      "targetProgress": 5,
-      "slDistance": 43.5
+      "livePrice": 15.35,
+      "livePnlPct": -2.85,
+      "targetProgress": -4,
+      "slDistance": 37.2
     },
     {
       "id": "2026-04-28-1139-FINNIFTY-25950-CE",
@@ -41538,10 +41538,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 123.5,
-      "livePnlPct": -6.86,
-      "targetProgress": -11,
-      "slDistance": 33.1
+      "livePrice": 90.65,
+      "livePnlPct": -31.64,
+      "targetProgress": -50,
+      "slDistance": 8.4
     },
     {
       "id": "2026-04-28-1139-FINNIFTY-26000-CE",
@@ -41574,10 +41574,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 85.9,
-      "livePnlPct": -10.38,
-      "targetProgress": -17,
-      "slDistance": 29.6
+      "livePrice": 61.95,
+      "livePnlPct": -35.37,
+      "targetProgress": -50,
+      "slDistance": 4.6
     },
     {
       "id": "2026-04-28-1139-FINNIFTY-26050-CE",
@@ -41605,14 +41605,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 29% | DTE 0 | Delta 0.50",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 39.78,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 58.45,
-      "livePnlPct": -11.84,
-      "targetProgress": -20,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 28.2
     },
     {
@@ -41641,14 +41641,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 28% | DTE 0 | Delta 0.37",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 24.72,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 35.9,
-      "livePnlPct": -12.86,
-      "targetProgress": -21,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 27.1
     },
     {
@@ -41677,14 +41677,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 28% | DTE 0 | Delta 0.26",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 14.4,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 20.65,
-      "livePnlPct": -13.96,
-      "targetProgress": -23,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 26
     },
     {
@@ -41713,14 +41713,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 28% | DTE 0 | Delta 0.17",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 8.37,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 11.8,
-      "livePnlPct": -15.41,
-      "targetProgress": -26,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 24.6
     },
     {
@@ -41749,14 +41749,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 29% | DTE 0 | Delta 0.11",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 5.04,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 6.8,
-      "livePnlPct": -19.05,
-      "targetProgress": -32,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 21
     },
     {
@@ -41785,14 +41785,14 @@
       "winRateEst": 55,
       "vix": 17.78,
       "slTgtMethod": "IV 30% | DTE 0 | Delta 0.07",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 2.88,
+      "exitTime": "12:22:26",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 4.1,
-      "livePnlPct": -14.58,
-      "targetProgress": -24,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 25.4
     },
     {
@@ -41825,7 +41825,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 59.15,
+      "livePnlPct": -0.5,
+      "targetProgress": -1,
+      "slDistance": 39.5
     },
     {
       "id": "2026-04-28-1213-NIFTY-23950-CE",
@@ -41857,7 +41861,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 97.7,
+      "livePnlPct": 0.36,
+      "targetProgress": 1,
+      "slDistance": 40.4
     },
     {
       "id": "2026-04-28-1213-NIFTY-24050-CE",
@@ -41889,7 +41897,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 29.85,
+      "livePnlPct": -0.83,
+      "targetProgress": -1,
+      "slDistance": 39.2
     },
     {
       "id": "2026-04-28-1213-BANKNIFTY-55400-CE",
@@ -41921,7 +41933,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 312.6,
+      "livePnlPct": 6.54,
+      "targetProgress": 11,
+      "slDistance": 46.5
     },
     {
       "id": "2026-04-28-1213-BANKNIFTY-55500-CE",
@@ -41953,7 +41969,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 230,
+      "livePnlPct": 6.41,
+      "targetProgress": 11,
+      "slDistance": 46.4
     },
     {
       "id": "2026-04-28-1213-BANKNIFTY-55600-CE",
@@ -41985,7 +42005,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 162.1,
+      "livePnlPct": 6.89,
+      "targetProgress": 11,
+      "slDistance": 46.9
     },
     {
       "id": "2026-04-28-1213-SENSEX-77000-CE",
@@ -42017,7 +42041,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 469.7,
+      "livePnlPct": 1.36,
+      "targetProgress": 2,
+      "slDistance": 41.4
     },
     {
       "id": "2026-04-28-1213-SENSEX-77100-CE",
@@ -42049,7 +42077,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 409.45,
+      "livePnlPct": -0.4,
+      "targetProgress": -1,
+      "slDistance": 39.6
     },
     {
       "id": "2026-04-28-1213-SENSEX-77200-CE",
@@ -42081,7 +42113,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 361.6,
+      "livePnlPct": -0.51,
+      "targetProgress": -1,
+      "slDistance": 39.5
     },
     {
       "id": "2026-04-28-1213-SENSEX-77300-CE",
@@ -42113,7 +42149,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 317.45,
+      "livePnlPct": -0.47,
+      "targetProgress": -1,
+      "slDistance": 39.5
     },
     {
       "id": "2026-04-28-1213-SENSEX-77400-CE",
@@ -42145,7 +42185,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 279.25,
+      "livePnlPct": -0.16,
+      "targetProgress": 0,
+      "slDistance": 39.8
     },
     {
       "id": "2026-04-28-1213-SENSEX-77500-CE",
@@ -42177,7 +42221,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 245.8,
+      "livePnlPct": 0.31,
+      "targetProgress": 0,
+      "slDistance": 40.3
     },
     {
       "id": "2026-04-28-1213-SENSEX-77600-CE",
@@ -42209,7 +42257,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 211,
+      "livePnlPct": -0.4,
+      "targetProgress": -1,
+      "slDistance": 39.6
     },
     {
       "id": "2026-04-28-1213-FINNIFTY-25900-CE",
@@ -42241,7 +42293,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 101.4,
+      "livePnlPct": -19.49,
+      "targetProgress": -32,
+      "slDistance": 20.5
     },
     {
       "id": "2026-04-28-1213-FINNIFTY-25950-CE",
@@ -42273,7 +42329,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 90.65,
+      "livePnlPct": 2.37,
+      "targetProgress": 4,
+      "slDistance": 42.4
     },
     {
       "id": "2026-04-28-1213-FINNIFTY-26000-CE",
@@ -42305,17 +42365,21 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 61.95,
+      "livePnlPct": 4.29,
+      "targetProgress": 7,
+      "slDistance": 44.3
     }
   ],
-  "lastUpdated": "2026-04-28T06:44:57.325Z",
+  "lastUpdated": "2026-04-28T06:52:26.310Z",
   "upstoxId": "132199",
   "stats": {
     "total": 1179,
     "hits": 163,
-    "sls": 241,
-    "open": 165,
-    "winRate": 40,
+    "sls": 278,
+    "open": 128,
+    "winRate": 37,
     "avgConf": 82
   }
 }
