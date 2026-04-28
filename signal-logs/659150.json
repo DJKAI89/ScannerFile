@@ -27,11 +27,14 @@
       "triggerMethod": "ATR Breakout",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "10:50:40",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1013-PAYTM-STOCK",
@@ -60,11 +63,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "10:50:40",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-27-1013-HSCL-STOCK",
@@ -93,11 +99,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "10:50:40",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-0950-CUB-STOCK",
@@ -199,13 +208,13 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-04-28T05:18:51.534Z",
+  "lastUpdated": "2026-04-28T05:20:40.771Z",
   "upstoxId": "659150",
   "stats": {
     "total": 6,
     "hits": 0,
     "sls": 0,
-    "open": 6,
+    "open": 3,
     "winRate": null,
     "avgConf": 86
   }
