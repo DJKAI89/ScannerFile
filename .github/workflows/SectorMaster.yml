@@ -1,0 +1,97 @@
+name: Build Sector Master (Weekly)
+
+on:
+  schedule:
+    - cron: '30 0 * * 0'   # Sunday 6:00 AM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-sector:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Build sector map (optimized incremental)
+        run: |
+          python3 << 'PYEOF'
+          import requests, json, time, os
+
+          HEADERS = {
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'application/json',
+            'Referer': 'https://www.nseindia.com/',
+          }
+
+          session = requests.Session()
+
+          print("Init NSE session...")
+          session.get("https://www.nseindia.com", headers=HEADERS)
+          time.sleep(2)
+
+          # Load existing map (incremental update)
+          sector_map = {}
+          if os.path.exists("stocks/sector_map.json"):
+              with open("stocks/sector_map.json") as f:
+                  sector_map = json.load(f)
+
+          print("Fetching NIFTY 500...")
+          url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
+          stocks = session.get(url, headers=HEADERS).json().get("data", [])
+
+          def fetch_sector(symbol):
+              for attempt in range(3):  # retry
+                  try:
+                      url = f"https://www.nseindia.com/api/quote-equity?symbol={symbol}"
+                      r = session.get(url, headers=HEADERS, timeout=10)
+                      data = r.json()
+                      info = data.get("industryInfo", {})
+                      return info.get("sector") or "Unknown"
+                  except Exception as e:
+                      print(f"Retry {symbol} ({attempt+1})...")
+                      time.sleep(1.5)
+              return "Unknown"
+
+          updated = 0
+
+          for s in stocks:
+              symbol = s.get("symbol")
+              if not symbol:
+                  continue
+
+              # Skip if already exists (optimization 🚀)
+              if symbol in sector_map and sector_map[symbol]:
+                  continue
+
+              sector = fetch_sector(symbol)
+              sector_map[symbol] = sector
+              updated += 1
+
+              print(f"{symbol} -> {sector}")
+              time.sleep(0.6)  # prevent blocking
+
+          os.makedirs("stocks", exist_ok=True)
+
+          with open("stocks/sector_map.json", "w") as f:
+              json.dump(sector_map, f, indent=2)
+
+          print(f"Updated {updated} stocks")
+          print("Saved sector_map.json")
+          PYEOF
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stocks/sector_map.json
+          git diff --staged --quiet || git commit -m "Update sector map (incremental)"
+          git push
