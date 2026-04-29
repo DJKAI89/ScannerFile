@@ -11650,7 +11650,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 450.4,
+      "livePnlPct": 2.75,
+      "targetProgress": 4,
+      "slDistance": 42.7
     },
     {
       "id": "2026-04-29-1024-SENSEX-77800-CE",
@@ -11682,10 +11686,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 393.25,
+      "livePnlPct": 2.37,
+      "targetProgress": 3,
+      "slDistance": 42.4
     }
   ],
-  "lastUpdated": "2026-04-29T04:54:12.098Z",
+  "lastUpdated": "2026-04-29T04:56:52.552Z",
   "upstoxId": "132199",
   "stats": {
     "total": 327,
