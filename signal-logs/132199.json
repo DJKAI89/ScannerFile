@@ -27,11 +27,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1255-COALINDIA-STOCK",
@@ -60,11 +63,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1255-SUZLON-STOCK",
@@ -93,11 +99,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1255-TATASTEEL-STOCK",
@@ -126,11 +135,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1255-ETERNAL-STOCK",
@@ -159,11 +171,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1255-MAHABANK-STOCK",
@@ -192,11 +207,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1255-NIFTY-23900-CE",
@@ -1305,11 +1323,14 @@
       "triggerMethod": "Market",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1304-COHANCE-STOCK",
@@ -1338,11 +1359,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1304-ONGC-STOCK",
@@ -1371,11 +1395,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1304-NIFTY-24000-CE",
@@ -4321,11 +4348,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1315-NIFTY-24050-PE",
@@ -7213,11 +7243,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1409-IFCI-STOCK",
@@ -7246,11 +7279,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1409-NIFTY-24050-PE",
@@ -8063,11 +8099,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1414-NIFTY-24000-PE",
@@ -8951,11 +8990,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1438-COALINDIA-STOCK",
@@ -8984,11 +9026,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1438-IFCI-STOCK",
@@ -9017,11 +9062,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1438-ONGC-STOCK",
@@ -9050,11 +9098,14 @@
       "triggerMethod": "ATR Breakout",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1438-COHANCE-STOCK",
@@ -9083,11 +9134,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1438-RELIANCE-STOCK",
@@ -9116,11 +9170,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1439-BANKNIFTY-55400-CE",
@@ -10948,11 +11005,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1512-NHPC-STOCK",
@@ -10981,11 +11041,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:18:41",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-1516-NIFTY-24000-PE",
@@ -11125,7 +11188,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 328.6,
+      "livePnlPct": -6.71,
+      "targetProgress": -10,
+      "slDistance": 33.3
     },
     {
       "id": "2026-04-29-0918-SENSEX-77300-CE",
@@ -11157,16 +11224,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 277.05,
+      "livePnlPct": -7.76,
+      "targetProgress": -11,
+      "slDistance": 32.2
     }
   ],
-  "lastUpdated": "2026-04-29T03:48:17.554Z",
+  "lastUpdated": "2026-04-29T03:48:41.552Z",
   "upstoxId": "132199",
   "stats": {
     "total": 314,
     "hits": 15,
     "sls": 107,
-    "open": 176,
+    "open": 155,
     "winRate": 12,
     "avgConf": 82
   }
