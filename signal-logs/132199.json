@@ -11189,10 +11189,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 360.1,
-      "livePnlPct": 2.23,
-      "targetProgress": 3,
-      "slDistance": 42.2
+      "livePrice": 433.35,
+      "livePnlPct": 23.02,
+      "targetProgress": 33,
+      "slDistance": 63
     },
     {
       "id": "2026-04-29-0918-SENSEX-77300-CE",
@@ -11225,10 +11225,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 307.1,
-      "livePnlPct": 2.25,
-      "targetProgress": 3,
-      "slDistance": 42.2
+      "livePrice": 374.4,
+      "livePnlPct": 24.65,
+      "targetProgress": 35,
+      "slDistance": 64.7
     },
     {
       "id": "2026-04-29-0927-EMMVEE-STOCK",
@@ -11293,7 +11293,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 496.75,
+      "livePnlPct": 18.49,
+      "targetProgress": 26,
+      "slDistance": 58.5
     },
     {
       "id": "2026-04-29-0927-SENSEX-77200-CE",
@@ -11325,7 +11329,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 433.35,
+      "livePnlPct": 20.56,
+      "targetProgress": 29,
+      "slDistance": 60.6
     },
     {
       "id": "2026-04-29-0927-SENSEX-77300-CE",
@@ -11357,10 +11365,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 374.4,
+      "livePnlPct": 22.33,
+      "targetProgress": 32,
+      "slDistance": 62.3
     }
   ],
-  "lastUpdated": "2026-04-29T03:57:23.816Z",
+  "lastUpdated": "2026-04-29T04:17:20.212Z",
   "upstoxId": "132199",
   "stats": {
     "total": 318,
