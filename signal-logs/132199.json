@@ -12248,10 +12248,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 256.3,
-      "livePnlPct": -37.76,
+      "livePrice": 251.45,
+      "livePnlPct": -38.94,
       "targetProgress": -50,
-      "slDistance": 2.2
+      "slDistance": 1.1
     },
     {
       "id": "2026-04-29-1133-SENSEX-77800-CE",
@@ -12279,14 +12279,14 @@
       "winRateEst": 55,
       "vix": 17.08,
       "slTgtMethod": "IV 18% | DTE 1 | Delta 0.55",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 213.06,
+      "exitTime": "14:58:36",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 214.9,
-      "livePnlPct": -39.48,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 0.5
     },
     {
@@ -12605,10 +12605,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 305.05,
-      "livePnlPct": -5.72,
-      "targetProgress": -8,
-      "slDistance": 34.3
+      "livePrice": 301.45,
+      "livePnlPct": -6.83,
+      "targetProgress": -10,
+      "slDistance": 33.2
     },
     {
       "id": "2026-04-29-1457-SENSEX-77600-CE",
@@ -12640,7 +12640,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 301.45,
+      "livePnlPct": -1.18,
+      "targetProgress": -2,
+      "slDistance": 38.8
     },
     {
       "id": "2026-04-29-1457-SENSEX-77600-CE",
@@ -12672,16 +12676,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 301.45,
+      "livePnlPct": -0.18,
+      "targetProgress": 0,
+      "slDistance": 39.8
     }
   ],
-  "lastUpdated": "2026-04-29T09:28:05.754Z",
+  "lastUpdated": "2026-04-29T09:28:36.573Z",
   "upstoxId": "132199",
   "stats": {
     "total": 355,
     "hits": 26,
-    "sls": 126,
-    "open": 166,
+    "sls": 127,
+    "open": 165,
     "winRate": 17,
     "avgConf": 82
   }
