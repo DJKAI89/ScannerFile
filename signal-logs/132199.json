@@ -12243,14 +12243,14 @@
       "winRateEst": 55,
       "vix": 17.08,
       "slTgtMethod": "IV 18% | DTE 1 | Delta 0.60",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 247.08,
+      "exitTime": "15:17:01",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 251.45,
-      "livePnlPct": -38.94,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 1.1
     },
     {
@@ -12605,10 +12605,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 301.45,
-      "livePnlPct": -6.83,
-      "targetProgress": -10,
-      "slDistance": 33.2
+      "livePrice": 265.3,
+      "livePnlPct": -18,
+      "targetProgress": -26,
+      "slDistance": 22
     },
     {
       "id": "2026-04-29-1457-SENSEX-77600-CE",
@@ -12641,10 +12641,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 301.45,
-      "livePnlPct": -1.18,
-      "targetProgress": -2,
-      "slDistance": 38.8
+      "livePrice": 265.3,
+      "livePnlPct": -13.03,
+      "targetProgress": -19,
+      "slDistance": 27
     },
     {
       "id": "2026-04-29-1457-SENSEX-77600-CE",
@@ -12677,10 +12677,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 301.45,
-      "livePnlPct": -0.18,
-      "targetProgress": 0,
-      "slDistance": 39.8
+      "livePrice": 265.3,
+      "livePnlPct": -12.15,
+      "targetProgress": -17,
+      "slDistance": 27.8
     },
     {
       "id": "2026-04-29-1502-SENSEX-77600-CE",
@@ -12712,16 +12712,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 265.3,
+      "livePnlPct": -17.58,
+      "targetProgress": -25,
+      "slDistance": 22.4
     }
   ],
-  "lastUpdated": "2026-04-29T09:32:37.072Z",
+  "lastUpdated": "2026-04-29T09:47:01.066Z",
   "upstoxId": "132199",
   "stats": {
     "total": 356,
     "hits": 26,
-    "sls": 127,
-    "open": 166,
+    "sls": 128,
+    "open": 165,
     "winRate": 17,
     "avgConf": 82
   }
