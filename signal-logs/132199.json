@@ -11651,10 +11651,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 435.6,
-      "livePnlPct": -0.63,
-      "targetProgress": -1,
-      "slDistance": 39.4
+      "livePrice": 419.75,
+      "livePnlPct": -4.24,
+      "targetProgress": -6,
+      "slDistance": 35.8
     },
     {
       "id": "2026-04-29-1024-SENSEX-77800-CE",
@@ -11687,10 +11687,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 379.75,
-      "livePnlPct": -1.15,
-      "targetProgress": -2,
-      "slDistance": 38.9
+      "livePrice": 364,
+      "livePnlPct": -5.25,
+      "targetProgress": -7,
+      "slDistance": 34.8
     },
     {
       "id": "2026-04-29-1030-EMMVEE-STOCK",
@@ -11854,7 +11854,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 419.75,
+      "livePnlPct": -7.4,
+      "targetProgress": -11,
+      "slDistance": 32.6
     },
     {
       "id": "2026-04-29-1100-SENSEX-77800-CE",
@@ -11886,7 +11890,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 364,
+      "livePnlPct": -7.67,
+      "targetProgress": -11,
+      "slDistance": 32.3
     },
     {
       "id": "2026-04-29-1100-SENSEX-77900-CE",
@@ -11918,7 +11926,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 314.6,
+      "livePnlPct": -8.92,
+      "targetProgress": -13,
+      "slDistance": 31.1
     },
     {
       "id": "2026-04-29-1100-SENSEX-77700-CE",
@@ -11950,7 +11962,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 419.75,
+      "livePnlPct": -5.4,
+      "targetProgress": -8,
+      "slDistance": 34.6
     },
     {
       "id": "2026-04-29-1100-SENSEX-77800-CE",
@@ -11982,10 +11998,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 364,
+      "livePnlPct": -6.04,
+      "targetProgress": -9,
+      "slDistance": 34
     }
   ],
-  "lastUpdated": "2026-04-29T05:30:20.302Z",
+  "lastUpdated": "2026-04-29T05:36:49.972Z",
   "upstoxId": "132199",
   "stats": {
     "total": 336,
