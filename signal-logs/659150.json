@@ -503,16 +503,49 @@
       "livePnlPct": null,
       "targetProgress": null,
       "slDistance": 76.4
+    },
+    {
+      "id": "2026-04-30-1052-VEDL-STOCK",
+      "date": "2026-04-30",
+      "time": "10:52:38",
+      "type": "STOCK",
+      "stock": "VEDL",
+      "name": "Vedanta Limited",
+      "signal": "BUY",
+      "confidence": 87.3,
+      "strength": "MODERATE",
+      "numInds": 4,
+      "entry": 278.95,
+      "sl": 268.79,
+      "target": 755.27,
+      "targetCons": 294.19,
+      "targetMod": 755.27,
+      "targetAgg": 319.59,
+      "rr": 3,
+      "winRateEst": 68,
+      "risk": 38.8,
+      "rsi": 61.71,
+      "vix": 19.35,
+      "reversal": "NONE",
+      "trigger": 292.88,
+      "triggerMethod": "Break above Day High",
+      "slMethod": "ATR+VIX",
+      "tgtMethod": "R1 resistance",
+      "status": "OPEN",
+      "exitPrice": null,
+      "exitTime": null,
+      "pnlPct": null,
+      "note": ""
     }
   ],
-  "lastUpdated": "2026-04-30T05:20:17.282Z",
+  "lastUpdated": "2026-04-30T05:22:38.222Z",
   "upstoxId": "659150",
   "stats": {
-    "total": 14,
+    "total": 15,
     "hits": 6,
     "sls": 0,
-    "open": 2,
+    "open": 3,
     "winRate": 100,
-    "avgConf": 85
+    "avgConf": 86
   }
 }
