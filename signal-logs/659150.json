@@ -135,11 +135,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:41:30",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-0950-ATGL-STOCK",
@@ -168,11 +171,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:41:30",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-28-0950-SUZLON-STOCK",
@@ -201,11 +207,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:41:30",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-30-0940-NIFTY-23750-PE",
@@ -237,7 +246,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 120.5,
+      "livePnlPct": -0.58,
+      "targetProgress": -1,
+      "slDistance": 39.4
     },
     {
       "id": "2026-04-30-0940-NIFTY-23700-PE",
@@ -269,7 +282,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 103.5,
+      "livePnlPct": -0.67,
+      "targetProgress": -1,
+      "slDistance": 39.3
     },
     {
       "id": "2026-04-30-0940-SENSEX-76900-PE",
@@ -301,7 +318,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 350.2,
+      "livePnlPct": -5.82,
+      "targetProgress": -10,
+      "slDistance": 34.2
     },
     {
       "id": "2026-04-30-0940-SENSEX-76700-PE",
@@ -333,7 +354,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 221.65,
+      "livePnlPct": -7.22,
+      "targetProgress": -12,
+      "slDistance": 32.8
     },
     {
       "id": "2026-04-30-0940-SENSEX-76800-PE",
@@ -365,7 +390,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 283.4,
+      "livePnlPct": -6.17,
+      "targetProgress": -10,
+      "slDistance": 33.8
     },
     {
       "id": "2026-04-30-0940-SENSEX-76400-PE",
@@ -397,7 +426,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 95.15,
+      "livePnlPct": -9.38,
+      "targetProgress": -16,
+      "slDistance": 30.6
     },
     {
       "id": "2026-04-30-0940-SENSEX-76500-PE",
@@ -429,7 +462,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 128.55,
+      "livePnlPct": -9.02,
+      "targetProgress": -15,
+      "slDistance": 31
     },
     {
       "id": "2026-04-30-0940-SENSEX-76600-PE",
@@ -461,16 +498,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 170.9,
+      "livePnlPct": -8.09,
+      "targetProgress": -13,
+      "slDistance": 31.9
     }
   ],
-  "lastUpdated": "2026-04-30T04:10:10.253Z",
+  "lastUpdated": "2026-04-30T04:11:30.312Z",
   "upstoxId": "659150",
   "stats": {
     "total": 14,
     "hits": 0,
     "sls": 0,
-    "open": 11,
+    "open": 8,
     "winRate": null,
     "avgConf": 85
   }
