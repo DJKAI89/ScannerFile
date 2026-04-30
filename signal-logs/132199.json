@@ -11257,11 +11257,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-0927-SENSEX-77100-CE",
@@ -11614,11 +11617,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1024-SENSEX-77700-CE",
@@ -11719,11 +11725,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1030-BANDHANBNK-STOCK",
@@ -11752,11 +11761,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1100-EMMVEE-STOCK",
@@ -11785,11 +11797,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1100-BANDHANBNK-STOCK",
@@ -11818,11 +11833,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1100-SENSEX-77700-CE",
@@ -12175,11 +12193,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1133-SENSEX-77600-CE",
@@ -12496,11 +12517,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 0,
+      "exitTime": "09:17:23",
+      "pnlPct": -100,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-04-29-1328-SENSEX-77800-CE",
@@ -12748,16 +12772,20 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 247.05,
+      "livePnlPct": 0.63,
+      "targetProgress": 1,
+      "slDistance": 40.6
     }
   ],
-  "lastUpdated": "2026-04-30T03:47:03.914Z",
+  "lastUpdated": "2026-04-30T03:47:23.803Z",
   "upstoxId": "132199",
   "stats": {
     "total": 357,
     "hits": 26,
     "sls": 199,
-    "open": 95,
+    "open": 87,
     "winRate": 12,
     "avgConf": 82
   }
