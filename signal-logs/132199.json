@@ -12876,14 +12876,14 @@
       "winRateEst": 55,
       "vix": 19.29,
       "slTgtMethod": "IV 18% | DTE 5 | Delta 0.35",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 73.98,
+      "exitTime": "13:11:30",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 75.75,
-      "livePnlPct": -38.56,
-      "targetProgress": -43,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 1.4
     },
     {
@@ -12912,14 +12912,14 @@
       "winRateEst": 55,
       "vix": 19.29,
       "slTgtMethod": "IV 18% | DTE 5 | Delta 0.32",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 63.96,
+      "exitTime": "13:11:30",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 64.2,
-      "livePnlPct": -39.77,
-      "targetProgress": -44,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 0.2
     },
     {
@@ -13167,10 +13167,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 103.85,
-      "livePnlPct": 0.05,
-      "targetProgress": 0,
-      "slDistance": 40
+      "livePrice": 99,
+      "livePnlPct": -4.62,
+      "targetProgress": -5,
+      "slDistance": 35.4
     },
     {
       "id": "2026-04-30-1309-NIFTY-23800-PE",
@@ -13203,10 +13203,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 120.6,
-      "livePnlPct": 0.21,
-      "targetProgress": 0,
-      "slDistance": 40.2
+      "livePrice": 115,
+      "livePnlPct": -4.45,
+      "targetProgress": -5,
+      "slDistance": 35.6
     },
     {
       "id": "2026-04-30-1309-NIFTY-23450-PE",
@@ -13239,10 +13239,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 39.2,
-      "livePnlPct": 0.26,
-      "targetProgress": 0,
-      "slDistance": 40.3
+      "livePrice": 37.3,
+      "livePnlPct": -4.6,
+      "targetProgress": -5,
+      "slDistance": 35.4
     },
     {
       "id": "2026-04-30-1309-NIFTY-23500-PE",
@@ -13275,10 +13275,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 46.4,
-      "livePnlPct": 0.54,
-      "targetProgress": 1,
-      "slDistance": 40.5
+      "livePrice": 44.05,
+      "livePnlPct": -4.55,
+      "targetProgress": -5,
+      "slDistance": 35.4
     },
     {
       "id": "2026-04-30-1309-NIFTY-23550-PE",
@@ -13311,10 +13311,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 54.65,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 40
+      "livePrice": 52.1,
+      "livePnlPct": -4.67,
+      "targetProgress": -5,
+      "slDistance": 35.3
     },
     {
       "id": "2026-04-30-1309-NIFTY-23600-PE",
@@ -13347,10 +13347,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 64.2,
-      "livePnlPct": -0.23,
-      "targetProgress": 0,
-      "slDistance": 39.8
+      "livePrice": 61.3,
+      "livePnlPct": -4.74,
+      "targetProgress": -5,
+      "slDistance": 35.3
     },
     {
       "id": "2026-04-30-1309-NIFTY-23650-PE",
@@ -13383,10 +13383,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 75.75,
-      "livePnlPct": -0.13,
-      "targetProgress": 0,
-      "slDistance": 39.9
+      "livePrice": 72.45,
+      "livePnlPct": -4.48,
+      "targetProgress": -5,
+      "slDistance": 35.5
     },
     {
       "id": "2026-04-30-1309-NIFTY-23700-PE",
@@ -13419,10 +13419,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 88.5,
-      "livePnlPct": -0.11,
-      "targetProgress": 0,
-      "slDistance": 39.9
+      "livePrice": 85.1,
+      "livePnlPct": -3.95,
+      "targetProgress": -4,
+      "slDistance": 36
     },
     {
       "id": "2026-04-30-1309-SENSEX-76900-PE",
@@ -13455,10 +13455,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 185.85,
-      "livePnlPct": -1.67,
-      "targetProgress": -3,
-      "slDistance": 38.3
+      "livePrice": 152.4,
+      "livePnlPct": -19.37,
+      "targetProgress": -32,
+      "slDistance": 20.6
     },
     {
       "id": "2026-04-30-1309-SENSEX-76800-PE",
@@ -13491,10 +13491,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 124.95,
-      "livePnlPct": -1.46,
-      "targetProgress": -2,
-      "slDistance": 38.5
+      "livePrice": 98.05,
+      "livePnlPct": -22.67,
+      "targetProgress": -38,
+      "slDistance": 17.3
     },
     {
       "id": "2026-04-30-1309-SENSEX-76700-PE",
@@ -13527,10 +13527,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 77.55,
-      "livePnlPct": -1.71,
-      "targetProgress": -3,
-      "slDistance": 38.3
+      "livePrice": 60.45,
+      "livePnlPct": -23.38,
+      "targetProgress": -39,
+      "slDistance": 16.6
     },
     {
       "id": "2026-04-30-1309-SENSEX-76500-PE",
@@ -13563,10 +13563,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 28.85,
-      "livePnlPct": -0.52,
-      "targetProgress": -1,
-      "slDistance": 39.5
+      "livePrice": 21.8,
+      "livePnlPct": -24.83,
+      "targetProgress": -41,
+      "slDistance": 15.2
     },
     {
       "id": "2026-04-30-1309-SENSEX-76600-PE",
@@ -13599,19 +13599,19 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 47.55,
-      "livePnlPct": -0.42,
-      "targetProgress": -1,
-      "slDistance": 39.6
+      "livePrice": 36.25,
+      "livePnlPct": -24.08,
+      "targetProgress": -40,
+      "slDistance": 15.9
     }
   ],
-  "lastUpdated": "2026-04-30T07:40:16.781Z",
+  "lastUpdated": "2026-04-30T07:41:30.275Z",
   "upstoxId": "132199",
   "stats": {
     "total": 380,
     "hits": 27,
-    "sls": 293,
-    "open": 15,
+    "sls": 295,
+    "open": 13,
     "winRate": 8,
     "avgConf": 82
   }
