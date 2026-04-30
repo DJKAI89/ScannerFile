@@ -12809,10 +12809,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 294.85,
-      "livePnlPct": 0.79,
-      "targetProgress": 1,
-      "slDistance": 40.8
+      "livePrice": 254.9,
+      "livePnlPct": -12.87,
+      "targetProgress": -21,
+      "slDistance": 27.1
     },
     {
       "id": "2026-04-30-1055-SENSEX-76600-PE",
@@ -12845,13 +12845,13 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 371.8,
-      "livePnlPct": 0.34,
-      "targetProgress": 1,
-      "slDistance": 40.3
+      "livePrice": 329.2,
+      "livePnlPct": -11.16,
+      "targetProgress": -19,
+      "slDistance": 28.8
     }
   ],
-  "lastUpdated": "2026-04-30T05:25:34.085Z",
+  "lastUpdated": "2026-04-30T05:33:41.474Z",
   "upstoxId": "132199",
   "stats": {
     "total": 359,
