@@ -1,6 +1,7 @@
 {
   "dates": [
-    "2026-04-27"
+    "2026-04-27",
+    "2026-04-28"
   ],
   "dailyStats": {
     "2026-04-27": {
@@ -10,8 +11,16 @@
       "open": 0,
       "winRate": null,
       "avgConf": 82
+    },
+    "2026-04-28": {
+      "total": 3,
+      "hits": 0,
+      "sls": 0,
+      "open": 0,
+      "winRate": null,
+      "avgConf": 89
     }
   },
-  "lastUpdated": "2026-05-01T02:35:53.365Z",
+  "lastUpdated": "2026-05-01T02:35:56.446Z",
   "upstoxId": "659150"
 }
