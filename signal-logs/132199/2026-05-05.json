@@ -26,14 +26,14 @@
       "winRateEst": 55,
       "vix": 18.58,
       "slTgtMethod": "IV 27% | DTE 0 | Delta 0.91",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 284,
+      "exitTime": "13:34:47",
+      "pnlPct": 63.83,
       "note": "",
-      "livePrice": 202.2,
-      "livePnlPct": 16.64,
-      "targetProgress": 28,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 56.6
     },
     {
@@ -62,14 +62,14 @@
       "winRateEst": 55,
       "vix": 18.58,
       "slTgtMethod": "IV 24% | DTE 0 | Delta 0.61",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 36.66,
+      "exitTime": "13:34:47",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 43.9,
-      "livePnlPct": -28.15,
-      "targetProgress": -47,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 11.8
     },
     {
@@ -103,10 +103,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 441.35,
-      "livePnlPct": -9.46,
-      "targetProgress": -14,
-      "slDistance": 30.5
+      "livePrice": 294.4,
+      "livePnlPct": -39.6,
+      "targetProgress": -50,
+      "slDistance": 0.4
     },
     {
       "id": "2026-05-05-1208-SENSEX-76800-PE",
@@ -139,10 +139,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 491,
-      "livePnlPct": -9.06,
-      "targetProgress": -13,
-      "slDistance": 30.9
+      "livePrice": 330.1,
+      "livePnlPct": -38.86,
+      "targetProgress": -50,
+      "slDistance": 1.1
     },
     {
       "id": "2026-05-05-1208-SENSEX-76900-PE",
@@ -175,20 +175,20 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 543.9,
-      "livePnlPct": -8.74,
-      "targetProgress": -12,
-      "slDistance": 31.3
+      "livePrice": 370.4,
+      "livePnlPct": -37.85,
+      "targetProgress": -50,
+      "slDistance": 2.1
     }
   ],
-  "lastUpdated": "2026-05-05T06:45:31.092Z",
+  "lastUpdated": "2026-05-05T08:04:50.690Z",
   "upstoxId": "132199",
   "stats": {
     "total": 5,
-    "hits": 0,
-    "sls": 0,
-    "open": 5,
-    "winRate": null,
+    "hits": 1,
+    "sls": 1,
+    "open": 3,
+    "winRate": 50,
     "avgConf": 66
   }
 }
