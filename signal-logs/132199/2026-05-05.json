@@ -170,14 +170,14 @@
       "winRateEst": 55,
       "vix": 18.58,
       "slTgtMethod": "IV 20% | DTE 2 | Delta 0.57",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 357.6,
+      "exitTime": "15:20:12",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 372.9,
-      "livePnlPct": -37.43,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 2.6
     },
     {
@@ -211,10 +211,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 76.4,
-      "livePnlPct": 1.46,
-      "targetProgress": 2,
-      "slDistance": 41.5
+      "livePrice": 70.15,
+      "livePnlPct": -6.84,
+      "targetProgress": -11,
+      "slDistance": 33.2
     },
     {
       "id": "2026-05-05-1335-NIFTY-23850-CE",
@@ -247,10 +247,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 188.5,
-      "livePnlPct": 0.27,
-      "targetProgress": 0,
-      "slDistance": 40.3
+      "livePrice": 179.45,
+      "livePnlPct": -4.55,
+      "targetProgress": -8,
+      "slDistance": 35.5
     },
     {
       "id": "2026-05-05-1335-NIFTY-23900-CE",
@@ -283,10 +283,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 138.95,
-      "livePnlPct": -0.71,
-      "targetProgress": -1,
-      "slDistance": 39.3
+      "livePrice": 129.55,
+      "livePnlPct": -7.43,
+      "targetProgress": -12,
+      "slDistance": 32.6
     },
     {
       "id": "2026-05-05-1335-NIFTY-23950-CE",
@@ -319,10 +319,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 93.7,
-      "livePnlPct": -0.21,
-      "targetProgress": 0,
-      "slDistance": 39.8
+      "livePrice": 79.8,
+      "livePnlPct": -15.02,
+      "targetProgress": -25,
+      "slDistance": 25
     },
     {
       "id": "2026-05-05-1335-NIFTY-24050-PE",
@@ -350,14 +350,14 @@
       "winRateEst": 55,
       "vix": 18.17,
       "slTgtMethod": "IV 23% | DTE 0 | Delta 0.58",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 24.48,
+      "exitTime": "15:20:12",
+      "pnlPct": -40,
       "note": "",
-      "livePrice": 41.15,
-      "livePnlPct": 0.86,
-      "targetProgress": 1,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 40.9
     },
     {
@@ -391,20 +391,20 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 465.55,
-      "livePnlPct": 0.47,
-      "targetProgress": 1,
-      "slDistance": 40.5
+      "livePrice": 377.35,
+      "livePnlPct": -18.56,
+      "targetProgress": -27,
+      "slDistance": 21.4
     }
   ],
-  "lastUpdated": "2026-05-05T08:06:16.784Z",
+  "lastUpdated": "2026-05-05T09:50:15.785Z",
   "upstoxId": "132199",
   "stats": {
     "total": 11,
     "hits": 1,
-    "sls": 3,
-    "open": 7,
-    "winRate": 25,
+    "sls": 5,
+    "open": 5,
+    "winRate": 17,
     "avgConf": 66
   }
 }
