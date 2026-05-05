@@ -103,10 +103,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 294.4,
-      "livePnlPct": -39.6,
+      "livePrice": 295.3,
+      "livePnlPct": -39.42,
       "targetProgress": -50,
-      "slDistance": 0.4
+      "slDistance": 0.6
     },
     {
       "id": "2026-05-05-1208-SENSEX-76800-PE",
@@ -139,10 +139,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 330.1,
-      "livePnlPct": -38.86,
+      "livePrice": 332,
+      "livePnlPct": -38.51,
       "targetProgress": -50,
-      "slDistance": 1.1
+      "slDistance": 1.5
     },
     {
       "id": "2026-05-05-1208-SENSEX-76900-PE",
@@ -175,13 +175,13 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 370.4,
-      "livePnlPct": -37.85,
+      "livePrice": 371.4,
+      "livePnlPct": -37.68,
       "targetProgress": -50,
-      "slDistance": 2.1
+      "slDistance": 2.3
     }
   ],
-  "lastUpdated": "2026-05-05T08:04:50.690Z",
+  "lastUpdated": "2026-05-05T08:05:02.133Z",
   "upstoxId": "132199",
   "stats": {
     "total": 5,
