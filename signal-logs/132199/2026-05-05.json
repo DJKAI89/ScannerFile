@@ -175,10 +175,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 367.8,
-      "livePnlPct": -38.29,
+      "livePrice": 372.9,
+      "livePnlPct": -37.43,
       "targetProgress": -50,
-      "slDistance": 1.7
+      "slDistance": 2.6
     },
     {
       "id": "2026-05-05-1335-NIFTY-24100-PE",
@@ -210,7 +210,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 76.4,
+      "livePnlPct": 1.46,
+      "targetProgress": 2,
+      "slDistance": 41.5
     },
     {
       "id": "2026-05-05-1335-NIFTY-23850-CE",
@@ -242,7 +246,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 188.5,
+      "livePnlPct": 0.27,
+      "targetProgress": 0,
+      "slDistance": 40.3
     },
     {
       "id": "2026-05-05-1335-NIFTY-23900-CE",
@@ -274,7 +282,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 138.95,
+      "livePnlPct": -0.71,
+      "targetProgress": -1,
+      "slDistance": 39.3
     },
     {
       "id": "2026-05-05-1335-NIFTY-23950-CE",
@@ -306,7 +318,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 93.7,
+      "livePnlPct": -0.21,
+      "targetProgress": 0,
+      "slDistance": 39.8
     },
     {
       "id": "2026-05-05-1335-NIFTY-24050-PE",
@@ -338,7 +354,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 41.15,
+      "livePnlPct": 0.86,
+      "targetProgress": 1,
+      "slDistance": 40.9
     },
     {
       "id": "2026-05-05-1335-SENSEX-77100-PE",
@@ -370,10 +390,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 465.55,
+      "livePnlPct": 0.47,
+      "targetProgress": 1,
+      "slDistance": 40.5
     }
   ],
-  "lastUpdated": "2026-05-05T08:05:40.356Z",
+  "lastUpdated": "2026-05-05T08:06:16.784Z",
   "upstoxId": "132199",
   "stats": {
     "total": 11,
