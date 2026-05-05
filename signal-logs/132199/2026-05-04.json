@@ -27,11 +27,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 10.58,
+      "exitTime": "09:18:17",
+      "pnlPct": 0,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-04-1155-HFCL-STOCK",
@@ -60,11 +63,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 122.13,
+      "exitTime": "09:18:17",
+      "pnlPct": 0,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-04-1401-IDEA-STOCK",
@@ -93,11 +99,14 @@
       "triggerMethod": "Market",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 10.46,
+      "exitTime": "09:18:17",
+      "pnlPct": 0,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-04-1401-HFCL-STOCK",
@@ -126,11 +135,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 124.7,
+      "exitTime": "09:18:17",
+      "pnlPct": 0,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-04-1454-HFCL-STOCK",
@@ -159,20 +171,23 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "status": "EXPIRED",
+      "exitPrice": 125.23,
+      "exitTime": "09:18:17",
+      "pnlPct": 0,
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     }
   ],
-  "lastUpdated": "2026-05-04T10:05:35.076Z",
+  "lastUpdated": "2026-05-05T03:48:18.376Z",
   "upstoxId": "132199",
   "stats": {
     "total": 5,
     "hits": 0,
     "sls": 0,
-    "open": 5,
+    "open": 0,
     "winRate": null,
     "avgConf": 78
   }
