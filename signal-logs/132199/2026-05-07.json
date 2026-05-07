@@ -67,10 +67,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 337.8,
-      "livePnlPct": -14.63,
+      "livePrice": 337.65,
+      "livePnlPct": -14.67,
       "targetProgress": -24,
-      "slDistance": 10.4
+      "slDistance": 10.3
     },
     {
       "id": "2026-05-07-1015-SENSEX-77700-CE",
@@ -103,10 +103,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 269.2,
-      "livePnlPct": -17.12,
-      "targetProgress": -29,
-      "slDistance": 7.9
+      "livePrice": 266.9,
+      "livePnlPct": -17.83,
+      "targetProgress": -30,
+      "slDistance": 7.2
     },
     {
       "id": "2026-05-07-1015-SENSEX-77800-CE",
@@ -139,10 +139,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 207.45,
-      "livePnlPct": -21.12,
-      "targetProgress": -35,
-      "slDistance": 3.9
+      "livePrice": 209.25,
+      "livePnlPct": -20.44,
+      "targetProgress": -34,
+      "slDistance": 4.6
     },
     {
       "id": "2026-05-07-1048-SENSEX-77700-CE",
@@ -372,7 +372,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 337.65,
+      "livePnlPct": -0.04,
+      "targetProgress": 0,
+      "slDistance": 25
     },
     {
       "id": "2026-05-07-1117-SENSEX-77700-CE",
@@ -404,7 +408,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 266.9,
+      "livePnlPct": -0.85,
+      "targetProgress": -1,
+      "slDistance": 24.1
     },
     {
       "id": "2026-05-07-1117-SENSEX-77800-CE",
@@ -436,7 +444,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 209.25,
+      "livePnlPct": 0.87,
+      "targetProgress": 1,
+      "slDistance": 25.9
     },
     {
       "id": "2026-05-07-1117-SENSEX-77500-CE",
@@ -468,16 +480,84 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
+      "note": "",
+      "livePrice": 417.75,
+      "livePnlPct": -0.1,
+      "targetProgress": 0,
+      "slDistance": 24.9
+    },
+    {
+      "id": "2026-05-07-1117-SENSEX-77700-CE",
+      "date": "2026-05-07",
+      "time": "11:17:23",
+      "type": "OPTION",
+      "stock": "SENSEX",
+      "name": "SENSEX 77700 CE",
+      "signal": "BUY",
+      "confidence": 68,
+      "strength": "MODERATE",
+      "numInds": 8,
+      "entry": 266,
+      "sl": 199.5,
+      "target": 425.6,
+      "strike": 77700,
+      "optType": "CE",
+      "expiry": "2026-05-07",
+      "lot": 20,
+      "delta": 0.6576,
+      "iv": 24.87,
+      "trendAligned": true,
+      "capitalReq": 5320,
+      "rr": 2.4,
+      "winRateEst": 55,
+      "vix": 16.92,
+      "slTgtMethod": "IV 25% | DTE 0 | Delta 0.66 | EXPIRY DAY",
+      "status": "OPEN",
+      "exitPrice": null,
+      "exitTime": null,
+      "pnlPct": null,
+      "note": ""
+    },
+    {
+      "id": "2026-05-07-1117-SENSEX-77800-CE",
+      "date": "2026-05-07",
+      "time": "11:17:23",
+      "type": "OPTION",
+      "stock": "SENSEX",
+      "name": "SENSEX 77800 CE",
+      "signal": "BUY",
+      "confidence": 65,
+      "strength": "MODERATE",
+      "numInds": 8,
+      "entry": 204.6,
+      "sl": 153.45,
+      "target": 327.36,
+      "strike": 77800,
+      "optType": "CE",
+      "expiry": "2026-05-07",
+      "lot": 20,
+      "delta": 0.5668,
+      "iv": 25.16,
+      "trendAligned": true,
+      "capitalReq": 4092,
+      "rr": 2.4,
+      "winRateEst": 55,
+      "vix": 16.92,
+      "slTgtMethod": "IV 25% | DTE 0 | Delta 0.57 | EXPIRY DAY",
+      "status": "OPEN",
+      "exitPrice": null,
+      "exitTime": null,
+      "pnlPct": null,
       "note": ""
     }
   ],
-  "lastUpdated": "2026-05-07T05:47:16.747Z",
+  "lastUpdated": "2026-05-07T05:47:23.512Z",
   "upstoxId": "132199",
   "stats": {
-    "total": 14,
+    "total": 16,
     "hits": 0,
     "sls": 4,
-    "open": 10,
+    "open": 12,
     "winRate": 0,
     "avgConf": 66
   }
