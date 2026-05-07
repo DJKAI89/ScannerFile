@@ -401,10 +401,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 128.45,
-      "livePnlPct": -29.75,
-      "targetProgress": -33,
-      "slDistance": 10.2
+      "livePrice": 127.7,
+      "livePnlPct": -30.16,
+      "targetProgress": -34,
+      "slDistance": 9.8
     },
     {
       "id": "2026-05-06-1556-NIFTY-24500-CE",
@@ -437,10 +437,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 109.15,
-      "livePnlPct": -31.61,
+      "livePrice": 108.9,
+      "livePnlPct": -31.77,
       "targetProgress": -35,
-      "slDistance": 8.4
+      "slDistance": 8.2
     },
     {
       "id": "2026-05-06-1556-NIFTY-24550-CE",
@@ -473,10 +473,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 92.35,
-      "livePnlPct": -33.08,
-      "targetProgress": -37,
-      "slDistance": 6.9
+      "livePrice": 91,
+      "livePnlPct": -34.06,
+      "targetProgress": -38,
+      "slDistance": 5.9
     },
     {
       "id": "2026-05-06-1556-NIFTY-24600-CE",
@@ -509,10 +509,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 77.15,
-      "livePnlPct": -35.03,
-      "targetProgress": -39,
-      "slDistance": 5
+      "livePrice": 76.35,
+      "livePnlPct": -35.71,
+      "targetProgress": -40,
+      "slDistance": 4.3
     },
     {
       "id": "2026-05-06-1556-NIFTY-24650-CE",
@@ -545,10 +545,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 64.4,
-      "livePnlPct": -36.43,
-      "targetProgress": -40,
-      "slDistance": 3.6
+      "livePrice": 63.4,
+      "livePnlPct": -37.41,
+      "targetProgress": -42,
+      "slDistance": 2.6
     },
     {
       "id": "2026-05-06-1556-NIFTY-24700-CE",
@@ -581,10 +581,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 53.2,
-      "livePnlPct": -38.39,
+      "livePrice": 52.7,
+      "livePnlPct": -38.97,
       "targetProgress": -43,
-      "slDistance": 1.6
+      "slDistance": 1
     },
     {
       "id": "2026-05-06-1556-NIFTY-24800-CE",
@@ -731,7 +731,7 @@
       "slDistance": 23.9
     }
   ],
-  "lastUpdated": "2026-05-07T05:47:35.797Z",
+  "lastUpdated": "2026-05-07T05:48:03.026Z",
   "upstoxId": "132199",
   "stats": {
     "total": 21,
