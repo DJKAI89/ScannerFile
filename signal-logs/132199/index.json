@@ -61,9 +61,9 @@
     "2026-05-06": {
       "total": 21,
       "hits": 0,
-      "sls": 0,
-      "open": 21,
-      "winRate": null,
+      "sls": 3,
+      "open": 17,
+      "winRate": 0,
       "avgConf": 74
     },
     "2026-05-07": {
@@ -75,6 +75,6 @@
       "avgConf": 65
     }
   },
-  "lastUpdated": "2026-05-07T01:39:36.680Z",
+  "lastUpdated": "2026-05-07T03:49:15.928Z",
   "upstoxId": "132199"
 }
