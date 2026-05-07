@@ -401,10 +401,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 128.7,
-      "livePnlPct": -29.61,
+      "livePrice": 128.45,
+      "livePnlPct": -29.75,
       "targetProgress": -33,
-      "slDistance": 10.4
+      "slDistance": 10.2
     },
     {
       "id": "2026-05-06-1556-NIFTY-24500-CE",
@@ -437,10 +437,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 109.35,
-      "livePnlPct": -31.48,
+      "livePrice": 109.1,
+      "livePnlPct": -31.64,
       "targetProgress": -35,
-      "slDistance": 8.5
+      "slDistance": 8.4
     },
     {
       "id": "2026-05-06-1556-NIFTY-24550-CE",
@@ -473,10 +473,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 92.3,
-      "livePnlPct": -33.12,
+      "livePrice": 92.4,
+      "livePnlPct": -33.04,
       "targetProgress": -37,
-      "slDistance": 6.9
+      "slDistance": 7
     },
     {
       "id": "2026-05-06-1556-NIFTY-24600-CE",
@@ -509,10 +509,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 77.25,
-      "livePnlPct": -34.95,
+      "livePrice": 77.6,
+      "livePnlPct": -34.65,
       "targetProgress": -39,
-      "slDistance": 5.1
+      "slDistance": 5.3
     },
     {
       "id": "2026-05-06-1556-NIFTY-24650-CE",
@@ -545,8 +545,8 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 64.5,
-      "livePnlPct": -36.33,
+      "livePrice": 64.55,
+      "livePnlPct": -36.28,
       "targetProgress": -40,
       "slDistance": 3.7
     },
@@ -581,10 +581,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 53.1,
-      "livePnlPct": -38.51,
+      "livePrice": 53.25,
+      "livePnlPct": -38.33,
       "targetProgress": -43,
-      "slDistance": 1.5
+      "slDistance": 1.7
     },
     {
       "id": "2026-05-06-1556-NIFTY-24800-CE",
@@ -725,13 +725,13 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 149.3,
-      "livePnlPct": -15.67,
+      "livePrice": 148.9,
+      "livePnlPct": -15.9,
       "targetProgress": -13,
-      "slDistance": 24.3
+      "slDistance": 24.1
     }
   ],
-  "lastUpdated": "2026-05-07T05:47:13.409Z",
+  "lastUpdated": "2026-05-07T05:47:20.198Z",
   "upstoxId": "132199",
   "stats": {
     "total": 21,
