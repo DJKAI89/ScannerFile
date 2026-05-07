@@ -1,0 +1,46 @@
+{
+  "signals": [
+    {
+      "id": "2026-05-07-0708-FINNIFTY-26600-CE",
+      "date": "2026-05-07",
+      "time": "07:08:47",
+      "type": "OPTION",
+      "stock": "FINNIFTY",
+      "name": "FINNIFTY 26600 CE",
+      "signal": "BUY",
+      "confidence": 65,
+      "strength": "MODERATE",
+      "numInds": 6,
+      "entry": 214,
+      "sl": 134.4,
+      "target": 452.8,
+      "strike": 26600,
+      "optType": "CE",
+      "expiry": "2026-05-26",
+      "lot": 65,
+      "delta": 0.5026,
+      "iv": 8.66,
+      "trendAligned": true,
+      "capitalReq": 13910,
+      "rr": 3,
+      "winRateEst": 55,
+      "vix": 16.68,
+      "slTgtMethod": "IV 9% | DTE 19 | Delta 0.50",
+      "status": "OPEN",
+      "exitPrice": null,
+      "exitTime": null,
+      "pnlPct": null,
+      "note": ""
+    }
+  ],
+  "lastUpdated": "2026-05-07T01:38:48.242Z",
+  "upstoxId": "132199",
+  "stats": {
+    "total": 1,
+    "hits": 0,
+    "sls": 0,
+    "open": 1,
+    "winRate": null,
+    "avgConf": 65
+  }
+}
