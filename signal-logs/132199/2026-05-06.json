@@ -50,15 +50,19 @@
       "sl": 795.97,
       "target": 873.01,
       "rr": 2,
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 821.65,
+      "exitTime": "07:09:28",
+      "pnlPct": 0,
       "boScore": 6,
       "sector": "Fast Moving Consumer Goods",
       "volRatio": 2.88,
       "wk52pos": 106.1,
-      "phase": "midday"
+      "phase": "midday",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "note": "Auto-expired after 1 day"
     },
     {
       "id": "2026-05-06-1041-HDFCLIFE-STOCK",
@@ -727,13 +731,13 @@
       "slDistance": 40
     }
   ],
-  "lastUpdated": "2026-05-06T10:26:29.995Z",
+  "lastUpdated": "2026-05-07T01:39:33.244Z",
   "upstoxId": "132199",
   "stats": {
     "total": 21,
     "hits": 0,
     "sls": 0,
-    "open": 21,
+    "open": 20,
     "winRate": null,
     "avgConf": 74
   }
