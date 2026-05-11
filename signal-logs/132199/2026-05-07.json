@@ -31,10 +31,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 301.5,
-      "livePnlPct": 40.89,
-      "targetProgress": 37,
-      "slDistance": 78.1
+      "livePrice": 168,
+      "livePnlPct": -21.5,
+      "targetProgress": -19,
+      "slDistance": 15.7
     },
     {
       "id": "2026-05-07-1015-SENSEX-77600-CE",
@@ -629,7 +629,7 @@
       "note": "Auto-expired after 1 day"
     }
   ],
-  "lastUpdated": "2026-05-08T07:33:52.543Z",
+  "lastUpdated": "2026-05-11T04:02:26.529Z",
   "upstoxId": "132199",
   "stats": {
     "total": 18,
