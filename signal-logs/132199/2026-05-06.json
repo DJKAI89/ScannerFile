@@ -27,12 +27,15 @@
       "triggerMethod": "Break above VWAP",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 595.6,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1022-MARICO-BO",
@@ -91,12 +94,15 @@
       "triggerMethod": "Break above VWAP",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 598.05,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1041-POONAWALLA-STOCK",
@@ -125,12 +131,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 451.5,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1107-YESBANK-STOCK",
@@ -159,12 +168,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 21.56,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1107-MEESHO-STOCK",
@@ -193,12 +205,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 196.95,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1331-YESBANK-STOCK",
@@ -227,12 +242,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 21.76,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1331-MEESHO-STOCK",
@@ -261,12 +279,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 194.43,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1331-HDFCLIFE-STOCK",
@@ -295,12 +316,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 608.85,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1518-YESBANK-STOCK",
@@ -329,12 +353,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 22.16,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1518-IDFCFIRSTB-STOCK",
@@ -363,12 +390,15 @@
       "triggerMethod": "Break above Pivot R1",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 69.55,
+      "exitTime": "09:32:23",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-06-1556-NIFTY-24450-CE",
@@ -731,13 +761,13 @@
       "slDistance": 0.7
     }
   ],
-  "lastUpdated": "2026-05-08T07:33:48.906Z",
+  "lastUpdated": "2026-05-11T04:02:25.415Z",
   "upstoxId": "132199",
   "stats": {
     "total": 21,
     "hits": 0,
     "sls": 10,
-    "open": 10,
+    "open": 0,
     "winRate": 0,
     "avgConf": 74
   }
