@@ -26,14 +26,14 @@
       "winRateEst": 55,
       "vix": 16.68,
       "slTgtMethod": "IV 9% | DTE 19 | Delta 0.50",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 134.4,
+      "exitTime": "11:58:43",
+      "pnlPct": -37.2,
       "note": "",
-      "livePrice": 148.95,
-      "livePnlPct": -30.4,
-      "targetProgress": -27,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 6.8
     },
     {
@@ -629,13 +629,13 @@
       "note": "Auto-expired after 1 day"
     }
   ],
-  "lastUpdated": "2026-05-12T06:29:41.746Z",
+  "lastUpdated": "2026-05-12T07:48:26.440Z",
   "upstoxId": "132199",
   "stats": {
     "total": 18,
     "hits": 0,
-    "sls": 5,
-    "open": 1,
+    "sls": 6,
+    "open": 0,
     "winRate": 0,
     "avgConf": 66
   }
