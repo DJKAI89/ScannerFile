@@ -19,9 +19,11 @@
     "moodRefresh": 3,
     "minOptConf": 65,
     "maxOptCapital": 10000,
+    "portSize": 50000,
+    "riskPct": 2,
     "_v": "v4"
   },
   "upstoxId": "132199",
-  "savedAt": "2026-05-12T03:47:29.502Z",
+  "savedAt": "2026-05-12T18:07:01.398Z",
   "version": "v4"
 }
