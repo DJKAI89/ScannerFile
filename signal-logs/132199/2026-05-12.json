@@ -69,14 +69,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 368.8,
+      "exitTime": "10:44:51",
+      "pnlPct": 30.57,
       "note": "",
-      "livePrice": 364.8,
-      "livePnlPct": 29.16,
-      "targetProgress": 97,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 54.2
     },
     {
@@ -2384,14 +2384,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 685.15,
+      "exitTime": "10:44:51",
+      "pnlPct": 30.06,
       "note": "",
-      "livePrice": 678.95,
-      "livePnlPct": 28.88,
-      "targetProgress": 96,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 53.9
     },
     {
@@ -4709,14 +4709,14 @@
       "slDistance": 29
     }
   ],
-  "lastUpdated": "2026-05-12T05:15:24.425Z",
+  "lastUpdated": "2026-05-12T05:17:38.352Z",
   "upstoxId": "132199",
   "stats": {
     "total": 118,
-    "hits": 24,
+    "hits": 26,
     "sls": 2,
-    "open": 92,
-    "winRate": 92,
+    "open": 90,
+    "winRate": 93,
     "avgConf": 70
   }
 }
