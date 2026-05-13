@@ -5098,15 +5098,15 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 218.25,
+      "exitTime": "12:44:28",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 259,
-      "livePnlPct": -11,
-      "targetProgress": -24,
-      "slDistance": 14
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 17.9
     },
     {
       "id": "2026-05-12-2337-SENSEX-74200-PE",
@@ -5789,13 +5789,13 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-13T08:57:26.798Z",
+  "lastUpdated": "2026-05-13T08:57:46.924Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
     "hits": 81,
-    "sls": 21,
-    "open": 43,
+    "sls": 22,
+    "open": 42,
     "winRate": 79,
     "avgConf": 70
   }
