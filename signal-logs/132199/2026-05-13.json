@@ -3066,15 +3066,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 188.4,
+      "exitTime": "09:17:34",
+      "pnlPct": 31.33,
       "note": "",
-      "livePrice": 183.05,
-      "livePnlPct": 27.61,
-      "targetProgress": 92,
-      "slDistance": 52.6
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-13-0915-SENSEX-74900-PE",
@@ -3266,15 +3265,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 1.8,
+      "exitTime": "09:17:34",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 2.25,
-      "livePnlPct": -6.25,
-      "targetProgress": -21,
-      "slDistance": 18.8
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-13-0915-SENSEX-68300-PE",
@@ -4386,15 +4384,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 1.65,
+      "exitTime": "09:17:34",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 1.8,
-      "livePnlPct": -18.18,
-      "targetProgress": -50,
-      "slDistance": 6.8
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-13-0915-SENSEX-67500-PE",
@@ -5392,14 +5389,14 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-13T03:48:22.698Z",
+  "lastUpdated": "2026-05-13T03:48:53.097Z",
   "upstoxId": "132199",
   "stats": {
     "total": 135,
-    "hits": 12,
-    "sls": 1,
-    "open": 122,
-    "winRate": 92,
+    "hits": 13,
+    "sls": 3,
+    "open": 119,
+    "winRate": 81,
     "avgConf": 73
   }
 }
