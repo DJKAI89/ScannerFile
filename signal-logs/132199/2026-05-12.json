@@ -5458,15 +5458,15 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 158.4,
+      "exitTime": "11:39:31",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 172.15,
-      "livePnlPct": -18.49,
-      "targetProgress": -50,
-      "slDistance": 6.5
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 5.9
     },
     {
       "id": "2026-05-12-2337-SENSEX-73600-PE",
@@ -5789,14 +5789,14 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-13T07:28:37.322Z",
+  "lastUpdated": "2026-05-13T07:28:57.407Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
     "hits": 81,
-    "sls": 17,
-    "open": 47,
-    "winRate": 83,
+    "sls": 18,
+    "open": 46,
+    "winRate": 82,
     "avgConf": 70
   }
 }
