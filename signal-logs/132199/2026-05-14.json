@@ -435,10 +435,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 114.75,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 146.5,
+      "livePnlPct": 27.67,
+      "targetProgress": 60,
+      "slDistance": 52.7
     },
     {
       "id": "2026-05-14-1056-SENSEX-74800-CE",
@@ -827,10 +827,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 199.85,
-      "livePnlPct": 0.2,
-      "targetProgress": 0,
-      "slDistance": 25.2
+      "livePrice": 215.6,
+      "livePnlPct": 8.1,
+      "targetProgress": 13,
+      "slDistance": 33.1
     },
     {
       "id": "2026-05-14-1321-SENSEX-75700-PE",
@@ -867,10 +867,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 265.85,
-      "livePnlPct": -1.35,
-      "targetProgress": -2,
-      "slDistance": 23.6
+      "livePrice": 315.15,
+      "livePnlPct": 16.94,
+      "targetProgress": 28,
+      "slDistance": 41.9
     },
     {
       "id": "2026-05-14-1513-NLCINDIA-STOCK",
@@ -943,7 +943,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-05-14T09:43:24.261Z",
+  "lastUpdated": "2026-05-14T09:43:31.741Z",
   "upstoxId": "132199",
   "stats": {
     "total": 25,
