@@ -1,0 +1,49 @@
+{
+  "signals": [
+    {
+      "id": "2026-05-14-0915-OIL-STOCK",
+      "date": "2026-05-14",
+      "time": "09:15:46",
+      "type": "STOCK",
+      "stock": "OIL",
+      "instrKey": "NSE_EQ|INE274J01014",
+      "name": "Oil India Limited",
+      "signal": "BUY",
+      "confidence": 75.8,
+      "strength": "MODERATE",
+      "numInds": 4,
+      "entry": 522.45,
+      "sl": 511.88,
+      "target": 543.6,
+      "targetCons": 538.31,
+      "targetMod": 543.6,
+      "targetAgg": 564.73,
+      "rr": 2,
+      "winRateEst": 67,
+      "risk": 33.5,
+      "rsi": 63.39,
+      "vix": 18.65,
+      "reversal": "NONE",
+      "trigger": 528.13,
+      "triggerMethod": "Break above Day High",
+      "slMethod": "ATR+VIX",
+      "tgtMethod": "2:1 R:R",
+      "status": "OPEN",
+      "holdDays": 3,
+      "exitPrice": null,
+      "exitTime": null,
+      "pnlPct": null,
+      "note": ""
+    }
+  ],
+  "lastUpdated": "2026-05-14T03:45:47.265Z",
+  "upstoxId": "132199",
+  "stats": {
+    "total": 1,
+    "hits": 0,
+    "sls": 0,
+    "open": 1,
+    "winRate": null,
+    "avgConf": 76
+  }
+}
