@@ -392,10 +392,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1345,
-      "livePnlPct": 32.9,
-      "targetProgress": 66,
-      "slDistance": 57.9
+      "livePrice": 1334.75,
+      "livePnlPct": 31.89,
+      "targetProgress": 64,
+      "slDistance": 56.9
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-54600-PE",
@@ -472,10 +472,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1387.5,
-      "livePnlPct": 24.6,
-      "targetProgress": 49,
-      "slDistance": 49.6
+      "livePrice": 1467.7,
+      "livePnlPct": 31.8,
+      "targetProgress": 64,
+      "slDistance": 56.8
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55900-PE",
@@ -5789,7 +5789,7 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-14T04:55:21.946Z",
+  "lastUpdated": "2026-05-14T04:55:47.929Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
