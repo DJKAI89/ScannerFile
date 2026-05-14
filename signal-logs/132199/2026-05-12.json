@@ -312,10 +312,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2190.85,
-      "livePnlPct": 32.3,
-      "targetProgress": 65,
-      "slDistance": 57.3
+      "livePrice": 2275,
+      "livePnlPct": 37.38,
+      "targetProgress": 75,
+      "slDistance": 62.4
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55800-PE",
@@ -347,14 +347,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 2595,
+      "exitTime": "10:55:55",
+      "pnlPct": 55.25,
       "note": "",
-      "livePrice": 2094.5,
-      "livePnlPct": 25.3,
-      "targetProgress": 51,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 50.3
     },
     {
@@ -387,14 +387,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 1528.5,
+      "exitTime": "10:55:55",
+      "pnlPct": 51.03,
       "note": "",
-      "livePrice": 1417.55,
-      "livePnlPct": 40.07,
-      "targetProgress": 80,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 65.1
     },
     {
@@ -427,14 +427,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 1606.2,
+      "exitTime": "10:55:55",
+      "pnlPct": 51.69,
       "note": "",
-      "livePrice": 1450,
-      "livePnlPct": 36.93,
-      "targetProgress": 74,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 61.9
     },
     {
@@ -472,10 +472,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1532.1,
-      "livePnlPct": 37.58,
-      "targetProgress": 75,
-      "slDistance": 62.6
+      "livePrice": 1634,
+      "livePnlPct": 46.73,
+      "targetProgress": 93,
+      "slDistance": 71.7
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55900-PE",
@@ -552,10 +552,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2574.85,
-      "livePnlPct": 32.51,
-      "targetProgress": 65,
-      "slDistance": 57.5
+      "livePrice": 2688.6,
+      "livePnlPct": 38.37,
+      "targetProgress": 77,
+      "slDistance": 63.4
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56100-PE",
@@ -712,10 +712,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 3040,
-      "livePnlPct": 31.33,
-      "targetProgress": 75,
-      "slDistance": 52.1
+      "livePrice": 3137.35,
+      "livePnlPct": 35.53,
+      "targetProgress": 85,
+      "slDistance": 56.3
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-57000-PE",
@@ -752,10 +752,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 3335,
-      "livePnlPct": 19.11,
-      "targetProgress": 48,
-      "slDistance": 38.8
+      "livePrice": 3598.55,
+      "livePnlPct": 28.52,
+      "targetProgress": 72,
+      "slDistance": 48.2
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-57400-PE",
@@ -1112,10 +1112,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2153,
-      "livePnlPct": 35.04,
-      "targetProgress": 70,
-      "slDistance": 60
+      "livePrice": 2264.75,
+      "livePnlPct": 42.05,
+      "targetProgress": 84,
+      "slDistance": 67
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55700-PE",
@@ -5789,14 +5789,14 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-14T05:26:09.350Z",
+  "lastUpdated": "2026-05-14T05:26:21.596Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
-    "hits": 99,
+    "hits": 102,
     "sls": 24,
-    "open": 22,
-    "winRate": 80,
+    "open": 19,
+    "winRate": 81,
     "avgConf": 70
   }
 }
