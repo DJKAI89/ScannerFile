@@ -1309,14 +1309,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 43.39,
+      "exitTime": "09:36:06",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 48.3,
-      "livePnlPct": -16.51,
-      "targetProgress": -39,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 8.5
     },
     {
@@ -1474,10 +1474,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 63.1,
-      "livePnlPct": -16.15,
-      "targetProgress": -38,
-      "slDistance": 8.9
+      "livePrice": 63.6,
+      "livePnlPct": -15.48,
+      "targetProgress": -36,
+      "slDistance": 9.5
     },
     {
       "id": "2026-05-13-0915-BANKNIFTY-49800-PE",
@@ -2831,10 +2831,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 178,
-      "livePnlPct": -15.26,
-      "targetProgress": -36,
-      "slDistance": 9.7
+      "livePrice": 176.8,
+      "livePnlPct": -15.83,
+      "targetProgress": -37,
+      "slDistance": 9.2
     },
     {
       "id": "2026-05-13-0915-BANKNIFTY-50300-PE",
@@ -6665,14 +6665,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 78.9,
+      "exitTime": "09:36:06",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 82.55,
-      "livePnlPct": -21.53,
-      "targetProgress": -50,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 3.5
     },
     {
@@ -15671,13 +15671,13 @@
       "slDistance": 22.4
     }
   ],
-  "lastUpdated": "2026-05-14T04:06:14.160Z",
+  "lastUpdated": "2026-05-14T04:06:39.384Z",
   "upstoxId": "132199",
   "stats": {
     "total": 397,
     "hits": 72,
-    "sls": 251,
-    "open": 74,
+    "sls": 253,
+    "open": 72,
     "winRate": 22,
     "avgConf": 73
   }
