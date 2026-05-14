@@ -312,10 +312,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1533.8,
-      "livePnlPct": -7.38,
-      "targetProgress": -15,
-      "slDistance": 17.6
+      "livePrice": 1659.75,
+      "livePnlPct": 0.23,
+      "targetProgress": 0,
+      "slDistance": 25.2
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55800-PE",
@@ -512,10 +512,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1743.35,
-      "livePnlPct": -8.67,
-      "targetProgress": -17,
-      "slDistance": 16.3
+      "livePrice": 1958.6,
+      "livePnlPct": 2.61,
+      "targetProgress": 5,
+      "slDistance": 27.6
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56000-PE",
@@ -552,10 +552,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1820,
-      "livePnlPct": -6.34,
-      "targetProgress": -13,
-      "slDistance": 18.7
+      "livePrice": 2042.35,
+      "livePnlPct": 5.11,
+      "targetProgress": 10,
+      "slDistance": 30.1
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56100-PE",
@@ -592,10 +592,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1909.7,
-      "livePnlPct": -6.65,
-      "targetProgress": -13,
-      "slDistance": 18.3
+      "livePrice": 2085.15,
+      "livePnlPct": 1.92,
+      "targetProgress": 4,
+      "slDistance": 26.9
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56200-PE",
@@ -632,10 +632,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2119.45,
-      "livePnlPct": 0.72,
-      "targetProgress": 1,
-      "slDistance": 25.7
+      "livePrice": 2220,
+      "livePnlPct": 5.5,
+      "targetProgress": 11,
+      "slDistance": 30.5
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56300-PE",
@@ -672,10 +672,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2126.5,
-      "livePnlPct": -4.31,
-      "targetProgress": -9,
-      "slDistance": 20.7
+      "livePrice": 2300,
+      "livePnlPct": 3.49,
+      "targetProgress": 7,
+      "slDistance": 28.5
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56500-PE",
@@ -712,10 +712,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2275,
-      "livePnlPct": -1.72,
-      "targetProgress": -4,
-      "slDistance": 19.1
+      "livePrice": 2485,
+      "livePnlPct": 7.35,
+      "targetProgress": 18,
+      "slDistance": 28.1
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-57000-PE",
@@ -752,10 +752,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2674.25,
-      "livePnlPct": -4.49,
-      "targetProgress": -11,
-      "slDistance": 15.2
+      "livePrice": 2930,
+      "livePnlPct": 4.64,
+      "targetProgress": 12,
+      "slDistance": 24.4
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-57400-PE",
@@ -1112,10 +1112,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1454.95,
-      "livePnlPct": -8.74,
-      "targetProgress": -17,
-      "slDistance": 16.3
+      "livePrice": 1661.3,
+      "livePnlPct": 4.2,
+      "targetProgress": 8,
+      "slDistance": 29.2
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55700-PE",
@@ -1152,10 +1152,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1590,
-      "livePnlPct": -10.13,
-      "targetProgress": -20,
-      "slDistance": 14.9
+      "livePrice": 1791.85,
+      "livePnlPct": 1.27,
+      "targetProgress": 3,
+      "slDistance": 26.3
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56400-PE",
@@ -5663,10 +5663,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 114.75,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 146.5,
+      "livePnlPct": 27.67,
+      "targetProgress": 60,
+      "slDistance": 52.7
     },
     {
       "id": "2026-05-12-2337-FINNIFTY-24450-PE",
@@ -5789,7 +5789,7 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-14T07:52:10.937Z",
+  "lastUpdated": "2026-05-14T09:43:24.686Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
