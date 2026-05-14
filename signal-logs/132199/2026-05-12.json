@@ -312,10 +312,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2275,
-      "livePnlPct": 37.38,
-      "targetProgress": 75,
-      "slDistance": 62.4
+      "livePrice": 2475.45,
+      "livePnlPct": 49.48,
+      "targetProgress": 99,
+      "slDistance": 74.5
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55800-PE",
@@ -467,14 +467,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 1722,
+      "exitTime": "10:58:16",
+      "pnlPct": 54.63,
       "note": "",
-      "livePrice": 1634,
-      "livePnlPct": 46.73,
-      "targetProgress": 93,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 71.7
     },
     {
@@ -552,10 +552,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2688.6,
-      "livePnlPct": 38.37,
-      "targetProgress": 77,
-      "slDistance": 63.4
+      "livePrice": 2780,
+      "livePnlPct": 43.07,
+      "targetProgress": 86,
+      "slDistance": 68.1
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56100-PE",
@@ -712,10 +712,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 3137.35,
-      "livePnlPct": 35.53,
-      "targetProgress": 85,
-      "slDistance": 56.3
+      "livePrice": 3181.9,
+      "livePnlPct": 37.46,
+      "targetProgress": 90,
+      "slDistance": 58.3
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-57000-PE",
@@ -1112,10 +1112,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2264.75,
-      "livePnlPct": 42.05,
-      "targetProgress": 84,
-      "slDistance": 67
+      "livePrice": 2333,
+      "livePnlPct": 46.33,
+      "targetProgress": 93,
+      "slDistance": 71.3
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55700-PE",
@@ -5789,13 +5789,13 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-14T05:28:22.838Z",
+  "lastUpdated": "2026-05-14T05:28:43.955Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
-    "hits": 102,
+    "hits": 103,
     "sls": 24,
-    "open": 19,
+    "open": 18,
     "winRate": 81,
     "avgConf": 70
   }
