@@ -826,7 +826,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 199.85,
+      "livePnlPct": 0.2,
+      "targetProgress": 0,
+      "slDistance": 25.2
     },
     {
       "id": "2026-05-14-1321-SENSEX-75700-PE",
@@ -862,10 +866,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 265.85,
+      "livePnlPct": -1.35,
+      "targetProgress": -2,
+      "slDistance": 23.6
     }
   ],
-  "lastUpdated": "2026-05-14T07:52:22.723Z",
+  "lastUpdated": "2026-05-14T07:52:25.195Z",
   "upstoxId": "132199",
   "stats": {
     "total": 23,
