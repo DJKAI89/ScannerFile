@@ -34,7 +34,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 148.35,
+      "livePnlPct": 23.62,
+      "targetProgress": 52,
+      "slDistance": 53.6
     },
     {
       "id": "2026-05-15-0755-BANKNIFTY-59700-CE",
@@ -70,7 +74,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 13.55,
+      "livePnlPct": -12.58,
+      "targetProgress": -30,
+      "slDistance": 12.4
     },
     {
       "id": "2026-05-15-0755-SENSEX-83000-CE",
@@ -106,7 +114,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 2.95,
+      "livePnlPct": -15.71,
+      "targetProgress": -42,
+      "slDistance": 9.1
     },
     {
       "id": "2026-05-15-0952-SAREGAMA-STOCK",
@@ -681,7 +693,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-05-15T04:23:01.684Z",
+  "lastUpdated": "2026-05-15T04:23:10.982Z",
   "upstoxId": "132199",
   "stats": {
     "total": 19,
