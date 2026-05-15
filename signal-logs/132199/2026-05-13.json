@@ -5378,14 +5378,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 126.95,
+      "exitTime": "11:38:22",
+      "pnlPct": 69.27,
       "note": "",
-      "livePrice": 75,
-      "livePnlPct": 0,
-      "targetProgress": 0,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 25
     },
     {
@@ -15671,13 +15671,13 @@
       "slDistance": 22.4
     }
   ],
-  "lastUpdated": "2026-05-15T06:08:35.155Z",
+  "lastUpdated": "2026-05-15T06:08:58.748Z",
   "upstoxId": "132199",
   "stats": {
     "total": 397,
-    "hits": 72,
+    "hits": 73,
     "sls": 286,
-    "open": 39,
+    "open": 38,
     "winRate": 20,
     "avgConf": 73
   }
