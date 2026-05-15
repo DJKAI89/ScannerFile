@@ -552,10 +552,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1904.2,
-      "livePnlPct": -2,
-      "targetProgress": -4,
-      "slDistance": 23
+      "livePrice": 1862.45,
+      "livePnlPct": -4.15,
+      "targetProgress": -8,
+      "slDistance": 20.8
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56100-PE",
@@ -672,10 +672,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2092,
-      "livePnlPct": -5.87,
-      "targetProgress": -12,
-      "slDistance": 19.1
+      "livePrice": 2132.85,
+      "livePnlPct": -4.03,
+      "targetProgress": -8,
+      "slDistance": 21
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56500-PE",
@@ -1112,10 +1112,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1518,
-      "livePnlPct": -4.79,
-      "targetProgress": -10,
-      "slDistance": 20.2
+      "livePrice": 1530.4,
+      "livePnlPct": -4.01,
+      "targetProgress": -8,
+      "slDistance": 21
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-55700-PE",
@@ -1152,10 +1152,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 1680,
-      "livePnlPct": -5.05,
-      "targetProgress": -10,
-      "slDistance": 20
+      "livePrice": 1655.4,
+      "livePnlPct": -6.44,
+      "targetProgress": -13,
+      "slDistance": 18.6
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56400-PE",
@@ -5663,10 +5663,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 134,
-      "livePnlPct": 16.78,
-      "targetProgress": 36,
-      "slDistance": 41.8
+      "livePrice": 114.6,
+      "livePnlPct": -0.13,
+      "targetProgress": 0,
+      "slDistance": 24.9
     },
     {
       "id": "2026-05-12-2337-FINNIFTY-24450-PE",
@@ -5789,7 +5789,7 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-15T04:23:15.324Z",
+  "lastUpdated": "2026-05-15T04:29:38.929Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
