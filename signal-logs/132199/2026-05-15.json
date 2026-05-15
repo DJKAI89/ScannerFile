@@ -70,14 +70,14 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 11.63,
+      "exitTime": "11:38:22",
+      "pnlPct": -24.97,
       "note": "",
-      "livePrice": 12.3,
-      "livePnlPct": -20.65,
-      "targetProgress": -49,
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
       "slDistance": 4.3
     },
     {
@@ -330,15 +330,15 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 73.99,
+      "exitTime": "11:38:22",
+      "pnlPct": -30,
       "note": "",
-      "livePrice": 80.65,
-      "livePnlPct": -23.7,
-      "targetProgress": -50,
-      "slDistance": 6.3
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 1.3
     },
     {
       "id": "2026-05-15-0953-NIFTY-24000-CE",
@@ -861,13 +861,13 @@
       "slDistance": 26.6
     }
   ],
-  "lastUpdated": "2026-05-15T06:08:24.620Z",
+  "lastUpdated": "2026-05-15T06:08:47.342Z",
   "upstoxId": "132199",
   "stats": {
     "total": 22,
     "hits": 0,
-    "sls": 3,
-    "open": 19,
+    "sls": 5,
+    "open": 17,
     "winRate": 0,
     "avgConf": 73
   }
