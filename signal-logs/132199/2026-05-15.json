@@ -35,10 +35,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 148.35,
-      "livePnlPct": 23.62,
-      "targetProgress": 52,
-      "slDistance": 53.6
+      "livePrice": 162.1,
+      "livePnlPct": 35.08,
+      "targetProgress": 78,
+      "slDistance": 65.1
     },
     {
       "id": "2026-05-15-0755-BANKNIFTY-59700-CE",
@@ -115,10 +115,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 2.95,
-      "livePnlPct": -15.71,
-      "targetProgress": -42,
-      "slDistance": 9.1
+      "livePrice": 3.05,
+      "livePnlPct": -12.86,
+      "targetProgress": -35,
+      "slDistance": 12
     },
     {
       "id": "2026-05-15-0952-SAREGAMA-STOCK",
@@ -294,7 +294,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 137.8,
+      "livePnlPct": 9.58,
+      "targetProgress": 21,
+      "slDistance": 39.6
     },
     {
       "id": "2026-05-15-0953-NIFTY-23950-CE",
@@ -330,7 +334,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 116.05,
+      "livePnlPct": 9.79,
+      "targetProgress": 22,
+      "slDistance": 39.8
     },
     {
       "id": "2026-05-15-0953-NIFTY-24000-CE",
@@ -366,7 +374,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 97.15,
+      "livePnlPct": 11.16,
+      "targetProgress": 30,
+      "slDistance": 36.2
     },
     {
       "id": "2026-05-15-0953-BANKNIFTY-55900-CE",
@@ -402,7 +414,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 262.7,
+      "livePnlPct": 0.75,
+      "targetProgress": 2,
+      "slDistance": 25.7
     },
     {
       "id": "2026-05-15-0953-SENSEX-76400-CE",
@@ -438,7 +454,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 510,
+      "livePnlPct": 9.77,
+      "targetProgress": 22,
+      "slDistance": 39.8
     },
     {
       "id": "2026-05-15-0953-SENSEX-76500-CE",
@@ -474,7 +494,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 471.25,
+      "livePnlPct": 9.55,
+      "targetProgress": 21,
+      "slDistance": 39.6
     },
     {
       "id": "2026-05-15-0953-SENSEX-76600-CE",
@@ -510,7 +534,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 432.5,
+      "livePnlPct": 9.3,
+      "targetProgress": 25,
+      "slDistance": 34.3
     },
     {
       "id": "2026-05-15-0953-SENSEX-76700-CE",
@@ -546,7 +574,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 399.85,
+      "livePnlPct": 9.68,
+      "targetProgress": 26,
+      "slDistance": 34.7
     },
     {
       "id": "2026-05-15-0953-FINNIFTY-26300-CE",
@@ -573,7 +605,7 @@
       "rr": 1.85,
       "winRateEst": 55,
       "vix": 18.44,
-      "slTgtMethod": "IV 21% | DTE 11 | Delta 0.26 · SELL (flipped)",
+      "slTgtMethod": "IV 21% | DTE 11 | Delta 0.26 Â· SELL (flipped)",
       "compositeScore": 0.3,
       "momentumScore": null,
       "emaCross": null,
@@ -582,7 +614,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 145.9,
+      "livePnlPct": 0,
+      "targetProgress": 0,
+      "slDistance": 25
     },
     {
       "id": "2026-05-15-0953-FINNIFTY-26600-CE",
@@ -618,7 +654,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 70.8,
+      "livePnlPct": 0,
+      "targetProgress": 0,
+      "slDistance": 25
     },
     {
       "id": "2026-05-15-0953-FINNIFTY-26750-CE",
@@ -654,7 +694,11 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 62.9,
+      "livePnlPct": 0,
+      "targetProgress": 0,
+      "slDistance": 25
     },
     {
       "id": "2026-05-15-0953-FINNIFTY-26850-CE",
@@ -690,10 +734,14 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 53.85,
+      "livePnlPct": 0,
+      "targetProgress": 0,
+      "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-15T04:23:10.982Z",
+  "lastUpdated": "2026-05-15T04:29:37.778Z",
   "upstoxId": "132199",
   "stats": {
     "total": 19,
