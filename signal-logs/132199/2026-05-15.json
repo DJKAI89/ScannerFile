@@ -35,10 +35,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 117.1,
-      "livePnlPct": -2.42,
-      "targetProgress": -5,
-      "slDistance": 27.6
+      "livePrice": 109.2,
+      "livePnlPct": -9,
+      "targetProgress": -20,
+      "slDistance": 21
     },
     {
       "id": "2026-05-15-0755-BANKNIFTY-59700-CE",
@@ -115,10 +115,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 3.2,
-      "livePnlPct": -8.57,
-      "targetProgress": -23,
-      "slDistance": 16.3
+      "livePrice": 2.85,
+      "livePnlPct": -18.57,
+      "targetProgress": -50,
+      "slDistance": 6.3
     },
     {
       "id": "2026-05-15-0952-SAREGAMA-STOCK",
@@ -295,10 +295,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 98,
-      "livePnlPct": -22.07,
-      "targetProgress": -49,
-      "slDistance": 7.9
+      "livePrice": 90.95,
+      "livePnlPct": -27.67,
+      "targetProgress": -50,
+      "slDistance": 2.3
     },
     {
       "id": "2026-05-15-0953-NIFTY-23950-CE",
@@ -415,10 +415,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 213.35,
-      "livePnlPct": -18.18,
+      "livePrice": 213,
+      "livePnlPct": -18.31,
       "targetProgress": -43,
-      "slDistance": 6.8
+      "slDistance": 6.7
     },
     {
       "id": "2026-05-15-0953-SENSEX-76400-CE",
@@ -455,10 +455,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 369.2,
-      "livePnlPct": -20.53,
-      "targetProgress": -46,
-      "slDistance": 9.5
+      "livePrice": 366.6,
+      "livePnlPct": -21.09,
+      "targetProgress": -47,
+      "slDistance": 8.9
     },
     {
       "id": "2026-05-15-0953-SENSEX-76500-CE",
@@ -495,10 +495,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 342,
-      "livePnlPct": -20.49,
-      "targetProgress": -46,
-      "slDistance": 9.5
+      "livePrice": 336,
+      "livePnlPct": -21.89,
+      "targetProgress": -49,
+      "slDistance": 8.1
     },
     {
       "id": "2026-05-15-0953-SENSEX-76600-CE",
@@ -615,10 +615,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 117.7,
-      "livePnlPct": -19.33,
-      "targetProgress": 42,
-      "slDistance": 44.3
+      "livePrice": 115.8,
+      "livePnlPct": -20.63,
+      "targetProgress": 45,
+      "slDistance": 45.6
     },
     {
       "id": "2026-05-15-0953-FINNIFTY-26600-CE",
@@ -695,10 +695,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 61.3,
-      "livePnlPct": -2.54,
-      "targetProgress": -6,
-      "slDistance": 22.5
+      "livePrice": 51.55,
+      "livePnlPct": -18.04,
+      "targetProgress": -42,
+      "slDistance": 7
     },
     {
       "id": "2026-05-15-0953-FINNIFTY-26850-CE",
@@ -775,10 +775,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 477.55,
-      "livePnlPct": 1.35,
-      "targetProgress": 3,
-      "slDistance": 31.3
+      "livePrice": 466.45,
+      "livePnlPct": -1.01,
+      "targetProgress": -2,
+      "slDistance": 29
     },
     {
       "id": "2026-05-15-1109-SENSEX-76200-CE",
@@ -815,10 +815,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 440.3,
-      "livePnlPct": 2.48,
-      "targetProgress": 6,
-      "slDistance": 32.5
+      "livePrice": 429.9,
+      "livePnlPct": 0.06,
+      "targetProgress": 0,
+      "slDistance": 30.1
     },
     {
       "id": "2026-05-15-1109-SENSEX-76300-CE",
@@ -855,13 +855,13 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 401.95,
-      "livePnlPct": 1.63,
-      "targetProgress": 4,
-      "slDistance": 26.6
+      "livePrice": 396.4,
+      "livePnlPct": 0.23,
+      "targetProgress": 1,
+      "slDistance": 25.2
     }
   ],
-  "lastUpdated": "2026-05-15T06:08:47.342Z",
+  "lastUpdated": "2026-05-15T06:09:24.272Z",
   "upstoxId": "132199",
   "stats": {
     "total": 22,
