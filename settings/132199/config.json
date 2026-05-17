@@ -1,0 +1,26 @@
+{
+  "config": {
+    "minStockConf": 50,
+    "minOptConf": 50,
+    "pot": 3,
+    "risk": 55,
+    "rr": 1.2,
+    "rsiOS": 35,
+    "rsiOB": 65,
+    "vol": 1.2,
+    "delta": 0.4,
+    "iv": 18,
+    "oi": 15,
+    "optSL": 25,
+    "optTgt": 50,
+    "maxOptCapital": 0,
+    "portSize": 500000,
+    "riskPct": 2,
+    "scanStocks": 15,
+    "tick": 15,
+    "portRef": 60,
+    "scanOpts": 15,
+    "moodRefresh": 10
+  },
+  "updatedAt": "2026-05-17T13:06:17.093Z"
+}
