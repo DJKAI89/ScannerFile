@@ -9742,15 +9742,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 326.3,
+      "exitTime": "10:16:17",
+      "pnlPct": 118.33,
       "note": "",
-      "livePrice": 199.55,
-      "livePnlPct": 33.52,
-      "targetProgress": 72,
-      "slDistance": 58.5
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 58.5,
+      "exitDate": "2026-05-18"
     },
     {
       "id": "2026-05-13-0934-ETERNAL-STOCK",
@@ -15795,14 +15796,14 @@
       "slDistance": 22.4
     }
   ],
-  "lastUpdated": "2026-05-18T04:08:37.066Z",
+  "lastUpdated": "2026-05-18T04:46:43.414Z",
   "upstoxId": "132199",
   "stats": {
     "total": 397,
-    "hits": 73,
+    "hits": 74,
     "sls": 286,
-    "open": 7,
-    "winRate": 20,
+    "open": 6,
+    "winRate": 21,
     "avgConf": 73
   }
 }
