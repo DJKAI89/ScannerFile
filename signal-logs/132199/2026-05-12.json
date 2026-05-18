@@ -590,15 +590,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 3140,
+      "exitTime": "10:16:17",
+      "pnlPct": 53.49,
       "note": "",
-      "livePrice": 2980,
-      "livePnlPct": 45.66,
-      "targetProgress": 91,
-      "slDistance": 70.7
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 70.7,
+      "exitDate": "2026-05-18"
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56200-PE",
@@ -671,15 +672,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 3428.85,
+      "exitTime": "10:16:17",
+      "pnlPct": 54.29,
       "note": "",
-      "livePrice": 3200,
-      "livePnlPct": 43.99,
-      "targetProgress": 88,
-      "slDistance": 69
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 69,
+      "exitDate": "2026-05-18"
     },
     {
       "id": "2026-05-12-0916-BANKNIFTY-56500-PE",
@@ -5797,13 +5799,13 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-18T04:08:31.494Z",
+  "lastUpdated": "2026-05-18T04:46:36.514Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
-    "hits": 113,
+    "hits": 115,
     "sls": 25,
-    "open": 7,
+    "open": 5,
     "winRate": 82,
     "avgConf": 70
   }
