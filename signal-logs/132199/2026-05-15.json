@@ -148,12 +148,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 397.25,
+      "exitTime": "10:05:25",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "exitDate": "2026-05-19",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-15-0952-IFCI-STOCK",
@@ -183,12 +187,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 63.77,
+      "exitTime": "10:05:25",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "exitDate": "2026-05-19",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-15-0952-HFCL-STOCK",
@@ -218,12 +226,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 148.84,
+      "exitTime": "10:05:25",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "exitDate": "2026-05-19",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-15-0952-SUZLON-STOCK",
@@ -253,12 +265,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 53.31,
+      "exitTime": "10:05:25",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "exitDate": "2026-05-19",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-15-0953-NIFTY-23900-CE",
@@ -605,7 +621,7 @@
       "rr": 1.85,
       "winRateEst": 55,
       "vix": 18.44,
-      "slTgtMethod": "IV 21% | DTE 11 | Delta 0.26 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
+      "slTgtMethod": "IV 21% | DTE 11 | Delta 0.26 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
       "compositeScore": 0.3,
       "momentumScore": null,
       "emaCross": null,
@@ -866,13 +882,13 @@
       "exitDate": "2026-05-18"
     }
   ],
-  "lastUpdated": "2026-05-18T08:03:40.624Z",
+  "lastUpdated": "2026-05-19T04:35:57.199Z",
   "upstoxId": "132199",
   "stats": {
     "total": 22,
     "hits": 1,
     "sls": 17,
-    "open": 4,
+    "open": 0,
     "winRate": 6,
     "avgConf": 73
   }
