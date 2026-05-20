@@ -3753,10 +3753,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 129,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 140.1,
+      "livePnlPct": 8.6,
+      "targetProgress": 19,
+      "slDistance": 33.6
     },
     {
       "id": "2026-05-12-0930-FINNIFTY-25150-PE",
@@ -5033,10 +5033,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 129,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 140.1,
+      "livePnlPct": 8.6,
+      "targetProgress": 17,
+      "slDistance": 33.6
     },
     {
       "id": "2026-05-12-1503-FINNIFTY-25100-PE",
@@ -5668,15 +5668,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 86.06,
+      "exitTime": "19:04:47",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 107.45,
-      "livePnlPct": -6.36,
-      "targetProgress": -14,
-      "slDistance": 18.6
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 18.6,
+      "exitDate": "2026-05-20"
     },
     {
       "id": "2026-05-12-2337-FINNIFTY-24450-PE",
@@ -5753,10 +5754,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 129,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 140.1,
+      "livePnlPct": 8.6,
+      "targetProgress": 19,
+      "slDistance": 33.6
     },
     {
       "id": "2026-05-12-2337-FINNIFTY-25100-PE",
@@ -5799,13 +5800,13 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-20T04:00:16.684Z",
+  "lastUpdated": "2026-05-20T13:35:02.951Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
     "hits": 115,
-    "sls": 25,
-    "open": 5,
+    "sls": 26,
+    "open": 4,
     "winRate": 82,
     "avgConf": 70
   }
