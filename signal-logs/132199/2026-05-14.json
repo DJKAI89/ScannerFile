@@ -462,15 +462,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "nearPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 86.06,
+      "exitTime": "19:04:47",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 107.45,
-      "livePnlPct": -6.36,
-      "targetProgress": -14,
-      "slDistance": 18.6
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 18.6,
+      "exitDate": "2026-05-20"
     },
     {
       "id": "2026-05-14-1056-SENSEX-74800-CE",
@@ -667,10 +668,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 129,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 140.1,
+      "livePnlPct": 8.6,
+      "targetProgress": 19,
+      "slDistance": 33.6
     },
     {
       "id": "2026-05-14-1058-SENSEX-74600-CE",
@@ -1027,14 +1028,14 @@
       "slDistance": 20.9
     }
   ],
-  "lastUpdated": "2026-05-20T04:00:30.178Z",
+  "lastUpdated": "2026-05-20T13:35:06.930Z",
   "upstoxId": "132199",
   "stats": {
     "total": 26,
     "hits": 7,
-    "sls": 3,
-    "open": 2,
-    "winRate": 70,
+    "sls": 4,
+    "open": 1,
+    "winRate": 64,
     "avgConf": 75
   }
 }
