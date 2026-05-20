@@ -977,10 +977,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 127.2,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 105.15,
+      "livePnlPct": -17.33,
+      "targetProgress": -41,
+      "slDistance": 7.7
     },
     {
       "id": "2026-05-18-0938-FINNIFTY-24800-PE",
@@ -1017,10 +1017,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 138.85,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 121.6,
+      "livePnlPct": -12.42,
+      "targetProgress": -27,
+      "slDistance": 12.6
     },
     {
       "id": "2026-05-18-0938-FINNIFTY-24250-PE",
@@ -1137,10 +1137,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 144.4,
-      "livePnlPct": 32.84,
-      "targetProgress": 77,
-      "slDistance": 57.8
+      "livePrice": 107.45,
+      "livePnlPct": -1.15,
+      "targetProgress": -3,
+      "slDistance": 23.8
     },
     {
       "id": "2026-05-18-0938-FINNIFTY-24200-PE",
@@ -1217,10 +1217,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 34.4,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 28.5,
+      "livePnlPct": -17.15,
+      "targetProgress": -40,
+      "slDistance": 7.8
     },
     {
       "id": "2026-05-18-0938-FINNIFTY-24150-PE",
@@ -1287,7 +1287,7 @@
       "rr": 1.7,
       "winRateEst": 55,
       "vix": 19.95,
-      "slTgtMethod": "IV 27% | DTE 8 | Delta 0.07 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
+      "slTgtMethod": "IV 27% | DTE 8 | Delta 0.07 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
       "compositeScore": -0.6,
       "momentumScore": null,
       "emaCross": null,
@@ -1328,7 +1328,7 @@
       "rr": 1.7,
       "winRateEst": 55,
       "vix": 19.95,
-      "slTgtMethod": "IV 26% | DTE 8 | Delta 0.07 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
+      "slTgtMethod": "IV 26% | DTE 8 | Delta 0.07 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
       "compositeScore": -0.6,
       "momentumScore": null,
       "emaCross": null,
@@ -1820,7 +1820,7 @@
       "rr": 1.7,
       "winRateEst": 55,
       "vix": 19.88,
-      "slTgtMethod": "IV 27% | DTE 8 | Delta 0.25 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
+      "slTgtMethod": "IV 27% | DTE 8 | Delta 0.25 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· SELL (flipped)",
       "compositeScore": -0.6,
       "momentumScore": null,
       "emaCross": null,
@@ -2773,10 +2773,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 127.2,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 105.15,
+      "livePnlPct": -17.33,
+      "targetProgress": -37,
+      "slDistance": 7.7
     },
     {
       "id": "2026-05-18-1016-FINNIFTY-24950-PE",
@@ -2853,10 +2853,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 138.85,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 30
+      "livePrice": 121.6,
+      "livePnlPct": -12.42,
+      "targetProgress": -22,
+      "slDistance": 17.6
     },
     {
       "id": "2026-05-18-1016-FINNIFTY-22500-PE",
@@ -3843,7 +3843,7 @@
       "exitDate": "2026-05-18"
     }
   ],
-  "lastUpdated": "2026-05-19T12:35:10.367Z",
+  "lastUpdated": "2026-05-20T03:47:09.612Z",
   "upstoxId": "132199",
   "stats": {
     "total": 94,
