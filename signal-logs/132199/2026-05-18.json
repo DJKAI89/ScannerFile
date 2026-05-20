@@ -977,10 +977,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 105.15,
-      "livePnlPct": -17.33,
-      "targetProgress": -41,
-      "slDistance": 7.7
+      "livePrice": 171.55,
+      "livePnlPct": 34.87,
+      "targetProgress": 82,
+      "slDistance": 59.9
     },
     {
       "id": "2026-05-18-0938-FINNIFTY-24800-PE",
@@ -2773,10 +2773,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 105.15,
-      "livePnlPct": -17.33,
-      "targetProgress": -37,
-      "slDistance": 7.7
+      "livePrice": 171.55,
+      "livePnlPct": 34.87,
+      "targetProgress": 75,
+      "slDistance": 59.9
     },
     {
       "id": "2026-05-18-1016-FINNIFTY-24950-PE",
@@ -3843,7 +3843,7 @@
       "exitDate": "2026-05-18"
     }
   ],
-  "lastUpdated": "2026-05-20T04:00:00.127Z",
+  "lastUpdated": "2026-05-20T04:00:18.564Z",
   "upstoxId": "132199",
   "stats": {
     "total": 94,
