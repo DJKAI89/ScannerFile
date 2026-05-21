@@ -3748,15 +3748,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 96.75,
+      "exitTime": "10:59:25",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 101.85,
-      "livePnlPct": -21.05,
-      "targetProgress": -46,
-      "slDistance": 4
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 4,
+      "exitDate": "2026-05-21"
     },
     {
       "id": "2026-05-12-0930-FINNIFTY-25150-PE",
@@ -5028,15 +5029,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 96.75,
+      "exitTime": "10:59:25",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 101.85,
-      "livePnlPct": -21.05,
-      "targetProgress": -42,
-      "slDistance": 4
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 4,
+      "exitDate": "2026-05-21"
     },
     {
       "id": "2026-05-12-1503-FINNIFTY-25100-PE",
@@ -5749,15 +5751,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 96.75,
+      "exitTime": "10:59:25",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 101.85,
-      "livePnlPct": -21.05,
-      "targetProgress": -46,
-      "slDistance": 4
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 4,
+      "exitDate": "2026-05-21"
     },
     {
       "id": "2026-05-12-2337-FINNIFTY-25100-PE",
@@ -5800,14 +5803,14 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-21T04:46:48.683Z",
+  "lastUpdated": "2026-05-21T05:31:11.682Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
     "hits": 115,
-    "sls": 26,
-    "open": 4,
-    "winRate": 82,
+    "sls": 29,
+    "open": 1,
+    "winRate": 80,
     "avgConf": 70
   }
 }
