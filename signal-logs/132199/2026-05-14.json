@@ -663,15 +663,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 96.75,
+      "exitTime": "10:59:25",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 101.85,
-      "livePnlPct": -21.05,
-      "targetProgress": -46,
-      "slDistance": 4
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 4,
+      "exitDate": "2026-05-21"
     },
     {
       "id": "2026-05-14-1058-SENSEX-74600-CE",
@@ -1028,14 +1029,14 @@
       "slDistance": 20.9
     }
   ],
-  "lastUpdated": "2026-05-21T04:46:55.658Z",
+  "lastUpdated": "2026-05-21T05:31:13.313Z",
   "upstoxId": "132199",
   "stats": {
     "total": 26,
     "hits": 7,
-    "sls": 4,
-    "open": 1,
-    "winRate": 64,
+    "sls": 5,
+    "open": 0,
+    "winRate": 58,
     "avgConf": 75
   }
 }
