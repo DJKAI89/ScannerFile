@@ -668,10 +668,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 140.1,
-      "livePnlPct": 8.6,
-      "targetProgress": 19,
-      "slDistance": 33.6
+      "livePrice": 101.85,
+      "livePnlPct": -21.05,
+      "targetProgress": -46,
+      "slDistance": 4
     },
     {
       "id": "2026-05-14-1058-SENSEX-74600-CE",
@@ -1028,7 +1028,7 @@
       "slDistance": 20.9
     }
   ],
-  "lastUpdated": "2026-05-21T03:46:23.586Z",
+  "lastUpdated": "2026-05-21T04:16:21.137Z",
   "upstoxId": "132199",
   "stats": {
     "total": 26,
