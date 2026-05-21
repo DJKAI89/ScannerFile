@@ -936,15 +936,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "nearPDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 68.44,
+      "exitTime": "09:56:18",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 95.35,
-      "livePnlPct": 4.49,
-      "targetProgress": 7,
-      "slDistance": 29.5
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 18.5,
+      "exitDate": "2026-05-21"
     },
     {
       "id": "2026-05-21-0946-SENSEX-76000-PE",
@@ -2522,14 +2523,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-05-21T04:29:10.918Z",
+  "lastUpdated": "2026-05-21T04:29:27.662Z",
   "upstoxId": "132199",
   "stats": {
     "total": 65,
     "hits": 3,
-    "sls": 10,
-    "open": 52,
-    "winRate": 23,
+    "sls": 11,
+    "open": 51,
+    "winRate": 21,
     "avgConf": 73
   }
 }
