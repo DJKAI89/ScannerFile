@@ -158,12 +158,13 @@
     },
     "2026-05-21": {
       "total": 155,
-      "hits": 18,
-      "sls": 49,
-      "open": 88,
-      "winRate": 27
+      "hits": 49,
+      "sls": 64,
+      "open": 42,
+      "winRate": 43,
+      "avgConf": 73
     }
   },
-  "lastUpdated": "2026-05-21T07:03:15.696Z",
+  "lastUpdated": "2026-05-21T07:03:21.191Z",
   "upstoxId": "132199"
 }
