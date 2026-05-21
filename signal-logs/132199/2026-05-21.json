@@ -3348,15 +3348,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "nearPDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 59.1,
+      "exitTime": "11:02:41",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 63.9,
-      "livePnlPct": -18.91,
-      "targetProgress": -50,
-      "slDistance": 6.1
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 6.1,
+      "exitDate": "2026-05-21"
     },
     {
       "id": "2026-05-21-1007-SENSEX-75900-PE",
@@ -5280,14 +5281,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-05-21T05:43:20.799Z",
+  "lastUpdated": "2026-05-21T05:43:24.600Z",
   "upstoxId": "132199",
   "stats": {
     "total": 132,
     "hits": 17,
-    "sls": 44,
-    "open": 71,
-    "winRate": 28,
+    "sls": 45,
+    "open": 70,
+    "winRate": 27,
     "avgConf": 73
   }
 }
