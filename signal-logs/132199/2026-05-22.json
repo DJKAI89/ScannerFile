@@ -32,7 +32,11 @@
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 615.95,
+      "livePnlPct": 4.61,
+      "targetProgress": 10,
+      "slDistance": 29.6
     },
     {
       "id": "2026-05-22-0935-BANKNIFTY-53900-CE",
@@ -66,7 +70,11 @@
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 556.25,
+      "livePnlPct": 4.95,
+      "targetProgress": 11,
+      "slDistance": 30
     },
     {
       "id": "2026-05-22-0935-BANKNIFTY-54100-CE",
@@ -100,7 +108,11 @@
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 439.95,
+      "livePnlPct": 5.24,
+      "targetProgress": 12,
+      "slDistance": 30.2
     },
     {
       "id": "2026-05-22-1023-ENGINERSIN-STOCK",
@@ -1888,7 +1900,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-05-22T04:53:59.690Z",
+  "lastUpdated": "2026-05-22T04:54:05.229Z",
   "upstoxId": "132199",
   "stats": {
     "total": 53,
