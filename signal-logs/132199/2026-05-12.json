@@ -3114,10 +3114,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 272.75,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": 249.6,
+      "livePnlPct": -8.49,
+      "targetProgress": -17,
+      "slDistance": 16.5
     },
     {
       "id": "2026-05-12-0916-FINNIFTY-25550-PE",
@@ -5803,7 +5803,7 @@
       "slDistance": 25
     }
   ],
-  "lastUpdated": "2026-05-21T09:21:09.008Z",
+  "lastUpdated": "2026-05-22T04:54:08.718Z",
   "upstoxId": "132199",
   "stats": {
     "total": 145,
