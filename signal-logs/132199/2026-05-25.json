@@ -862,12 +862,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 13.9,
+      "exitTime": "09:51:17",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-05-29",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-25-1128-IRB-STOCK",
@@ -897,12 +901,16 @@
       "triggerMethod": "Break above VWAP",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 21.88,
+      "exitTime": "09:51:17",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-05-29",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-25-1128-NBCC-STOCK",
@@ -932,12 +940,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 99.2,
+      "exitTime": "09:51:17",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-05-29",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-25-1128-GAIL-STOCK",
@@ -967,12 +979,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 168.47,
+      "exitTime": "09:51:17",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-05-29",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-25-1128-WIPRO-STOCK",
@@ -1002,12 +1018,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 207.44,
+      "exitTime": "09:51:17",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-05-29",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-25-1128-NIFTY-23950-CE",
@@ -1215,13 +1235,13 @@
       "exitDate": "2026-05-26"
     }
   ],
-  "lastUpdated": "2026-05-27T10:07:06.880Z",
+  "lastUpdated": "2026-05-29T04:21:20.716Z",
   "upstoxId": "132199",
   "stats": {
     "total": 31,
     "hits": 12,
     "sls": 8,
-    "open": 5,
+    "open": 0,
     "winRate": 60,
     "avgConf": 70
   }
