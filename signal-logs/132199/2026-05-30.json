@@ -1,0 +1,42 @@
+{
+  "signals": [
+    {
+      "id": "2026-05-30-1224-POWERGRID-STOCK",
+      "date": "2026-05-30",
+      "time": "12:24:58",
+      "type": "STOCK",
+      "stock": "POWERGRID",
+      "instrKey": "NSE_EQ|INE752E01010",
+      "name": "Power Grid Corporation of India Limited",
+      "signal": "MODERATE",
+      "confidence": 62.3,
+      "strength": "",
+      "numInds": 4,
+      "entry": 290.55,
+      "sl": 282.6,
+      "target": 307.58,
+      "targetCons": 303.6,
+      "targetMod": 307.58,
+      "targetAgg": 314.4,
+      "rr": 2.14,
+      "winRateEst": 67,
+      "risk": 29.8,
+      "rsi": 29.14,
+      "vix": 16.19,
+      "reversal": "BULLISH_REVERSAL",
+      "trigger": 303.91,
+      "triggerMethod": "Break above Day High",
+      "compositeScore": null,
+      "status": "OPEN",
+      "holdDays": 2,
+      "exitPrice": null,
+      "exitTime": null,
+      "exitDate": null,
+      "pnlPct": null,
+      "note": ""
+    }
+  ],
+  "lastUpdated": "2026-05-30T06:54:59.010Z",
+  "upstoxId": "132199",
+  "date": "2026-05-30"
+}
