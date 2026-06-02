@@ -27,13 +27,16 @@
       "trigger": 303.91,
       "triggerMethod": "Break above Day High",
       "compositeScore": null,
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 290.55,
+      "exitTime": "09:40:35",
+      "exitDate": "2026-06-02",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-30-1230-INFY-STOCK",
@@ -98,12 +101,16 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 424.45,
+      "exitTime": "09:40:35",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-06-02",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-30-1230-TATASTEEL-STOCK",
@@ -133,21 +140,25 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 208.02,
+      "exitTime": "09:40:35",
+      "pnlPct": 0,
+      "note": "Auto-expired after 2 days",
+      "exitDate": "2026-06-02",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     }
   ],
-  "lastUpdated": "2026-05-30T07:00:20.434Z",
+  "lastUpdated": "2026-06-02T04:13:06.237Z",
   "upstoxId": "132199",
   "stats": {
     "total": 4,
     "hits": 0,
     "sls": 0,
-    "open": 4,
+    "open": 1,
     "winRate": null,
     "avgConf": 66
   }
