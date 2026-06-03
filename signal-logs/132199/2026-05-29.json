@@ -1023,10 +1023,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 30.5,
-      "livePnlPct": 31.75,
-      "targetProgress": 75,
-      "slDistance": 56.8
+      "livePrice": 24.1,
+      "livePnlPct": 4.1,
+      "targetProgress": 10,
+      "slDistance": 29.1
     },
     {
       "id": "2026-05-29-1558-BANKNIFTY-46500-PE",
@@ -1542,7 +1542,7 @@
       "targetProgress": null
     }
   ],
-  "lastUpdated": "2026-06-03T04:46:52.930Z",
+  "lastUpdated": "2026-06-03T08:09:12.813Z",
   "upstoxId": "132199",
   "stats": {
     "total": 39,
