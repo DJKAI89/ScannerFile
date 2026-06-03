@@ -210,10 +210,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 4.25,
-      "livePnlPct": 6.25,
-      "targetProgress": 17,
-      "slDistance": 31.3
+      "livePrice": 3.9,
+      "livePnlPct": -2.5,
+      "targetProgress": -7,
+      "slDistance": 22.5
     },
     {
       "id": "2026-06-03-1015-SENSEX-73900-PE",
@@ -1106,15 +1106,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "SL_HIT",
+      "exitPrice": 100.91,
+      "exitTime": "15:27:19",
+      "pnlPct": -25,
       "note": "",
-      "livePrice": 134.55,
-      "livePnlPct": 0,
-      "targetProgress": 0,
-      "slDistance": 25
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null,
+      "slDistance": 25,
+      "exitDate": "2026-06-03"
     },
     {
       "id": "2026-06-03-1339-WIPRO-STOCK",
@@ -1222,7 +1223,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-03T09:11:07.280Z",
+  "lastUpdated": "2026-06-03T09:57:34.466Z",
   "upstoxId": "132199",
-  "date": "2026-06-03"
+  "stats": {
+    "total": 31,
+    "hits": 0,
+    "sls": 27,
+    "open": 4,
+    "winRate": 0,
+    "avgConf": 73
+  }
 }
