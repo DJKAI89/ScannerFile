@@ -1185,16 +1185,44 @@
       "exitTime": null,
       "pnlPct": null,
       "note": ""
+    },
+    {
+      "id": "2026-06-03-1441-NHPC-STOCK",
+      "date": "2026-06-03",
+      "time": "14:41:06",
+      "type": "STOCK",
+      "stock": "NHPC",
+      "instrKey": "NSE_EQ|INE848E01016",
+      "name": "NHPC Limited",
+      "signal": "BUY",
+      "confidence": 71,
+      "strength": "",
+      "numInds": 3,
+      "entry": 74.98,
+      "sl": 73.86,
+      "target": 78.86,
+      "targetCons": 76.66,
+      "targetMod": 78.86,
+      "targetAgg": 79.42,
+      "rr": 3,
+      "winRateEst": 64,
+      "risk": 27.3,
+      "rsi": 38.25,
+      "vix": 16.44,
+      "reversal": "NONE",
+      "trigger": 76.4,
+      "triggerMethod": "Break above Day High",
+      "compositeScore": null,
+      "status": "OPEN",
+      "holdDays": 3,
+      "exitPrice": null,
+      "exitTime": null,
+      "exitDate": null,
+      "pnlPct": null,
+      "note": ""
     }
   ],
-  "lastUpdated": "2026-06-03T08:10:45.189Z",
+  "lastUpdated": "2026-06-03T09:11:07.280Z",
   "upstoxId": "132199",
-  "stats": {
-    "total": 30,
-    "hits": 0,
-    "sls": 26,
-    "open": 4,
-    "winRate": 0,
-    "avgConf": 73
-  }
+  "date": "2026-06-03"
 }
