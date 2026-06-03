@@ -238,13 +238,14 @@
       "avgConf": 66
     },
     "2026-06-03": {
-      "total": 28,
+      "total": 30,
       "hits": 0,
-      "sls": 5,
-      "open": 23,
-      "winRate": 0
+      "sls": 26,
+      "open": 4,
+      "winRate": 0,
+      "avgConf": 73
     }
   },
-  "lastUpdated": "2026-06-03T08:10:03.916Z",
+  "lastUpdated": "2026-06-03T08:10:10.000Z",
   "upstoxId": "132199"
 }
