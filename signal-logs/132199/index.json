@@ -232,9 +232,10 @@
     "2026-06-01": {
       "total": 4,
       "hits": 0,
-      "sls": 1,
-      "open": 3,
-      "winRate": 0
+      "sls": 0,
+      "open": 4,
+      "winRate": null,
+      "avgConf": 66
     },
     "2026-06-03": {
       "total": 0,
@@ -245,6 +246,6 @@
       "avgConf": 0
     }
   },
-  "lastUpdated": "2026-06-03T04:45:17.339Z",
+  "lastUpdated": "2026-06-03T04:45:19.094Z",
   "upstoxId": "132199"
 }
