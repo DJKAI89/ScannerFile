@@ -210,10 +210,10 @@
       "exitTime": null,
       "pnlPct": null,
       "note": "",
-      "livePrice": 4.1,
-      "livePnlPct": 2.5,
-      "targetProgress": 7,
-      "slDistance": 27.5
+      "livePrice": 4.25,
+      "livePnlPct": 6.25,
+      "targetProgress": 17,
+      "slDistance": 31.3
     },
     {
       "id": "2026-06-03-1015-SENSEX-73900-PE",
@@ -1187,7 +1187,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-03T08:10:11.698Z",
+  "lastUpdated": "2026-06-03T08:10:19.101Z",
   "upstoxId": "132199",
   "stats": {
     "total": 30,
