@@ -66,12 +66,16 @@
       "triggerMethod": "Break above VWAP",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1160.9,
+      "exitTime": "10:14:40",
+      "pnlPct": 0,
+      "note": "Auto-expired after 3 days",
+      "exitDate": "2026-06-03",
+      "livePrice": null,
+      "livePnlPct": null,
+      "targetProgress": null
     },
     {
       "id": "2026-05-30-1230-NATIONALUM-STOCK",
@@ -152,13 +156,13 @@
       "targetProgress": null
     }
   ],
-  "lastUpdated": "2026-06-02T04:13:41.237Z",
+  "lastUpdated": "2026-06-03T04:44:47.562Z",
   "upstoxId": "132199",
   "stats": {
     "total": 4,
     "hits": 0,
     "sls": 0,
-    "open": 1,
+    "open": 0,
     "winRate": null,
     "avgConf": 66
   }
