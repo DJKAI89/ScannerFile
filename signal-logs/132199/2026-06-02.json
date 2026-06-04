@@ -33,7 +33,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 74.62,
+      "livePnlPct": 0.59
     },
     {
       "id": "2026-06-02-0940-ZEEL-STOCK",
@@ -68,7 +70,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 94.44,
+      "livePnlPct": -2.34
     },
     {
       "id": "2026-06-02-0940-JPPOWER-STOCK",
@@ -103,7 +107,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 19.16,
+      "livePnlPct": -0.26
     },
     {
       "id": "2026-06-02-0940-CANBK-STOCK",
@@ -138,7 +144,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 131.57,
+      "livePnlPct": 2.74
     },
     {
       "id": "2026-06-02-0940-TATASTEEL-STOCK",
@@ -173,7 +181,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 211.48,
+      "livePnlPct": -0.61
     },
     {
       "id": "2026-06-02-0940-OLAELEC-STOCK",
@@ -203,12 +213,14 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 44.98,
+      "exitTime": "09:18:16",
+      "pnlPct": 14.74,
+      "note": "",
+      "exitDate": "2026-06-04",
+      "livePrice": null
     },
     {
       "id": "2026-06-02-0940-SUZLON-STOCK",
@@ -243,7 +255,9 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 54.5,
+      "livePnlPct": 2.56
     },
     {
       "id": "2026-06-02-0940-NSLNISP-STOCK",
@@ -278,17 +292,12 @@
       "exitPrice": null,
       "exitTime": null,
       "pnlPct": null,
-      "note": ""
+      "note": "",
+      "livePrice": 51.99,
+      "livePnlPct": -2.11
     }
   ],
-  "lastUpdated": "2026-06-02T04:13:05.330Z",
+  "lastUpdated": "2026-06-04T03:48:16.816Z",
   "upstoxId": "132199",
-  "stats": {
-    "total": 8,
-    "hits": 0,
-    "sls": 0,
-    "open": 8,
-    "winRate": null,
-    "avgConf": 68
-  }
+  "date": "2026-06-02"
 }
