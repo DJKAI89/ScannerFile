@@ -177,14 +177,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 206.42,
+      "exitTime": "11:34:44",
+      "pnlPct": -2.98,
       "note": "",
       "livePrice": 211.48,
-      "livePnlPct": -0.61
+      "livePnlPct": -0.61,
+      "exitDate": "2026-06-05"
     },
     {
       "id": "2026-06-02-0940-OLAELEC-STOCK",
@@ -298,7 +299,14 @@
       "livePnlPct": -2.11
     }
   ],
-  "lastUpdated": "2026-06-05T04:58:38.054Z",
+  "lastUpdated": "2026-06-05T06:04:44.554Z",
   "upstoxId": "132199",
-  "date": "2026-06-02"
+  "date": "2026-06-02",
+  "stats": {
+    "total": 8,
+    "hits": 2,
+    "sls": 1,
+    "open": 5,
+    "winRate": 67
+  }
 }
