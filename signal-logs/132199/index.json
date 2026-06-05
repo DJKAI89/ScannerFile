@@ -233,10 +233,10 @@
     },
     "2026-06-01": {
       "total": 4,
-      "hits": 0,
+      "hits": 1,
       "sls": 2,
-      "open": 2,
-      "winRate": 0
+      "open": 1,
+      "winRate": 33
     },
     "2026-06-03": {
       "total": 31,
@@ -261,6 +261,6 @@
       "winRate": null
     }
   },
-  "lastUpdated": "2026-06-05T05:42:34.762Z",
+  "lastUpdated": "2026-06-05T06:03:37.185Z",
   "upstoxId": "132199"
 }
