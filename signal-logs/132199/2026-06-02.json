@@ -65,14 +65,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 111.03,
+      "exitTime": "10:28:38",
+      "pnlPct": 14.82,
       "note": "",
       "livePrice": 94.44,
-      "livePnlPct": -2.34
+      "livePnlPct": -2.34,
+      "exitDate": "2026-06-05"
     },
     {
       "id": "2026-06-02-0940-JPPOWER-STOCK",
@@ -297,7 +298,7 @@
       "livePnlPct": -2.11
     }
   ],
-  "lastUpdated": "2026-06-04T03:48:16.816Z",
+  "lastUpdated": "2026-06-05T04:58:38.054Z",
   "upstoxId": "132199",
   "date": "2026-06-02"
 }
