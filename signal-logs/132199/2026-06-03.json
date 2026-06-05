@@ -1145,12 +1145,13 @@
       "triggerMethod": "Break above Pivot R1",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 196.35,
+      "exitTime": "11:33:34",
+      "pnlPct": -3.72,
+      "note": "",
+      "exitDate": "2026-06-05"
     },
     {
       "id": "2026-06-03-1339-NMDC-STOCK",
@@ -1180,12 +1181,13 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 93.03,
+      "exitTime": "11:33:34",
+      "pnlPct": -2.78,
+      "note": "",
+      "exitDate": "2026-06-05"
     },
     {
       "id": "2026-06-03-1441-NHPC-STOCK",
@@ -1293,14 +1295,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-03T09:57:49.616Z",
+  "lastUpdated": "2026-06-05T06:03:36.347Z",
   "upstoxId": "132199",
+  "date": "2026-06-03",
   "stats": {
     "total": 33,
     "hits": 0,
-    "sls": 27,
-    "open": 6,
-    "winRate": 0,
-    "avgConf": 72
+    "sls": 29,
+    "open": 4,
+    "winRate": 0
   }
 }
