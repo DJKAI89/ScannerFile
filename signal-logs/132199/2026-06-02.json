@@ -289,24 +289,25 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 49.05,
+      "exitTime": "09:19:20",
+      "pnlPct": -7.64,
       "note": "",
       "livePrice": 51.99,
-      "livePnlPct": -2.11
+      "livePnlPct": -2.11,
+      "exitDate": "2026-06-08"
     }
   ],
-  "lastUpdated": "2026-06-05T06:04:44.554Z",
+  "lastUpdated": "2026-06-08T03:49:20.274Z",
   "upstoxId": "132199",
   "date": "2026-06-02",
   "stats": {
     "total": 8,
     "hits": 2,
-    "sls": 1,
-    "open": 5,
-    "winRate": 67
+    "sls": 2,
+    "open": 4,
+    "winRate": 50
   }
 }
