@@ -335,12 +335,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 253.15,
+      "exitTime": "14:50:56",
+      "exitDate": "2026-06-09",
+      "pnlPct": 50.55,
       "note": ""
     },
     {
@@ -377,12 +377,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 202.8,
+      "exitTime": "14:50:56",
+      "exitDate": "2026-06-09",
+      "pnlPct": 61.53,
       "note": ""
     },
     {
@@ -545,12 +545,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 98.2,
+      "exitTime": "14:50:56",
+      "exitDate": "2026-06-09",
+      "pnlPct": -37.99,
       "note": ""
     },
     {
@@ -596,14 +596,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-09T07:03:45.446Z",
+  "lastUpdated": "2026-06-09T09:20:57.501Z",
   "upstoxId": "132199",
   "date": "2026-06-09",
   "stats": {
     "total": 15,
-    "hits": 0,
-    "sls": 4,
-    "open": 11,
-    "winRate": 0
+    "hits": 2,
+    "sls": 5,
+    "open": 8,
+    "winRate": 29
   }
 }
