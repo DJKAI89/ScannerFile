@@ -196,12 +196,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 2074.8,
+      "exitTime": "09:16:49",
+      "exitDate": "2026-06-10",
+      "pnlPct": -27.36,
       "note": ""
     },
     {
@@ -230,12 +230,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 2109,
+      "exitTime": "09:16:49",
+      "exitDate": "2026-06-10",
+      "pnlPct": -26.64,
       "note": ""
     },
     {
@@ -740,23 +740,23 @@
       "priceZone": "mid",
       "oiBuildType": "LONG_BUILD",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 68.15,
+      "exitTime": "09:16:49",
+      "exitDate": "2026-06-10",
+      "pnlPct": -39.64,
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-09T03:50:52.351Z",
+  "lastUpdated": "2026-06-10T03:46:52.856Z",
   "upstoxId": "132199",
   "date": "2026-06-05",
   "stats": {
     "total": 22,
     "hits": 0,
-    "sls": 8,
-    "open": 14,
+    "sls": 11,
+    "open": 11,
     "winRate": 0
   }
 }
