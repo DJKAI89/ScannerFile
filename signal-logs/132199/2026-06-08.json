@@ -29,23 +29,23 @@
       "slMethod": "ATR+VIX",
       "tgtMethod": "2:1 R:R",
       "compositeScore": null,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 46.94,
+      "exitTime": "09:16:49",
+      "exitDate": "2026-06-10",
+      "pnlPct": 6.61,
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-08T08:06:13.725Z",
+  "lastUpdated": "2026-06-10T03:46:49.428Z",
   "upstoxId": "132199",
   "date": "2026-06-08",
   "stats": {
     "total": 1,
-    "hits": 0,
+    "hits": 1,
     "sls": 0,
-    "open": 1,
-    "winRate": null
+    "open": 0,
+    "winRate": 100
   }
 }
