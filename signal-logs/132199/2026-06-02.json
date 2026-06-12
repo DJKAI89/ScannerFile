@@ -103,14 +103,15 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 18.03,
+      "exitTime": "10:18:20",
+      "pnlPct": -6.14,
       "note": "",
       "livePrice": 19.16,
-      "livePnlPct": -0.26
+      "livePnlPct": -0.26,
+      "exitDate": "2026-06-12"
     },
     {
       "id": "2026-06-02-0940-CANBK-STOCK",
@@ -300,14 +301,14 @@
       "exitDate": "2026-06-08"
     }
   ],
-  "lastUpdated": "2026-06-08T03:49:20.274Z",
+  "lastUpdated": "2026-06-12T04:48:21.724Z",
   "upstoxId": "132199",
   "date": "2026-06-02",
   "stats": {
     "total": 8,
     "hits": 2,
-    "sls": 2,
-    "open": 4,
-    "winRate": 50
+    "sls": 3,
+    "open": 3,
+    "winRate": 40
   }
 }
