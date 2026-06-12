@@ -100,12 +100,12 @@
       "trigger": 19.61,
       "triggerMethod": "Break above VWAP",
       "compositeScore": null,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 18.03,
+      "exitTime": "10:18:20",
+      "exitDate": "2026-06-12",
+      "pnlPct": -6.77,
       "note": "",
       "livePrice": 19.25,
       "livePnlPct": -0.47
@@ -148,14 +148,14 @@
       "livePnlPct": -1.3
     }
   ],
-  "lastUpdated": "2026-06-05T06:03:34.869Z",
+  "lastUpdated": "2026-06-12T04:48:20.074Z",
   "upstoxId": "132199",
   "date": "2026-06-01",
   "stats": {
     "total": 4,
     "hits": 1,
-    "sls": 2,
-    "open": 1,
-    "winRate": 33
+    "sls": 3,
+    "open": 0,
+    "winRate": 25
   }
 }
