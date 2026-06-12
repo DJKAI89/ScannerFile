@@ -434,12 +434,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 976.65,
+      "exitTime": "14:37:13",
+      "exitDate": "2026-06-12",
+      "pnlPct": 40.86,
       "note": ""
     },
     {
@@ -502,12 +502,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 762.3,
+      "exitTime": "14:37:13",
+      "exitDate": "2026-06-12",
+      "pnlPct": 27.27,
       "note": ""
     },
     {
@@ -536,12 +536,12 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 748.55,
+      "exitTime": "14:37:13",
+      "exitDate": "2026-06-12",
+      "pnlPct": 37.01,
       "note": ""
     },
     {
@@ -570,12 +570,12 @@
       "priceZone": "mid",
       "oiBuildType": "LONG_BUILD",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 396.1,
+      "exitTime": "14:37:13",
+      "exitDate": "2026-06-12",
+      "pnlPct": 165.84,
       "note": ""
     },
     {
@@ -749,14 +749,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-12T04:48:37.220Z",
+  "lastUpdated": "2026-06-12T09:07:13.722Z",
   "upstoxId": "132199",
   "date": "2026-06-05",
   "stats": {
     "total": 22,
-    "hits": 0,
-    "sls": 13,
-    "open": 9,
-    "winRate": 0
+    "hits": 1,
+    "sls": 16,
+    "open": 5,
+    "winRate": 6
   }
 }
