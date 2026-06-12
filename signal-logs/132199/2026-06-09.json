@@ -587,23 +587,23 @@
       "priceZone": "mid",
       "oiBuildType": "LONG_BUILD",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 917.5,
+      "exitTime": "14:04:34",
+      "exitDate": "2026-06-12",
+      "pnlPct": 89.66,
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-11T03:46:55.108Z",
+  "lastUpdated": "2026-06-12T08:34:34.166Z",
   "upstoxId": "132199",
   "date": "2026-06-09",
   "stats": {
     "total": 15,
-    "hits": 2,
+    "hits": 3,
     "sls": 10,
-    "open": 3,
-    "winRate": 17
+    "open": 2,
+    "winRate": 23
   }
 }
