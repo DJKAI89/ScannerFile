@@ -1216,12 +1216,12 @@
       "trigger": 76.4,
       "triggerMethod": "Break above Day High",
       "compositeScore": null,
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 73.19,
+      "exitTime": "12:51:42",
+      "exitDate": "2026-06-12",
+      "pnlPct": -2.39,
       "note": ""
     },
     {
@@ -1295,14 +1295,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-05T06:04:46.077Z",
+  "lastUpdated": "2026-06-12T07:21:42.149Z",
   "upstoxId": "132199",
   "date": "2026-06-03",
   "stats": {
     "total": 33,
     "hits": 0,
-    "sls": 29,
-    "open": 4,
+    "sls": 30,
+    "open": 3,
     "winRate": 0
   }
 }
