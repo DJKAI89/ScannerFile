@@ -488,12 +488,12 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 253.1,
+      "exitTime": "09:26:34",
+      "exitDate": "2026-06-16",
+      "pnlPct": 7.11,
       "note": ""
     },
     {
@@ -674,12 +674,12 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 109.43,
+      "exitTime": "09:26:34",
+      "exitDate": "2026-06-16",
+      "pnlPct": 9.3,
       "note": ""
     },
     {
@@ -745,14 +745,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-12T04:46:26.659Z",
+  "lastUpdated": "2026-06-16T03:56:38.301Z",
   "upstoxId": "132199",
   "date": "2026-06-11",
   "stats": {
     "total": 12,
-    "hits": 0,
+    "hits": 2,
     "sls": 2,
-    "open": 10,
-    "winRate": 0
+    "open": 8,
+    "winRate": 50
   }
 }
