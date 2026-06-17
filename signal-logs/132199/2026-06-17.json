@@ -240,12 +240,12 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 109.65,
+      "exitTime": "12:30:27",
+      "exitDate": "2026-06-17",
+      "pnlPct": -1.48,
       "note": ""
     },
     {
@@ -435,14 +435,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-17T04:52:43.810Z",
+  "lastUpdated": "2026-06-17T07:00:27.974Z",
   "upstoxId": "132199",
   "date": "2026-06-17",
   "stats": {
     "total": 7,
     "hits": 0,
-    "sls": 0,
-    "open": 7,
-    "winRate": null
+    "sls": 1,
+    "open": 6,
+    "winRate": 0
   }
 }
