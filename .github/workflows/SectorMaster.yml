@@ -1,8 +1,6 @@
-name: Build Sector Master (Weekly Optimized)
+name: Build Sector Master
 
 on:
-  schedule:
-    - cron: '30 0 * * 0'   # Sunday 6:00 AM IST
   workflow_dispatch:
 
 permissions:
@@ -13,119 +11,99 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install deps
-        run: pip install requests
+      - run: pip install requests
 
-      - name: Build sector map (fast + safe)
+      - name: Build sector map
         run: |
           python3 << 'PYEOF'
-          import requests, json, time, os
-          from concurrent.futures import ThreadPoolExecutor, as_completed
+          import json
+          import os
+          import requests
+          import time
 
           HEADERS = {
-            'User-Agent': 'Mozilla/5.0',
-            'Accept': 'application/json',
-            'Referer': 'https://www.nseindia.com/',
+              "User-Agent": "Mozilla/5.0",
+              "Accept": "application/json",
+              "Referer": "https://www.nseindia.com/"
           }
 
           session = requests.Session()
 
-          print("Init NSE session...")
-          session.get("https://www.nseindia.com", headers=HEADERS)
+          session.get(
+              "https://www.nseindia.com",
+              headers=HEADERS,
+              timeout=20
+          )
+
           time.sleep(2)
 
-          # Load existing sector map
+          data = session.get(
+              "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500",
+              headers=HEADERS,
+              timeout=20
+          ).json()
+
+          stocks = data.get("data", [])
+
           sector_map = {}
-          if os.path.exists("stocks/sector_map.json"):
+
+          for stock in stocks:
+              symbol = stock.get("symbol")
+
+              if not symbol:
+                  continue
+
               try:
-                  with open("stocks/sector_map.json") as f:
-                      sector_map = json.load(f)
-              except:
-                  sector_map = {}
+                  r = session.get(
+                      f"https://www.nseindia.com/api/quote-equity?symbol={symbol}",
+                      headers=HEADERS,
+                      timeout=20
+                  )
 
-          print("Fetching NIFTY 500...")
-          url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
-          stocks = session.get(url, headers=HEADERS).json().get("data", [])
+                  info = r.json().get("industryInfo", {})
 
-          symbols_to_fetch = [
-              s.get("symbol") for s in stocks
-              if s.get("symbol") and not sector_map.get(s.get("symbol"))
-          ]
+                  sector_map[symbol] = (
+                      info.get("sector")
+                      or "Unknown"
+                  )
 
-          print(f"Need to fetch: {len(symbols_to_fetch)}")
+                  print(symbol)
 
-          def fetch_sector(symbol):
-              for attempt in range(3):
-                  try:
-                      url = f"https://www.nseindia.com/api/quote-equity?symbol={symbol}"
-                      r = session.get(url, headers=HEADERS, timeout=10)
-                      data = r.json()
-                      info = data.get("industryInfo", {})
-                      return symbol, info.get("sector") or "Unknown"
-                  except:
-                      time.sleep(1.5)
-              return symbol, "Unknown"
+                  time.sleep(1)
 
-          MAX_WORKERS = 5
-          updated = 0
+              except Exception as ex:
+                  print(symbol, ex)
+                  sector_map[symbol] = "Unknown"
 
-          if symbols_to_fetch:
-              with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-                  futures = [executor.submit(fetch_sector, sym) for sym in symbols_to_fetch]
-
-                  for future in as_completed(futures):
-                      symbol, sector = future.result()
-                      sector_map[symbol] = sector
-                      updated += 1
-                      print(f"{symbol} -> {sector}")
-                      time.sleep(0.2)
-
-          # Ensure directory exists
           os.makedirs("stocks", exist_ok=True)
 
-          # Always write file
-          with open("stocks/sector_map.json", "w") as f:
-              json.dump(sector_map or {}, f, indent=2)
-
-          print(f"Updated {updated} stocks")
-          print("Saved stocks/sector_map.json")
+          with open(
+              "stocks/sector_map.json",
+              "w"
+          ) as f:
+              json.dump(
+                  sector_map,
+                  f,
+                  indent=2
+              )
           PYEOF
 
-      - name: Debug files (optional)
+      - name: Commit
         run: |
-          echo "Repo structure:"
-          ls -R
-
-      - name: Commit & Push (safe)
-        shell: bash
-        run: |
-          set -e
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          echo "Checking file..."
-
-          if [ ! -f "stocks/sector_map.json" ]; then
-            echo "File missing, creating fallback"
-            mkdir -p stocks
-            echo "{}" > stocks/sector_map.json
-          fi
-
           git add stocks/sector_map.json
 
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes"
           else
-            echo "Changes detected, committing..."
-            git commit -m "Update sector map (optimized)"
+            git commit -m "Update sector map"
             git push
           fi
