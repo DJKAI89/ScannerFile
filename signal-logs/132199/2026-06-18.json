@@ -914,12 +914,12 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 523.5,
+      "exitTime": "12:30:03",
+      "exitDate": "2026-06-18",
+      "pnlPct": 61.08,
       "note": ""
     },
     {
@@ -1778,14 +1778,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-18T07:00:03.294Z",
+  "lastUpdated": "2026-06-18T07:00:06.827Z",
   "upstoxId": "132199",
   "date": "2026-06-18",
   "stats": {
     "total": 31,
-    "hits": 6,
+    "hits": 7,
     "sls": 18,
-    "open": 7,
-    "winRate": 25
+    "open": 6,
+    "winRate": 28
   }
 }
