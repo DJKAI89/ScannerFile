@@ -16,6 +16,7 @@
     "maxOptCapital": 0,
     "portSize": 50000,
     "riskPct": 2,
+    "optStockScanCount": 50,
     "scanStocks": 10,
     "tick": 15,
     "portRef": 15,
@@ -24,6 +25,6 @@
     "_v": "v4"
   },
   "upstoxId": "132199",
-  "savedAt": "2026-06-18T06:55:59.674Z",
+  "savedAt": "2026-06-19T04:00:57.051Z",
   "version": "v4"
 }
