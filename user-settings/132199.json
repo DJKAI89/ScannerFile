@@ -13,7 +13,7 @@
     "optSL": 25,
     "optTgt": 50,
     "minOptConf": 65,
-    "maxOptCapital": 20000,
+    "maxOptCapital": 25000,
     "portSize": 50000,
     "riskPct": 2,
     "optStockScanCount": 50,
@@ -25,6 +25,6 @@
     "_v": "v4"
   },
   "upstoxId": "132199",
-  "savedAt": "2026-06-20T03:02:01.655Z",
+  "savedAt": "2026-06-22T06:53:23.418Z",
   "version": "v4"
 }
