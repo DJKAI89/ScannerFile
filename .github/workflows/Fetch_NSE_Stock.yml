@@ -1,10 +1,5 @@
 name: Fetch NIFTY 500 Stock Master with sector (Weekly)
 
-on:
-  schedule:
-    - cron: '30 2 * * 0'   # Sunday 8:00 AM IST
-  workflow_dispatch:
-
 permissions:
   contents: write
 
