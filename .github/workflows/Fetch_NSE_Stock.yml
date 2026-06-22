@@ -1,5 +1,8 @@
 name: Fetch NIFTY 500 Stock Master with sector (Weekly)
 
+on:
+  workflow_dispatch:
+
 permissions:
   contents: write
 
