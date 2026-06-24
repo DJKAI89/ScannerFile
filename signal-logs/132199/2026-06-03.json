@@ -205,15 +205,16 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "exitPrice": null,
-      "exitTime": null,
+      "exitTime": "10:06:44",
       "pnlPct": null,
       "note": "",
       "livePrice": 3.95,
       "livePnlPct": -1.25,
       "targetProgress": -3,
-      "slDistance": 23.8
+      "slDistance": 23.8,
+      "exitDate": "2026-06-24"
     },
     {
       "id": "2026-06-03-1015-SENSEX-73900-PE",
@@ -1295,14 +1296,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-12T07:21:42.149Z",
+  "lastUpdated": "2026-06-24T04:36:44.369Z",
   "upstoxId": "132199",
   "date": "2026-06-03",
   "stats": {
     "total": 33,
     "hits": 0,
     "sls": 30,
-    "open": 3,
+    "open": 2,
     "winRate": 0
   }
 }
