@@ -162,11 +162,11 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "10:06:44",
+      "exitDate": "2026-06-24",
       "pnlPct": null,
       "note": ""
     },
@@ -749,14 +749,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-12T09:07:13.722Z",
+  "lastUpdated": "2026-06-24T04:36:45.626Z",
   "upstoxId": "132199",
   "date": "2026-06-05",
   "stats": {
     "total": 22,
     "hits": 1,
     "sls": 16,
-    "open": 5,
+    "open": 4,
     "winRate": 6
   }
 }
