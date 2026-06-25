@@ -464,12 +464,12 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 1025,
+      "exitTime": "09:24:17",
+      "exitDate": "2026-06-25",
+      "pnlPct": -38.62,
       "note": ""
     },
     {
@@ -582,12 +582,12 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 1219.7,
+      "exitTime": "09:24:17",
+      "exitDate": "2026-06-25",
+      "pnlPct": -35.24,
       "note": ""
     },
     {
@@ -641,12 +641,12 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 1612.4,
+      "exitTime": "09:24:17",
+      "exitDate": "2026-06-25",
+      "pnlPct": -28.78,
       "note": ""
     },
     {
@@ -700,12 +700,12 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 1536.55,
+      "exitTime": "09:24:17",
+      "exitDate": "2026-06-25",
+      "pnlPct": -31.6,
       "note": ""
     },
     {
@@ -1349,12 +1349,12 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 1219.7,
+      "exitTime": "09:24:17",
+      "exitDate": "2026-06-25",
+      "pnlPct": -29.7,
       "note": ""
     },
     {
@@ -1594,14 +1594,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-24T09:07:07.721Z",
+  "lastUpdated": "2026-06-25T03:54:17.671Z",
   "upstoxId": "132199",
   "date": "2026-06-24",
   "stats": {
     "total": 27,
     "hits": 0,
-    "sls": 4,
-    "open": 23,
+    "sls": 9,
+    "open": 18,
     "winRate": 0
   }
 }
