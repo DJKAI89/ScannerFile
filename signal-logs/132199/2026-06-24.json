@@ -523,11 +523,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -818,11 +818,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -877,11 +877,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -936,11 +936,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -995,11 +995,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -1054,11 +1054,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -1408,11 +1408,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -1467,11 +1467,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -1526,11 +1526,11 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     },
@@ -1585,23 +1585,23 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
+      "exitTime": "12:03:41",
+      "exitDate": "2026-06-26",
       "pnlPct": null,
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-25T03:54:17.671Z",
+  "lastUpdated": "2026-06-26T06:33:42.960Z",
   "upstoxId": "132199",
   "date": "2026-06-24",
   "stats": {
     "total": 27,
     "hits": 0,
     "sls": 9,
-    "open": 18,
+    "open": 8,
     "winRate": 0
   }
 }
