@@ -1018,15 +1018,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "belowPDL",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "TARGET_HIT",
+      "exitPrice": 23.15,
+      "exitTime": "09:25:58",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 21.35,
-      "livePnlPct": -7.78,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -18,
-      "slDistance": 17.2
+      "slDistance": 17.2,
+      "exitDate": "2026-07-01",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 23.15,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-05-29-1558-BANKNIFTY-46500-PE",
@@ -1542,14 +1553,14 @@
       "targetProgress": null
     }
   ],
-  "lastUpdated": "2026-06-03T09:59:06.576Z",
+  "lastUpdated": "2026-07-01T03:55:58.410Z",
   "upstoxId": "132199",
+  "date": "2026-05-29",
   "stats": {
     "total": 39,
-    "hits": 19,
+    "hits": 20,
     "sls": 0,
-    "open": 1,
-    "winRate": 100,
-    "avgConf": 69
+    "open": 0,
+    "winRate": 100
   }
 }
