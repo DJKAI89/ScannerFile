@@ -51,13 +51,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1280,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1280,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1058-NIFTY-25350-PE",
@@ -110,13 +122,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1435,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1435,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1058-BANKNIFTY-58900-PE",
@@ -346,13 +370,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 2535.3,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2535.3,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1058-BANKNIFTY-61000-PE",
@@ -405,13 +441,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 3220,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 3220,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1058-SENSEX-78400-PE",
@@ -1113,13 +1161,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1215,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1215,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1220-NIFTY-25600-PE",
@@ -1172,13 +1232,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1600,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1600,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1220-BANKNIFTY-59600-PE",
@@ -1231,13 +1303,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1924.8,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1924.8,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1220-BANKNIFTY-60500-PE",
@@ -1290,13 +1374,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 2740.95,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2740.95,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-24-1220-SENSEX-78600-PE",
@@ -1594,14 +1690,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-26T06:33:42.960Z",
+  "lastUpdated": "2026-07-01T03:56:05.454Z",
   "upstoxId": "132199",
   "date": "2026-06-24",
   "stats": {
     "total": 27,
-    "hits": 0,
+    "hits": 8,
     "sls": 9,
-    "open": 8,
-    "winRate": 0
+    "open": 0,
+    "winRate": 47
   }
 }
