@@ -1113,13 +1113,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 957.4,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 957.4,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-23-1205-FINNIFTY-25750-CE",
@@ -1172,13 +1184,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 882.5,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 882.5,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-23-1205-FINNIFTY-25800-CE",
@@ -1231,13 +1255,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 840,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 840,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-23-1228-SUZLON-STOCK",
@@ -1368,14 +1404,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-26T06:33:41.751Z",
+  "lastUpdated": "2026-07-01T03:56:01.119Z",
   "upstoxId": "132199",
   "date": "2026-06-23",
   "stats": {
     "total": 23,
-    "hits": 1,
+    "hits": 4,
     "sls": 11,
-    "open": 5,
-    "winRate": 8
+    "open": 2,
+    "winRate": 27
   }
 }
