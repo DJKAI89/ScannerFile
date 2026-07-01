@@ -1103,13 +1103,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 4667.85,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 4667.85,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-BANKNIFTY-54100-CE",
@@ -1162,13 +1174,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 3682,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 3682,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-SENSEX-78000-PE",
@@ -1811,13 +1835,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1230,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1230,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25500-CE",
@@ -1870,13 +1906,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1040,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1040,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25550-CE",
@@ -1929,13 +1977,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 981.8,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 981.8,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25800-CE",
@@ -1988,13 +2048,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 840,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 840,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25850-CE",
@@ -2047,13 +2119,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 741.55,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 741.55,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-26200-CE",
@@ -2106,13 +2190,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 518.55,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 518.55,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-26250-CE",
@@ -2165,13 +2261,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 475.1,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 475.1,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-24900-CE",
@@ -2224,13 +2332,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1618,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1618,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25000-CE",
@@ -2283,13 +2403,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1560,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1560,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25150-CE",
@@ -2342,13 +2474,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1448.3,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1448.3,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25700-CE",
@@ -2401,13 +2545,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 836.7,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 836.7,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-25900-CE",
@@ -2460,13 +2616,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 653.1,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 653.1,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-19-1211-FINNIFTY-26150-CE",
@@ -2519,23 +2687,35 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 812.05,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 812.05,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-06-26T06:33:44.884Z",
+  "lastUpdated": "2026-07-01T03:55:59.810Z",
   "upstoxId": "132199",
   "date": "2026-06-19",
   "stats": {
     "total": 43,
-    "hits": 0,
+    "hits": 15,
     "sls": 7,
-    "open": 15,
-    "winRate": 0
+    "open": 0,
+    "winRate": 68
   }
 }
