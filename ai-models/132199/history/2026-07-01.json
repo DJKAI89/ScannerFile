@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-01",
+  "snapshot": {
+    "version": "ai-ensemble-v2",
+    "modelName": "AI Ensemble Brain",
+    "computedAt": "2026-07-01T15:38:29.161Z",
+    "stock": {
+      "trainedOn": 48,
+      "accuracy": 0.917,
+      "edge": 0.0958,
+      "walkForward": 0.438,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 27.7639,
+          "splits": 27,
+          "importance": 28.9
+        },
+        {
+          "feature": "riskInv",
+          "gain": 22.887,
+          "splits": 13,
+          "importance": 23.8
+        },
+        {
+          "feature": "potential",
+          "gain": 17.5666,
+          "splits": 26,
+          "importance": 18.3
+        },
+        {
+          "feature": "rr",
+          "gain": 10.1738,
+          "splits": 13,
+          "importance": 10.6
+        },
+        {
+          "feature": "weekday",
+          "gain": 8.3925,
+          "splits": 8,
+          "importance": 8.7
+        },
+        {
+          "feature": "phase",
+          "gain": 8.0703,
+          "splits": 14,
+          "importance": 8.4
+        },
+        {
+          "feature": "aboveVWAP",
+          "gain": 1.2052,
+          "splits": 5,
+          "importance": 1.3
+        },
+        {
+          "feature": "adxBull",
+          "gain": 0.0267,
+          "splits": 1,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_global"
+    },
+    "option": {
+      "trainedOn": 1489,
+      "accuracy": 0.895,
+      "edge": 0.1365,
+      "walkForward": 0.765,
+      "topFeatures": [
+        {
+          "feature": "score",
+          "gain": 1876.592,
+          "splits": 66,
+          "importance": 32.2
+        },
+        {
+          "feature": "phase",
+          "gain": 1041.5942,
+          "splits": 45,
+          "importance": 17.9
+        },
+        {
+          "feature": "iv",
+          "gain": 818.3066,
+          "splits": 73,
+          "importance": 14.1
+        },
+        {
+          "feature": "capitalLoad",
+          "gain": 680.6504,
+          "splits": 69,
+          "importance": 11.7
+        },
+        {
+          "feature": "regime",
+          "gain": 424.9105,
+          "splits": 24,
+          "importance": 7.3
+        },
+        {
+          "feature": "rr",
+          "gain": 278.9088,
+          "splits": 22,
+          "importance": 4.8
+        },
+        {
+          "feature": "weekday",
+          "gain": 265.4134,
+          "splits": 27,
+          "importance": 4.6
+        },
+        {
+          "feature": "baseConf",
+          "gain": 153.2658,
+          "splits": 10,
+          "importance": 2.6
+        }
+      ],
+      "servingLabel": "index_pe"
+    }
+  },
+  "trainedOffline": true,
+  "userId": "132199"
+}
