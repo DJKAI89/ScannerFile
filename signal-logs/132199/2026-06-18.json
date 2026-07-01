@@ -1427,13 +1427,25 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 352.05,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 352.05,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-18-1148-SENSEX-77300-PE",
@@ -1835,14 +1847,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-24T04:36:46.857Z",
+  "lastUpdated": "2026-07-01T03:56:02.568Z",
   "upstoxId": "132199",
   "date": "2026-06-18",
   "stats": {
     "total": 32,
-    "hits": 10,
+    "hits": 11,
     "sls": 19,
-    "open": 2,
-    "winRate": 34
+    "open": 1,
+    "winRate": 37
   }
 }
