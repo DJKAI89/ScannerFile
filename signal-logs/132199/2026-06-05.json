@@ -332,13 +332,25 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 890.8,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 890.8,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-05-0959-FINNIFTY-24750-CE",
@@ -366,13 +378,25 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 755.35,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 755.35,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-05-0959-FINNIFTY-24950-CE",
@@ -400,13 +424,25 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 635.7,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 635.7,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-05-0959-FINNIFTY-25000-CE",
@@ -468,13 +504,25 @@
       "priceZone": "mid",
       "oiBuildType": "NEUTRAL",
       "trendAligned": true,
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 656.15,
+      "exitTime": "09:25:58",
+      "exitDate": "2026-07-01",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 656.15,
+          "time": "09:25:58",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-06-05-0959-FINNIFTY-25150-CE",
@@ -749,14 +797,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-06-24T04:36:45.626Z",
+  "lastUpdated": "2026-07-01T03:56:01.992Z",
   "upstoxId": "132199",
   "date": "2026-06-05",
   "stats": {
     "total": 22,
-    "hits": 1,
+    "hits": 5,
     "sls": 16,
-    "open": 4,
-    "winRate": 6
+    "open": 0,
+    "winRate": 24
   }
 }
