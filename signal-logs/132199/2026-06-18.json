@@ -116,13 +116,23 @@
         "delivLow": false,
         "numInds": 4
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 67.81,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -10.81,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 67.81,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-18-1144-SENSEX-76700-CE",
@@ -1847,14 +1857,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-07-01T03:56:02.568Z",
+  "lastUpdated": "2026-07-02T09:31:12.881Z",
   "upstoxId": "132199",
   "date": "2026-06-18",
   "stats": {
     "total": 32,
     "hits": 11,
-    "sls": 19,
-    "open": 1,
-    "winRate": 37
+    "sls": 20,
+    "open": 0,
+    "winRate": 35
   }
 }
