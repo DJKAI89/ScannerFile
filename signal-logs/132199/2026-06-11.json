@@ -116,13 +116,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 107.88,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 1.57,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 107.88,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-11-1043-JPPOWER-STOCK",
@@ -178,13 +188,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 17.9,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 0.06,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 17.9,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-11-1043-MSUMI-STOCK",
@@ -240,13 +260,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 41.54,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 12.97,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 41.54,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-11-1043-HFCL-STOCK",
@@ -426,13 +456,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 106.88,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 0.95,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 106.88,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-11-1043-ETERNAL-STOCK",
@@ -736,23 +776,33 @@
         "delivLow": false,
         "numInds": 2
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1326.4,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 49.22,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 1326.4,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-06-22T03:48:39.305Z",
+  "lastUpdated": "2026-07-02T09:32:03.329Z",
   "upstoxId": "132199",
   "date": "2026-06-11",
   "stats": {
     "total": 12,
-    "hits": 4,
+    "hits": 9,
     "sls": 3,
-    "open": 5,
-    "winRate": 57
+    "open": 0,
+    "winRate": 75
   }
 }
