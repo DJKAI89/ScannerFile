@@ -116,13 +116,23 @@
         "delivLow": false,
         "numInds": 2
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 191.53,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 12.51,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 191.53,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-10-0951-NLCINDIA-STOCK",
@@ -302,13 +312,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 191.53,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 14.92,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 191.53,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-10-1215-AFCONS-STOCK",
@@ -426,13 +446,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 107.88,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 4.48,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 107.88,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-10-1215-MRPL-STOCK",
@@ -674,13 +704,23 @@
         "delivLow": false,
         "numInds": 2
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 1401.4,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 7.57,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 1401.4,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-10-1215-OLAELEC-STOCK",
@@ -860,23 +900,33 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 191.53,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 14.48,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 191.53,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-06-11T08:00:50.663Z",
+  "lastUpdated": "2026-07-02T09:32:05.795Z",
   "upstoxId": "132199",
   "date": "2026-06-10",
   "stats": {
     "total": 14,
-    "hits": 0,
+    "hits": 5,
     "sls": 9,
-    "open": 5,
-    "winRate": 0
+    "open": 0,
+    "winRate": 36
   }
 }
