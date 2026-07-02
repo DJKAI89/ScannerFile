@@ -31,7 +31,7 @@
       "status": "TARGET_HIT",
       "holdDays": 5,
       "exitPrice": 80.56,
-      "exitTime": "15:01:06",
+      "exitTime": "15:02:14",
       "pnlPct": 8.6,
       "note": "",
       "livePrice": 74.62,
@@ -42,7 +42,7 @@
         {
           "level": "TIME_STOP",
           "price": 80.56,
-          "time": "15:01:06",
+          "time": "15:02:14",
           "pctClosed": 100
         }
       ],
@@ -155,7 +155,7 @@
       "status": "SL_HIT",
       "holdDays": 2,
       "exitPrice": 126.69,
-      "exitTime": "15:01:06",
+      "exitTime": "15:02:14",
       "pnlPct": -1.07,
       "note": "",
       "livePrice": 131.57,
@@ -166,7 +166,7 @@
         {
           "level": "TIME_STOP",
           "price": 126.69,
-          "time": "15:01:06",
+          "time": "15:02:14",
           "pctClosed": 100
         }
       ],
@@ -278,7 +278,7 @@
       "status": "TARGET_HIT",
       "holdDays": 2,
       "exitPrice": 57.59,
-      "exitTime": "15:01:06",
+      "exitTime": "15:02:14",
       "pnlPct": 8.37,
       "note": "",
       "livePrice": 54.5,
@@ -289,7 +289,7 @@
         {
           "level": "TIME_STOP",
           "price": 57.59,
-          "time": "15:01:06",
+          "time": "15:02:14",
           "pctClosed": 100
         }
       ],
@@ -334,7 +334,7 @@
       "exitDate": "2026-06-08"
     }
   ],
-  "lastUpdated": "2026-07-02T09:32:14.396Z",
+  "lastUpdated": "2026-07-02T09:32:16.999Z",
   "upstoxId": "132199",
   "date": "2026-06-02",
   "stats": {
