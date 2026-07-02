@@ -54,13 +54,23 @@
         "delivLow": false,
         "numInds": 4
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 2339.5,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 3.92,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 2339.5,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-17-1022-NEWGEN-STOCK",
@@ -178,13 +188,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 84.29,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -0.99,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 84.29,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-17-1022-ZEEL-STOCK",
@@ -426,23 +446,33 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 17.9,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 0,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 17.9,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-06-19T04:02:35.799Z",
+  "lastUpdated": "2026-07-02T09:31:16.434Z",
   "upstoxId": "132199",
   "date": "2026-06-17",
   "stats": {
     "total": 7,
-    "hits": 1,
-    "sls": 3,
-    "open": 3,
-    "winRate": 25
+    "hits": 3,
+    "sls": 4,
+    "open": 0,
+    "winRate": 43
   }
 }
