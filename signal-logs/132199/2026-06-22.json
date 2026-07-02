@@ -56,13 +56,23 @@
         "delivLow": false,
         "numInds": 2
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 133.76,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 4.13,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 133.76,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-22-1350-HDFCBANK-STOCK",
@@ -120,23 +130,33 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 796.8,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": 1.26,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 796.8,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-06-22T08:20:46.592Z",
+  "lastUpdated": "2026-07-02T09:31:10.440Z",
   "upstoxId": "132199",
   "date": "2026-06-22",
   "stats": {
     "total": 2,
-    "hits": 0,
+    "hits": 2,
     "sls": 0,
-    "open": 2,
-    "winRate": null
+    "open": 0,
+    "winRate": 100
   }
 }
