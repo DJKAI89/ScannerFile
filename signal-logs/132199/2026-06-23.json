@@ -1331,13 +1331,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 57.59,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -1.62,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 57.59,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-23-1228-YESBANK-STOCK",
@@ -1395,23 +1405,33 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 24.25,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -2.1,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 24.25,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-07-01T03:56:01.119Z",
+  "lastUpdated": "2026-07-02T09:31:06.744Z",
   "upstoxId": "132199",
   "date": "2026-06-23",
   "stats": {
     "total": 23,
     "hits": 4,
-    "sls": 11,
-    "open": 2,
-    "winRate": 27
+    "sls": 13,
+    "open": 0,
+    "winRate": 24
   }
 }
