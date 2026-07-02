@@ -28,14 +28,25 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 5,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 80.56,
+      "exitTime": "15:01:06",
+      "pnlPct": 8.6,
       "note": "",
       "livePrice": 74.62,
-      "livePnlPct": 0.59
+      "livePnlPct": 0.59,
+      "exitDate": "2026-07-02",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 80.56,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-02-0940-ZEEL-STOCK",
@@ -141,14 +152,25 @@
       "triggerMethod": "ATR Breakout",
       "slMethod": "S1 support",
       "tgtMethod": "R2 resistance",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 126.69,
+      "exitTime": "15:01:06",
+      "pnlPct": -1.07,
       "note": "",
       "livePrice": 131.57,
-      "livePnlPct": 2.74
+      "livePnlPct": 2.74,
+      "exitDate": "2026-07-02",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 126.69,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-02-0940-TATASTEEL-STOCK",
@@ -253,14 +275,25 @@
       "triggerMethod": "Break above Day High",
       "slMethod": "ATR+VIX",
       "tgtMethod": "R1 resistance",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "exitPrice": 57.59,
+      "exitTime": "15:01:06",
+      "pnlPct": 8.37,
       "note": "",
       "livePrice": 54.5,
-      "livePnlPct": 2.56
+      "livePnlPct": 2.56,
+      "exitDate": "2026-07-02",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 57.59,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-02-0940-NSLNISP-STOCK",
@@ -301,14 +334,14 @@
       "exitDate": "2026-06-08"
     }
   ],
-  "lastUpdated": "2026-06-12T04:48:26.478Z",
+  "lastUpdated": "2026-07-02T09:32:14.396Z",
   "upstoxId": "132199",
   "date": "2026-06-02",
   "stats": {
     "total": 8,
-    "hits": 2,
-    "sls": 3,
-    "open": 3,
-    "winRate": 40
+    "hits": 4,
+    "sls": 4,
+    "open": 0,
+    "winRate": 50
   }
 }
