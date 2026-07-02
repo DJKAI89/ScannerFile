@@ -116,13 +116,23 @@
         "delivLow": false,
         "numInds": 4
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 43.17,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -7.24,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 43.17,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-12-1512-IFCI-STOCK",
@@ -178,13 +188,23 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 76.8,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -9.19,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 76.8,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-12-1512-PNB-STOCK",
@@ -240,13 +260,23 @@
         "delivLow": false,
         "numInds": 4
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 106.88,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -0.06,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 106.88,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-12-1512-MMTC-STOCK",
@@ -302,23 +332,33 @@
         "delivLow": false,
         "numInds": 3
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "note": ""
+      "exitPrice": 67.81,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-07-02",
+      "pnlPct": -0.41,
+      "note": "",
+      "exitReason": "TIME_STOP",
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 67.81,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-06-12T09:42:30.094Z",
+  "lastUpdated": "2026-07-02T09:31:22.293Z",
   "upstoxId": "132199",
   "date": "2026-06-12",
   "stats": {
     "total": 5,
     "hits": 0,
-    "sls": 1,
-    "open": 4,
+    "sls": 5,
+    "open": 0,
     "winRate": 0
   }
 }
