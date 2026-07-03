@@ -1,7 +1,7 @@
 {
   "modelName": "AI Ensemble Brain",
   "version": "ai-ensemble-v2",
-  "computedAt": "2026-07-02T15:12:45.579Z",
+  "computedAt": "2026-07-03T15:10:46.728Z",
   "stock": {
     "kind": "lightgbm_style_gbdt_v2",
     "type": "STOCK",
@@ -1456,7 +1456,7 @@
     "wins": 28,
     "losses": 49,
     "baseRate": 0.364,
-    "computedAt": "2026-07-02T14:57:08.438Z",
+    "computedAt": "2026-07-03T14:56:33.028Z",
     "params": {
       "numIterations": 24,
       "learningRate": 0.09,
@@ -4797,7 +4797,7 @@
     "wins": 460,
     "losses": 1033,
     "baseRate": 0.308,
-    "computedAt": "2026-07-02T14:57:08.897Z",
+    "computedAt": "2026-07-03T14:56:33.492Z",
     "params": {
       "numIterations": 42,
       "learningRate": 0.07,
@@ -6404,7 +6404,7 @@
         "wins": 28,
         "losses": 49,
         "baseRate": 0.364,
-        "computedAt": "2026-07-02T14:57:08.438Z",
+        "computedAt": "2026-07-03T14:56:33.028Z",
         "params": {
           "numIterations": 24,
           "learningRate": 0.09,
@@ -7426,7 +7426,7 @@
           "wins": 15,
           "losses": 20,
           "baseRate": 0.429,
-          "computedAt": "2026-07-02T14:57:08.883Z",
+          "computedAt": "2026-07-03T14:56:33.478Z",
           "params": {
             "numIterations": 24,
             "learningRate": 0.09,
@@ -10817,7 +10817,7 @@
         "wins": 460,
         "losses": 1033,
         "baseRate": 0.308,
-        "computedAt": "2026-07-02T14:57:08.897Z",
+        "computedAt": "2026-07-03T14:56:33.492Z",
         "params": {
           "numIterations": 42,
           "learningRate": 0.07,
@@ -14159,7 +14159,7 @@
           "wins": 157,
           "losses": 381,
           "baseRate": 0.292,
-          "computedAt": "2026-07-02T15:07:32.114Z",
+          "computedAt": "2026-07-03T15:06:01.054Z",
           "params": {
             "numIterations": 42,
             "learningRate": 0.07,
@@ -17500,7 +17500,7 @@
           "wins": 303,
           "losses": 652,
           "baseRate": 0.317,
-          "computedAt": "2026-07-02T15:08:43.674Z",
+          "computedAt": "2026-07-03T15:07:06.694Z",
           "params": {
             "numIterations": 42,
             "learningRate": 0.07,
