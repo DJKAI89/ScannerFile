@@ -240,15 +240,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 105.7,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 85.15,
-      "livePnlPct": -19.44,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -50,
-      "slDistance": 5.6
+      "slDistance": 5.6,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 105.7,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-NIFTY-23900-CE",
@@ -280,15 +291,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 69.1,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 52.7,
-      "livePnlPct": -23.73,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -50,
-      "slDistance": 1.3
+      "slDistance": 1.3,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 69.1,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-NIFTY-23950-CE",
@@ -402,15 +424,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 450.95,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 402.8,
-      "livePnlPct": -10.68,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -36,
-      "slDistance": 14.3
+      "slDistance": 14.3,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 450.95,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-76600-CE",
@@ -442,15 +475,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 396.45,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 351.8,
-      "livePnlPct": -11.26,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -38,
-      "slDistance": 13.7
+      "slDistance": 13.7,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 396.45,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-76700-CE",
@@ -482,15 +526,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 346,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 306.7,
-      "livePnlPct": -11.36,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -38,
-      "slDistance": 13.6
+      "slDistance": 13.6,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 346,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-76800-CE",
@@ -522,15 +577,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 303.6,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 265.15,
-      "livePnlPct": -12.66,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -35,
-      "slDistance": 17.3
+      "slDistance": 17.3,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 303.6,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-76900-CE",
@@ -562,15 +628,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 262.2,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 228.25,
-      "livePnlPct": -12.95,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -36,
-      "slDistance": 17.1
+      "slDistance": 17.1,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 262.2,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77000-CE",
@@ -602,15 +679,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 224,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 195.7,
-      "livePnlPct": -12.63,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -35,
-      "slDistance": 17.4
+      "slDistance": 17.4,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 224,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77100-CE",
@@ -642,15 +730,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 193.6,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 166.65,
-      "livePnlPct": -13.92,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -46,
-      "slDistance": 11.1
+      "slDistance": 11.1,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 193.6,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77200-CE",
@@ -682,15 +781,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 164.3,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 140.75,
-      "livePnlPct": -14.33,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -48,
-      "slDistance": 10.7
+      "slDistance": 10.7,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 164.3,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77300-CE",
@@ -722,15 +832,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 138,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 118.05,
-      "livePnlPct": -14.46,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -48,
-      "slDistance": 10.5
+      "slDistance": 10.5,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 138,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77400-CE",
@@ -762,15 +883,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 117.65,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 99.3,
-      "livePnlPct": -15.6,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -50,
-      "slDistance": 9.4
+      "slDistance": 9.4,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 117.65,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77500-CE",
@@ -802,15 +934,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 98.95,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 84.2,
-      "livePnlPct": -14.91,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -50,
-      "slDistance": 10.1
+      "slDistance": 10.1,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 98.95,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-SENSEX-77600-CE",
@@ -842,15 +985,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 83.15,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 70.25,
-      "livePnlPct": -15.51,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -50,
-      "slDistance": 9.5
+      "slDistance": 9.5,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 83.15,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1000-FINNIFTY-26950-CE",
@@ -882,15 +1036,26 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 137,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 137,
-      "livePnlPct": 0,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": 0,
-      "slDistance": 25
+      "slDistance": 25,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 137,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     },
     {
       "id": "2026-06-16-1001-SENSEX-77000-CE",
@@ -922,25 +1087,35 @@
       "momentumScore": null,
       "emaCross": null,
       "priceZone": "abovePDH",
-      "status": "OPEN",
-      "exitPrice": null,
-      "exitTime": null,
-      "pnlPct": null,
+      "status": "EXPIRED",
+      "exitPrice": 225.8,
+      "exitTime": "17:14:22",
+      "pnlPct": 0,
       "note": "",
-      "livePrice": 195.7,
-      "livePnlPct": -13.33,
+      "livePrice": null,
+      "livePnlPct": null,
       "targetProgress": -44,
-      "slDistance": 11.7
+      "slDistance": 11.7,
+      "exitDate": "2026-07-13",
+      "exitReason": "EXPIRY",
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 225.8,
+          "time": "17:14:22",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0
     }
   ],
-  "lastUpdated": "2026-06-16T04:33:07.804Z",
-  "upstoxId": "659150",
+  "lastUpdated": "2026-07-13T11:45:07.537Z",
+  "date": "2026-06-16",
   "stats": {
     "total": 24,
     "hits": 0,
     "sls": 2,
-    "open": 22,
-    "winRate": 0,
-    "avgConf": 87
+    "open": 6,
+    "winRate": 0
   }
 }
