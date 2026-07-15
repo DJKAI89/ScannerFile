@@ -51,23 +51,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 142.75,
       "targetT1": 428.25,
       "targetT2": 285.5,
       "targetT3": 142.75,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 571,
+          "time": "07:39:30",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 571,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 571,
+      "exitTime": "07:39:30",
+      "exitDate": "2026-07-15",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-07-13-1221-NIFTY-24800-PE",
@@ -120,23 +129,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 155,
       "targetT1": 465,
       "targetT2": 310,
       "targetT3": 155,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 620,
+          "time": "07:39:30",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 620,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 620,
+      "exitTime": "07:39:30",
+      "exitDate": "2026-07-15",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-07-13-1221-NIFTY-24850-PE",
@@ -189,23 +207,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 168.87,
       "targetT1": 506.63,
       "targetT2": 337.75,
       "targetT3": 168.89,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 675.5,
+          "time": "07:39:30",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 675.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 675.5,
+      "exitTime": "07:39:30",
+      "exitDate": "2026-07-15",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-07-13-1221-NIFTY-24900-PE",
@@ -258,33 +285,42 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 182.55,
       "targetT1": 547.65,
       "targetT2": 365.1,
       "targetT3": 182.55,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 730.2,
+          "time": "07:39:30",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 730.2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 730.2,
+      "exitTime": "07:39:30",
+      "exitDate": "2026-07-15",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-07-13T06:51:55.129Z",
+  "lastUpdated": "2026-07-15T02:09:30.051Z",
   "upstoxId": "132199",
   "date": "2026-07-13",
   "stats": {
     "total": 4,
     "hits": 0,
     "sls": 0,
-    "open": 4,
+    "open": 0,
     "winRate": null
   }
 }
