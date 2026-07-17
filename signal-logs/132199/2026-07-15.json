@@ -1027,7 +1027,7 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 535.22,
       "targetT1": 1605.68,
@@ -1039,28 +1039,36 @@
           "price": 1500,
           "time": "11:03:47",
           "pctClosed": 50
+        },
+        {
+          "level": "EXPIRY",
+          "price": 2140.9,
+          "time": "08:14:25",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1821.132,
       "maxFavPrice": 1500,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 2140.9,
+      "exitTime": "08:14:25",
+      "exitDate": "2026-07-17",
+      "pnlPct": 14.97,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-07-16T05:33:47.339Z",
+  "lastUpdated": "2026-07-17T02:44:25.202Z",
   "upstoxId": "132199",
   "date": "2026-07-15",
   "stats": {
     "total": 14,
     "hits": 0,
     "sls": 2,
-    "open": 12,
+    "open": 11,
     "winRate": 0
   }
 }
