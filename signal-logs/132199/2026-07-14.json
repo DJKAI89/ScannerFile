@@ -56,33 +56,40 @@
         "delivLow": false,
         "numInds": 4
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 6.47,
       "targetT1": 193.41,
       "targetT2": 195.64,
       "targetT3": 197.79,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 184.5,
+          "time": "12:24:17",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 187.11,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 184.5,
+      "exitTime": "12:24:17",
+      "exitDate": "2026-07-17",
+      "pnlPct": -1.39,
+      "exitReason": "TIME_STOP",
       "note": ""
     }
   ],
-  "lastUpdated": "2026-07-14T02:08:19.595Z",
+  "lastUpdated": "2026-07-17T06:54:17.382Z",
   "upstoxId": "132199",
   "date": "2026-07-14",
   "stats": {
     "total": 1,
     "hits": 0,
-    "sls": 0,
-    "open": 1,
-    "winRate": null
+    "sls": 1,
+    "open": 0,
+    "winRate": 0
   }
 }
