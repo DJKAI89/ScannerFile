@@ -729,22 +729,29 @@
         "delivLow": false,
         "numInds": 0
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 0,
       "targetT1": 387.54,
       "targetT2": 393.69,
       "targetT3": 405.97,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 356.55,
+          "time": "13:15:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 369.1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 356.55,
+      "exitTime": "13:15:40",
+      "exitDate": "2026-07-22",
+      "pnlPct": -3.4,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -877,22 +884,29 @@
         "delivLow": false,
         "numInds": 0
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 0,
       "targetT1": 896.53,
       "targetT2": 910.56,
       "targetT3": 938.6,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 825.4,
+          "time": "13:15:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 854.45,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 825.4,
+      "exitTime": "13:15:40",
+      "exitDate": "2026-07-22",
+      "pnlPct": -3.4,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -1206,14 +1220,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-07-22T04:59:27.063Z",
+  "lastUpdated": "2026-07-22T07:45:40.729Z",
   "upstoxId": "132199",
   "date": "2026-07-20",
   "stats": {
     "total": 16,
     "hits": 0,
-    "sls": 3,
-    "open": 13,
+    "sls": 5,
+    "open": 11,
     "winRate": 0
   }
 }
