@@ -464,9 +464,9 @@
     "2026-07-28": {
       "total": 1,
       "hits": 0,
-      "sls": 0,
-      "open": 1,
-      "winRate": null
+      "sls": 1,
+      "open": 0,
+      "winRate": 0
     },
     "2026-07-29": {
       "total": 1,
@@ -476,6 +476,6 @@
       "winRate": null
     }
   },
-  "lastUpdated": "2026-07-29T03:51:00.343Z",
+  "lastUpdated": "2026-07-29T04:43:07.698Z",
   "upstoxId": "132199"
 }
