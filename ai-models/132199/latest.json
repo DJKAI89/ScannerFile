@@ -1,7 +1,7 @@
 {
   "modelName": "AI Ensemble Brain",
   "version": "ai-ensemble-v2",
-  "computedAt": "2026-08-03T15:42:34.897Z",
+  "computedAt": "2026-08-04T15:23:09.844Z",
   "stock": {
     "kind": "lightgbm_style_gbdt_v2",
     "type": "STOCK",
@@ -3190,7 +3190,7 @@
     "wins": 71,
     "losses": 115,
     "baseRate": 0.382,
-    "computedAt": "2026-08-03T15:29:53.125Z",
+    "computedAt": "2026-08-04T15:07:52.056Z",
     "params": {
       "numIterations": 42,
       "learningRate": 0.07,
@@ -6531,7 +6531,7 @@
     "wins": 461,
     "losses": 1033,
     "baseRate": 0.309,
-    "computedAt": "2026-08-03T15:29:58.879Z",
+    "computedAt": "2026-08-04T15:07:59.097Z",
     "params": {
       "numIterations": 42,
       "learningRate": 0.07,
@@ -9872,7 +9872,7 @@
         "wins": 71,
         "losses": 115,
         "baseRate": 0.382,
-        "computedAt": "2026-08-03T15:29:53.125Z",
+        "computedAt": "2026-08-04T15:07:52.056Z",
         "params": {
           "numIterations": 42,
           "learningRate": 0.07,
@@ -11270,7 +11270,7 @@
           "wins": 25,
           "losses": 28,
           "baseRate": 0.472,
-          "computedAt": "2026-08-03T15:29:58.052Z",
+          "computedAt": "2026-08-04T15:07:58.102Z",
           "params": {
             "numIterations": 24,
             "learningRate": 0.09,
@@ -12099,7 +12099,7 @@
           "wins": 10,
           "losses": 24,
           "baseRate": 0.294,
-          "computedAt": "2026-08-03T15:29:58.145Z",
+          "computedAt": "2026-08-04T15:07:58.215Z",
           "params": {
             "numIterations": 24,
             "learningRate": 0.09,
@@ -14172,7 +14172,7 @@
           "wins": 36,
           "losses": 63,
           "baseRate": 0.364,
-          "computedAt": "2026-08-03T15:29:58.148Z",
+          "computedAt": "2026-08-04T15:07:58.218Z",
           "params": {
             "numIterations": 32,
             "learningRate": 0.09,
@@ -17583,7 +17583,7 @@
         "wins": 461,
         "losses": 1033,
         "baseRate": 0.309,
-        "computedAt": "2026-08-03T15:29:58.879Z",
+        "computedAt": "2026-08-04T15:07:59.097Z",
         "params": {
           "numIterations": 42,
           "learningRate": 0.07,
@@ -20925,7 +20925,7 @@
           "wins": 158,
           "losses": 381,
           "baseRate": 0.293,
-          "computedAt": "2026-08-03T15:38:16.971Z",
+          "computedAt": "2026-08-04T15:18:04.036Z",
           "params": {
             "numIterations": 42,
             "learningRate": 0.07,
@@ -24266,7 +24266,7 @@
           "wins": 303,
           "losses": 652,
           "baseRate": 0.317,
-          "computedAt": "2026-08-03T15:39:16.710Z",
+          "computedAt": "2026-08-04T15:19:13.909Z",
           "params": {
             "numIterations": 42,
             "learningRate": 0.07,
