@@ -1943,22 +1943,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 502.5,
       "targetT1": 2512.5,
       "targetT2": 3015,
       "targetT3": 3517.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 1428.6,
+          "time": "09:58:21",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2010,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1428.6,
+      "exitTime": "09:58:21",
+      "exitDate": "2026-08-19",
+      "pnlPct": -28.93,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -2426,22 +2433,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 792.34,
       "targetT1": 3961.69,
       "targetT2": 4754.02,
       "targetT3": 5546.37,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 2111.15,
+          "time": "09:58:21",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 3169.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2111.15,
+      "exitTime": "09:58:21",
+      "exitDate": "2026-08-19",
+      "pnlPct": -33.39,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -4869,13 +4883,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-08-19T03:50:52.045Z",
+  "lastUpdated": "2026-08-19T04:28:21.291Z",
+  "upstoxId": "132199",
   "date": "2026-08-18",
   "stats": {
     "total": 65,
     "hits": 0,
-    "sls": 0,
-    "open": 23,
-    "winRate": null
+    "sls": 2,
+    "open": 21,
+    "winRate": 0
   }
 }
