@@ -2378,23 +2378,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 1289.06,
       "targetT1": 6445.31,
       "targetT2": 7734.38,
       "targetT3": 9023.43,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 5156.25,
+          "time": "08:57:11",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 5156.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 5156.25,
+      "exitTime": "08:57:11",
+      "exitDate": "2026-08-21",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-08-18-1041-SENSEX-75000-CE",
@@ -3751,23 +3760,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 613.75,
       "targetT1": 3068.75,
       "targetT2": 3682.5,
       "targetT3": 4296.25,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2455,
+          "time": "08:57:11",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2455,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 2455,
+      "exitTime": "08:57:11",
+      "exitDate": "2026-08-21",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-08-18-1125-NIFTY-24000-CE",
@@ -4598,23 +4616,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 613.44,
       "targetT1": 1840.31,
       "targetT2": 1226.87,
       "targetT3": 613.43,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2453.75,
+          "time": "08:57:11",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2453.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 2453.75,
+      "exitTime": "08:57:11",
+      "exitDate": "2026-08-21",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-08-18-1126-NIFTY-23150-CE",
@@ -4918,14 +4945,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-08-19T08:48:57.687Z",
+  "lastUpdated": "2026-08-21T03:27:11.586Z",
   "upstoxId": "132199",
   "date": "2026-08-18",
   "stats": {
     "total": 65,
     "hits": 0,
     "sls": 5,
-    "open": 16,
+    "open": 13,
     "winRate": 0
   }
 }
