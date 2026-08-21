@@ -495,10 +495,10 @@
     },
     "2026-08-18": {
       "total": 65,
-      "hits": 0,
+      "hits": 1,
       "sls": 5,
-      "open": 16,
-      "winRate": 0
+      "open": 12,
+      "winRate": 17
     },
     "2026-08-20": {
       "total": 21,
@@ -508,6 +508,6 @@
       "winRate": null
     }
   },
-  "lastUpdated": "2026-08-21T04:14:45.950Z",
+  "lastUpdated": "2026-08-21T08:23:07.159Z",
   "upstoxId": "132199"
 }
