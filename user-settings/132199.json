@@ -1,6 +1,6 @@
 {
   "settings": {
-    "minStockConf": 60,
+    "minStockConf": 50,
     "pot": 3,
     "risk": 55,
     "rr": 1.2,
@@ -12,7 +12,7 @@
     "oi": 5,
     "optSL": 25,
     "optTgt": 50,
-    "minOptConf": 60,
+    "minOptConf": 50,
     "minOptOI": 300,
     "maxOptCapital": 0,
     "portSize": 50000,
@@ -37,6 +37,6 @@
     "_v": "v4"
   },
   "upstoxId": "132199",
-  "savedAt": "2026-08-19T10:13:34.628Z",
+  "savedAt": "2026-08-23T05:27:50.488Z",
   "version": "v4"
 }
