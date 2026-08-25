@@ -339,12 +339,18 @@
           "price": 540.75,
           "time": "11:04:41",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 606.05,
+          "time": "14:29:14",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 543.8439999999999,
-      "maxFavPrice": 604.3,
+      "trailSL": 545.5939999999999,
+      "maxFavPrice": 606.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -1347,7 +1353,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-08-25T08:59:11.887Z",
+  "lastUpdated": "2026-08-25T08:59:14.739Z",
   "upstoxId": "132199",
   "date": "2026-08-25",
   "stats": {
