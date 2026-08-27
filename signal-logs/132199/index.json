@@ -528,9 +528,9 @@
     "2026-08-26": {
       "total": 33,
       "hits": 0,
-      "sls": 0,
-      "open": 33,
-      "winRate": null
+      "sls": 2,
+      "open": 31,
+      "winRate": 0
     },
     "2026-08-27": {
       "total": 9,
@@ -540,6 +540,6 @@
       "winRate": 100
     }
   },
-  "lastUpdated": "2026-08-27T04:07:09.523Z",
+  "lastUpdated": "2026-08-27T06:30:12.063Z",
   "upstoxId": "132199"
 }
