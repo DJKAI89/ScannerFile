@@ -775,23 +775,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "riskDist": 568.5,
       "targetT1": 2842.5,
       "targetT2": 3411,
       "targetT3": 3979.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2274,
+          "time": "09:14:37",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2274,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 2274,
+      "exitTime": "09:14:37",
+      "exitDate": "2026-08-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-08-25-0932-SENSEX-79800-PE",
@@ -844,23 +853,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "riskDist": 618.68,
       "targetT1": 3093.38,
       "targetT2": 3712.05,
       "targetT3": 4330.74,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2474.7,
+          "time": "09:14:37",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2474.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 2474.7,
+      "exitTime": "09:14:37",
+      "exitDate": "2026-08-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-08-25-0932-SENSEX-80000-PE",
@@ -1481,14 +1499,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-08-27T08:42:30.744Z",
+  "lastUpdated": "2026-08-28T03:44:37.713Z",
   "upstoxId": "132199",
   "date": "2026-08-25",
   "stats": {
     "total": 19,
     "hits": 5,
     "sls": 2,
-    "open": 2,
+    "open": 0,
     "winRate": 71
   }
 }
