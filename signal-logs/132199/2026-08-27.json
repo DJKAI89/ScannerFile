@@ -755,22 +755,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 255.05,
       "targetT1": 1275.25,
       "targetT2": 1530.3,
       "targetT3": 1785.35,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 870,
+          "time": "09:38:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1020.2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 870,
+      "exitTime": "09:38:08",
+      "exitDate": "2026-08-31",
+      "pnlPct": -14.72,
+      "exitReason": "TIME_STOP",
       "note": ""
     },
     {
@@ -824,22 +831,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 240,
       "targetT1": 720,
       "targetT2": 480,
       "targetT3": 240,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 770.15,
+          "time": "09:38:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 960,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 770.15,
+      "exitTime": "09:38:08",
+      "exitDate": "2026-08-31",
+      "pnlPct": 19.78,
+      "exitReason": "TIME_STOP",
       "note": ""
     },
     {
@@ -1206,14 +1220,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-08-28T03:46:08.179Z",
+  "lastUpdated": "2026-08-31T04:08:08.533Z",
   "upstoxId": "132199",
   "date": "2026-08-27",
   "stats": {
     "total": 16,
-    "hits": 2,
-    "sls": 3,
-    "open": 5,
-    "winRate": 40
+    "hits": 3,
+    "sls": 4,
+    "open": 3,
+    "winRate": 43
   }
 }
