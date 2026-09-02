@@ -221,23 +221,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "riskDist": 127.57,
       "targetT1": 382.73,
       "targetT2": 255.15,
       "targetT3": 127.59,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 510.3,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 510.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 510.3,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-0944-NIFTY-23600-CE",
@@ -290,23 +299,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "riskDist": 110.23,
       "targetT1": 551.13,
       "targetT2": 661.35,
       "targetT3": 771.59,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 440.9,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 440.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 440.9,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-0944-NIFTY-23650-CE",
@@ -2807,7 +2825,7 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 160.5,
       "targetT1": 481.5,
@@ -2819,18 +2837,26 @@
           "price": 481,
           "time": "14:05:07",
           "pctClosed": 50
+        },
+        {
+          "level": "EXPIRY",
+          "price": 642,
+          "time": "06:52:08",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 560.3,
       "maxFavPrice": 464,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 642,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 12.54,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-23650-CE",
@@ -3187,23 +3213,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 180.85,
       "targetT1": 904.25,
       "targetT2": 1085.1,
       "targetT3": 1265.95,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 723.4,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 723.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 723.4,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-23100-CE",
@@ -3256,23 +3291,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 261.79,
       "targetT1": 785.36,
       "targetT2": 523.57,
       "targetT3": 261.78,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1047.15,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1047.15,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1047.15,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-23300-CE",
@@ -3325,23 +3369,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 208.6,
       "targetT1": 625.8,
       "targetT2": 417.2,
       "targetT3": 208.6,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 834.4,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 834.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 834.4,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-23350-CE",
@@ -3394,23 +3447,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 197.5,
       "targetT1": 987.5,
       "targetT2": 1185,
       "targetT3": 1382.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 790,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 790,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 790,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-23400-CE",
@@ -3463,23 +3525,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 185,
       "targetT1": 925,
       "targetT2": 1110,
       "targetT3": 1295,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 740,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 740,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 740,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-24950-PE",
@@ -3532,23 +3603,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 206.59,
       "targetT1": 619.76,
       "targetT2": 413.17,
       "targetT3": 206.58,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 826.35,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 826.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 826.35,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25050-PE",
@@ -3601,23 +3681,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 232.09,
       "targetT1": 1160.44,
       "targetT2": 1392.53,
       "targetT3": 1624.62,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 928.35,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 928.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 928.35,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25150-PE",
@@ -3670,23 +3759,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 256,
       "targetT1": 1280,
       "targetT2": 1536,
       "targetT3": 1792,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1024,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1024,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1024,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25200-PE",
@@ -3739,23 +3837,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 267.5,
       "targetT1": 802.5,
       "targetT2": 535,
       "targetT3": 267.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1070,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1070,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1070,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25250-PE",
@@ -3808,23 +3915,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 282.75,
       "targetT1": 1413.75,
       "targetT2": 1696.5,
       "targetT3": 1979.25,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1131,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1131,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1131,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25300-PE",
@@ -3877,23 +3993,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 303,
       "targetT1": 909,
       "targetT2": 606,
       "targetT3": 303,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1212,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1212,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1212,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25350-PE",
@@ -3946,23 +4071,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 312.5,
       "targetT1": 1562.5,
       "targetT2": 1875,
       "targetT3": 2187.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1250,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1250,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1250,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25400-PE",
@@ -4015,23 +4149,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 328.5,
       "targetT1": 985.5,
       "targetT2": 657,
       "targetT3": 328.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1314,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1314,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1314,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25450-PE",
@@ -4084,23 +4227,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 340,
       "targetT1": 1700,
       "targetT2": 2040,
       "targetT3": 2380,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1360,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1360,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1360,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25550-PE",
@@ -4153,23 +4305,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 370,
       "targetT1": 1850,
       "targetT2": 2220,
       "targetT3": 2590,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1480,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1480,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1480,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25600-PE",
@@ -4222,23 +4383,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "riskDist": 385.7,
       "targetT1": 1928.5,
       "targetT2": 2314.2,
       "targetT3": 2699.9,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1542.8,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1542.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1542.8,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-25650-PE",
@@ -4291,23 +4461,32 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 1,
       "riskDist": 385,
       "targetT1": 1925,
       "targetT2": 2310,
       "targetT3": 2695,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1540,
+          "time": "06:52:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1540,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1540,
+      "exitTime": "06:52:08",
+      "exitDate": "2026-09-02",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-01-1211-NIFTY-23200-CE",
@@ -14176,14 +14355,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-01T09:58:55.133Z",
+  "lastUpdated": "2026-09-02T01:22:08.967Z",
   "upstoxId": "132199",
   "date": "2026-09-01",
   "stats": {
     "total": 190,
     "hits": 17,
     "sls": 72,
-    "open": 101,
+    "open": 81,
     "winRate": 19
   }
 }
