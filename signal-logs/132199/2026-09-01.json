@@ -2231,11 +2231,18 @@
       "targetT1": 452.25,
       "targetT2": 542.7,
       "targetT3": 633.15,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 361.8,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 515,
+          "time": "09:56:41",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 460.73,
+      "maxFavPrice": 515,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -14118,8 +14125,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 295.70799999999997,
-      "maxFavPrice": 240.85,
+      "trailSL": 292.45799999999997,
+      "maxFavPrice": 237.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -14569,12 +14576,18 @@
           "price": 421.15,
           "time": "14:24:27",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 515,
+          "time": "09:56:41",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 382.674,
-      "maxFavPrice": 429.9,
+      "trailSL": 467.774,
+      "maxFavPrice": 515,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -14735,7 +14748,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-02T04:06:19.943Z",
+  "lastUpdated": "2026-09-02T04:26:41.576Z",
   "upstoxId": "132199",
   "date": "2026-09-01",
   "stats": {
