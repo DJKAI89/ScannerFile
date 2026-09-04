@@ -755,7 +755,7 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 194.25,
       "targetT1": 582.75,
@@ -773,18 +773,26 @@
           "price": 253.65,
           "time": "15:29:55",
           "pctClosed": 30
+        },
+        {
+          "level": "EXPIRY",
+          "price": 777,
+          "time": "07:22:39",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 369.6,
       "maxFavPrice": 253.05,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 777,
+      "exitTime": "07:22:39",
+      "exitDate": "2026-09-04",
+      "pnlPct": 32.71,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-03-1216-SENSEX-76000-CE",
@@ -1115,14 +1123,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-03T10:00:34.154Z",
+  "lastUpdated": "2026-09-04T01:52:39.071Z",
   "upstoxId": "132199",
   "date": "2026-09-03",
   "stats": {
     "total": 14,
     "hits": 6,
     "sls": 3,
-    "open": 5,
+    "open": 4,
     "winRate": 67
   }
 }
