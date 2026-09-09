@@ -569,22 +569,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 316.25,
       "targetT1": 1581.25,
       "targetT2": 1897.5,
       "targetT3": 2213.75,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 843.35,
+          "time": "10:55:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1265,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 843.35,
+      "exitTime": "10:55:08",
+      "exitDate": "2026-09-09",
+      "pnlPct": -33.33,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -638,22 +645,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 290.5,
       "targetT1": 1452.5,
       "targetT2": 1743,
       "targetT3": 2033.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 762,
+          "time": "10:55:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1162,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 762,
+      "exitTime": "10:55:08",
+      "exitDate": "2026-09-09",
+      "pnlPct": -34.42,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -783,22 +797,29 @@
         "compositeMed": false,
         "atm": false
       },
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 523.01,
       "targetT1": 2615.06,
       "targetT2": 3138.08,
       "targetT3": 3661.08,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 1411,
+          "time": "10:55:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2092.05,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1411,
+      "exitTime": "10:55:08",
+      "exitDate": "2026-09-09",
+      "pnlPct": -32.55,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -1035,14 +1056,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-08T07:22:00.433Z",
+  "lastUpdated": "2026-09-09T05:25:08.764Z",
   "upstoxId": "132199",
   "date": "2026-09-07",
   "stats": {
     "total": 14,
     "hits": 0,
-    "sls": 7,
-    "open": 7,
+    "sls": 10,
+    "open": 4,
     "winRate": 0
   }
 }
