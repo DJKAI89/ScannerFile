@@ -513,7 +513,7 @@
         {
           "level": "TIME_STOP",
           "price": 1060.15,
-          "time": "09:40:55",
+          "time": "09:40:58",
           "pctClosed": 50
         }
       ],
@@ -522,7 +522,7 @@
       "trailSL": 735.35,
       "maxFavPrice": 830.6,
       "exitPrice": 1060.15,
-      "exitTime": "09:40:55",
+      "exitTime": "09:40:58",
       "exitDate": "2026-09-11",
       "pnlPct": 48.88,
       "exitReason": "TIME_STOP",
@@ -603,7 +603,7 @@
         {
           "level": "TIME_STOP",
           "price": 680.75,
-          "time": "09:40:52",
+          "time": "09:40:58",
           "pctClosed": 50
         }
       ],
@@ -612,7 +612,7 @@
       "trailSL": 569.5,
       "maxFavPrice": 637.75,
       "exitPrice": 680.75,
-      "exitTime": "09:40:52",
+      "exitTime": "09:40:58",
       "exitDate": "2026-09-11",
       "pnlPct": 39.51,
       "exitReason": "TIME_STOP",
@@ -693,7 +693,7 @@
         {
           "level": "TIME_STOP",
           "price": 909,
-          "time": "09:40:52",
+          "time": "09:40:58",
           "pctClosed": 50
         }
       ],
@@ -702,7 +702,7 @@
       "trailSL": 640.35,
       "maxFavPrice": 716.25,
       "exitPrice": 909,
-      "exitTime": "09:40:52",
+      "exitTime": "09:40:58",
       "exitDate": "2026-09-11",
       "pnlPct": 53.06,
       "exitReason": "TIME_STOP",
@@ -777,7 +777,7 @@
         {
           "level": "TIME_STOP",
           "price": 1182.2,
-          "time": "09:40:52",
+          "time": "09:40:58",
           "pctClosed": 100
         }
       ],
@@ -786,7 +786,7 @@
       "trailSL": null,
       "maxFavPrice": 906,
       "exitPrice": 1182.2,
-      "exitTime": "09:40:52",
+      "exitTime": "09:40:58",
       "exitDate": "2026-09-11",
       "pnlPct": 30.49,
       "exitReason": "TIME_STOP",
@@ -861,7 +861,7 @@
         {
           "level": "TIME_STOP",
           "price": 1581.75,
-          "time": "09:40:52",
+          "time": "09:40:58",
           "pctClosed": 100
         }
       ],
@@ -870,14 +870,14 @@
       "trailSL": null,
       "maxFavPrice": 1152,
       "exitPrice": 1581.75,
-      "exitTime": "09:40:52",
+      "exitTime": "09:40:58",
       "exitDate": "2026-09-11",
       "pnlPct": 37.3,
       "exitReason": "TIME_STOP",
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-11T04:11:02.292Z",
+  "lastUpdated": "2026-09-11T04:11:14.344Z",
   "upstoxId": "132199",
   "date": "2026-09-08",
   "stats": {
