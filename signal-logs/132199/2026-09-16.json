@@ -3405,22 +3405,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 110.15,
       "targetT1": 550.75,
       "targetT2": 660.9,
       "targetT3": 771.05,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 329.35,
+          "time": "15:23:59",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 440.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 329.35,
+      "exitTime": "15:23:59",
+      "exitDate": "2026-09-18",
+      "pnlPct": -25.25,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -11660,22 +11667,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 159.7,
       "targetT1": 798.5,
       "targetT2": 958.2,
       "targetT3": 1117.9,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 372,
+          "time": "15:23:59",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 638.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 372,
+      "exitTime": "15:23:59",
+      "exitDate": "2026-09-18",
+      "pnlPct": -41.77,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -11821,22 +11835,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 280.15,
       "targetT1": 1400.75,
       "targetT2": 1680.9,
       "targetT3": 1961.05,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 755.85,
+          "time": "15:23:59",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1120.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 755.85,
+      "exitTime": "15:23:59",
+      "exitDate": "2026-09-18",
+      "pnlPct": -32.55,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -12075,8 +12096,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 464.056,
-      "maxFavPrice": 526.75,
+      "trailSL": 473.25600000000003,
+      "maxFavPrice": 535.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -12556,22 +12577,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 123.69,
       "targetT1": 618.44,
       "targetT2": 742.13,
       "targetT3": 865.82,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 256.1,
+          "time": "15:23:59",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 494.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 256.1,
+      "exitTime": "15:23:59",
+      "exitDate": "2026-09-18",
+      "pnlPct": -48.24,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -13196,14 +13224,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-18T09:53:56.518Z",
+  "lastUpdated": "2026-09-18T09:54:19.600Z",
   "upstoxId": "132199",
   "date": "2026-09-16",
   "stats": {
     "total": 163,
     "hits": 0,
-    "sls": 25,
-    "open": 95,
+    "sls": 29,
+    "open": 91,
     "winRate": 0
   }
 }
