@@ -4247,8 +4247,8 @@
       "partials": [
         {
           "level": "SL",
-          "price": 166.55,
-          "time": "10:40:11",
+          "price": 167.45,
+          "time": "10:40:22",
           "pctClosed": 100
         }
       ],
@@ -4256,10 +4256,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 231.4,
-      "exitPrice": 166.55,
-      "exitTime": "10:40:11",
+      "exitPrice": 167.45,
+      "exitTime": "10:40:22",
       "exitDate": "2026-09-18",
-      "pnlPct": -28.03,
+      "pnlPct": -27.64,
       "exitReason": "SL",
       "note": ""
     },
@@ -4331,8 +4331,8 @@
       "partials": [
         {
           "level": "SL",
-          "price": 190,
-          "time": "10:40:12",
+          "price": 190.1,
+          "time": "10:40:22",
           "pctClosed": 100
         }
       ],
@@ -4340,10 +4340,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 257,
-      "exitPrice": 190,
-      "exitTime": "10:40:12",
+      "exitPrice": 190.1,
+      "exitTime": "10:40:22",
       "exitDate": "2026-09-18",
-      "pnlPct": -26.07,
+      "pnlPct": -26.03,
       "exitReason": "SL",
       "note": ""
     },
@@ -12677,8 +12677,8 @@
       "partials": [
         {
           "level": "SL",
-          "price": 400.15,
-          "time": "10:40:11",
+          "price": 382.35,
+          "time": "10:40:22",
           "pctClosed": 100
         }
       ],
@@ -12686,10 +12686,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 542.05,
-      "exitPrice": 400.15,
-      "exitTime": "10:40:11",
+      "exitPrice": 382.35,
+      "exitTime": "10:40:22",
       "exitDate": "2026-09-18",
-      "pnlPct": -26.18,
+      "pnlPct": -29.46,
       "exitReason": "SL",
       "note": ""
     },
@@ -13147,7 +13147,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-18T05:10:37.290Z",
+  "lastUpdated": "2026-09-18T05:10:43.766Z",
   "upstoxId": "132199",
   "date": "2026-09-16",
   "stats": {
