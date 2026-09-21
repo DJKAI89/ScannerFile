@@ -5809,7 +5809,7 @@
         {
           "level": "TIME_STOP",
           "price": 1229.65,
-          "time": "13:35:11",
+          "time": "13:35:08",
           "pctClosed": 100
         }
       ],
@@ -5818,7 +5818,7 @@
       "trailSL": null,
       "maxFavPrice": 1280,
       "exitPrice": 1229.65,
-      "exitTime": "13:35:11",
+      "exitTime": "13:35:08",
       "exitDate": "2026-09-21",
       "pnlPct": -3.93,
       "exitReason": "TIME_STOP",
@@ -5977,7 +5977,7 @@
         {
           "level": "TIME_STOP",
           "price": 1139.4,
-          "time": "13:35:11",
+          "time": "13:35:08",
           "pctClosed": 100
         }
       ],
@@ -5986,7 +5986,7 @@
       "trailSL": null,
       "maxFavPrice": 1194.2,
       "exitPrice": 1139.4,
-      "exitTime": "13:35:11",
+      "exitTime": "13:35:08",
       "exitDate": "2026-09-21",
       "pnlPct": -4.59,
       "exitReason": "TIME_STOP",
@@ -9595,7 +9595,7 @@
         {
           "level": "TIME_STOP",
           "price": 3075,
-          "time": "13:35:11",
+          "time": "13:35:08",
           "pctClosed": 100
         }
       ],
@@ -9604,7 +9604,7 @@
       "trailSL": null,
       "maxFavPrice": 3073.85,
       "exitPrice": 3075,
-      "exitTime": "13:35:11",
+      "exitTime": "13:35:08",
       "exitDate": "2026-09-21",
       "pnlPct": 0.04,
       "exitReason": "TIME_STOP",
@@ -21589,7 +21589,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-21T08:05:45.439Z",
+  "lastUpdated": "2026-09-21T08:05:52.226Z",
   "upstoxId": "132199",
   "date": "2026-09-15",
   "stats": {
