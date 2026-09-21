@@ -506,8 +506,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 384.35,
-          "time": "13:35:00",
+          "price": 384.75,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -515,10 +515,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 266.8,
-      "exitPrice": 384.35,
-      "exitTime": "13:35:00",
+      "exitPrice": 384.75,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 44.06,
+      "pnlPct": 44.21,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -675,7 +675,7 @@
         {
           "level": "TIME_STOP",
           "price": 628,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -684,7 +684,7 @@
       "trailSL": null,
       "maxFavPrice": 801.25,
       "exitPrice": 628,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -21.62,
       "exitReason": "TIME_STOP",
@@ -759,7 +759,7 @@
         {
           "level": "TIME_STOP",
           "price": 1203.2,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -768,7 +768,7 @@
       "trailSL": null,
       "maxFavPrice": 1168,
       "exitPrice": 1203.2,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 3.01,
       "exitReason": "TIME_STOP",
@@ -1274,8 +1274,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 1074.65,
-          "time": "13:35:00",
+          "price": 1070,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1283,10 +1283,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1237.85,
-      "exitPrice": 1074.65,
-      "exitTime": "13:35:00",
+      "exitPrice": 1070,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -13.18,
+      "pnlPct": -13.56,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -1359,7 +1359,7 @@
         {
           "level": "TIME_STOP",
           "price": 1121,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1368,7 +1368,7 @@
       "trailSL": null,
       "maxFavPrice": 980.65,
       "exitPrice": 1121,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 14.31,
       "exitReason": "TIME_STOP",
@@ -1443,7 +1443,7 @@
         {
           "level": "TIME_STOP",
           "price": 984.6,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1452,7 +1452,7 @@
       "trailSL": null,
       "maxFavPrice": 944.15,
       "exitPrice": 984.6,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 4.28,
       "exitReason": "TIME_STOP",
@@ -1527,7 +1527,7 @@
         {
           "level": "TIME_STOP",
           "price": 771.5,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1536,7 +1536,7 @@
       "trailSL": null,
       "maxFavPrice": 633.95,
       "exitPrice": 771.5,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 21.7,
       "exitReason": "TIME_STOP",
@@ -1611,7 +1611,7 @@
         {
           "level": "TIME_STOP",
           "price": 725,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1620,7 +1620,7 @@
       "trailSL": null,
       "maxFavPrice": 574.55,
       "exitPrice": 725,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 26.19,
       "exitReason": "TIME_STOP",
@@ -1695,7 +1695,7 @@
         {
           "level": "TIME_STOP",
           "price": 673,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1704,7 +1704,7 @@
       "trailSL": null,
       "maxFavPrice": 528.3,
       "exitPrice": 673,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 27.39,
       "exitReason": "TIME_STOP",
@@ -1779,7 +1779,7 @@
         {
           "level": "TIME_STOP",
           "price": 627.4,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1788,7 +1788,7 @@
       "trailSL": null,
       "maxFavPrice": 479.7,
       "exitPrice": 627.4,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 30.79,
       "exitReason": "TIME_STOP",
@@ -1863,7 +1863,7 @@
         {
           "level": "TIME_STOP",
           "price": 579.55,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1872,7 +1872,7 @@
       "trailSL": null,
       "maxFavPrice": 434.3,
       "exitPrice": 579.55,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 33.44,
       "exitReason": "TIME_STOP",
@@ -1946,8 +1946,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 532.05,
-          "time": "13:35:00",
+          "price": 534.9,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -1955,10 +1955,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 389.55,
-      "exitPrice": 532.05,
-      "exitTime": "13:35:00",
+      "exitPrice": 534.9,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 36.58,
+      "pnlPct": 37.31,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2030,8 +2030,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 482.55,
-          "time": "13:35:00",
+          "price": 483.3,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2039,10 +2039,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 348.95,
-      "exitPrice": 482.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 483.3,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 38.29,
+      "pnlPct": 38.5,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2114,8 +2114,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 433,
-          "time": "13:35:00",
+          "price": 435.45,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2123,10 +2123,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 306.9,
-      "exitPrice": 433,
-      "exitTime": "13:35:00",
+      "exitPrice": 435.45,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 41.09,
+      "pnlPct": 41.89,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2450,8 +2450,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 228,
-          "time": "13:35:00",
+          "price": 227.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2459,10 +2459,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 409.7,
-      "exitPrice": 228,
-      "exitTime": "13:35:00",
+      "exitPrice": 227.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -44.35,
+      "pnlPct": -44.43,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2534,8 +2534,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 275.7,
-          "time": "13:35:00",
+          "price": 275.3,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2543,10 +2543,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 456.4,
-      "exitPrice": 275.7,
-      "exitTime": "13:35:00",
+      "exitPrice": 275.3,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -39.59,
+      "pnlPct": -39.68,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2618,8 +2618,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 323.55,
-          "time": "13:35:00",
+          "price": 322.8,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2627,10 +2627,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 503.1,
-      "exitPrice": 323.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 322.8,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -35.69,
+      "pnlPct": -35.84,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2702,8 +2702,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 373.1,
-          "time": "13:35:00",
+          "price": 373.35,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2711,10 +2711,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 548.9,
-      "exitPrice": 373.1,
-      "exitTime": "13:35:00",
+      "exitPrice": 373.35,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -32.03,
+      "pnlPct": -31.98,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2787,7 +2787,7 @@
         {
           "level": "TIME_STOP",
           "price": 674,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2796,7 +2796,7 @@
       "trailSL": null,
       "maxFavPrice": 840,
       "exitPrice": 674,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -19.76,
       "exitReason": "TIME_STOP",
@@ -2870,8 +2870,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 878.6,
-          "time": "13:35:00",
+          "price": 870,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2879,10 +2879,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1048.8,
-      "exitPrice": 878.6,
-      "exitTime": "13:35:00",
+      "exitPrice": 870,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -16.23,
+      "pnlPct": -17.05,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -2955,7 +2955,7 @@
         {
           "level": "TIME_STOP",
           "price": 854.55,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -2964,7 +2964,7 @@
       "trailSL": null,
       "maxFavPrice": 822.05,
       "exitPrice": 854.55,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 3.95,
       "exitReason": "TIME_STOP",
@@ -3039,7 +3039,7 @@
         {
           "level": "TIME_STOP",
           "price": 926.1,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3048,7 +3048,7 @@
       "trailSL": null,
       "maxFavPrice": 775.9,
       "exitPrice": 926.1,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 19.36,
       "exitReason": "TIME_STOP",
@@ -3123,7 +3123,7 @@
         {
           "level": "TIME_STOP",
           "price": 830,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3132,7 +3132,7 @@
       "trailSL": null,
       "maxFavPrice": 667.35,
       "exitPrice": 830,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 24.37,
       "exitReason": "TIME_STOP",
@@ -3206,8 +3206,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 472.05,
-          "time": "13:35:00",
+          "price": 472,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3215,10 +3215,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 640.85,
-      "exitPrice": 472.05,
-      "exitTime": "13:35:00",
+      "exitPrice": 472,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -26.34,
+      "pnlPct": -26.35,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -3290,8 +3290,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 522.55,
-          "time": "13:35:00",
+          "price": 520,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3299,10 +3299,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 697.2,
-      "exitPrice": 522.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 520,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -25.05,
+      "pnlPct": -25.42,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -3374,8 +3374,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 574.05,
-          "time": "13:35:00",
+          "price": 570,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3383,10 +3383,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 746.4,
-      "exitPrice": 574.05,
-      "exitTime": "13:35:00",
+      "exitPrice": 570,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -23.09,
+      "pnlPct": -23.63,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -3459,7 +3459,7 @@
         {
           "level": "TIME_STOP",
           "price": 730.6,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3468,7 +3468,7 @@
       "trailSL": null,
       "maxFavPrice": 891.7,
       "exitPrice": 730.6,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -18.07,
       "exitReason": "TIME_STOP",
@@ -3543,7 +3543,7 @@
         {
           "level": "TIME_STOP",
           "price": 1179.25,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3552,7 +3552,7 @@
       "trailSL": null,
       "maxFavPrice": 1356.25,
       "exitPrice": 1179.25,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -13.05,
       "exitReason": "TIME_STOP",
@@ -3627,7 +3627,7 @@
         {
           "level": "TIME_STOP",
           "price": 1426,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3636,7 +3636,7 @@
       "trailSL": null,
       "maxFavPrice": 1290,
       "exitPrice": 1426,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 10.54,
       "exitReason": "TIME_STOP",
@@ -3711,7 +3711,7 @@
         {
           "level": "TIME_STOP",
           "price": 873.3,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3720,7 +3720,7 @@
       "trailSL": null,
       "maxFavPrice": 720,
       "exitPrice": 873.3,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 21.29,
       "exitReason": "TIME_STOP",
@@ -3795,7 +3795,7 @@
         {
           "level": "TIME_STOP",
           "price": 422.1,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3804,7 +3804,7 @@
       "trailSL": null,
       "maxFavPrice": 597.8,
       "exitPrice": 422.1,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -29.39,
       "exitReason": "TIME_STOP",
@@ -3879,7 +3879,7 @@
         {
           "level": "TIME_STOP",
           "price": 775,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3888,7 +3888,7 @@
       "trailSL": null,
       "maxFavPrice": 940.25,
       "exitPrice": 775,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -17.58,
       "exitReason": "TIME_STOP",
@@ -3963,7 +3963,7 @@
         {
           "level": "TIME_STOP",
           "price": 1257.2,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -3972,7 +3972,7 @@
       "trailSL": null,
       "maxFavPrice": 1440,
       "exitPrice": 1257.2,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -12.69,
       "exitReason": "TIME_STOP",
@@ -4580,8 +4580,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 192.8,
-          "time": "13:35:00",
+          "price": 193.9,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -4589,10 +4589,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 167.5,
-      "exitPrice": 192.8,
-      "exitTime": "13:35:00",
+      "exitPrice": 193.9,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 15.1,
+      "pnlPct": 15.76,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -4749,7 +4749,7 @@
         {
           "level": "TIME_STOP",
           "price": 1260,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -4758,7 +4758,7 @@
       "trailSL": null,
       "maxFavPrice": 1180,
       "exitPrice": 1260,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 6.78,
       "exitReason": "TIME_STOP",
@@ -4833,7 +4833,7 @@
         {
           "level": "TIME_STOP",
           "price": 830,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -4842,7 +4842,7 @@
       "trailSL": null,
       "maxFavPrice": 667.35,
       "exitPrice": 830,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 24.37,
       "exitReason": "TIME_STOP",
@@ -4917,7 +4917,7 @@
         {
           "level": "TIME_STOP",
           "price": 725,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -4926,7 +4926,7 @@
       "trailSL": null,
       "maxFavPrice": 574.55,
       "exitPrice": 725,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 26.19,
       "exitReason": "TIME_STOP",
@@ -5001,7 +5001,7 @@
         {
           "level": "TIME_STOP",
           "price": 673,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5010,7 +5010,7 @@
       "trailSL": null,
       "maxFavPrice": 528.3,
       "exitPrice": 673,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 27.39,
       "exitReason": "TIME_STOP",
@@ -5085,7 +5085,7 @@
         {
           "level": "TIME_STOP",
           "price": 627.4,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5094,7 +5094,7 @@
       "trailSL": null,
       "maxFavPrice": 479.7,
       "exitPrice": 627.4,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 30.79,
       "exitReason": "TIME_STOP",
@@ -5169,7 +5169,7 @@
         {
           "level": "TIME_STOP",
           "price": 579.55,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5178,7 +5178,7 @@
       "trailSL": null,
       "maxFavPrice": 434.3,
       "exitPrice": 579.55,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 33.44,
       "exitReason": "TIME_STOP",
@@ -5252,8 +5252,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 532.05,
-          "time": "13:35:00",
+          "price": 534.9,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5261,10 +5261,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 389.55,
-      "exitPrice": 532.05,
-      "exitTime": "13:35:00",
+      "exitPrice": 534.9,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 36.58,
+      "pnlPct": 37.31,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -5336,8 +5336,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 482.55,
-          "time": "13:35:00",
+          "price": 483.3,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5345,10 +5345,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 348.95,
-      "exitPrice": 482.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 483.3,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 38.29,
+      "pnlPct": 38.5,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -5420,8 +5420,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 433,
-          "time": "13:35:00",
+          "price": 435.45,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5429,10 +5429,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 306.9,
-      "exitPrice": 433,
-      "exitTime": "13:35:00",
+      "exitPrice": 435.45,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 41.09,
+      "pnlPct": 41.89,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -5504,8 +5504,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 162,
-          "time": "13:35:00",
+          "price": 163,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5513,10 +5513,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 143.25,
-      "exitPrice": 162,
-      "exitTime": "13:35:00",
+      "exitPrice": 163,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 13.09,
+      "pnlPct": 13.79,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -5841,7 +5841,7 @@
         {
           "level": "TIME_STOP",
           "price": 771.5,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -5850,7 +5850,7 @@
       "trailSL": null,
       "maxFavPrice": 633.95,
       "exitPrice": 771.5,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 21.7,
       "exitReason": "TIME_STOP",
@@ -6008,8 +6008,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 228,
-          "time": "13:35:00",
+          "price": 227.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6017,10 +6017,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 409.7,
-      "exitPrice": 228,
-      "exitTime": "13:35:00",
+      "exitPrice": 227.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -44.35,
+      "pnlPct": -44.43,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -6092,8 +6092,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 275.7,
-          "time": "13:35:00",
+          "price": 275.3,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6101,10 +6101,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 456.4,
-      "exitPrice": 275.7,
-      "exitTime": "13:35:00",
+      "exitPrice": 275.3,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -39.59,
+      "pnlPct": -39.68,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -6176,8 +6176,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 1367.5,
-          "time": "13:35:00",
+          "price": 1360,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6185,10 +6185,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1521.7,
-      "exitPrice": 1367.5,
-      "exitTime": "13:35:00",
+      "exitPrice": 1360,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -10.13,
+      "pnlPct": -10.63,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -6261,7 +6261,7 @@
         {
           "level": "TIME_STOP",
           "price": 1444.05,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6270,7 +6270,7 @@
       "trailSL": null,
       "maxFavPrice": 1571.55,
       "exitPrice": 1444.05,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -8.11,
       "exitReason": "TIME_STOP",
@@ -6345,7 +6345,7 @@
         {
           "level": "TIME_STOP",
           "price": 926.1,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6354,7 +6354,7 @@
       "trailSL": null,
       "maxFavPrice": 775.9,
       "exitPrice": 926.1,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 19.36,
       "exitReason": "TIME_STOP",
@@ -6429,7 +6429,7 @@
         {
           "level": "TIME_STOP",
           "price": 873.3,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6438,7 +6438,7 @@
       "trailSL": null,
       "maxFavPrice": 720,
       "exitPrice": 873.3,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 21.29,
       "exitReason": "TIME_STOP",
@@ -6512,8 +6512,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 472.05,
-          "time": "13:35:00",
+          "price": 472,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6521,10 +6521,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 640.85,
-      "exitPrice": 472.05,
-      "exitTime": "13:35:00",
+      "exitPrice": 472,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -26.34,
+      "pnlPct": -26.35,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -6597,7 +6597,7 @@
         {
           "level": "TIME_STOP",
           "price": 1350,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6606,7 +6606,7 @@
       "trailSL": null,
       "maxFavPrice": 1479.4,
       "exitPrice": 1350,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -8.75,
       "exitReason": "TIME_STOP",
@@ -6681,7 +6681,7 @@
         {
           "level": "TIME_STOP",
           "price": 1203.2,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6690,7 +6690,7 @@
       "trailSL": null,
       "maxFavPrice": 1168,
       "exitPrice": 1203.2,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 3.01,
       "exitReason": "TIME_STOP",
@@ -6848,8 +6848,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 574.05,
-          "time": "13:35:00",
+          "price": 570,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6857,10 +6857,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 746.4,
-      "exitPrice": 574.05,
-      "exitTime": "13:35:00",
+      "exitPrice": 570,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -23.09,
+      "pnlPct": -23.63,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -6933,7 +6933,7 @@
         {
           "level": "TIME_STOP",
           "price": 674,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -6942,7 +6942,7 @@
       "trailSL": null,
       "maxFavPrice": 840,
       "exitPrice": 674,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -19.76,
       "exitReason": "TIME_STOP",
@@ -7017,7 +7017,7 @@
         {
           "level": "TIME_STOP",
           "price": 730.6,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7026,7 +7026,7 @@
       "trailSL": null,
       "maxFavPrice": 891.7,
       "exitPrice": 730.6,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -18.07,
       "exitReason": "TIME_STOP",
@@ -7101,7 +7101,7 @@
         {
           "level": "TIME_STOP",
           "price": 628,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7110,7 +7110,7 @@
       "trailSL": null,
       "maxFavPrice": 801.25,
       "exitPrice": 628,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -21.62,
       "exitReason": "TIME_STOP",
@@ -7185,7 +7185,7 @@
         {
           "level": "TIME_STOP",
           "price": 1135,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7194,7 +7194,7 @@
       "trailSL": null,
       "maxFavPrice": 1278.4,
       "exitPrice": 1135,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -11.22,
       "exitReason": "TIME_STOP",
@@ -7269,7 +7269,7 @@
         {
           "level": "TIME_STOP",
           "price": 1259.65,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7278,7 +7278,7 @@
       "trailSL": null,
       "maxFavPrice": 1422.55,
       "exitPrice": 1259.65,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -11.45,
       "exitReason": "TIME_STOP",
@@ -7353,7 +7353,7 @@
         {
           "level": "TIME_STOP",
           "price": 775,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7362,7 +7362,7 @@
       "trailSL": null,
       "maxFavPrice": 940.25,
       "exitPrice": 775,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -17.58,
       "exitReason": "TIME_STOP",
@@ -7436,8 +7436,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 878.6,
-          "time": "13:35:00",
+          "price": 870,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7445,10 +7445,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1048.8,
-      "exitPrice": 878.6,
-      "exitTime": "13:35:00",
+      "exitPrice": 870,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -16.23,
+      "pnlPct": -17.05,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -7521,7 +7521,7 @@
         {
           "level": "TIME_STOP",
           "price": 950.7,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7530,7 +7530,7 @@
       "trailSL": null,
       "maxFavPrice": 1076.45,
       "exitPrice": 950.7,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -11.68,
       "exitReason": "TIME_STOP",
@@ -7604,8 +7604,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 1074.65,
-          "time": "13:35:00",
+          "price": 1070,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7613,10 +7613,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1237.85,
-      "exitPrice": 1074.65,
-      "exitTime": "13:35:00",
+      "exitPrice": 1070,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -13.18,
+      "pnlPct": -13.56,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -7689,7 +7689,7 @@
         {
           "level": "TIME_STOP",
           "price": 1257.2,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7698,7 +7698,7 @@
       "trailSL": null,
       "maxFavPrice": 1440,
       "exitPrice": 1257.2,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -12.69,
       "exitReason": "TIME_STOP",
@@ -7773,7 +7773,7 @@
         {
           "level": "TIME_STOP",
           "price": 1600.15,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7782,7 +7782,7 @@
       "trailSL": null,
       "maxFavPrice": 1725.4,
       "exitPrice": 1600.15,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -7.26,
       "exitReason": "TIME_STOP",
@@ -7857,7 +7857,7 @@
         {
           "level": "TIME_STOP",
           "price": 1330,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -7866,7 +7866,7 @@
       "trailSL": null,
       "maxFavPrice": 1511.15,
       "exitPrice": 1330,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -11.99,
       "exitReason": "TIME_STOP",
@@ -8277,7 +8277,7 @@
         {
           "level": "TIME_STOP",
           "price": 2164.1,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8286,7 +8286,7 @@
       "trailSL": null,
       "maxFavPrice": 2240,
       "exitPrice": 2164.1,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -3.39,
       "exitReason": "TIME_STOP",
@@ -8361,7 +8361,7 @@
         {
           "level": "TIME_STOP",
           "price": 1970.1,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8370,7 +8370,7 @@
       "trailSL": null,
       "maxFavPrice": 2053.85,
       "exitPrice": 1970.1,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -4.08,
       "exitReason": "TIME_STOP",
@@ -8444,8 +8444,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 1712.65,
-          "time": "13:35:00",
+          "price": 1720,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8453,10 +8453,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1738.3,
-      "exitPrice": 1712.65,
-      "exitTime": "13:35:00",
+      "exitPrice": 1720,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -1.48,
+      "pnlPct": -1.05,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -8529,7 +8529,7 @@
         {
           "level": "TIME_STOP",
           "price": 1170,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8538,7 +8538,7 @@
       "trailSL": null,
       "maxFavPrice": 1257,
       "exitPrice": 1170,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -6.92,
       "exitReason": "TIME_STOP",
@@ -8612,8 +8612,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 920,
-          "time": "13:35:00",
+          "price": 924,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8621,10 +8621,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1008.35,
-      "exitPrice": 920,
-      "exitTime": "13:35:00",
+      "exitPrice": 924,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -8.76,
+      "pnlPct": -8.37,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -8696,8 +8696,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 845.3,
-          "time": "13:35:00",
+          "price": 851.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8705,10 +8705,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 925,
-      "exitPrice": 845.3,
-      "exitTime": "13:35:00",
+      "exitPrice": 851.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -8.62,
+      "pnlPct": -7.93,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -8780,8 +8780,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 769.15,
-          "time": "13:35:00",
+          "price": 776.5,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8789,10 +8789,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 856,
-      "exitPrice": 769.15,
-      "exitTime": "13:35:00",
+      "exitPrice": 776.5,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -10.15,
+      "pnlPct": -9.29,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -8865,7 +8865,7 @@
         {
           "level": "TIME_STOP",
           "price": 3545.8,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8874,7 +8874,7 @@
       "trailSL": null,
       "maxFavPrice": 3638.55,
       "exitPrice": 3545.8,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -2.55,
       "exitReason": "TIME_STOP",
@@ -8949,7 +8949,7 @@
         {
           "level": "TIME_STOP",
           "price": 1511,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -8958,7 +8958,7 @@
       "trailSL": null,
       "maxFavPrice": 1513.7,
       "exitPrice": 1511,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -0.18,
       "exitReason": "TIME_STOP",
@@ -9032,8 +9032,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 270.1,
-          "time": "13:35:00",
+          "price": 267,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9041,10 +9041,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 459,
-      "exitPrice": 270.1,
-      "exitTime": "13:35:00",
+      "exitPrice": 267,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -41.15,
+      "pnlPct": -41.83,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9116,8 +9116,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 305.55,
-          "time": "13:35:00",
+          "price": 301.2,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9125,10 +9125,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 500.35,
-      "exitPrice": 305.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 301.2,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -38.93,
+      "pnlPct": -39.8,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9200,8 +9200,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 344,
-          "time": "13:35:00",
+          "price": 340,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9209,10 +9209,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 542.15,
-      "exitPrice": 344,
-      "exitTime": "13:35:00",
+      "exitPrice": 340,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -36.55,
+      "pnlPct": -37.29,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9284,8 +9284,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 387.1,
-          "time": "13:35:00",
+          "price": 382.15,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9293,10 +9293,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 590,
-      "exitPrice": 387.1,
-      "exitTime": "13:35:00",
+      "exitPrice": 382.15,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -34.39,
+      "pnlPct": -35.23,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9452,8 +9452,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 433.15,
-          "time": "13:35:00",
+          "price": 426.6,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9461,10 +9461,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 637.1,
-      "exitPrice": 433.15,
-      "exitTime": "13:35:00",
+      "exitPrice": 426.6,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -32.01,
+      "pnlPct": -33.04,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9620,8 +9620,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 483.8,
-          "time": "13:35:00",
+          "price": 478.45,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9629,10 +9629,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 686,
-      "exitPrice": 483.8,
-      "exitTime": "13:35:00",
+      "exitPrice": 478.45,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -29.48,
+      "pnlPct": -30.26,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9788,8 +9788,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 536.6,
-          "time": "13:35:00",
+          "price": 532,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9797,10 +9797,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 735.75,
-      "exitPrice": 536.6,
-      "exitTime": "13:35:00",
+      "exitPrice": 532,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -27.07,
+      "pnlPct": -27.69,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -9873,7 +9873,7 @@
         {
           "level": "TIME_STOP",
           "price": 875,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9882,7 +9882,7 @@
       "trailSL": null,
       "maxFavPrice": 1032.7,
       "exitPrice": 875,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -15.27,
       "exitReason": "TIME_STOP",
@@ -9956,8 +9956,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 955,
-          "time": "13:35:00",
+          "price": 949,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -9965,10 +9965,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1134.75,
-      "exitPrice": 955,
-      "exitTime": "13:35:00",
+      "exitPrice": 949,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -15.84,
+      "pnlPct": -16.37,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -10040,8 +10040,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 1054.7,
-          "time": "13:35:00",
+          "price": 1016.55,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10049,10 +10049,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1172,
-      "exitPrice": 1054.7,
-      "exitTime": "13:35:00",
+      "exitPrice": 1016.55,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -10.01,
+      "pnlPct": -13.26,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -10215,7 +10215,7 @@
         {
           "level": "TIME_STOP",
           "price": 1224,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10224,7 +10224,7 @@
       "trailSL": null,
       "maxFavPrice": 1369.4,
       "exitPrice": 1224,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -10.62,
       "exitReason": "TIME_STOP",
@@ -10299,7 +10299,7 @@
         {
           "level": "TIME_STOP",
           "price": 2500,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10308,7 +10308,7 @@
       "trailSL": null,
       "maxFavPrice": 2669.85,
       "exitPrice": 2500,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -6.36,
       "exitReason": "TIME_STOP",
@@ -10383,7 +10383,7 @@
         {
           "level": "TIME_STOP",
           "price": 2687.65,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10392,7 +10392,7 @@
       "trailSL": null,
       "maxFavPrice": 2650,
       "exitPrice": 2687.65,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 1.42,
       "exitReason": "TIME_STOP",
@@ -10467,7 +10467,7 @@
         {
           "level": "TIME_STOP",
           "price": 2192.95,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10476,7 +10476,7 @@
       "trailSL": null,
       "maxFavPrice": 2106.65,
       "exitPrice": 2192.95,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 4.1,
       "exitReason": "TIME_STOP",
@@ -10550,8 +10550,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 597.4,
-          "time": "13:35:00",
+          "price": 591.8,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10559,10 +10559,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 799.9,
-      "exitPrice": 597.4,
-      "exitTime": "13:35:00",
+      "exitPrice": 591.8,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -25.32,
+      "pnlPct": -26.02,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -10635,7 +10635,7 @@
         {
           "level": "TIME_STOP",
           "price": 660.05,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10644,7 +10644,7 @@
       "trailSL": null,
       "maxFavPrice": 838.9,
       "exitPrice": 660.05,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -21.32,
       "exitReason": "TIME_STOP",
@@ -10718,8 +10718,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 727.8,
-          "time": "13:35:00",
+          "price": 720,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10727,10 +10727,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 908,
-      "exitPrice": 727.8,
-      "exitTime": "13:35:00",
+      "exitPrice": 720,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -19.85,
+      "pnlPct": -20.7,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -10802,8 +10802,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 797.1,
-          "time": "13:35:00",
+          "price": 794.3,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10811,10 +10811,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 976.05,
-      "exitPrice": 797.1,
-      "exitTime": "13:35:00",
+      "exitPrice": 794.3,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -18.33,
+      "pnlPct": -18.62,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -10887,7 +10887,7 @@
         {
           "level": "TIME_STOP",
           "price": 1308,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10896,7 +10896,7 @@
       "trailSL": null,
       "maxFavPrice": 1434.8,
       "exitPrice": 1308,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -8.84,
       "exitReason": "TIME_STOP",
@@ -10971,7 +10971,7 @@
         {
           "level": "TIME_STOP",
           "price": 1387,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -10980,7 +10980,7 @@
       "trailSL": null,
       "maxFavPrice": 1535,
       "exitPrice": 1387,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -9.64,
       "exitReason": "TIME_STOP",
@@ -11055,7 +11055,7 @@
         {
           "level": "TIME_STOP",
           "price": 1508.6,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -11064,7 +11064,7 @@
       "trailSL": null,
       "maxFavPrice": 1636.75,
       "exitPrice": 1508.6,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -7.83,
       "exitReason": "TIME_STOP",
@@ -11139,7 +11139,7 @@
         {
           "level": "TIME_STOP",
           "price": 1573.4,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -11148,7 +11148,7 @@
       "trailSL": null,
       "maxFavPrice": 1722.3,
       "exitPrice": 1573.4,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -8.65,
       "exitReason": "TIME_STOP",
@@ -11223,7 +11223,7 @@
         {
           "level": "TIME_STOP",
           "price": 1860,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -11232,7 +11232,7 @@
       "trailSL": null,
       "maxFavPrice": 1989.9,
       "exitPrice": 1860,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -6.53,
       "exitReason": "TIME_STOP",
@@ -11307,7 +11307,7 @@
         {
           "level": "TIME_STOP",
           "price": 2164,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -11316,7 +11316,7 @@
       "trailSL": null,
       "maxFavPrice": 2201.5,
       "exitPrice": 2164,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -1.7,
       "exitReason": "TIME_STOP",
@@ -11391,7 +11391,7 @@
         {
           "level": "TIME_STOP",
           "price": 2350,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -11400,7 +11400,7 @@
       "trailSL": null,
       "maxFavPrice": 2492.8,
       "exitPrice": 2350,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -5.73,
       "exitReason": "TIME_STOP",
@@ -15194,8 +15194,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 568.55,
-          "time": "13:35:00",
+          "price": 572.7,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -15203,10 +15203,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 506.75,
-      "exitPrice": 568.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 572.7,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 12.2,
+      "pnlPct": 13.01,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -15278,8 +15278,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 499.65,
-          "time": "13:35:00",
+          "price": 505.5,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -15287,10 +15287,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 457.45,
-      "exitPrice": 499.65,
-      "exitTime": "13:35:00",
+      "exitPrice": 505.5,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 9.23,
+      "pnlPct": 10.5,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -15362,8 +15362,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 438.55,
-          "time": "13:35:00",
+          "price": 442.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -15371,10 +15371,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 409,
-      "exitPrice": 438.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 442.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 7.22,
+      "pnlPct": 8.23,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -15531,7 +15531,7 @@
         {
           "level": "TIME_STOP",
           "price": 2466.7,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -15540,7 +15540,7 @@
       "trailSL": null,
       "maxFavPrice": 2915,
       "exitPrice": 2466.7,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -15.38,
       "exitReason": "TIME_STOP",
@@ -16203,7 +16203,7 @@
         {
           "level": "TIME_STOP",
           "price": 1254.95,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16212,7 +16212,7 @@
       "trailSL": null,
       "maxFavPrice": 1815,
       "exitPrice": 1254.95,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -30.86,
       "exitReason": "TIME_STOP",
@@ -16287,7 +16287,7 @@
         {
           "level": "TIME_STOP",
           "price": 3470,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16296,7 +16296,7 @@
       "trailSL": null,
       "maxFavPrice": 3550,
       "exitPrice": 3470,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -2.25,
       "exitReason": "TIME_STOP",
@@ -16371,7 +16371,7 @@
         {
           "level": "TIME_STOP",
           "price": 1865.35,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16380,7 +16380,7 @@
       "trailSL": null,
       "maxFavPrice": 1542,
       "exitPrice": 1865.35,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 20.97,
       "exitReason": "TIME_STOP",
@@ -16455,7 +16455,7 @@
         {
           "level": "TIME_STOP",
           "price": 1475.2,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16464,7 +16464,7 @@
       "trailSL": null,
       "maxFavPrice": 1280,
       "exitPrice": 1475.2,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 15.25,
       "exitReason": "TIME_STOP",
@@ -16539,7 +16539,7 @@
         {
           "level": "TIME_STOP",
           "price": 1383.6,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16548,7 +16548,7 @@
       "trailSL": null,
       "maxFavPrice": 1157.45,
       "exitPrice": 1383.6,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 19.54,
       "exitReason": "TIME_STOP",
@@ -16623,7 +16623,7 @@
         {
           "level": "TIME_STOP",
           "price": 1294.05,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16632,7 +16632,7 @@
       "trailSL": null,
       "maxFavPrice": 1090,
       "exitPrice": 1294.05,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 18.72,
       "exitReason": "TIME_STOP",
@@ -16706,8 +16706,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 378,
-          "time": "13:35:00",
+          "price": 383.6,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16715,10 +16715,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 368.95,
-      "exitPrice": 378,
-      "exitTime": "13:35:00",
+      "exitPrice": 383.6,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 2.45,
+      "pnlPct": 3.97,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -16791,7 +16791,7 @@
         {
           "level": "TIME_STOP",
           "price": 3225,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16800,7 +16800,7 @@
       "trailSL": null,
       "maxFavPrice": 3543.4,
       "exitPrice": 3225,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -8.99,
       "exitReason": "TIME_STOP",
@@ -16958,8 +16958,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 738.15,
-          "time": "13:35:00",
+          "price": 737.15,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -16967,10 +16967,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1215,
-      "exitPrice": 738.15,
-      "exitTime": "13:35:00",
+      "exitPrice": 737.15,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -39.25,
+      "pnlPct": -39.33,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -17043,7 +17043,7 @@
         {
           "level": "TIME_STOP",
           "price": 817.35,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17052,7 +17052,7 @@
       "trailSL": null,
       "maxFavPrice": 1230,
       "exitPrice": 817.35,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -33.55,
       "exitReason": "TIME_STOP",
@@ -17126,8 +17126,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 1166.55,
-          "time": "13:35:00",
+          "price": 1160,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17135,10 +17135,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1628.7,
-      "exitPrice": 1166.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 1160,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -28.38,
+      "pnlPct": -28.78,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -17211,7 +17211,7 @@
         {
           "level": "TIME_STOP",
           "price": 1395.25,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17220,7 +17220,7 @@
       "trailSL": null,
       "maxFavPrice": 1800,
       "exitPrice": 1395.25,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -22.49,
       "exitReason": "TIME_STOP",
@@ -17463,7 +17463,7 @@
         {
           "level": "TIME_STOP",
           "price": 2589.6,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17472,7 +17472,7 @@
       "trailSL": null,
       "maxFavPrice": 3005.75,
       "exitPrice": 2589.6,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -13.85,
       "exitReason": "TIME_STOP",
@@ -17547,7 +17547,7 @@
         {
           "level": "TIME_STOP",
           "price": 2900,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17556,7 +17556,7 @@
       "trailSL": null,
       "maxFavPrice": 3310,
       "exitPrice": 2900,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -12.39,
       "exitReason": "TIME_STOP",
@@ -17631,7 +17631,7 @@
         {
           "level": "TIME_STOP",
           "price": 3630,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17640,7 +17640,7 @@
       "trailSL": null,
       "maxFavPrice": 4095,
       "exitPrice": 3630,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -11.36,
       "exitReason": "TIME_STOP",
@@ -17883,7 +17883,7 @@
         {
           "level": "TIME_STOP",
           "price": 1910,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17892,7 +17892,7 @@
       "trailSL": null,
       "maxFavPrice": 2317.55,
       "exitPrice": 1910,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -17.59,
       "exitReason": "TIME_STOP",
@@ -17967,7 +17967,7 @@
         {
           "level": "TIME_STOP",
           "price": 2060.75,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -17976,7 +17976,7 @@
       "trailSL": null,
       "maxFavPrice": 2495,
       "exitPrice": 2060.75,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -17.4,
       "exitReason": "TIME_STOP",
@@ -18051,7 +18051,7 @@
         {
           "level": "TIME_STOP",
           "price": 4189,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -18060,7 +18060,7 @@
       "trailSL": null,
       "maxFavPrice": 4564.75,
       "exitPrice": 4189,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -8.23,
       "exitReason": "TIME_STOP",
@@ -18135,7 +18135,7 @@
         {
           "level": "TIME_STOP",
           "price": 4805,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -18144,7 +18144,7 @@
       "trailSL": null,
       "maxFavPrice": 5050,
       "exitPrice": 4805,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -4.85,
       "exitReason": "TIME_STOP",
@@ -18303,7 +18303,7 @@
         {
           "level": "TIME_STOP",
           "price": 3000,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -18312,7 +18312,7 @@
       "trailSL": null,
       "maxFavPrice": 3696.8,
       "exitPrice": 3000,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -18.85,
       "exitReason": "TIME_STOP",
@@ -18387,7 +18387,7 @@
         {
           "level": "TIME_STOP",
           "price": 4420,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -18396,7 +18396,7 @@
       "trailSL": null,
       "maxFavPrice": 4420,
       "exitPrice": 4420,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 0,
       "exitReason": "TIME_STOP",
@@ -18471,7 +18471,7 @@
         {
           "level": "TIME_STOP",
           "price": 5157,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -18480,7 +18480,7 @@
       "trailSL": null,
       "maxFavPrice": 5530,
       "exitPrice": 5157,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -6.75,
       "exitReason": "TIME_STOP",
@@ -18806,8 +18806,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 902.8,
-          "time": "13:35:00",
+          "price": 891,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -18815,10 +18815,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1275,
-      "exitPrice": 902.8,
-      "exitTime": "13:35:00",
+      "exitPrice": 891,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -29.19,
+      "pnlPct": -30.12,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -19059,7 +19059,7 @@
         {
           "level": "TIME_STOP",
           "price": 547.45,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19068,7 +19068,7 @@
       "trailSL": null,
       "maxFavPrice": 370.4,
       "exitPrice": 547.45,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 47.8,
       "exitReason": "TIME_STOP",
@@ -19143,7 +19143,7 @@
         {
           "level": "TIME_STOP",
           "price": 376.9,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19152,7 +19152,7 @@
       "trailSL": null,
       "maxFavPrice": 336.85,
       "exitPrice": 376.9,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 11.89,
       "exitReason": "TIME_STOP",
@@ -19227,7 +19227,7 @@
         {
           "level": "TIME_STOP",
           "price": 465,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19236,7 +19236,7 @@
       "trailSL": null,
       "maxFavPrice": 402.5,
       "exitPrice": 465,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 15.53,
       "exitReason": "TIME_STOP",
@@ -19311,7 +19311,7 @@
         {
           "level": "TIME_STOP",
           "price": 290.75,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19320,7 +19320,7 @@
       "trailSL": null,
       "maxFavPrice": 245.35,
       "exitPrice": 290.75,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 18.5,
       "exitReason": "TIME_STOP",
@@ -19815,7 +19815,7 @@
         {
           "level": "TIME_STOP",
           "price": 416,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19824,7 +19824,7 @@
       "trailSL": null,
       "maxFavPrice": 650,
       "exitPrice": 416,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -36,
       "exitReason": "TIME_STOP",
@@ -19899,7 +19899,7 @@
         {
           "level": "TIME_STOP",
           "price": 541.4,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19908,7 +19908,7 @@
       "trailSL": null,
       "maxFavPrice": 457.7,
       "exitPrice": 541.4,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 18.29,
       "exitReason": "TIME_STOP",
@@ -19983,7 +19983,7 @@
         {
           "level": "TIME_STOP",
           "price": 196.95,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -19992,7 +19992,7 @@
       "trailSL": null,
       "maxFavPrice": 175.9,
       "exitPrice": 196.95,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 11.97,
       "exitReason": "TIME_STOP",
@@ -20066,8 +20066,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 252.4,
-          "time": "13:35:00",
+          "price": 250.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20075,10 +20075,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 235.55,
-      "exitPrice": 252.4,
-      "exitTime": "13:35:00",
+      "exitPrice": 250.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 7.15,
+      "pnlPct": 6.41,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -20151,7 +20151,7 @@
         {
           "level": "TIME_STOP",
           "price": 223.05,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20160,7 +20160,7 @@
       "trailSL": null,
       "maxFavPrice": 222.7,
       "exitPrice": 223.05,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 0.16,
       "exitReason": "TIME_STOP",
@@ -20571,7 +20571,7 @@
         {
           "level": "TIME_STOP",
           "price": 828.95,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20580,7 +20580,7 @@
       "trailSL": null,
       "maxFavPrice": 1097.4,
       "exitPrice": 828.95,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -24.46,
       "exitReason": "TIME_STOP",
@@ -20655,7 +20655,7 @@
         {
           "level": "TIME_STOP",
           "price": 617.75,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20664,7 +20664,7 @@
       "trailSL": null,
       "maxFavPrice": 828.6,
       "exitPrice": 617.75,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -25.45,
       "exitReason": "TIME_STOP",
@@ -20739,7 +20739,7 @@
         {
           "level": "TIME_STOP",
           "price": 755.85,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20748,7 +20748,7 @@
       "trailSL": null,
       "maxFavPrice": 904.95,
       "exitPrice": 755.85,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -16.48,
       "exitReason": "TIME_STOP",
@@ -20823,7 +20823,7 @@
         {
           "level": "TIME_STOP",
           "price": 828.3,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20832,7 +20832,7 @@
       "trailSL": null,
       "maxFavPrice": 882.8,
       "exitPrice": 828.3,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -6.17,
       "exitReason": "TIME_STOP",
@@ -20907,7 +20907,7 @@
         {
           "level": "TIME_STOP",
           "price": 1390,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20916,7 +20916,7 @@
       "trailSL": null,
       "maxFavPrice": 1629,
       "exitPrice": 1390,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": -14.67,
       "exitReason": "TIME_STOP",
@@ -20990,8 +20990,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 287.55,
-          "time": "13:35:00",
+          "price": 289,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -20999,10 +20999,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 207.85,
-      "exitPrice": 287.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 289,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 38.34,
+      "pnlPct": 39.04,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -21074,8 +21074,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 240.55,
-          "time": "13:35:00",
+          "price": 241.95,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -21083,10 +21083,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 174.7,
-      "exitPrice": 240.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 241.95,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 37.69,
+      "pnlPct": 38.49,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -21158,8 +21158,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 196,
-          "time": "13:35:00",
+          "price": 196.8,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -21167,10 +21167,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 144.6,
-      "exitPrice": 196,
-      "exitTime": "13:35:00",
+      "exitPrice": 196.8,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 35.55,
+      "pnlPct": 36.1,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -21410,8 +21410,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 335.55,
-          "time": "13:35:00",
+          "price": 336.6,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -21419,10 +21419,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 244.3,
-      "exitPrice": 335.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 336.6,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 37.35,
+      "pnlPct": 37.78,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -21578,8 +21578,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 153.4,
-          "time": "13:35:00",
+          "price": 154.2,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -21587,10 +21587,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 117.55,
-      "exitPrice": 153.4,
-      "exitTime": "13:35:00",
+      "exitPrice": 154.2,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 30.5,
+      "pnlPct": 31.18,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -21662,8 +21662,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 114.55,
-          "time": "13:35:00",
+          "price": 115.4,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -21671,10 +21671,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 94.15,
-      "exitPrice": 114.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 115.4,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 21.67,
+      "pnlPct": 22.57,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -21998,8 +21998,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 240.55,
-          "time": "13:35:00",
+          "price": 241.95,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -22007,10 +22007,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 174.7,
-      "exitPrice": 240.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 241.95,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 37.69,
+      "pnlPct": 38.49,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -22082,8 +22082,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 196,
-          "time": "13:35:00",
+          "price": 196.8,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -22091,10 +22091,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 144.6,
-      "exitPrice": 196,
-      "exitTime": "13:35:00",
+      "exitPrice": 196.8,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 35.55,
+      "pnlPct": 36.1,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -22166,8 +22166,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 153.4,
-          "time": "13:35:00",
+          "price": 154.2,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -22175,10 +22175,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 117.55,
-      "exitPrice": 153.4,
-      "exitTime": "13:35:00",
+      "exitPrice": 154.2,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 30.5,
+      "pnlPct": 31.18,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -22250,8 +22250,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 114.55,
-          "time": "13:35:00",
+          "price": 115.4,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -22259,10 +22259,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 94.15,
-      "exitPrice": 114.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 115.4,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 21.67,
+      "pnlPct": 22.57,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -22418,8 +22418,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 162,
-          "time": "13:35:00",
+          "price": 163,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -22427,10 +22427,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 151.4,
-      "exitPrice": 162,
-      "exitTime": "13:35:00",
+      "exitPrice": 163,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 7,
+      "pnlPct": 7.66,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -25598,8 +25598,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 499.65,
-          "time": "13:35:00",
+          "price": 505.5,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -25607,10 +25607,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 478.85,
-      "exitPrice": 499.65,
-      "exitTime": "13:35:00",
+      "exitPrice": 505.5,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 4.34,
+      "pnlPct": 5.57,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -25682,8 +25682,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 438.55,
-          "time": "13:35:00",
+          "price": 442.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -25691,10 +25691,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 432,
-      "exitPrice": 438.55,
-      "exitTime": "13:35:00",
+      "exitPrice": 442.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 1.52,
+      "pnlPct": 2.47,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -26438,8 +26438,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 378,
-          "time": "13:35:00",
+          "price": 383.6,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -26447,10 +26447,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 387.1,
-      "exitPrice": 378,
-      "exitTime": "13:35:00",
+      "exitPrice": 383.6,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": -2.35,
+      "pnlPct": -0.9,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -26690,8 +26690,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 252.4,
-          "time": "13:35:00",
+          "price": 250.65,
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -26699,10 +26699,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 239.55,
-      "exitPrice": 252.4,
-      "exitTime": "13:35:00",
+      "exitPrice": 250.65,
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
-      "pnlPct": 5.36,
+      "pnlPct": 4.63,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -26775,7 +26775,7 @@
         {
           "level": "TIME_STOP",
           "price": 196.95,
-          "time": "13:35:00",
+          "time": "13:35:13",
           "pctClosed": 100
         }
       ],
@@ -26784,14 +26784,14 @@
       "trailSL": null,
       "maxFavPrice": 191.7,
       "exitPrice": 196.95,
-      "exitTime": "13:35:00",
+      "exitTime": "13:35:13",
       "exitDate": "2026-09-21",
       "pnlPct": 2.74,
       "exitReason": "TIME_STOP",
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-21T08:05:18.687Z",
+  "lastUpdated": "2026-09-21T08:05:23.656Z",
   "upstoxId": "132199",
   "date": "2026-09-17",
   "stats": {
