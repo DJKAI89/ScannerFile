@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-21",
+  "snapshot": {
+    "version": "ai-ensemble-v2",
+    "modelName": "AI Ensemble Brain",
+    "computedAt": "2026-09-21T19:16:57.325Z",
+    "stock": {
+      "trainedOn": 200,
+      "accuracy": 0.83,
+      "edge": 0.1206,
+      "walkForward": 0.52,
+      "topFeatures": [
+        {
+          "feature": "potential",
+          "gain": 112.5732,
+          "splits": 54,
+          "importance": 31.1
+        },
+        {
+          "feature": "rr",
+          "gain": 69.2317,
+          "splits": 38,
+          "importance": 19.1
+        },
+        {
+          "feature": "weekday",
+          "gain": 45.2957,
+          "splits": 24,
+          "importance": 12.5
+        },
+        {
+          "feature": "riskInv",
+          "gain": 39.5555,
+          "splits": 27,
+          "importance": 10.9
+        },
+        {
+          "feature": "baseConf",
+          "gain": 24.9222,
+          "splits": 25,
+          "importance": 6.9
+        },
+        {
+          "feature": "adxBull",
+          "gain": 18.9089,
+          "splits": 8,
+          "importance": 5.2
+        },
+        {
+          "feature": "expectedWR",
+          "gain": 16.3661,
+          "splits": 18,
+          "importance": 4.5
+        },
+        {
+          "feature": "phase",
+          "gain": 11.6991,
+          "splits": 12,
+          "importance": 3.2
+        }
+      ],
+      "servingLabel": "stock_late"
+    },
+    "option": {
+      "trainedOn": 2933,
+      "accuracy": 0.786,
+      "edge": 0.0859,
+      "walkForward": 0.65,
+      "topFeatures": [
+        {
+          "feature": "composite",
+          "gain": 1468.5404,
+          "splits": 45,
+          "importance": 21.1
+        },
+        {
+          "feature": "weekday",
+          "gain": 1384.5522,
+          "splits": 37,
+          "importance": 19.8
+        },
+        {
+          "feature": "phase",
+          "gain": 1035.3971,
+          "splits": 35,
+          "importance": 14.8
+        },
+        {
+          "feature": "iv",
+          "gain": 802.7126,
+          "splits": 67,
+          "importance": 11.5
+        },
+        {
+          "feature": "deltaAbs",
+          "gain": 494.9704,
+          "splits": 51,
+          "importance": 7.1
+        },
+        {
+          "feature": "bullish",
+          "gain": 338.1979,
+          "splits": 28,
+          "importance": 4.8
+        },
+        {
+          "feature": "baseConf",
+          "gain": 300.0588,
+          "splits": 33,
+          "importance": 4.3
+        },
+        {
+          "feature": "counterTrend",
+          "gain": 273.0386,
+          "splits": 6,
+          "importance": 3.9
+        }
+      ],
+      "servingLabel": "index_ce"
+    }
+  },
+  "trainedOffline": true,
+  "userId": "132199"
+}
