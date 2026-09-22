@@ -4080,8 +4080,8 @@
       "partials": [
         {
           "level": "TIME_STOP",
-          "price": 169.7,
-          "time": "09:15:25",
+          "price": 167.25,
+          "time": "09:15:33",
           "pctClosed": 100
         }
       ],
@@ -4089,10 +4089,10 @@
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 144.25,
-      "exitPrice": 169.7,
-      "exitTime": "09:15:25",
+      "exitPrice": 167.25,
+      "exitTime": "09:15:33",
       "exitDate": "2026-09-22",
-      "pnlPct": 17.64,
+      "pnlPct": 15.94,
       "exitReason": "TIME_STOP",
       "note": ""
     },
@@ -5202,7 +5202,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-22T03:45:25.844Z",
+  "lastUpdated": "2026-09-22T03:45:33.074Z",
   "upstoxId": "132199",
   "date": "2026-09-18",
   "stats": {
