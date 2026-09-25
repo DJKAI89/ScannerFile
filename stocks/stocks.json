@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T06:13:12.517785+00:00",
-  "count": 755,
+  "updated_at": "2026-09-25T06:53:37.405726+00:00",
+  "count": 750,
   "data": [
     {
       "symbol": "360ONE",
@@ -1401,41 +1401,6 @@
       "name": "Dr. Reddy's Laboratories Ltd.",
       "key": "NSE_EQ|INE089A01031",
       "sector": "Healthcare"
-    },
-    {
-      "symbol": "DUMMYHEG",
-      "isin": "DUM545A01024",
-      "name": "Dummy HEG Ltd.",
-      "key": "NSE_EQ|DUM545A01024",
-      "sector": "Metals & Mining"
-    },
-    {
-      "symbol": "DUMMYINGL1",
-      "isin": "DU1560A01023",
-      "name": "Dummy India Glycols ltd. 1",
-      "key": "NSE_EQ|DU1560A01023",
-      "sector": "Healthcare"
-    },
-    {
-      "symbol": "DUMMYINGL2",
-      "isin": "DU2560A01023",
-      "name": "Dummy India Glycols ltd. 2",
-      "key": "NSE_EQ|DU2560A01023",
-      "sector": "Fast Moving Consumer Goods"
-    },
-    {
-      "symbol": "DUMMYINXGN",
-      "isin": "DUM510W01014",
-      "name": "Dummy Inox Green Ltd.",
-      "key": "NSE_EQ|DUM510W01014",
-      "sector": "Construction"
-    },
-    {
-      "symbol": "DUMMYTRVN",
-      "isin": "DUM256C01024",
-      "name": "Dummy Triveni Ltd.",
-      "key": "NSE_EQ|DUM256C01024",
-      "sector": "Capital Goods"
     },
     {
       "symbol": "DYNAMATECH",
