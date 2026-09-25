@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-25",
+  "snapshot": {
+    "version": "ai-ensemble-v2",
+    "modelName": "AI Ensemble Brain",
+    "computedAt": "2026-09-25T17:32:43.315Z",
+    "stock": {
+      "trainedOn": 205,
+      "accuracy": 0.839,
+      "edge": 0.1205,
+      "walkForward": 0.563,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 24,
+          "importance": 0
+        },
+        {
+          "feature": "rr",
+          "gain": 0,
+          "splits": 30,
+          "importance": 0
+        },
+        {
+          "feature": "riskInv",
+          "gain": 0,
+          "splits": 23,
+          "importance": 0
+        },
+        {
+          "feature": "numInds",
+          "gain": 0,
+          "splits": 11,
+          "importance": 0
+        },
+        {
+          "feature": "potential",
+          "gain": 0,
+          "splits": 69,
+          "importance": 0
+        },
+        {
+          "feature": "expectedWR",
+          "gain": 0,
+          "splits": 7,
+          "importance": 0
+        },
+        {
+          "feature": "reversal",
+          "gain": 0,
+          "splits": 12,
+          "importance": 0
+        },
+        {
+          "feature": "nearSupport",
+          "gain": 0,
+          "splits": 4,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_late"
+    },
+    "option": {
+      "trainedOn": 2962,
+      "accuracy": 0.739,
+      "edge": 0.061,
+      "walkForward": 0.561,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 31,
+          "importance": 0
+        },
+        {
+          "feature": "rr",
+          "gain": 0,
+          "splits": 22,
+          "importance": 0
+        },
+        {
+          "feature": "score",
+          "gain": 0,
+          "splits": 9,
+          "importance": 0
+        },
+        {
+          "feature": "composite",
+          "gain": 0,
+          "splits": 24,
+          "importance": 0
+        },
+        {
+          "feature": "bullish",
+          "gain": 0,
+          "splits": 23,
+          "importance": 0
+        },
+        {
+          "feature": "trendAligned",
+          "gain": 0,
+          "splits": 2,
+          "importance": 0
+        },
+        {
+          "feature": "deltaAbs",
+          "gain": 0,
+          "splits": 50,
+          "importance": 0
+        },
+        {
+          "feature": "iv",
+          "gain": 0,
+          "splits": 70,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "index_ce"
+    }
+  },
+  "trainedOffline": true,
+  "userId": "132199"
+}
