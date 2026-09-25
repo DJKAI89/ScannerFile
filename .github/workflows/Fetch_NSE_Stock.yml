@@ -1,101 +1,606 @@
-name: Fetch NIFTY 500 Stock Master with sector (Weekly)
+name: Build NIFTY 500 Stock Master
 
 on:
+  # Run manually from GitHub Actions
   workflow_dispatch:
+
+  # Automatically run whenever the CSV is uploaded/replaced
+  push:
+    paths:
+      - 'stocks/nifty500.csv'
 
 permissions:
   contents: write
 
 jobs:
-  build-stocks:
+  build-stock-master:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+
+      # ---------------------------------------------------------
+      # 1. Checkout repository
+      # ---------------------------------------------------------
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
+      # ---------------------------------------------------------
+      # 2. Setup Python
+      # ---------------------------------------------------------
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install deps
-        run: pip install requests
-
-      - name: Fetch stocks + merge sector
+      # ---------------------------------------------------------
+      # 3. Verify CSV exists
+      # ---------------------------------------------------------
+      - name: Verify Input CSV
+        shell: bash
         run: |
-          python3 << 'PYEOF'
-          import requests, json, time, os
-          from datetime import datetime
+          set -e
 
-          HEADERS = {
-            'User-Agent': 'Mozilla/5.0',
-            'Accept': 'application/json',
-            'Referer': 'https://www.nseindia.com/',
+          echo "Checking input file..."
+
+          if [ ! -f "stocks/nifty500.csv" ]; then
+            echo "ERROR: stocks/nifty500.csv not found."
+            exit 1
+          fi
+
+          echo "CSV found:"
+          ls -lh stocks/nifty500.csv
+
+          echo ""
+          echo "First 5 lines:"
+          head -n 5 stocks/nifty500.csv
+
+      # ---------------------------------------------------------
+      # 4. Convert CSV -> JSON
+      # ---------------------------------------------------------
+      - name: Convert CSV to JSON
+        shell: bash
+        run: |
+          set -e
+
+          python3 << 'PYEOF'
+
+          import csv
+          import json
+          import os
+          import sys
+          from datetime import datetime, timezone
+
+          INPUT_FILE = "stocks/nifty500.csv"
+          OUTPUT_FILE = "stocks/stocks.json"
+
+          print("========================================")
+          print("NIFTY 500 CSV -> JSON")
+          print("========================================")
+
+          # -----------------------------------------------------
+          # Helper
+          # -----------------------------------------------------
+          def clean(value):
+              if value is None:
+                  return ""
+
+              return str(value).strip()
+
+          def find_column(fieldnames, candidates):
+              """
+              Find a CSV column using multiple possible names.
+              Matching is case-insensitive and ignores spaces,
+              underscores, hyphens and brackets.
+              """
+
+              if not fieldnames:
+                  return None
+
+              normalized = {}
+
+              for field in fieldnames:
+                  key = (
+                      field.strip()
+                      .lower()
+                      .replace(" ", "")
+                      .replace("_", "")
+                      .replace("-", "")
+                      .replace("(", "")
+                      .replace(")", "")
+                  )
+
+                  normalized[key] = field
+
+              for candidate in candidates:
+
+                  key = (
+                      candidate.strip()
+                      .lower()
+                      .replace(" ", "")
+                      .replace("_", "")
+                      .replace("-", "")
+                      .replace("(", "")
+                      .replace(")", "")
+                  )
+
+                  if key in normalized:
+                      return normalized[key]
+
+              return None
+
+          # -----------------------------------------------------
+          # Check input
+          # -----------------------------------------------------
+          if not os.path.exists(INPUT_FILE):
+              print(f"ERROR: {INPUT_FILE} does not exist.")
+              sys.exit(1)
+
+          # -----------------------------------------------------
+          # Read CSV
+          # -----------------------------------------------------
+          with open(
+              INPUT_FILE,
+              "r",
+              encoding="utf-8-sig",
+              newline=""
+          ) as f:
+
+              reader = csv.DictReader(f)
+
+              fieldnames = reader.fieldnames
+
+              if not fieldnames:
+                  print("ERROR: CSV has no header row.")
+                  sys.exit(1)
+
+              print("")
+              print("CSV columns:")
+              for field in fieldnames:
+                  print(f"  - {field}")
+
+              # -------------------------------------------------
+              # Detect columns
+              # -------------------------------------------------
+
+              symbol_col = find_column(
+                  fieldnames,
+                  [
+                      "Symbol",
+                      "Stock Symbol",
+                      "Ticker",
+                      "Ticker Symbol"
+                  ]
+              )
+
+              isin_col = find_column(
+                  fieldnames,
+                  [
+                      "ISIN",
+                      "ISIN Code",
+                      "ISIN_Code",
+                      "ISIN No",
+                      "ISIN Number"
+                  ]
+              )
+
+              name_col = find_column(
+                  fieldnames,
+                  [
+                      "Company Name",
+                      "CompanyName",
+                      "Name",
+                      "Company"
+                  ]
+              )
+
+              sector_col = find_column(
+                  fieldnames,
+                  [
+                      "Sector",
+                      "Sector Name",
+                      "Industry",
+                      "Industry Name"
+                  ]
+              )
+
+              print("")
+              print("Detected columns:")
+              print(f"  Symbol : {symbol_col}")
+              print(f"  ISIN   : {isin_col}")
+              print(f"  Name   : {name_col}")
+              print(f"  Sector : {sector_col}")
+
+              # -------------------------------------------------
+              # Validate required columns
+              # -------------------------------------------------
+
+              missing = []
+
+              if not symbol_col:
+                  missing.append("Symbol")
+
+              if not isin_col:
+                  missing.append("ISIN")
+
+              if not name_col:
+                  missing.append("Company Name")
+
+              if not sector_col:
+                  missing.append("Sector")
+
+              if missing:
+                  print("")
+                  print("ERROR: Required CSV columns not found:")
+                  for item in missing:
+                      print(f"  - {item}")
+
+                  print("")
+                  print("Available columns:")
+                  for field in fieldnames:
+                      print(f"  - {field}")
+
+                  sys.exit(1)
+
+              # -------------------------------------------------
+              # Process rows
+              # -------------------------------------------------
+
+              result = []
+
+              duplicate_symbols = set()
+              duplicate_isins = set()
+
+              seen_symbols = set()
+              seen_isins = set()
+
+              invalid_rows = []
+
+              for row_number, row in enumerate(reader, start=2):
+
+                  symbol = clean(row.get(symbol_col))
+                  isin = clean(row.get(isin_col))
+                  name = clean(row.get(name_col))
+                  sector = clean(row.get(sector_col))
+
+                  # Ignore completely empty rows
+                  if not symbol and not isin and not name:
+                      continue
+
+                  # ---------------------------------------------
+                  # Required data validation
+                  # ---------------------------------------------
+
+                  errors = []
+
+                  if not symbol:
+                      errors.append("missing symbol")
+
+                  if not isin:
+                      errors.append("missing ISIN")
+
+                  if not name:
+                      errors.append("missing company name")
+
+                  if not sector:
+                      errors.append("missing sector")
+
+                  if errors:
+                      invalid_rows.append({
+                          "row": row_number,
+                          "errors": errors
+                      })
+                      continue
+
+                  # ---------------------------------------------
+                  # Duplicate validation
+                  # ---------------------------------------------
+
+                  symbol_upper = symbol.upper()
+                  isin_upper = isin.upper()
+
+                  if symbol_upper in seen_symbols:
+                      duplicate_symbols.add(symbol_upper)
+
+                  if isin_upper in seen_isins:
+                      duplicate_isins.add(isin_upper)
+
+                  seen_symbols.add(symbol_upper)
+                  seen_isins.add(isin_upper)
+
+                  # ---------------------------------------------
+                  # Build JSON object
+                  # ---------------------------------------------
+
+                  result.append({
+                      "symbol": symbol_upper,
+                      "isin": isin_upper,
+                      "name": name,
+                      "key": f"NSE_EQ|{isin_upper}",
+                      "sector": sector
+                  })
+
+          # -----------------------------------------------------
+          # Validation
+          # -----------------------------------------------------
+
+          print("")
+          print("========================================")
+          print("VALIDATION")
+          print("========================================")
+
+          print(f"Valid records : {len(result)}")
+          print(f"Invalid rows  : {len(invalid_rows)}")
+          print(f"Duplicate symbols : {len(duplicate_symbols)}")
+          print(f"Duplicate ISINs   : {len(duplicate_isins)}")
+
+          # -----------------------------------------------------
+          # Fail if invalid rows exist
+          # -----------------------------------------------------
+
+          if invalid_rows:
+
+              print("")
+              print("ERROR: Invalid rows detected:")
+
+              for item in invalid_rows[:20]:
+                  print(
+                      f"  Row {item['row']}: "
+                      + ", ".join(item["errors"])
+                  )
+
+              if len(invalid_rows) > 20:
+                  print(
+                      f"  ... and "
+                      f"{len(invalid_rows) - 20} more"
+                  )
+
+              sys.exit(1)
+
+          # -----------------------------------------------------
+          # Fail on duplicates
+          # -----------------------------------------------------
+
+          if duplicate_symbols:
+
+              print("")
+              print("ERROR: Duplicate symbols found:")
+
+              for symbol in sorted(duplicate_symbols):
+                  print(f"  - {symbol}")
+
+              sys.exit(1)
+
+          if duplicate_isins:
+
+              print("")
+              print("ERROR: Duplicate ISINs found:")
+
+              for isin in sorted(duplicate_isins):
+                  print(f"  - {isin}")
+
+              sys.exit(1)
+
+          # -----------------------------------------------------
+          # NIFTY 500 sanity check
+          # -----------------------------------------------------
+          #
+          # We don't force exactly 500 because index constituent
+          # files can temporarily contain unexpected rows.
+          #
+          # But we prevent a bad/empty CSV from destroying the
+          # existing JSON.
+          # -----------------------------------------------------
+
+          if len(result) < 450:
+
+              print("")
+              print(
+                  f"ERROR: Only {len(result)} valid stocks found."
+              )
+
+              print(
+                  "Expected approximately 500 stocks."
+              )
+
+              print(
+                  "The existing stocks.json will NOT be replaced."
+              )
+
+              sys.exit(1)
+
+          if len(result) > 550:
+
+              print("")
+              print(
+                  f"ERROR: {len(result)} stocks found."
+              )
+
+              print(
+                  "This is outside the expected NIFTY 500 range."
+              )
+
+              sys.exit(1)
+
+          # -----------------------------------------------------
+          # Sort by symbol
+          # -----------------------------------------------------
+
+          result.sort(
+              key=lambda x: x["symbol"]
+          )
+
+          # -----------------------------------------------------
+          # Build final JSON
+          # -----------------------------------------------------
+
+          output = {
+              "updated_at": datetime.now(
+                  timezone.utc
+              ).isoformat(),
+
+              "count": len(result),
+
+              "data": result
           }
 
-          session = requests.Session()
+          # -----------------------------------------------------
+          # Write JSON
+          # -----------------------------------------------------
 
-          print("Init NSE session...")
-          session.get("https://www.nseindia.com", headers=HEADERS)
-          time.sleep(2)
+          os.makedirs(
+              os.path.dirname(OUTPUT_FILE),
+              exist_ok=True
+          )
 
-          print("Fetching NIFTY 500...")
-          url = "https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20500"
-          data = session.get(url, headers=HEADERS).json()
+          temp_file = OUTPUT_FILE + ".tmp"
 
-          stocks = data.get("data", [])
+          with open(
+              temp_file,
+              "w",
+              encoding="utf-8"
+          ) as f:
 
-          # Load sector map
-          sector_map = {}
-          if os.path.exists("stocks/sector_map.json"):
-              try:
-                  with open("stocks/sector_map.json") as f:
-                      sector_map = json.load(f)
-              except:
-                  sector_map = {}
+              json.dump(
+                  output,
+                  f,
+                  indent=2,
+                  ensure_ascii=False
+              )
 
-          result = []
+              f.write("\n")
 
-          for s in stocks:
-              symbol = s.get("symbol")
-              meta = s.get("meta", {})
-              isin = meta.get("isin")
-              name = meta.get("companyName")
+          # Atomic replacement
+          os.replace(
+              temp_file,
+              OUTPUT_FILE
+          )
 
-              if not symbol or not isin:
-                  continue
+          # -----------------------------------------------------
+          # Final output
+          # -----------------------------------------------------
 
-              sector = sector_map.get(symbol, "Unknown")
+          print("")
+          print("========================================")
+          print("SUCCESS")
+          print("========================================")
 
-              result.append({
-                  "symbol": symbol,
-                  "isin": isin,
-                  "name": name,
-                  "key": f"NSE_EQ|{isin}",
-                  "sector": sector
-              })
+          print(
+              f"Generated: {OUTPUT_FILE}"
+          )
 
-          print(f"Total stocks: {len(result)}")
+          print(
+              f"Total stocks: {len(result)}"
+          )
 
-          os.makedirs("stocks", exist_ok=True)
+          print("")
+          print("First 3 records:")
 
-          with open("stocks/stocks.json", "w") as f:
-              json.dump({
-                  "updated_at": datetime.utcnow().isoformat(),
-                  "count": len(result),
-                  "data": result
-              }, f, indent=2)
+          for item in result[:3]:
+              print(json.dumps(item, indent=2))
 
-          print("Saved stocks/stocks.json")
           PYEOF
 
-      - name: Debug files (optional)
+      # ---------------------------------------------------------
+      # 5. Validate generated JSON
+      # ---------------------------------------------------------
+      - name: Validate Generated JSON
+        shell: bash
         run: |
-          echo "Repo structure:"
-          ls -R
+          set -e
 
-      - name: Commit & Push (safe)
+          if [ ! -f "stocks/stocks.json" ]; then
+            echo "ERROR: stocks/stocks.json was not created."
+            exit 1
+          fi
+
+          python3 << 'PYEOF'
+
+          import json
+
+          file = "stocks/stocks.json"
+
+          with open(file, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          if "updated_at" not in data:
+              raise Exception("Missing updated_at")
+
+          if "count" not in data:
+              raise Exception("Missing count")
+
+          if "data" not in data:
+              raise Exception("Missing data")
+
+          if data["count"] != len(data["data"]):
+              raise Exception(
+                  f"Count mismatch: "
+                  f"{data['count']} != {len(data['data'])}"
+              )
+
+          required_fields = [
+              "symbol",
+              "isin",
+              "name",
+              "key",
+              "sector"
+          ]
+
+          for index, stock in enumerate(data["data"]):
+
+              for field in required_fields:
+
+                  if field not in stock:
+                      raise Exception(
+                          f"Record {index} "
+                          f"missing field: {field}"
+                      )
+
+          print("JSON validation successful.")
+          print(f"Records: {data['count']}")
+
+          PYEOF
+
+      # ---------------------------------------------------------
+      # 6. Show generated file
+      # ---------------------------------------------------------
+      - name: Show Generated Stock Master
+        shell: bash
+        run: |
+          echo "Generated file:"
+          ls -lh stocks/stocks.json
+
+          echo ""
+          echo "JSON summary:"
+          python3 - << 'PYEOF'
+          import json
+
+          with open(
+              "stocks/stocks.json",
+              "r",
+              encoding="utf-8"
+          ) as f:
+              data = json.load(f)
+
+          print("Updated At :", data["updated_at"])
+          print("Count      :", data["count"])
+
+          print("")
+          print("First 5 stocks:")
+
+          for stock in data["data"][:5]:
+              print(
+                  stock["symbol"],
+                  "|",
+                  stock["isin"],
+                  "|",
+                  stock["sector"]
+              )
+          PYEOF
+
+      # ---------------------------------------------------------
+      # 7. Commit JSON
+      # ---------------------------------------------------------
+      - name: Commit Stock Master
         shell: bash
         run: |
           set -e
@@ -103,20 +608,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          echo "Checking file..."
-
-          if [ ! -f "stocks/stocks.json" ]; then
-            echo "stocks.json missing, creating fallback"
-            mkdir -p stocks
-            echo "{}" > stocks/stocks.json
-          fi
-
           git add stocks/stocks.json
 
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            echo "Changes detected, committing..."
-            git commit -m "Update stock master with sector"
-            git push
+          if git diff --cached --quiet; then
+            echo "No changes to stocks.json."
+            exit 0
           fi
+
+          echo "Changes detected."
+
+          git commit \
+            -m "Update NIFTY 500 stock master"
+
+          git push
