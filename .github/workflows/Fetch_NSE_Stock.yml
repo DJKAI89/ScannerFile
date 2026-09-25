@@ -1,10 +1,8 @@
 name: Build Stock Master
 
 on:
-  # Run manually from GitHub Actions
   workflow_dispatch:
 
-  # Automatically run whenever the CSV is added/replaced/updated
   push:
     paths:
       - 'stocks/nifty500.csv'
@@ -79,7 +77,7 @@ jobs:
           print("========================================")
 
           # -----------------------------------------------------
-          # Helper function
+          # Helper
           # -----------------------------------------------------
           def clean(value):
               if value is None:
@@ -88,7 +86,7 @@ jobs:
               return str(value).strip()
 
           # -----------------------------------------------------
-          # Find column by multiple possible names
+          # Find CSV column
           # -----------------------------------------------------
           def find_column(fieldnames, candidates):
 
@@ -156,7 +154,11 @@ jobs:
 
               if not fieldnames:
 
-                  print("ERROR: CSV does not contain a header row.")
+                  print(
+                      "ERROR: CSV does not contain "
+                      "a header row."
+                  )
+
                   sys.exit(1)
 
               print("")
@@ -267,6 +269,7 @@ jobs:
 
               total_csv_rows = 0
               empty_rows = 0
+              dummy_rows = 0
 
               for row_number, row in enumerate(
                   reader,
@@ -303,6 +306,44 @@ jobs:
                   ):
 
                       empty_rows += 1
+                      continue
+
+                  # =================================================
+                  # FILTER DUMMY RECORDS
+                  # =================================================
+                  #
+                  # If DUMMY appears in symbol, ISIN or company name,
+                  # the record will NOT be included in stocks.json.
+                  #
+                  # Examples:
+                  #
+                  # DUMMYHEG
+                  # DUMMYINGL1
+                  # DUMMYINGL2
+                  # DUMMYINXGN
+                  # DUMMYTRVN
+                  #
+                  # =================================================
+
+                  dummy_check = (
+                      symbol.upper(),
+                      isin.upper(),
+                      name.upper()
+                  )
+
+                  if any(
+                      "DUMMY" in value
+                      for value in dummy_check
+                  ):
+
+                      dummy_rows += 1
+
+                      print(
+                          f"Skipping dummy record "
+                          f"(CSV row {row_number}): "
+                          f"{symbol} | {isin} | {name}"
+                      )
+
                       continue
 
                   # -------------------------------------------------
@@ -369,10 +410,11 @@ jobs:
           print("VALIDATION RESULT")
           print("========================================")
 
-          print(f"CSV rows       : {total_csv_rows}")
-          print(f"Empty rows     : {empty_rows}")
-          print(f"Valid records  : {len(result)}")
-          print(f"Invalid rows   : {len(invalid_rows)}")
+          print(f"CSV rows          : {total_csv_rows}")
+          print(f"Empty rows        : {empty_rows}")
+          print(f"Dummy rows        : {dummy_rows}")
+          print(f"Valid records     : {len(result)}")
+          print(f"Invalid rows      : {len(invalid_rows)}")
           print(
               f"Duplicate symbols : "
               f"{len(duplicate_symbols)}"
@@ -383,11 +425,7 @@ jobs:
           )
 
           # ---------------------------------------------------------
-          # IMPORTANT:
-          # No limitation on record count.
-          #
-          # Whatever number of valid records exists in the CSV
-          # will be converted to JSON.
+          # No valid records
           # ---------------------------------------------------------
 
           if len(result) == 0:
@@ -476,7 +514,7 @@ jobs:
               sys.exit(1)
 
           # =========================================================
-          # Sort records
+          # Sort records by symbol
           # =========================================================
 
           result.sort(
@@ -498,7 +536,7 @@ jobs:
           }
 
           # =========================================================
-          # Write temporary JSON first
+          # Write temporary JSON
           # =========================================================
 
           os.makedirs(
@@ -550,17 +588,26 @@ jobs:
           )
 
           print(
+              f"CSV rows        : {total_csv_rows}"
+          )
+
+          print(
+              f"Dummy rows      : {dummy_rows}"
+          )
+
+          print(
               f"Records created : {len(result)}"
           )
 
           print("")
-          print("Sample records:")
+          print("First 5 records:")
 
           for stock in result[:5]:
 
               print(
                   f"{stock['symbol']} | "
                   f"{stock['isin']} | "
+                  f"{stock['name']} | "
                   f"{stock['sector']}"
               )
 
@@ -654,6 +701,26 @@ jobs:
                           f"Record {index} "
                           f"has empty field: {field}"
                       )
+
+              # -------------------------------------------------
+              # Make sure no DUMMY record slipped through
+              # -------------------------------------------------
+
+              values = [
+                  str(stock["symbol"]).upper(),
+                  str(stock["isin"]).upper(),
+                  str(stock["name"]).upper()
+              ]
+
+              if any(
+                  "DUMMY" in value
+                  for value in values
+              ):
+
+                  raise Exception(
+                      f"DUMMY record found in JSON: "
+                      f"{stock['symbol']}"
+                  )
 
           print("JSON validation successful.")
           print(
