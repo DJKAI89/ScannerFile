@@ -6,11 +6,13 @@ on:
   push:
     paths:
       - 'stocks/nifty500.csv'
+      - 'stocks/fno_master.json'
 
 permissions:
   contents: write
 
 jobs:
+
   build-stock-master:
     runs-on: ubuntu-latest
 
@@ -31,32 +33,64 @@ jobs:
           python-version: '3.11'
 
       # =========================================================
-      # 3. Verify CSV exists
+      # 3. Verify Input Files
       # =========================================================
-      - name: Verify Input CSV
+      - name: Verify Input Files
         shell: bash
         run: |
           set -e
 
-          echo "Checking input CSV..."
+          echo "========================================"
+          echo "VERIFYING INPUT FILES"
+          echo "========================================"
+
+          # -------------------------------------------------------
+          # Verify NIFTY 500 CSV
+          # -------------------------------------------------------
+          echo ""
+          echo "Checking stocks/nifty500.csv..."
 
           if [ ! -f "stocks/nifty500.csv" ]; then
             echo "ERROR: stocks/nifty500.csv was not found."
             exit 1
           fi
 
-          echo ""
           echo "CSV file:"
           ls -lh stocks/nifty500.csv
 
+          # -------------------------------------------------------
+          # Verify F&O Master JSON
+          # -------------------------------------------------------
+          echo ""
+          echo "Checking stocks/fno_master.json..."
+
+          if [ ! -f "stocks/fno_master.json" ]; then
+            echo "ERROR: stocks/fno_master.json was not found."
+            echo "The Stock Master cannot be built without F&O master."
+            exit 1
+          fi
+
+          echo "F&O master file:"
+          ls -lh stocks/fno_master.json
+
+          # -------------------------------------------------------
+          # Display CSV preview
+          # -------------------------------------------------------
           echo ""
           echo "CSV preview:"
           head -n 5 stocks/nifty500.csv
 
+          # -------------------------------------------------------
+          # Display F&O master preview
+          # -------------------------------------------------------
+          echo ""
+          echo "F&O master preview:"
+          head -n 30 stocks/fno_master.json
+
       # =========================================================
-      # 4. Convert CSV to JSON
+      # 4. Convert CSV + F&O Master to stocks.json
       # =========================================================
-      - name: Convert CSV to JSON
+      - name: Build Stock Master JSON
         shell: bash
         run: |
           set -e
@@ -69,25 +103,32 @@ jobs:
           import sys
           from datetime import datetime, timezone
 
+
           INPUT_FILE = "stocks/nifty500.csv"
+          FNO_FILE = "stocks/fno_master.json"
           OUTPUT_FILE = "stocks/stocks.json"
 
+
           print("========================================")
-          print("CSV -> JSON")
+          print("BUILD STOCK MASTER")
           print("========================================")
 
-          # -----------------------------------------------------
+
+          # =========================================================
           # Helper
-          # -----------------------------------------------------
+          # =========================================================
+
           def clean(value):
               if value is None:
                   return ""
 
               return str(value).strip()
 
-          # -----------------------------------------------------
+
+          # =========================================================
           # Find CSV column
-          # -----------------------------------------------------
+          # =========================================================
+
           def find_column(fieldnames, candidates):
 
               if not fieldnames:
@@ -96,6 +137,9 @@ jobs:
               normalized = {}
 
               for field in fieldnames:
+
+                  if field is None:
+                      continue
 
                   key = (
                       field.strip()
@@ -126,9 +170,11 @@ jobs:
 
               return None
 
-          # -----------------------------------------------------
-          # Check input file
-          # -----------------------------------------------------
+
+          # =========================================================
+          # Verify input files
+          # =========================================================
+
           if not os.path.exists(INPUT_FILE):
 
               print(
@@ -138,9 +184,297 @@ jobs:
 
               sys.exit(1)
 
-          # -----------------------------------------------------
+
+          if not os.path.exists(FNO_FILE):
+
+              print(
+                  f"ERROR: F&O master file does not exist: "
+                  f"{FNO_FILE}"
+              )
+
+              print(
+                  "Existing stocks.json will NOT be replaced."
+              )
+
+              sys.exit(1)
+
+
+          # =========================================================
+          # Load F&O Master
+          # =========================================================
+
+          print("")
+          print("========================================")
+          print("LOADING F&O MASTER")
+          print("========================================")
+
+
+          try:
+
+              with open(
+                  FNO_FILE,
+                  "r",
+                  encoding="utf-8"
+              ) as f:
+
+                  fno_data = json.load(f)
+
+          except Exception as ex:
+
+              print(
+                  f"ERROR: Unable to read F&O master: {ex}"
+              )
+
+              sys.exit(1)
+
+
+          # ---------------------------------------------------------
+          # Validate F&O top-level structure
+          # ---------------------------------------------------------
+
+          if not isinstance(fno_data, dict):
+
+              print(
+                  "ERROR: F&O master root must be a JSON object."
+              )
+
+              sys.exit(1)
+
+
+          if "data" not in fno_data:
+
+              print(
+                  "ERROR: F&O master is missing 'data'."
+              )
+
+              sys.exit(1)
+
+
+          fno_map = fno_data["data"]
+
+
+          if not isinstance(fno_map, dict):
+
+              print(
+                  "ERROR: F&O master 'data' must be an object/map."
+              )
+
+              sys.exit(1)
+
+
+          # ---------------------------------------------------------
+          # Validate F&O count if present
+          # ---------------------------------------------------------
+
+          if "count" in fno_data:
+
+              fno_count = fno_data["count"]
+
+              if not isinstance(fno_count, int):
+
+                  print(
+                      "ERROR: F&O master 'count' must be an integer."
+                  )
+
+                  sys.exit(1)
+
+              if fno_count != len(fno_map):
+
+                  print(
+                      f"ERROR: F&O count mismatch: "
+                      f"{fno_count} != {len(fno_map)}"
+                  )
+
+                  print(
+                      "Existing stocks.json will NOT be replaced."
+                  )
+
+                  sys.exit(1)
+
+
+          # ---------------------------------------------------------
+          # Normalize and validate F&O records
+          # ---------------------------------------------------------
+
+          normalized_fno_map = {}
+
+          invalid_fno_records = []
+
+
+          for raw_symbol, raw_info in fno_map.items():
+
+              symbol = clean(raw_symbol).upper()
+
+
+              if not symbol:
+
+                  invalid_fno_records.append(
+                      "Empty F&O symbol"
+                  )
+
+                  continue
+
+
+              if not isinstance(raw_info, dict):
+
+                  invalid_fno_records.append(
+                      f"{symbol}: record must be an object"
+                  )
+
+                  continue
+
+
+              if "IsFO" not in raw_info:
+
+                  invalid_fno_records.append(
+                      f"{symbol}: missing IsFO"
+                  )
+
+                  continue
+
+
+              if "Lotsize" not in raw_info:
+
+                  invalid_fno_records.append(
+                      f"{symbol}: missing Lotsize"
+                  )
+
+                  continue
+
+
+              is_fo = raw_info["IsFO"]
+              lot_size = raw_info["Lotsize"]
+
+
+              # -----------------------------------------------------
+              # IsFO must be a real boolean
+              # -----------------------------------------------------
+
+              if not isinstance(is_fo, bool):
+
+                  invalid_fno_records.append(
+                      f"{symbol}: IsFO must be true/false"
+                  )
+
+                  continue
+
+
+              # -----------------------------------------------------
+              # Lot size must be integer
+              # -----------------------------------------------------
+
+              if (
+                  isinstance(lot_size, bool)
+                  or not isinstance(lot_size, int)
+              ):
+
+                  invalid_fno_records.append(
+                      f"{symbol}: Lotsize must be an integer"
+                  )
+
+                  continue
+
+
+              # -----------------------------------------------------
+              # Lot size cannot be negative
+              # -----------------------------------------------------
+
+              if lot_size < 0:
+
+                  invalid_fno_records.append(
+                      f"{symbol}: Lotsize cannot be negative"
+                  )
+
+                  continue
+
+
+              # -----------------------------------------------------
+              # F&O stock must have a valid lot size
+              # -----------------------------------------------------
+
+              if is_fo and lot_size <= 0:
+
+                  invalid_fno_records.append(
+                      f"{symbol}: IsFO=true but Lotsize is not > 0"
+                  )
+
+                  continue
+
+
+              # -----------------------------------------------------
+              # Non-F&O stock must have lot size 0
+              # -----------------------------------------------------
+
+              if not is_fo and lot_size != 0:
+
+                  invalid_fno_records.append(
+                      f"{symbol}: IsFO=false but Lotsize is not 0"
+                  )
+
+                  continue
+
+
+              normalized_fno_map[symbol] = {
+                  "isFO": is_fo,
+                  "lotSize": lot_size
+              }
+
+
+          # ---------------------------------------------------------
+          # F&O validation result
+          # ---------------------------------------------------------
+
+          print("")
+          print(
+              f"F&O records loaded : {len(normalized_fno_map)}"
+          )
+
+
+          if invalid_fno_records:
+
+              print("")
+              print("ERROR: Invalid F&O records found:")
+
+              for error in invalid_fno_records[:50]:
+                  print(f"  - {error}")
+
+              if len(invalid_fno_records) > 50:
+
+                  print(
+                      f"  ... and "
+                      f"{len(invalid_fno_records) - 50} more"
+                  )
+
+              print("")
+              print(
+                  "Existing stocks.json will NOT be replaced."
+              )
+
+              sys.exit(1)
+
+
+          fno_stock_count = sum(
+              1
+              for info in normalized_fno_map.values()
+              if info["isFO"]
+          )
+
+
+          print(
+              f"F&O eligible stocks : {fno_stock_count}"
+          )
+
+
+          # =========================================================
           # Read CSV
-          # -----------------------------------------------------
+          # =========================================================
+
+          print("")
+          print("========================================")
+          print("READING NIFTY 500 CSV")
+          print("========================================")
+
+
           with open(
               INPUT_FILE,
               "r",
@@ -152,6 +486,7 @@ jobs:
 
               fieldnames = reader.fieldnames
 
+
               if not fieldnames:
 
                   print(
@@ -161,15 +496,17 @@ jobs:
 
                   sys.exit(1)
 
+
               print("")
               print("CSV columns:")
 
               for field in fieldnames:
                   print(f"  - {field}")
 
-              # -------------------------------------------------
+
+              # =====================================================
               # Detect columns
-              # -------------------------------------------------
+              # =====================================================
 
               symbol_col = find_column(
                   fieldnames,
@@ -180,6 +517,7 @@ jobs:
                       "Ticker Symbol"
                   ]
               )
+
 
               isin_col = find_column(
                   fieldnames,
@@ -192,6 +530,7 @@ jobs:
                   ]
               )
 
+
               name_col = find_column(
                   fieldnames,
                   [
@@ -201,6 +540,7 @@ jobs:
                       "Company"
                   ]
               )
+
 
               sector_col = find_column(
                   fieldnames,
@@ -212,38 +552,49 @@ jobs:
                   ]
               )
 
+
               print("")
               print("Detected columns:")
+
               print(f"  Symbol : {symbol_col}")
               print(f"  ISIN   : {isin_col}")
               print(f"  Name   : {name_col}")
               print(f"  Sector : {sector_col}")
 
-              # -------------------------------------------------
+
+              # =====================================================
               # Required column validation
-              # -------------------------------------------------
+              # =====================================================
 
               missing_columns = []
+
 
               if not symbol_col:
                   missing_columns.append("Symbol")
 
+
               if not isin_col:
                   missing_columns.append("ISIN")
+
 
               if not name_col:
                   missing_columns.append("Company Name")
 
+
               if not sector_col:
                   missing_columns.append("Sector")
+
 
               if missing_columns:
 
                   print("")
-                  print("ERROR: Required columns are missing:")
+                  print(
+                      "ERROR: Required columns are missing:"
+                  )
 
                   for column in missing_columns:
                       print(f"  - {column}")
+
 
                   print("")
                   print("Available columns:")
@@ -251,25 +602,36 @@ jobs:
                   for field in fieldnames:
                       print(f"  - {field}")
 
+
                   sys.exit(1)
 
-              # -------------------------------------------------
+
+              # =====================================================
               # Process ALL CSV rows
-              # -------------------------------------------------
+              # =====================================================
 
               result = []
+
 
               duplicate_symbols = set()
               duplicate_isins = set()
 
+
               seen_symbols = set()
               seen_isins = set()
 
+
               invalid_rows = []
+
 
               total_csv_rows = 0
               empty_rows = 0
               dummy_rows = 0
+
+
+              fno_matched_rows = 0
+              non_fno_rows = 0
+
 
               for row_number, row in enumerate(
                   reader,
@@ -278,25 +640,30 @@ jobs:
 
                   total_csv_rows += 1
 
+
                   symbol = clean(
                       row.get(symbol_col)
                   )
+
 
                   isin = clean(
                       row.get(isin_col)
                   )
 
+
                   name = clean(
                       row.get(name_col)
                   )
+
 
                   sector = clean(
                       row.get(sector_col)
                   )
 
-                  # -------------------------------------------------
+
+                  # =================================================
                   # Ignore completely empty rows
-                  # -------------------------------------------------
+                  # =================================================
 
                   if (
                       not symbol
@@ -306,23 +673,12 @@ jobs:
                   ):
 
                       empty_rows += 1
+
                       continue
+
 
                   # =================================================
                   # FILTER DUMMY RECORDS
-                  # =================================================
-                  #
-                  # If DUMMY appears in symbol, ISIN or company name,
-                  # the record will NOT be included in stocks.json.
-                  #
-                  # Examples:
-                  #
-                  # DUMMYHEG
-                  # DUMMYINGL1
-                  # DUMMYINGL2
-                  # DUMMYINXGN
-                  # DUMMYTRVN
-                  #
                   # =================================================
 
                   dummy_check = (
@@ -331,6 +687,7 @@ jobs:
                       name.upper()
                   )
 
+
                   if any(
                       "DUMMY" in value
                       for value in dummy_check
@@ -338,31 +695,39 @@ jobs:
 
                       dummy_rows += 1
 
+
                       print(
                           f"Skipping dummy record "
                           f"(CSV row {row_number}): "
                           f"{symbol} | {isin} | {name}"
                       )
 
+
                       continue
 
-                  # -------------------------------------------------
+
+                  # =================================================
                   # Validate row
-                  # -------------------------------------------------
+                  # =================================================
 
                   errors = []
+
 
                   if not symbol:
                       errors.append("missing symbol")
 
+
                   if not isin:
                       errors.append("missing ISIN")
+
 
                   if not name:
                       errors.append("missing company name")
 
+
                   if not sector:
                       errors.append("missing sector")
+
 
                   if errors:
 
@@ -373,33 +738,82 @@ jobs:
 
                       continue
 
-                  # -------------------------------------------------
+
+                  # =================================================
                   # Duplicate detection
-                  # -------------------------------------------------
+                  # =================================================
 
                   symbol_upper = symbol.upper()
                   isin_upper = isin.upper()
 
+
                   if symbol_upper in seen_symbols:
-                      duplicate_symbols.add(symbol_upper)
+
+                      duplicate_symbols.add(
+                          symbol_upper
+                      )
+
 
                   if isin_upper in seen_isins:
-                      duplicate_isins.add(isin_upper)
+
+                      duplicate_isins.add(
+                          isin_upper
+                      )
+
 
                   seen_symbols.add(symbol_upper)
                   seen_isins.add(isin_upper)
 
-                  # -------------------------------------------------
+
+                  # =================================================
+                  # F&O lookup
+                  # =================================================
+
+                  fno_info = normalized_fno_map.get(
+                      symbol_upper
+                  )
+
+
+                  if fno_info:
+
+                      is_fo = fno_info["isFO"]
+                      lot_size = fno_info["lotSize"]
+
+                      if is_fo:
+                          fno_matched_rows += 1
+                      else:
+                          non_fno_rows += 1
+
+                  else:
+
+                      # Stock is not present in F&O master
+                      is_fo = False
+                      lot_size = 0
+
+                      non_fno_rows += 1
+
+
+                  # =================================================
                   # Build JSON record
-                  # -------------------------------------------------
+                  # =================================================
 
                   result.append({
+
                       "symbol": symbol_upper,
+
                       "isin": isin_upper,
+
                       "name": name,
+
                       "key": f"NSE_EQ|{isin_upper}",
-                      "sector": sector
+
+                      "sector": sector,
+
+                      "isFO": is_fo,
+
+                      "lotSize": lot_size
                   })
+
 
           # =========================================================
           # Validation
@@ -410,45 +824,84 @@ jobs:
           print("VALIDATION RESULT")
           print("========================================")
 
-          print(f"CSV rows          : {total_csv_rows}")
-          print(f"Empty rows        : {empty_rows}")
-          print(f"Dummy rows        : {dummy_rows}")
-          print(f"Valid records     : {len(result)}")
-          print(f"Invalid rows      : {len(invalid_rows)}")
+
+          print(
+              f"CSV rows          : {total_csv_rows}"
+          )
+
+
+          print(
+              f"Empty rows        : {empty_rows}"
+          )
+
+
+          print(
+              f"Dummy rows        : {dummy_rows}"
+          )
+
+
+          print(
+              f"Valid records     : {len(result)}"
+          )
+
+
+          print(
+              f"Invalid rows      : {len(invalid_rows)}"
+          )
+
+
           print(
               f"Duplicate symbols : "
               f"{len(duplicate_symbols)}"
           )
+
+
           print(
               f"Duplicate ISINs   : "
               f"{len(duplicate_isins)}"
           )
 
-          # ---------------------------------------------------------
+
+          print(
+              f"F&O stocks        : {fno_matched_rows}"
+          )
+
+
+          print(
+              f"Non-F&O stocks    : {non_fno_rows}"
+          )
+
+
+          # =========================================================
           # No valid records
-          # ---------------------------------------------------------
+          # =========================================================
 
           if len(result) == 0:
 
               print("")
+
               print(
                   "ERROR: No valid records found in CSV."
               )
+
 
               print(
                   "Existing stocks.json will NOT be replaced."
               )
 
+
               sys.exit(1)
 
-          # ---------------------------------------------------------
+
+          # =========================================================
           # Invalid rows
-          # ---------------------------------------------------------
+          # =========================================================
 
           if invalid_rows:
 
               print("")
               print("ERROR: Invalid rows found:")
+
 
               for item in invalid_rows[:50]:
 
@@ -457,6 +910,7 @@ jobs:
                       + ", ".join(item["errors"])
                   )
 
+
               if len(invalid_rows) > 50:
 
                   print(
@@ -464,54 +918,169 @@ jobs:
                       f"{len(invalid_rows) - 50} more"
                   )
 
+
               print("")
               print(
                   "stocks.json was NOT replaced."
               )
 
+
               sys.exit(1)
 
-          # ---------------------------------------------------------
+
+          # =========================================================
           # Duplicate symbols
-          # ---------------------------------------------------------
+          # =========================================================
 
           if duplicate_symbols:
 
               print("")
               print("ERROR: Duplicate symbols found:")
 
+
               for symbol in sorted(
                   duplicate_symbols
               ):
+
                   print(f"  - {symbol}")
+
 
               print("")
               print(
                   "stocks.json was NOT replaced."
               )
 
+
               sys.exit(1)
 
-          # ---------------------------------------------------------
+
+          # =========================================================
           # Duplicate ISINs
-          # ---------------------------------------------------------
+          # =========================================================
 
           if duplicate_isins:
 
               print("")
               print("ERROR: Duplicate ISINs found:")
 
+
               for isin in sorted(
                   duplicate_isins
               ):
+
                   print(f"  - {isin}")
+
 
               print("")
               print(
                   "stocks.json was NOT replaced."
               )
 
+
               sys.exit(1)
+
+
+          # =========================================================
+          # Validate F&O fields in generated records
+          # =========================================================
+
+          print("")
+          print(
+              "Validating F&O information in stock records..."
+          )
+
+
+          for index, stock in enumerate(result):
+
+              if "isFO" not in stock:
+
+                  print(
+                      f"ERROR: Record {index} "
+                      f"is missing isFO."
+                  )
+
+                  sys.exit(1)
+
+
+              if "lotSize" not in stock:
+
+                  print(
+                      f"ERROR: Record {index} "
+                      f"is missing lotSize."
+                  )
+
+                  sys.exit(1)
+
+
+              if not isinstance(
+                  stock["isFO"],
+                  bool
+              ):
+
+                  print(
+                      f"ERROR: {stock['symbol']} "
+                      f"has invalid isFO value."
+                  )
+
+                  sys.exit(1)
+
+
+              if (
+                  isinstance(stock["lotSize"], bool)
+                  or not isinstance(
+                      stock["lotSize"],
+                      int
+                  )
+              ):
+
+                  print(
+                      f"ERROR: {stock['symbol']} "
+                      f"has invalid lotSize."
+                  )
+
+                  sys.exit(1)
+
+
+              if stock["lotSize"] < 0:
+
+                  print(
+                      f"ERROR: {stock['symbol']} "
+                      f"has negative lotSize."
+                  )
+
+                  sys.exit(1)
+
+
+              if (
+                  stock["isFO"]
+                  and stock["lotSize"] <= 0
+              ):
+
+                  print(
+                      f"ERROR: {stock['symbol']} "
+                      f"is F&O but lotSize is invalid."
+                  )
+
+                  sys.exit(1)
+
+
+              if (
+                  not stock["isFO"]
+                  and stock["lotSize"] != 0
+              ):
+
+                  print(
+                      f"ERROR: {stock['symbol']} "
+                      f"is not F&O but lotSize is not 0."
+                  )
+
+                  sys.exit(1)
+
+
+          print(
+              "F&O information validation successful."
+          )
+
 
           # =========================================================
           # Sort records by symbol
@@ -521,11 +1090,13 @@ jobs:
               key=lambda x: x["symbol"]
           )
 
+
           # =========================================================
           # Build final JSON
           # =========================================================
 
           output = {
+
               "updated_at": datetime.now(
                   timezone.utc
               ).isoformat(),
@@ -534,6 +1105,7 @@ jobs:
 
               "data": result
           }
+
 
           # =========================================================
           # Write temporary JSON
@@ -544,7 +1116,9 @@ jobs:
               exist_ok=True
           )
 
+
           temp_file = OUTPUT_FILE + ".tmp"
+
 
           with open(
               temp_file,
@@ -561,14 +1135,16 @@ jobs:
 
               f.write("\n")
 
-          # ---------------------------------------------------------
+
+          # =========================================================
           # Replace old JSON only after successful generation
-          # ---------------------------------------------------------
+          # =========================================================
 
           os.replace(
               temp_file,
               OUTPUT_FILE
           )
+
 
           # =========================================================
           # Success
@@ -579,28 +1155,50 @@ jobs:
           print("SUCCESS")
           print("========================================")
 
+
           print(
               f"Input CSV       : {INPUT_FILE}"
           )
+
+
+          print(
+              f"F&O Master      : {FNO_FILE}"
+          )
+
 
           print(
               f"Output JSON     : {OUTPUT_FILE}"
           )
 
+
           print(
               f"CSV rows        : {total_csv_rows}"
           )
+
 
           print(
               f"Dummy rows      : {dummy_rows}"
           )
 
+
           print(
               f"Records created : {len(result)}"
           )
 
+
+          print(
+              f"F&O stocks      : {fno_matched_rows}"
+          )
+
+
+          print(
+              f"Non-F&O stocks  : {non_fno_rows}"
+          )
+
+
           print("")
           print("First 5 records:")
+
 
           for stock in result[:5]:
 
@@ -608,13 +1206,17 @@ jobs:
                   f"{stock['symbol']} | "
                   f"{stock['isin']} | "
                   f"{stock['name']} | "
-                  f"{stock['sector']}"
+                  f"{stock['sector']} | "
+                  f"F&O={stock['isFO']} | "
+                  f"LotSize={stock['lotSize']}"
               )
+
 
           PYEOF
 
+
       # =========================================================
-      # 5. Validate generated JSON
+      # 5. Validate Generated JSON
       # =========================================================
       - name: Validate Generated JSON
         shell: bash
@@ -630,7 +1232,9 @@ jobs:
 
           import json
 
+
           FILE = "stocks/stocks.json"
+
 
           with open(
               FILE,
@@ -640,15 +1244,17 @@ jobs:
 
               data = json.load(f)
 
-          # -----------------------------------------------------
+
+          # =========================================================
           # Top-level validation
-          # -----------------------------------------------------
+          # =========================================================
 
           required_top_level = [
               "updated_at",
               "count",
               "data"
           ]
+
 
           for field in required_top_level:
 
@@ -658,9 +1264,24 @@ jobs:
                       f"Missing top-level field: {field}"
                   )
 
-          # -----------------------------------------------------
+
+          # =========================================================
+          # Data must be a list
+          # =========================================================
+
+          if not isinstance(
+              data["data"],
+              list
+          ):
+
+              raise Exception(
+                  "Top-level 'data' must be a list."
+              )
+
+
+          # =========================================================
           # Count validation
-          # -----------------------------------------------------
+          # =========================================================
 
           if data["count"] != len(data["data"]):
 
@@ -670,21 +1291,36 @@ jobs:
                   f"{len(data['data'])}"
               )
 
-          # -----------------------------------------------------
+
+          # =========================================================
           # Record validation
-          # -----------------------------------------------------
+          # =========================================================
 
           required_fields = [
               "symbol",
               "isin",
               "name",
               "key",
-              "sector"
+              "sector",
+              "isFO",
+              "lotSize"
           ]
+
+
+          seen_symbols = set()
+          seen_isins = set()
+
+
+          fno_count = 0
+
 
           for index, stock in enumerate(
               data["data"]
           ):
+
+              # -----------------------------------------------------
+              # Required fields
+              # -----------------------------------------------------
 
               for field in required_fields:
 
@@ -695,22 +1331,141 @@ jobs:
                           f"missing field: {field}"
                       )
 
-                  if not stock[field]:
+
+                  if field not in [
+                      "isFO",
+                      "lotSize"
+                  ] and not stock[field]:
 
                       raise Exception(
                           f"Record {index} "
                           f"has empty field: {field}"
                       )
 
-              # -------------------------------------------------
+
+              # -----------------------------------------------------
+              # Symbol validation
+              # -----------------------------------------------------
+
+              symbol = str(
+                  stock["symbol"]
+              ).upper()
+
+
+              if symbol in seen_symbols:
+
+                  raise Exception(
+                      f"Duplicate symbol found: "
+                      f"{symbol}"
+                  )
+
+
+              seen_symbols.add(symbol)
+
+
+              # -----------------------------------------------------
+              # ISIN validation
+              # -----------------------------------------------------
+
+              isin = str(
+                  stock["isin"]
+              ).upper()
+
+
+              if isin in seen_isins:
+
+                  raise Exception(
+                      f"Duplicate ISIN found: "
+                      f"{isin}"
+                  )
+
+
+              seen_isins.add(isin)
+
+
+              # -----------------------------------------------------
+              # F&O boolean validation
+              # -----------------------------------------------------
+
+              if not isinstance(
+                  stock["isFO"],
+                  bool
+              ):
+
+                  raise Exception(
+                      f"Record {index} "
+                      f"has invalid isFO value."
+                  )
+
+
+              # -----------------------------------------------------
+              # Lot size validation
+              # -----------------------------------------------------
+
+              if (
+                  isinstance(
+                      stock["lotSize"],
+                      bool
+                  )
+                  or not isinstance(
+                      stock["lotSize"],
+                      int
+                  )
+              ):
+
+                  raise Exception(
+                      f"Record {index} "
+                      f"has invalid lotSize value."
+                  )
+
+
+              if stock["lotSize"] < 0:
+
+                  raise Exception(
+                      f"Record {index} "
+                      f"has negative lotSize."
+                  )
+
+
+              # -----------------------------------------------------
+              # F&O consistency
+              # -----------------------------------------------------
+
+              if stock["isFO"]:
+
+                  if stock["lotSize"] <= 0:
+
+                      raise Exception(
+                          f"Record {index} "
+                          f"({symbol}) isFO=true but "
+                          f"lotSize is not greater than 0."
+                      )
+
+
+                  fno_count += 1
+
+
+              else:
+
+                  if stock["lotSize"] != 0:
+
+                      raise Exception(
+                          f"Record {index} "
+                          f"({symbol}) isFO=false but "
+                          f"lotSize is not 0."
+                      )
+
+
+              # -----------------------------------------------------
               # Make sure no DUMMY record slipped through
-              # -------------------------------------------------
+              # -----------------------------------------------------
 
               values = [
                   str(stock["symbol"]).upper(),
                   str(stock["isin"]).upper(),
                   str(stock["name"]).upper()
               ]
+
 
               if any(
                   "DUMMY" in value
@@ -722,15 +1477,34 @@ jobs:
                       f"{stock['symbol']}"
                   )
 
-          print("JSON validation successful.")
+
+          # =========================================================
+          # Success
+          # =========================================================
+
+          print("========================================")
+          print("JSON VALIDATION SUCCESSFUL")
+          print("========================================")
+
           print(
-              f"Total records: {data['count']}"
+              f"Total records : {data['count']}"
           )
+
+          print(
+              f"F&O records   : {fno_count}"
+          )
+
+          print(
+              f"Non-F&O       : "
+              f"{data['count'] - fno_count}"
+          )
+
 
           PYEOF
 
+
       # =========================================================
-      # 6. Display summary
+      # 6. Display Stock Master Summary
       # =========================================================
       - name: Display Stock Master Summary
         shell: bash
@@ -745,6 +1519,7 @@ jobs:
 
           import json
 
+
           with open(
               "stocks/stocks.json",
               "r",
@@ -753,12 +1528,29 @@ jobs:
 
               data = json.load(f)
 
+
+          fno_count = sum(
+              1
+              for stock in data["data"]
+              if stock["isFO"]
+          )
+
+
+          non_fno_count = (
+              data["count"] - fno_count
+          )
+
+
           print("")
-          print("Updated At :", data["updated_at"])
-          print("Count      :", data["count"])
+          print("Updated At     :", data["updated_at"])
+          print("Total Stocks   :", data["count"])
+          print("F&O Stocks     :", fno_count)
+          print("Non-F&O Stocks :", non_fno_count)
+
 
           print("")
           print("First 5 records:")
+
 
           for stock in data["data"][:5]:
 
@@ -766,13 +1558,40 @@ jobs:
                   f"{stock['symbol']} | "
                   f"{stock['isin']} | "
                   f"{stock['name']} | "
-                  f"{stock['sector']}"
+                  f"{stock['sector']} | "
+                  f"F&O={stock['isFO']} | "
+                  f"LotSize={stock['lotSize']}"
               )
+
+
+          print("")
+          print("Sample F&O stocks:")
+
+
+          shown = 0
+
+
+          for stock in data["data"]:
+
+              if stock["isFO"]:
+
+                  print(
+                      f"  {stock['symbol']} "
+                      f"-> LotSize={stock['lotSize']}"
+                  )
+
+                  shown += 1
+
+
+                  if shown >= 10:
+                      break
+
 
           PYEOF
 
+
       # =========================================================
-      # 7. Commit and push stocks.json
+      # 7. Commit and Push Stock Master
       # =========================================================
       - name: Commit and Push Stock Master
         shell: bash
@@ -789,6 +1608,7 @@ jobs:
           if git diff --cached --quiet; then
 
             echo "No changes detected in stocks.json."
+
             exit 0
 
           fi
@@ -796,7 +1616,7 @@ jobs:
           echo "Changes detected."
 
           git commit \
-            -m "Update stock master from CSV"
+            -m "Update stock master with F&O information"
 
           git push
 
