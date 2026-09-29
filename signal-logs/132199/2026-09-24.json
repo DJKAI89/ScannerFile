@@ -86,7 +86,7 @@
         {
           "level": "TIME_STOP",
           "price": 183.39,
-          "time": "09:10:41",
+          "time": "09:10:50",
           "pctClosed": 100
         }
       ],
@@ -95,14 +95,14 @@
       "trailSL": null,
       "maxFavPrice": 185.56,
       "exitPrice": 183.39,
-      "exitTime": "09:10:41",
+      "exitTime": "09:10:50",
       "exitDate": "2026-09-29",
       "pnlPct": -1.17,
       "exitReason": "TIME_STOP",
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-29T03:40:41.341Z",
+  "lastUpdated": "2026-09-29T03:40:50.752Z",
   "upstoxId": "132199",
   "date": "2026-09-24",
   "stats": {
