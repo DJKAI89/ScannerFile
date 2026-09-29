@@ -1,0 +1,644 @@
+name: Build F&O Master
+
+on:
+  workflow_dispatch:
+
+  # Run every weekday morning
+  schedule:
+    - cron: '30 3 * * 1-5'
+    # 03:30 UTC = 09:00 IST
+
+permissions:
+  contents: write
+
+jobs:
+  build-fno-master:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # =========================================================
+      # 1. Checkout repository
+      # =========================================================
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # =========================================================
+      # 2. Setup Python
+      # =========================================================
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # =========================================================
+      # 3. Download NSE permitted lot-size CSV
+      # =========================================================
+      - name: Download NSE F&O Lot Size File
+        shell: bash
+        run: |
+          set -e
+
+          URL="https://nsearchives.nseindia.com/content/fo/fo_mktlots.csv"
+
+          echo "Downloading NSE F&O lot-size file..."
+          echo "URL: $URL"
+
+          curl \
+            --fail \
+            --location \
+            --retry 5 \
+            --retry-delay 5 \
+            --retry-all-errors \
+            --connect-timeout 30 \
+            --max-time 120 \
+            -A "Mozilla/5.0" \
+            -H "Accept: text/csv,*/*" \
+            -o /tmp/fo_mktlots.csv \
+            "$URL"
+
+          if [ ! -s /tmp/fo_mktlots.csv ]; then
+            echo "ERROR: Downloaded file is empty."
+            exit 1
+          fi
+
+          echo ""
+          echo "Downloaded file:"
+          ls -lh /tmp/fo_mktlots.csv
+
+          echo ""
+          echo "File preview:"
+          head -n 10 /tmp/fo_mktlots.csv
+
+      # =========================================================
+      # 4. Build F&O JSON
+      # =========================================================
+      - name: Build F&O Master JSON
+        shell: bash
+        run: |
+          set -e
+
+          python3 << 'PYEOF'
+
+          import csv
+          import json
+          import os
+          import sys
+          from datetime import datetime, timezone
+
+          INPUT_FILE = "/tmp/fo_mktlots.csv"
+          OUTPUT_FILE = "stocks/fno_master.json"
+
+          print("========================================")
+          print("NSE F&O CSV -> JSON")
+          print("========================================")
+
+          # -----------------------------------------------------
+          # Helpers
+          # -----------------------------------------------------
+
+          def clean(value):
+              if value is None:
+                  return ""
+
+              return str(value).strip()
+
+          def normalize(value):
+              return (
+                  clean(value)
+                  .lower()
+                  .replace(" ", "")
+                  .replace("_", "")
+                  .replace("-", "")
+                  .replace("(", "")
+                  .replace(")", "")
+              )
+
+          def find_column(fieldnames, candidates):
+
+              normalized = {
+                  normalize(field): field
+                  for field in fieldnames
+              }
+
+              for candidate in candidates:
+
+                  key = normalize(candidate)
+
+                  if key in normalized:
+                      return normalized[key]
+
+              return None
+
+          # -----------------------------------------------------
+          # Verify file
+          # -----------------------------------------------------
+
+          if not os.path.exists(INPUT_FILE):
+
+              print(
+                  f"ERROR: File not found: {INPUT_FILE}"
+              )
+
+              sys.exit(1)
+
+          # -----------------------------------------------------
+          # Read CSV
+          # -----------------------------------------------------
+
+          with open(
+              INPUT_FILE,
+              "r",
+              encoding="utf-8-sig",
+              newline=""
+          ) as f:
+
+              reader = csv.DictReader(f)
+
+              if not reader.fieldnames:
+
+                  print(
+                      "ERROR: CSV does not contain headers."
+                  )
+
+                  sys.exit(1)
+
+              print("")
+              print("CSV columns:")
+
+              for field in reader.fieldnames:
+                  print(f"  - {field}")
+
+              # -------------------------------------------------
+              # Try to identify columns
+              # -------------------------------------------------
+
+              symbol_col = find_column(
+                  reader.fieldnames,
+                  [
+                      "Symbol",
+                      "Underlying",
+                      "Underlying Symbol",
+                      "Underlying Symbol Name"
+                  ]
+              )
+
+              lot_col = find_column(
+                  reader.fieldnames,
+                  [
+                      "Market Lot",
+                      "Lot Size",
+                      "LotSize",
+                      "Market Lot Size",
+                      "Permitted Lot Size"
+                  ]
+              )
+
+              # -------------------------------------------------
+              # Validate
+              # -------------------------------------------------
+
+              if not symbol_col:
+
+                  print("")
+                  print(
+                      "ERROR: Could not identify "
+                      "the symbol column."
+                  )
+
+                  print("")
+                  print("Available columns:")
+
+                  for field in reader.fieldnames:
+                      print(f"  - {field}")
+
+                  sys.exit(1)
+
+              if not lot_col:
+
+                  print("")
+                  print(
+                      "ERROR: Could not identify "
+                      "the lot-size column."
+                  )
+
+                  print("")
+                  print("Available columns:")
+
+                  for field in reader.fieldnames:
+                      print(f"  - {field}")
+
+                  sys.exit(1)
+
+              print("")
+              print("Detected columns:")
+              print(f"  Symbol  : {symbol_col}")
+              print(f"  Lot Size: {lot_col}")
+
+              # -------------------------------------------------
+              # Process
+              # -------------------------------------------------
+
+              result = {}
+
+              total_rows = 0
+              skipped_rows = 0
+              duplicate_rows = 0
+
+              for row_number, row in enumerate(
+                  reader,
+                  start=2
+              ):
+
+                  total_rows += 1
+
+                  symbol = clean(
+                      row.get(symbol_col)
+                  )
+
+                  lot_value = clean(
+                      row.get(lot_col)
+                  )
+
+                  # ---------------------------------------------
+                  # Skip empty rows
+                  # ---------------------------------------------
+
+                  if not symbol:
+                      skipped_rows += 1
+                      continue
+
+                  if not lot_value:
+                      skipped_rows += 1
+                      continue
+
+                  # ---------------------------------------------
+                  # Remove index contracts
+                  # ---------------------------------------------
+
+                  index_symbols = {
+                      "NIFTY",
+                      "BANKNIFTY",
+                      "FINNIFTY",
+                      "MIDCPNIFTY",
+                      "NIFTYNXT50"
+                  }
+
+                  symbol_upper = symbol.upper()
+
+                  if symbol_upper in index_symbols:
+
+                      skipped_rows += 1
+
+                      continue
+
+                  # ---------------------------------------------
+                  # Convert lot size
+                  # ---------------------------------------------
+
+                  try:
+
+                      lot_size = int(
+                          float(lot_value)
+                      )
+
+                  except ValueError:
+
+                      print(
+                          f"Skipping row {row_number}: "
+                          f"invalid lot size "
+                          f"'{lot_value}'"
+                      )
+
+                      skipped_rows += 1
+
+                      continue
+
+                  if lot_size <= 0:
+
+                      skipped_rows += 1
+
+                      continue
+
+                  # ---------------------------------------------
+                  # Duplicate handling
+                  # ---------------------------------------------
+
+                  if symbol_upper in result:
+
+                      duplicate_rows += 1
+
+                      # Keep the latest value
+                      result[
+                          symbol_upper
+                      ]["Lotsize"] = lot_size
+
+                      continue
+
+                  # ---------------------------------------------
+                  # Add record
+                  # ---------------------------------------------
+
+                  result[symbol_upper] = {
+                      "IsFO": True,
+                      "Lotsize": lot_size
+                  }
+
+          # =====================================================
+          # Validation
+          # =====================================================
+
+          print("")
+          print("========================================")
+          print("VALIDATION")
+          print("========================================")
+
+          print(
+              f"CSV rows       : {total_rows}"
+          )
+
+          print(
+              f"F&O stocks     : {len(result)}"
+          )
+
+          print(
+              f"Skipped rows   : {skipped_rows}"
+          )
+
+          print(
+              f"Duplicate rows : {duplicate_rows}"
+          )
+
+          # -----------------------------------------------------
+          # Safety check
+          # -----------------------------------------------------
+
+          if len(result) == 0:
+
+              print("")
+              print(
+                  "ERROR: No F&O stocks found."
+              )
+
+              print(
+                  "Existing fno_master.json "
+                  "will NOT be replaced."
+              )
+
+              sys.exit(1)
+
+          # =====================================================
+          # Sort alphabetically
+          # =====================================================
+
+          result = dict(
+              sorted(
+                  result.items()
+              )
+          )
+
+          # =====================================================
+          # Build output
+          # =====================================================
+
+          output = {
+              "updated_at": datetime.now(
+                  timezone.utc
+              ).isoformat(),
+
+              "count": len(result),
+
+              "data": result
+          }
+
+          # =====================================================
+          # Create directory
+          # =====================================================
+
+          os.makedirs(
+              "stocks",
+              exist_ok=True
+          )
+
+          # =====================================================
+          # Write temporary file
+          # =====================================================
+
+          temp_file = (
+              OUTPUT_FILE + ".tmp"
+          )
+
+          with open(
+              temp_file,
+              "w",
+              encoding="utf-8"
+          ) as f:
+
+              json.dump(
+                  output,
+                  f,
+                  indent=2,
+                  ensure_ascii=False
+              )
+
+              f.write("\n")
+
+          # =====================================================
+          # Replace existing JSON
+          # =====================================================
+
+          os.replace(
+              temp_file,
+              OUTPUT_FILE
+          )
+
+          # =====================================================
+          # Success
+          # =====================================================
+
+          print("")
+          print("========================================")
+          print("SUCCESS")
+          print("========================================")
+
+          print(
+              f"Output : {OUTPUT_FILE}"
+          )
+
+          print(
+              f"F&O stocks : {len(result)}"
+          )
+
+          print("")
+          print("Sample:")
+
+          for symbol, value in list(
+              result.items()
+          )[:10]:
+
+              print(
+                  f"{symbol}: "
+                  f"IsFO={value['IsFO']}, "
+                  f"Lotsize={value['Lotsize']}"
+              )
+
+          PYEOF
+
+      # =========================================================
+      # 5. Validate JSON
+      # =========================================================
+      - name: Validate F&O JSON
+        shell: bash
+        run: |
+          set -e
+
+          if [ ! -f "stocks/fno_master.json" ]; then
+            echo "ERROR: fno_master.json was not created."
+            exit 1
+          fi
+
+          python3 << 'PYEOF'
+
+          import json
+
+          FILE = "stocks/fno_master.json"
+
+          with open(
+              FILE,
+              "r",
+              encoding="utf-8"
+          ) as f:
+
+              data = json.load(f)
+
+          if "updated_at" not in data:
+              raise Exception(
+                  "Missing updated_at"
+              )
+
+          if "count" not in data:
+              raise Exception(
+                  "Missing count"
+              )
+
+          if "data" not in data:
+              raise Exception(
+                  "Missing data"
+              )
+
+          if data["count"] != len(
+              data["data"]
+          ):
+
+              raise Exception(
+                  "Count does not match data"
+              )
+
+          for symbol, info in data["data"].items():
+
+              if info.get("IsFO") is not True:
+                  raise Exception(
+                      f"{symbol}: IsFO is not true"
+                  )
+
+              if not isinstance(
+                  info.get("Lotsize"),
+                  int
+              ):
+
+                  raise Exception(
+                      f"{symbol}: invalid lot size"
+                  )
+
+              if info["Lotsize"] <= 0:
+                  raise Exception(
+                      f"{symbol}: invalid lot size"
+                  )
+
+          print(
+              "F&O JSON validation successful."
+          )
+
+          print(
+              f"F&O stocks: {data['count']}"
+          )
+
+          PYEOF
+
+      # =========================================================
+      # 6. Show result
+      # =========================================================
+      - name: Show F&O Master
+        shell: bash
+        run: |
+          echo "========================================"
+          echo "F&O MASTER"
+          echo "========================================"
+
+          ls -lh stocks/fno_master.json
+
+          python3 << 'PYEOF'
+
+          import json
+
+          with open(
+              "stocks/fno_master.json",
+              "r",
+              encoding="utf-8"
+          ) as f:
+
+              data = json.load(f)
+
+          print("")
+          print(
+              "Updated At:",
+              data["updated_at"]
+          )
+
+          print(
+              "F&O Stocks:",
+              data["count"]
+          )
+
+          print("")
+          print("First 10:")
+
+          for symbol, info in list(
+              data["data"].items()
+          )[:10]:
+
+              print(
+                  f"{symbol} -> "
+                  f"IsFO={info['IsFO']}, "
+                  f"Lotsize={info['Lotsize']}"
+              )
+
+          PYEOF
+
+      # =========================================================
+      # 7. Commit and push
+      # =========================================================
+      - name: Commit and Push F&O Master
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add stocks/fno_master.json
+
+          if git diff --cached --quiet; then
+
+            echo "No changes to fno_master.json."
+
+            exit 0
+
+          fi
+
+          git commit \
+            -m "Update F&O master"
+
+          git push
+
+          echo "F&O master updated successfully."
