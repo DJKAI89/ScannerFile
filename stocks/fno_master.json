@@ -1,0 +1,846 @@
+{
+  "updated_at": "2026-09-29T05:32:18.502039+00:00",
+  "count": 210,
+  "data": {
+    "360ONE": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "ABB": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "ABCAPITAL": {
+      "IsFO": true,
+      "Lotsize": 3100
+    },
+    "ADANIENSOL": {
+      "IsFO": true,
+      "Lotsize": 675
+    },
+    "ADANIENT": {
+      "IsFO": true,
+      "Lotsize": 309
+    },
+    "ADANIGREEN": {
+      "IsFO": true,
+      "Lotsize": 600
+    },
+    "ADANIPORTS": {
+      "IsFO": true,
+      "Lotsize": 475
+    },
+    "ADANIPOWER": {
+      "IsFO": true,
+      "Lotsize": 3550
+    },
+    "ALKEM": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "AMBER": {
+      "IsFO": true,
+      "Lotsize": 100
+    },
+    "AMBUJACEM": {
+      "IsFO": true,
+      "Lotsize": 1200
+    },
+    "ANGELONE": {
+      "IsFO": true,
+      "Lotsize": 2500
+    },
+    "APLAPOLLO": {
+      "IsFO": true,
+      "Lotsize": 350
+    },
+    "APOLLOHOSP": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "ASHOKLEY": {
+      "IsFO": true,
+      "Lotsize": 5000
+    },
+    "ASIANPAINT": {
+      "IsFO": true,
+      "Lotsize": 250
+    },
+    "ASTRAL": {
+      "IsFO": true,
+      "Lotsize": 425
+    },
+    "ATHERENERG": {
+      "IsFO": true,
+      "Lotsize": 375
+    },
+    "AUBANK": {
+      "IsFO": true,
+      "Lotsize": 1000
+    },
+    "AUROPHARMA": {
+      "IsFO": true,
+      "Lotsize": 550
+    },
+    "AXISBANK": {
+      "IsFO": true,
+      "Lotsize": 625
+    },
+    "BAJAJ-AUTO": {
+      "IsFO": true,
+      "Lotsize": 75
+    },
+    "BAJAJFINSV": {
+      "IsFO": true,
+      "Lotsize": 300
+    },
+    "BAJAJHLDNG": {
+      "IsFO": true,
+      "Lotsize": 75
+    },
+    "BAJFINANCE": {
+      "IsFO": true,
+      "Lotsize": 750
+    },
+    "BANDHANBNK": {
+      "IsFO": true,
+      "Lotsize": 3600
+    },
+    "BANKBARODA": {
+      "IsFO": true,
+      "Lotsize": 2925
+    },
+    "BANKINDIA": {
+      "IsFO": true,
+      "Lotsize": 5200
+    },
+    "BDL": {
+      "IsFO": true,
+      "Lotsize": 425
+    },
+    "BEL": {
+      "IsFO": true,
+      "Lotsize": 1425
+    },
+    "BHARATFORG": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "BHARTIARTL": {
+      "IsFO": true,
+      "Lotsize": 475
+    },
+    "BHEL": {
+      "IsFO": true,
+      "Lotsize": 2625
+    },
+    "BIOCON": {
+      "IsFO": true,
+      "Lotsize": 2500
+    },
+    "BLUESTARCO": {
+      "IsFO": true,
+      "Lotsize": 325
+    },
+    "BOSCHLTD": {
+      "IsFO": true,
+      "Lotsize": 25
+    },
+    "BPCL": {
+      "IsFO": true,
+      "Lotsize": 1975
+    },
+    "BRITANNIA": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "BSE": {
+      "IsFO": true,
+      "Lotsize": 200
+    },
+    "CAMS": {
+      "IsFO": true,
+      "Lotsize": 825
+    },
+    "CANBK": {
+      "IsFO": true,
+      "Lotsize": 6750
+    },
+    "CDSL": {
+      "IsFO": true,
+      "Lotsize": 475
+    },
+    "CGPOWER": {
+      "IsFO": true,
+      "Lotsize": 850
+    },
+    "CHOLAFIN": {
+      "IsFO": true,
+      "Lotsize": 625
+    },
+    "CIPLA": {
+      "IsFO": true,
+      "Lotsize": 425
+    },
+    "COALINDIA": {
+      "IsFO": true,
+      "Lotsize": 1350
+    },
+    "COCHINSHIP": {
+      "IsFO": true,
+      "Lotsize": 400
+    },
+    "COFORGE": {
+      "IsFO": true,
+      "Lotsize": 475
+    },
+    "COLPAL": {
+      "IsFO": true,
+      "Lotsize": 275
+    },
+    "CONCOR": {
+      "IsFO": true,
+      "Lotsize": 1250
+    },
+    "CROMPTON": {
+      "IsFO": true,
+      "Lotsize": 2150
+    },
+    "CUMMINSIND": {
+      "IsFO": true,
+      "Lotsize": 200
+    },
+    "DABUR": {
+      "IsFO": true,
+      "Lotsize": 1250
+    },
+    "DELHIVERY": {
+      "IsFO": true,
+      "Lotsize": 2075
+    },
+    "DIVISLAB": {
+      "IsFO": true,
+      "Lotsize": 100
+    },
+    "DIXON": {
+      "IsFO": true,
+      "Lotsize": 50
+    },
+    "DLF": {
+      "IsFO": true,
+      "Lotsize": 950
+    },
+    "DMART": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "DRREDDY": {
+      "IsFO": true,
+      "Lotsize": 625
+    },
+    "EICHERMOT": {
+      "IsFO": true,
+      "Lotsize": 100
+    },
+    "ETERNAL": {
+      "IsFO": true,
+      "Lotsize": 2425
+    },
+    "FEDERALBNK": {
+      "IsFO": true,
+      "Lotsize": 2500
+    },
+    "FORCEMOT": {
+      "IsFO": true,
+      "Lotsize": 25
+    },
+    "FORTIS": {
+      "IsFO": true,
+      "Lotsize": 775
+    },
+    "GAIL": {
+      "IsFO": true,
+      "Lotsize": 3550
+    },
+    "GLENMARK": {
+      "IsFO": true,
+      "Lotsize": 375
+    },
+    "GMRAIRPORT": {
+      "IsFO": true,
+      "Lotsize": 6975
+    },
+    "GODFRYPHLP": {
+      "IsFO": true,
+      "Lotsize": 275
+    },
+    "GODREJCP": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "GODREJPROP": {
+      "IsFO": true,
+      "Lotsize": 325
+    },
+    "GRASIM": {
+      "IsFO": true,
+      "Lotsize": 250
+    },
+    "GVT&D": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "HAL": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "HAVELLS": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "HCLTECH": {
+      "IsFO": true,
+      "Lotsize": 400
+    },
+    "HDFCAMC": {
+      "IsFO": true,
+      "Lotsize": 300
+    },
+    "HDFCBANK": {
+      "IsFO": true,
+      "Lotsize": 650
+    },
+    "HDFCLIFE": {
+      "IsFO": true,
+      "Lotsize": 1100
+    },
+    "HEROMOTOCO": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "HINDALCO": {
+      "IsFO": true,
+      "Lotsize": 700
+    },
+    "HINDPETRO": {
+      "IsFO": true,
+      "Lotsize": 2025
+    },
+    "HINDUNILVR": {
+      "IsFO": true,
+      "Lotsize": 300
+    },
+    "HINDZINC": {
+      "IsFO": true,
+      "Lotsize": 1225
+    },
+    "HYUNDAI": {
+      "IsFO": true,
+      "Lotsize": 275
+    },
+    "ICICIBANK": {
+      "IsFO": true,
+      "Lotsize": 700
+    },
+    "ICICIGI": {
+      "IsFO": true,
+      "Lotsize": 325
+    },
+    "ICICIPRULI": {
+      "IsFO": true,
+      "Lotsize": 925
+    },
+    "IDEA": {
+      "IsFO": true,
+      "Lotsize": 71475
+    },
+    "IDFCFIRSTB": {
+      "IsFO": true,
+      "Lotsize": 9275
+    },
+    "IEX": {
+      "IsFO": true,
+      "Lotsize": 4350
+    },
+    "INDHOTEL": {
+      "IsFO": true,
+      "Lotsize": 1000
+    },
+    "INDIANB": {
+      "IsFO": true,
+      "Lotsize": 1000
+    },
+    "INDIGO": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "INDUSINDBK": {
+      "IsFO": true,
+      "Lotsize": 700
+    },
+    "INDUSTOWER": {
+      "IsFO": true,
+      "Lotsize": 1700
+    },
+    "INFY": {
+      "IsFO": true,
+      "Lotsize": 400
+    },
+    "INOXWIND": {
+      "IsFO": true,
+      "Lotsize": 6400
+    },
+    "IOC": {
+      "IsFO": true,
+      "Lotsize": 4875
+    },
+    "IREDA": {
+      "IsFO": true,
+      "Lotsize": 4525
+    },
+    "IRFC": {
+      "IsFO": true,
+      "Lotsize": 5425
+    },
+    "ITC": {
+      "IsFO": true,
+      "Lotsize": 1725
+    },
+    "JINDALSTEL": {
+      "IsFO": true,
+      "Lotsize": 625
+    },
+    "JIOFIN": {
+      "IsFO": true,
+      "Lotsize": 2350
+    },
+    "JSWENERGY": {
+      "IsFO": true,
+      "Lotsize": 1075
+    },
+    "JSWSTEEL": {
+      "IsFO": true,
+      "Lotsize": 675
+    },
+    "JUBLFOOD": {
+      "IsFO": true,
+      "Lotsize": 1250
+    },
+    "KALYANKJIL": {
+      "IsFO": true,
+      "Lotsize": 1350
+    },
+    "KAYNES": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "KEI": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "KFINTECH": {
+      "IsFO": true,
+      "Lotsize": 575
+    },
+    "KOTAKBANK": {
+      "IsFO": true,
+      "Lotsize": 2000
+    },
+    "KPITTECH": {
+      "IsFO": true,
+      "Lotsize": 775
+    },
+    "LAURUSLABS": {
+      "IsFO": true,
+      "Lotsize": 850
+    },
+    "LICHSGFIN": {
+      "IsFO": true,
+      "Lotsize": 1000
+    },
+    "LICI": {
+      "IsFO": true,
+      "Lotsize": 1400
+    },
+    "LODHA": {
+      "IsFO": true,
+      "Lotsize": 625
+    },
+    "LT": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "LTF": {
+      "IsFO": true,
+      "Lotsize": 2250
+    },
+    "LTM": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "LUPIN": {
+      "IsFO": true,
+      "Lotsize": 425
+    },
+    "M&M": {
+      "IsFO": true,
+      "Lotsize": 200
+    },
+    "MAHABANK": {
+      "IsFO": true,
+      "Lotsize": 6500
+    },
+    "MANAPPURAM": {
+      "IsFO": true,
+      "Lotsize": 3000
+    },
+    "MANKIND": {
+      "IsFO": true,
+      "Lotsize": 250
+    },
+    "MARICO": {
+      "IsFO": true,
+      "Lotsize": 1200
+    },
+    "MARUTI": {
+      "IsFO": true,
+      "Lotsize": 50
+    },
+    "MAXHEALTH": {
+      "IsFO": true,
+      "Lotsize": 525
+    },
+    "MAZDOCK": {
+      "IsFO": true,
+      "Lotsize": 225
+    },
+    "MCX": {
+      "IsFO": true,
+      "Lotsize": 225
+    },
+    "MFSL": {
+      "IsFO": true,
+      "Lotsize": 400
+    },
+    "MOTHERSON": {
+      "IsFO": true,
+      "Lotsize": 6150
+    },
+    "MOTILALOFS": {
+      "IsFO": true,
+      "Lotsize": 775
+    },
+    "MPHASIS": {
+      "IsFO": true,
+      "Lotsize": 275
+    },
+    "MUTHOOTFIN": {
+      "IsFO": true,
+      "Lotsize": 275
+    },
+    "NAM-INDIA": {
+      "IsFO": true,
+      "Lotsize": 625
+    },
+    "NATIONALUM": {
+      "IsFO": true,
+      "Lotsize": 1875
+    },
+    "NAUKRI": {
+      "IsFO": true,
+      "Lotsize": 550
+    },
+    "NBCC": {
+      "IsFO": true,
+      "Lotsize": 6500
+    },
+    "NESTLEIND": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "NHPC": {
+      "IsFO": true,
+      "Lotsize": 6950
+    },
+    "NMDC": {
+      "IsFO": true,
+      "Lotsize": 6750
+    },
+    "NTPC": {
+      "IsFO": true,
+      "Lotsize": 1500
+    },
+    "NYKAA": {
+      "IsFO": true,
+      "Lotsize": 3125
+    },
+    "OBEROIRLTY": {
+      "IsFO": true,
+      "Lotsize": 350
+    },
+    "OFSS": {
+      "IsFO": true,
+      "Lotsize": 100
+    },
+    "OIL": {
+      "IsFO": true,
+      "Lotsize": 1400
+    },
+    "ONGC": {
+      "IsFO": true,
+      "Lotsize": 2250
+    },
+    "PAGEIND": {
+      "IsFO": true,
+      "Lotsize": 20
+    },
+    "PATANJALI": {
+      "IsFO": true,
+      "Lotsize": 1075
+    },
+    "PAYTM": {
+      "IsFO": true,
+      "Lotsize": 725
+    },
+    "PERSISTENT": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "PETRONET": {
+      "IsFO": true,
+      "Lotsize": 1900
+    },
+    "PFC": {
+      "IsFO": true,
+      "Lotsize": 1300
+    },
+    "PGEL": {
+      "IsFO": true,
+      "Lotsize": 950
+    },
+    "PHOENIXLTD": {
+      "IsFO": true,
+      "Lotsize": 350
+    },
+    "PIDILITIND": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "PIIND": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "PNB": {
+      "IsFO": true,
+      "Lotsize": 8000
+    },
+    "PNBHOUSING": {
+      "IsFO": true,
+      "Lotsize": 650
+    },
+    "POLICYBZR": {
+      "IsFO": true,
+      "Lotsize": 350
+    },
+    "POLYCAB": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "POWERGRID": {
+      "IsFO": true,
+      "Lotsize": 1900
+    },
+    "POWERINDIA": {
+      "IsFO": true,
+      "Lotsize": 25
+    },
+    "PREMIERENE": {
+      "IsFO": true,
+      "Lotsize": 650
+    },
+    "PRESTIGE": {
+      "IsFO": true,
+      "Lotsize": 450
+    },
+    "RADICO": {
+      "IsFO": true,
+      "Lotsize": 150
+    },
+    "RBLBANK": {
+      "IsFO": true,
+      "Lotsize": 3175
+    },
+    "RECLTD": {
+      "IsFO": true,
+      "Lotsize": 1575
+    },
+    "RELIANCE": {
+      "IsFO": true,
+      "Lotsize": 500
+    },
+    "RVNL": {
+      "IsFO": true,
+      "Lotsize": 1925
+    },
+    "SAGILITY": {
+      "IsFO": true,
+      "Lotsize": 12000
+    },
+    "SAIL": {
+      "IsFO": true,
+      "Lotsize": 4700
+    },
+    "SBICARD": {
+      "IsFO": true,
+      "Lotsize": 800
+    },
+    "SBILIFE": {
+      "IsFO": true,
+      "Lotsize": 375
+    },
+    "SBIN": {
+      "IsFO": true,
+      "Lotsize": 750
+    },
+    "SHREECEM": {
+      "IsFO": true,
+      "Lotsize": 25
+    },
+    "SHRIRAMFIN": {
+      "IsFO": true,
+      "Lotsize": 825
+    },
+    "SIEMENS": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "SOLARINDS": {
+      "IsFO": true,
+      "Lotsize": 50
+    },
+    "SONACOMS": {
+      "IsFO": true,
+      "Lotsize": 1225
+    },
+    "SRF": {
+      "IsFO": true,
+      "Lotsize": 200
+    },
+    "SUNPHARMA": {
+      "IsFO": true,
+      "Lotsize": 350
+    },
+    "SUPREMEIND": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "SUZLON": {
+      "IsFO": true,
+      "Lotsize": 12700
+    },
+    "SWIGGY": {
+      "IsFO": true,
+      "Lotsize": 1825
+    },
+    "TATACONSUM": {
+      "IsFO": true,
+      "Lotsize": 550
+    },
+    "TATAELXSI": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "TATAPOWER": {
+      "IsFO": true,
+      "Lotsize": 1450
+    },
+    "TATASTEEL": {
+      "IsFO": true,
+      "Lotsize": 2750
+    },
+    "TCS": {
+      "IsFO": true,
+      "Lotsize": 225
+    },
+    "TECHM": {
+      "IsFO": true,
+      "Lotsize": 600
+    },
+    "TIINDIA": {
+      "IsFO": true,
+      "Lotsize": 200
+    },
+    "TITAN": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "TMPV": {
+      "IsFO": true,
+      "Lotsize": 1600
+    },
+    "TORNTPHARM": {
+      "IsFO": true,
+      "Lotsize": 125
+    },
+    "TRENT": {
+      "IsFO": true,
+      "Lotsize": 225
+    },
+    "TVSMOTOR": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "ULTRACEMCO": {
+      "IsFO": true,
+      "Lotsize": 50
+    },
+    "UNIONBANK": {
+      "IsFO": true,
+      "Lotsize": 4425
+    },
+    "UNITDSPR": {
+      "IsFO": true,
+      "Lotsize": 400
+    },
+    "UNOMINDA": {
+      "IsFO": true,
+      "Lotsize": 550
+    },
+    "UPL": {
+      "IsFO": true,
+      "Lotsize": 1355
+    },
+    "VBL": {
+      "IsFO": true,
+      "Lotsize": 1275
+    },
+    "VEDL": {
+      "IsFO": true,
+      "Lotsize": 1150
+    },
+    "VMM": {
+      "IsFO": true,
+      "Lotsize": 4850
+    },
+    "VOLTAS": {
+      "IsFO": true,
+      "Lotsize": 375
+    },
+    "WAAREEENER": {
+      "IsFO": true,
+      "Lotsize": 175
+    },
+    "WIPRO": {
+      "IsFO": true,
+      "Lotsize": 3000
+    },
+    "YESBANK": {
+      "IsFO": true,
+      "Lotsize": 31100
+    },
+    "ZYDUSLIFE": {
+      "IsFO": true,
+      "Lotsize": 900
+    }
+  }
+}
