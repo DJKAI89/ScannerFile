@@ -3,10 +3,10 @@ name: Build F&O Master
 on:
   workflow_dispatch:
 
-  # Run every weekday morning
+  # Run every weekday at 09:00 IST
+  # 03:30 UTC = 09:00 IST
   schedule:
     - cron: '30 3 * * 1-5'
-    # 03:30 UTC = 09:00 IST
 
 permissions:
   contents: write
@@ -32,7 +32,7 @@ jobs:
           python-version: '3.11'
 
       # =========================================================
-      # 3. Download NSE permitted lot-size CSV
+      # 3. Download NSE F&O lot-size CSV
       # =========================================================
       - name: Download NSE F&O Lot Size File
         shell: bash
@@ -67,7 +67,7 @@ jobs:
           ls -lh /tmp/fo_mktlots.csv
 
           echo ""
-          echo "File preview:"
+          echo "First 10 lines:"
           head -n 10 /tmp/fo_mktlots.csv
 
       # =========================================================
@@ -94,7 +94,7 @@ jobs:
           print("========================================")
 
           # -----------------------------------------------------
-          # Helpers
+          # Helper
           # -----------------------------------------------------
 
           def clean(value):
@@ -103,35 +103,21 @@ jobs:
 
               return str(value).strip()
 
-          def normalize(value):
-              return (
-                  clean(value)
-                  .lower()
-                  .replace(" ", "")
-                  .replace("_", "")
-                  .replace("-", "")
-                  .replace("(", "")
-                  .replace(")", "")
-              )
+          # -----------------------------------------------------
+          # Index symbols to exclude
+          # -----------------------------------------------------
 
-          def find_column(fieldnames, candidates):
-
-              normalized = {
-                  normalize(field): field
-                  for field in fieldnames
-              }
-
-              for candidate in candidates:
-
-                  key = normalize(candidate)
-
-                  if key in normalized:
-                      return normalized[key]
-
-              return None
+          INDEX_SYMBOLS = {
+              "NIFTY",
+              "BANKNIFTY",
+              "FINNIFTY",
+              "MIDCPNIFTY",
+              "NIFTYNXT50",
+              "NIFTYFPI"
+          }
 
           # -----------------------------------------------------
-          # Verify file
+          # Verify downloaded file
           # -----------------------------------------------------
 
           if not os.path.exists(INPUT_FILE):
@@ -144,6 +130,17 @@ jobs:
 
           # -----------------------------------------------------
           # Read CSV
+          #
+          # IMPORTANT:
+          # This NSE file does not have a single "Lot Size"
+          # column.
+          #
+          # Structure:
+          #
+          # UNDERLYING, SYMBOL, SEP-26, OCT-26, NOV-26, ...
+          #
+          # We use the LAST available non-empty monthly value
+          # as the lot size.
           # -----------------------------------------------------
 
           with open(
@@ -153,220 +150,284 @@ jobs:
               newline=""
           ) as f:
 
-              reader = csv.DictReader(f)
+              reader = csv.reader(f)
 
-              if not reader.fieldnames:
+              rows = list(reader)
 
-                  print(
-                      "ERROR: CSV does not contain headers."
-                  )
+          if not rows:
 
-                  sys.exit(1)
+              print("ERROR: CSV is empty.")
+              sys.exit(1)
 
-              print("")
-              print("CSV columns:")
+          # -----------------------------------------------------
+          # Header
+          # -----------------------------------------------------
 
-              for field in reader.fieldnames:
-                  print(f"  - {field}")
+          header = [
+              clean(x)
+              for x in rows[0]
+          ]
 
-              # -------------------------------------------------
-              # Try to identify columns
-              # -------------------------------------------------
+          print("")
+          print("CSV columns:")
 
-              symbol_col = find_column(
-                  reader.fieldnames,
-                  [
-                      "Symbol",
-                      "Underlying",
-                      "Underlying Symbol",
-                      "Underlying Symbol Name"
-                  ]
+          for index, column in enumerate(header):
+              print(
+                  f"  {index}: {column}"
               )
 
-              lot_col = find_column(
-                  reader.fieldnames,
-                  [
-                      "Market Lot",
-                      "Lot Size",
-                      "LotSize",
-                      "Market Lot Size",
-                      "Permitted Lot Size"
-                  ]
+          # -----------------------------------------------------
+          # Validate basic structure
+          # -----------------------------------------------------
+
+          if len(header) < 3:
+
+              print(
+                  "ERROR: Unexpected CSV structure."
               )
 
-              # -------------------------------------------------
-              # Validate
-              # -------------------------------------------------
+              sys.exit(1)
 
-              if not symbol_col:
+          # First two columns are:
+          #
+          # 0 = UNDERLYING
+          # 1 = SYMBOL
+          #
+          # Everything after column 1 is a monthly expiry.
+          # -----------------------------------------------------
 
-                  print("")
-                  print(
-                      "ERROR: Could not identify "
-                      "the symbol column."
-                  )
+          monthly_columns = header[2:]
 
-                  print("")
-                  print("Available columns:")
+          print("")
+          print(
+              f"Monthly columns found: "
+              f"{len(monthly_columns)}"
+          )
 
-                  for field in reader.fieldnames:
-                      print(f"  - {field}")
+          # -----------------------------------------------------
+          # Locate individual securities section
+          # -----------------------------------------------------
 
-                  sys.exit(1)
+          individual_section_found = False
+          individual_section_row = None
 
-              if not lot_col:
+          for row_index, row in enumerate(rows):
 
-                  print("")
-                  print(
-                      "ERROR: Could not identify "
-                      "the lot-size column."
-                  )
+              if not row:
+                  continue
 
-                  print("")
-                  print("Available columns:")
+              first_cell = clean(row[0])
 
-                  for field in reader.fieldnames:
-                      print(f"  - {field}")
-
-                  sys.exit(1)
-
-              print("")
-              print("Detected columns:")
-              print(f"  Symbol  : {symbol_col}")
-              print(f"  Lot Size: {lot_col}")
-
-              # -------------------------------------------------
-              # Process
-              # -------------------------------------------------
-
-              result = {}
-
-              total_rows = 0
-              skipped_rows = 0
-              duplicate_rows = 0
-
-              for row_number, row in enumerate(
-                  reader,
-                  start=2
+              if (
+                  "Derivatives on Individual Securities"
+                  in first_cell
               ):
 
-                  total_rows += 1
+                  individual_section_found = True
+                  individual_section_row = row_index
 
-                  symbol = clean(
-                      row.get(symbol_col)
+                  print("")
+                  print(
+                      "Individual securities section "
+                      f"found at CSV row "
+                      f"{row_index + 1}"
                   )
 
-                  lot_value = clean(
-                      row.get(lot_col)
+                  break
+
+          if not individual_section_found:
+
+              print("")
+              print(
+                  "ERROR: Could not find "
+                  "'Derivatives on Individual Securities' "
+                  "section."
+              )
+
+              sys.exit(1)
+
+          # -----------------------------------------------------
+          # Process individual-security rows
+          # -----------------------------------------------------
+
+          result = {}
+
+          total_stock_rows = 0
+          skipped_rows = 0
+          invalid_rows = 0
+          duplicate_rows = 0
+
+          for row_number in range(
+              individual_section_row + 1,
+              len(rows)
+          ):
+
+              row = rows[row_number]
+
+              if not row:
+                  continue
+
+              # Make sure row has enough columns
+              if len(row) < 2:
+                  skipped_rows += 1
+                  continue
+
+              underlying = clean(row[0])
+              symbol = clean(row[1])
+
+              # -------------------------------------------------
+              # Skip blank rows
+              # -------------------------------------------------
+
+              if not symbol:
+                  skipped_rows += 1
+                  continue
+
+              total_stock_rows += 1
+
+              symbol_upper = symbol.upper()
+
+              # -------------------------------------------------
+              # Safety: remove index contracts
+              # -------------------------------------------------
+
+              if symbol_upper in INDEX_SYMBOLS:
+
+                  skipped_rows += 1
+
+                  print(
+                      f"Skipping index: {symbol_upper}"
                   )
 
-                  # ---------------------------------------------
-                  # Skip empty rows
-                  # ---------------------------------------------
+                  continue
 
-                  if not symbol:
-                      skipped_rows += 1
-                      continue
+              # -------------------------------------------------
+              # Read monthly values
+              #
+              # Find the LAST non-empty value.
+              # -------------------------------------------------
 
-                  if not lot_value:
-                      skipped_rows += 1
-                      continue
+              last_lot_size = None
+              last_expiry = None
 
-                  # ---------------------------------------------
-                  # Remove index contracts
-                  # ---------------------------------------------
+              # Monthly data begins at column 2
+              for column_index in range(
+                  2,
+                  len(row)
+              ):
 
-                  index_symbols = {
-                      "NIFTY",
-                      "BANKNIFTY",
-                      "FINNIFTY",
-                      "MIDCPNIFTY",
-                      "NIFTYNXT50"
-                  }
+                  value = clean(
+                      row[column_index]
+                  )
 
-                  symbol_upper = symbol.upper()
-
-                  if symbol_upper in index_symbols:
-
-                      skipped_rows += 1
-
+                  if not value:
                       continue
 
                   # ---------------------------------------------
-                  # Convert lot size
+                  # Try to convert lot size to integer
                   # ---------------------------------------------
 
                   try:
 
                       lot_size = int(
-                          float(lot_value)
+                          float(value)
                       )
 
                   except ValueError:
 
-                      print(
-                          f"Skipping row {row_number}: "
-                          f"invalid lot size "
-                          f"'{lot_value}'"
-                      )
-
-                      skipped_rows += 1
-
+                      # Ignore non-numeric values
                       continue
 
                   if lot_size <= 0:
-
-                      skipped_rows += 1
-
                       continue
 
-                  # ---------------------------------------------
-                  # Duplicate handling
-                  # ---------------------------------------------
+                  last_lot_size = lot_size
 
-                  if symbol_upper in result:
+                  if column_index < len(header):
+                      last_expiry = clean(
+                          header[column_index]
+                      )
 
-                      duplicate_rows += 1
+              # -------------------------------------------------
+              # No valid lot size
+              # -------------------------------------------------
 
-                      # Keep the latest value
-                      result[
-                          symbol_upper
-                      ]["Lotsize"] = lot_size
+              if last_lot_size is None:
 
-                      continue
+                  invalid_rows += 1
 
-                  # ---------------------------------------------
-                  # Add record
-                  # ---------------------------------------------
+                  print(
+                      f"Skipping {symbol_upper}: "
+                      f"no valid lot size found"
+                  )
 
-                  result[symbol_upper] = {
+                  continue
+
+              # -------------------------------------------------
+              # Duplicate symbol
+              # -------------------------------------------------
+
+              if symbol_upper in result:
+
+                  duplicate_rows += 1
+
+                  # Keep the latest occurrence
+                  result[
+                      symbol_upper
+                  ] = {
                       "IsFO": True,
-                      "Lotsize": lot_size
+                      "Lotsize": last_lot_size
                   }
 
+                  continue
+
+              # -------------------------------------------------
+              # Add stock
+              # -------------------------------------------------
+
+              result[symbol_upper] = {
+                  "IsFO": True,
+                  "Lotsize": last_lot_size
+              }
+
+              print(
+                  f"{symbol_upper}: "
+                  f"LotSize={last_lot_size} "
+                  f"(last expiry={last_expiry})"
+              )
+
           # =====================================================
-          # Validation
+          # Validation summary
           # =====================================================
 
           print("")
           print("========================================")
-          print("VALIDATION")
+          print("VALIDATION RESULT")
           print("========================================")
 
           print(
-              f"CSV rows       : {total_rows}"
+              f"Stock rows found : "
+              f"{total_stock_rows}"
           )
 
           print(
-              f"F&O stocks     : {len(result)}"
+              f"F&O stocks       : "
+              f"{len(result)}"
           )
 
           print(
-              f"Skipped rows   : {skipped_rows}"
+              f"Skipped rows     : "
+              f"{skipped_rows}"
           )
 
           print(
-              f"Duplicate rows : {duplicate_rows}"
+              f"Invalid rows     : "
+              f"{invalid_rows}"
+          )
+
+          print(
+              f"Duplicate rows   : "
+              f"{duplicate_rows}"
           )
 
           # -----------------------------------------------------
@@ -398,7 +459,7 @@ jobs:
           )
 
           # =====================================================
-          # Build output
+          # Build final JSON
           # =====================================================
 
           output = {
@@ -412,7 +473,7 @@ jobs:
           }
 
           # =====================================================
-          # Create directory
+          # Create output directory
           # =====================================================
 
           os.makedirs(
@@ -462,7 +523,7 @@ jobs:
           print("========================================")
 
           print(
-              f"Output : {OUTPUT_FILE}"
+              f"Output file: {OUTPUT_FILE}"
           )
 
           print(
@@ -470,22 +531,22 @@ jobs:
           )
 
           print("")
-          print("Sample:")
+          print("First 10 records:")
 
-          for symbol, value in list(
+          for symbol, info in list(
               result.items()
           )[:10]:
 
               print(
-                  f"{symbol}: "
-                  f"IsFO={value['IsFO']}, "
-                  f"Lotsize={value['Lotsize']}"
+                  f"{symbol} -> "
+                  f"IsFO={info['IsFO']}, "
+                  f"Lotsize={info['Lotsize']}"
               )
 
           PYEOF
 
       # =========================================================
-      # 5. Validate JSON
+      # 5. Validate generated JSON
       # =========================================================
       - name: Validate F&O JSON
         shell: bash
@@ -511,48 +572,72 @@ jobs:
 
               data = json.load(f)
 
-          if "updated_at" not in data:
-              raise Exception(
-                  "Missing updated_at"
-              )
+          # -----------------------------------------------------
+          # Top-level validation
+          # -----------------------------------------------------
 
-          if "count" not in data:
-              raise Exception(
-                  "Missing count"
-              )
+          required_top_level = [
+              "updated_at",
+              "count",
+              "data"
+          ]
 
-          if "data" not in data:
-              raise Exception(
-                  "Missing data"
-              )
+          for field in required_top_level:
+
+              if field not in data:
+
+                  raise Exception(
+                      f"Missing top-level field: {field}"
+                  )
+
+          # -----------------------------------------------------
+          # Count validation
+          # -----------------------------------------------------
 
           if data["count"] != len(
               data["data"]
           ):
 
               raise Exception(
-                  "Count does not match data"
+                  f"Count mismatch: "
+                  f"{data['count']} != "
+                  f"{len(data['data'])}"
               )
 
-          for symbol, info in data["data"].items():
+          # -----------------------------------------------------
+          # Record validation
+          # -----------------------------------------------------
+
+          for symbol, info in (
+              data["data"].items()
+          ):
 
               if info.get("IsFO") is not True:
+
                   raise Exception(
-                      f"{symbol}: IsFO is not true"
+                      f"{symbol}: "
+                      f"IsFO is not true"
                   )
 
+              lot_size = info.get(
+                  "Lotsize"
+              )
+
               if not isinstance(
-                  info.get("Lotsize"),
+                  lot_size,
                   int
               ):
 
                   raise Exception(
-                      f"{symbol}: invalid lot size"
+                      f"{symbol}: "
+                      f"invalid lot size"
                   )
 
-              if info["Lotsize"] <= 0:
+              if lot_size <= 0:
+
                   raise Exception(
-                      f"{symbol}: invalid lot size"
+                      f"{symbol}: "
+                      f"lot size must be greater than zero"
                   )
 
           print(
@@ -560,19 +645,20 @@ jobs:
           )
 
           print(
-              f"F&O stocks: {data['count']}"
+              f"Total F&O stocks: "
+              f"{data['count']}"
           )
 
           PYEOF
 
       # =========================================================
-      # 6. Show result
+      # 6. Display result
       # =========================================================
-      - name: Show F&O Master
+      - name: Display F&O Master Summary
         shell: bash
         run: |
           echo "========================================"
-          echo "F&O MASTER"
+          echo "F&O MASTER SUMMARY"
           echo "========================================"
 
           ls -lh stocks/fno_master.json
@@ -626,6 +712,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          echo "Adding fno_master.json..."
+
           git add stocks/fno_master.json
 
           if git diff --cached --quiet; then
@@ -635,6 +723,8 @@ jobs:
             exit 0
 
           fi
+
+          echo "Changes detected."
 
           git commit \
             -m "Update F&O master"
