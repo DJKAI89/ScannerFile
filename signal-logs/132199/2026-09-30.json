@@ -3904,7 +3904,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 37.62,
       "targetT1": 188.12,
@@ -3922,17 +3922,23 @@
           "price": 237.75,
           "time": "14:28:37",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 266.65,
+          "time": "15:18:54",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 227.428,
       "maxFavPrice": 250,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 266.65,
+      "exitTime": "15:18:54",
+      "exitDate": "2026-09-30",
+      "pnlPct": 45.33,
+      "exitReason": "TARGET",
       "note": ""
     },
     {
@@ -4432,7 +4438,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 31.91,
       "targetT1": 138.26,
@@ -4450,17 +4456,23 @@
           "price": 176.2,
           "time": "14:28:37",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 199.25,
+          "time": "15:18:54",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 165.75400000000002,
       "maxFavPrice": 184.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 199.25,
+      "exitTime": "15:18:54",
+      "exitDate": "2026-09-30",
+      "pnlPct": 52.17,
+      "exitReason": "TARGET",
       "note": ""
     },
     {
@@ -6789,14 +6801,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-09-30T09:48:54.969Z",
+  "lastUpdated": "2026-09-30T09:48:58.235Z",
   "upstoxId": "132199",
   "date": "2026-09-30",
   "stats": {
     "total": 81,
-    "hits": 13,
+    "hits": 15,
     "sls": 25,
-    "open": 43,
-    "winRate": 34
+    "open": 41,
+    "winRate": 38
   }
 }
