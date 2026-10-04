@@ -697,23 +697,32 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 375,
       "targetT1": 1875,
       "targetT2": 2250,
       "targetT3": 2625,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1500,
+          "time": "16:51:25",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1500,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1500,
+      "exitTime": "16:51:25",
+      "exitDate": "2026-10-04",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-29-1144-SENSEX-71400-CE",
@@ -1139,23 +1148,32 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 359.83,
       "targetT1": 1799.13,
       "targetT2": 2158.95,
       "targetT3": 2518.79,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1439.3,
+          "time": "16:51:25",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1439.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 1439.3,
+      "exitTime": "16:51:25",
+      "exitDate": "2026-10-04",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-09-29-1144-FINNIFTY-24950-PE",
@@ -1431,14 +1449,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-01T04:20:58.376Z",
+  "lastUpdated": "2026-10-04T11:21:25.197Z",
   "upstoxId": "132199",
   "date": "2026-09-29",
   "stats": {
     "total": 16,
     "hits": 14,
     "sls": 0,
-    "open": 2,
+    "open": 0,
     "winRate": 100
   }
 }
