@@ -1,7 +1,7 @@
 {
   "modelName": "AI Ensemble Brain",
   "version": "ai-ensemble-v2",
-  "computedAt": "2026-10-05T20:50:59.384Z",
+  "computedAt": "2026-10-06T18:37:15.108Z",
   "family": {
     "global": {
       "kind": "lightgbm_style_gbdt_v2",
@@ -2814,7 +2814,7 @@
       "wins": 77,
       "losses": 130,
       "baseRate": 0.372,
-      "computedAt": "2026-10-05T20:49:30.765Z",
+      "computedAt": "2026-10-06T18:35:45.531Z",
       "params": {
         "numIterations": 42,
         "learningRate": 0.07,
@@ -4155,7 +4155,7 @@
         "wins": 25,
         "losses": 35,
         "baseRate": 0.417,
-        "computedAt": "2026-10-05T20:49:33.265Z",
+        "computedAt": "2026-10-06T18:35:48.125Z",
         "params": {
           "numIterations": 24,
           "learningRate": 0.09,
@@ -4942,7 +4942,7 @@
         "wins": 10,
         "losses": 25,
         "baseRate": 0.286,
-        "computedAt": "2026-10-05T20:49:33.396Z",
+        "computedAt": "2026-10-06T18:35:48.247Z",
         "params": {
           "numIterations": 24,
           "learningRate": 0.09,
@@ -6792,7 +6792,7 @@
         "wins": 42,
         "losses": 70,
         "baseRate": 0.375,
-        "computedAt": "2026-10-05T20:49:33.401Z",
+        "computedAt": "2026-10-06T18:35:48.252Z",
         "params": {
           "numIterations": 32,
           "learningRate": 0.09,
@@ -7016,5 +7016,5 @@
   "trainedOffline": true,
   "userId": "132199",
   "month": "2026-10",
-  "savedAt": "2026-10-05T20:50:59.384Z"
+  "savedAt": "2026-10-06T18:37:15.108Z"
 }
