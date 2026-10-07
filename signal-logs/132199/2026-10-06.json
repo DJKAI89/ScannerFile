@@ -60,7 +60,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 346.28,
       "targetT1": 1731.38,
@@ -72,17 +72,23 @@
           "price": 1733.35,
           "time": "10:03:23",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1250,
+          "time": "11:00:29",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1525.5819999999999,
       "maxFavPrice": 1733.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1250,
+      "exitTime": "11:00:29",
+      "exitDate": "2026-10-07",
+      "pnlPct": 7.7,
+      "exitReason": "TRAIL_STOP",
       "note": ""
     },
     {
@@ -223,7 +229,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 343,
       "targetT1": 1715,
@@ -235,28 +241,34 @@
           "price": 1719.55,
           "time": "09:22:57",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1444.9,
+          "time": "11:00:29",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1617.8500000000001,
       "maxFavPrice": 1823.65,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1444.9,
+      "exitTime": "11:00:29",
+      "exitDate": "2026-10-07",
+      "pnlPct": 15.32,
+      "exitReason": "TRAIL_STOP",
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-07T04:33:23.276Z",
+  "lastUpdated": "2026-10-07T05:30:29.340Z",
   "upstoxId": "132199",
   "date": "2026-10-06",
   "stats": {
     "total": 3,
-    "hits": 0,
+    "hits": 2,
     "sls": 0,
-    "open": 3,
-    "winRate": null
+    "open": 1,
+    "winRate": 100
   }
 }
