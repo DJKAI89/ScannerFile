@@ -65,22 +65,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 47.79,
       "targetT1": 238.94,
       "targetT2": 286.73,
       "targetT3": 334.52,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 79.85,
+          "time": "09:50:14",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 191.15,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 79.85,
+      "exitTime": "09:50:14",
+      "exitDate": "2026-10-13",
+      "pnlPct": -58.23,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -148,33 +155,40 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 58.49,
       "targetT1": 292.44,
       "targetT2": 350.92,
       "targetT3": 409.42,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 113.7,
+          "time": "09:50:14",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 233.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 113.7,
+      "exitTime": "09:50:14",
+      "exitDate": "2026-10-13",
+      "pnlPct": -51.4,
+      "exitReason": "SL",
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-13T03:47:44.917Z",
+  "lastUpdated": "2026-10-13T04:20:14.793Z",
   "upstoxId": "132199",
   "date": "2026-10-13",
   "stats": {
     "total": 2,
     "hits": 0,
-    "sls": 0,
-    "open": 2,
-    "winRate": null
+    "sls": 2,
+    "open": 0,
+    "winRate": 0
   }
 }
