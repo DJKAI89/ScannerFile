@@ -328,22 +328,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 26.58,
       "targetT1": 132.88,
       "targetT2": 159.45,
       "targetT3": 186.04,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 61.85,
+          "time": "12:54:02",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 106.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 61.85,
+      "exitTime": "12:54:02",
+      "exitDate": "2026-10-13",
+      "pnlPct": -41.82,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -411,22 +418,29 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 36.8,
       "targetT1": 184,
       "targetT2": 220.8,
       "targetT3": 257.6,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 100.65,
+          "time": "12:54:02",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 147.2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 100.65,
+      "exitTime": "12:54:02",
+      "exitDate": "2026-10-13",
+      "pnlPct": -31.62,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -1260,14 +1274,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-13T05:36:07.571Z",
+  "lastUpdated": "2026-10-13T07:24:02.195Z",
   "upstoxId": "132199",
   "date": "2026-10-13",
   "stats": {
     "total": 15,
     "hits": 0,
-    "sls": 2,
-    "open": 13,
+    "sls": 4,
+    "open": 11,
     "winRate": 0
   }
 }
