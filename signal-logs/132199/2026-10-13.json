@@ -251,17 +251,26 @@
       "targetT1": 1748.69,
       "targetT2": 2098.43,
       "targetT3": 2448.17,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 1398.95,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 1994,
+          "time": "07:32:51",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 1784.156,
+      "maxFavPrice": 1994,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1994,
+      "livePnlPct": 42.54
     },
     {
       "id": "2026-10-13-1106-NIFTY-22600-PE",
@@ -694,17 +703,32 @@
       "targetT1": 1493,
       "targetT2": 1791.6,
       "targetT3": 2090.2,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 1194.4,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 1493,
+          "time": "07:32:51",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 1894.95,
+          "time": "07:32:51",
+          "pctClosed": 30
+        }
+      ],
+      "remainingPct": 20,
+      "beActive": true,
+      "trailSL": 1715.79,
+      "maxFavPrice": 1894.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1894.95,
+      "livePnlPct": 58.65
     },
     {
       "id": "2026-10-13-1106-SENSEX-71500-CE",
@@ -783,18 +807,26 @@
           "price": 1375,
           "time": "14:32:19",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 1767.1,
+          "time": "07:32:51",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 1221.05,
-      "maxFavPrice": 1386.05,
+      "trailSL": 1602.1,
+      "maxFavPrice": 1767.1,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1767.1,
+      "livePnlPct": 60.65
     },
     {
       "id": "2026-10-13-1106-SENSEX-73300-PE",
@@ -967,7 +999,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1230,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-13-1106-SENSEX-73600-PE",
@@ -1034,23 +1068,32 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 295,
       "targetT1": 1475,
       "targetT2": 1770,
       "targetT3": 2065,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 655,
+          "time": "07:32:51",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1180,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 655,
+      "exitTime": "07:32:51",
+      "exitDate": "2026-10-14",
+      "pnlPct": -44.49,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-13-1106-SENSEX-73800-PE",
@@ -1117,23 +1160,32 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 335,
       "targetT1": 1675,
       "targetT2": 2010,
       "targetT3": 2345,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 768.85,
+          "time": "07:32:51",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1340,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 768.85,
+      "exitTime": "07:32:51",
+      "exitDate": "2026-10-14",
+      "pnlPct": -42.62,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-13-1106-SENSEX-74000-PE",
@@ -1200,23 +1252,32 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 375,
       "targetT1": 1875,
       "targetT2": 2250,
       "targetT3": 2625,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 891.35,
+          "time": "07:32:51",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1500,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 891.35,
+      "exitTime": "07:32:51",
+      "exitDate": "2026-10-14",
+      "pnlPct": -40.58,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-13-1106-SENSEX-71600-CE",
@@ -1306,17 +1367,19 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1624,
+      "livePnlPct": 38.12
     }
   ],
-  "lastUpdated": "2026-10-13T10:08:49.970Z",
+  "lastUpdated": "2026-10-14T02:02:51.239Z",
   "upstoxId": "132199",
   "date": "2026-10-13",
   "stats": {
     "total": 15,
     "hits": 0,
-    "sls": 7,
-    "open": 8,
+    "sls": 10,
+    "open": 5,
     "winRate": 0
   }
 }
