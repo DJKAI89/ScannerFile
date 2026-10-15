@@ -1196,7 +1196,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 56.25,
       "targetT1": 281.25,
@@ -1208,20 +1208,26 @@
           "price": 298.65,
           "time": "13:37:27",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 264.1,
+          "time": "14:16:55",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 264.9,
       "maxFavPrice": 298.65,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 264.1,
+      "exitTime": "14:16:55",
+      "exitDate": "2026-10-15",
+      "pnlPct": 25.05,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 274.6,
-      "livePnlPct": 22.04
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55600-CE",
@@ -1811,7 +1817,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 259.5,
       "targetT1": 1297.5,
@@ -1823,20 +1829,26 @@
           "price": 1408.55,
           "time": "13:37:27",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1244.45,
+          "time": "14:16:55",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1252.85,
       "maxFavPrice": 1408.55,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1244.45,
+      "exitTime": "14:16:55",
+      "exitDate": "2026-10-15",
+      "pnlPct": 27.8,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1300.1,
-      "livePnlPct": 25.25
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-15-1039-SENSEX-73600-CE",
@@ -2393,7 +2405,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 243,
       "targetT1": 1215,
@@ -2405,20 +2417,26 @@
           "price": 1294.8,
           "time": "13:37:27",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1145.35,
+          "time": "14:16:55",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1149,
       "maxFavPrice": 1294.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1145.35,
+      "exitTime": "14:16:55",
+      "exitDate": "2026-10-15",
+      "pnlPct": 25.52,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1220,
-      "livePnlPct": 25.51
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-15-1039-SENSEX-73600-CE",
@@ -7695,14 +7713,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-15T08:46:54.076Z",
+  "lastUpdated": "2026-10-15T08:46:58.849Z",
   "upstoxId": "132199",
   "date": "2026-10-15",
   "stats": {
     "total": 86,
-    "hits": 12,
+    "hits": 15,
     "sls": 6,
-    "open": 68,
-    "winRate": 67
+    "open": 65,
+    "winRate": 71
   }
 }
