@@ -247,7 +247,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 6.15,
       "targetT1": 30.75,
@@ -265,20 +265,26 @@
           "price": 37.2,
           "time": "12:17:19",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 45.5,
+          "time": "13:39:40",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 38.910000000000004,
       "maxFavPrice": 42.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 45.5,
+      "exitTime": "13:39:40",
+      "exitDate": "2026-10-15",
+      "pnlPct": 54.31,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 42.6,
-      "livePnlPct": 73.17
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -449,7 +455,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 9,
       "targetT1": 45,
@@ -467,20 +473,26 @@
           "price": 57.2,
           "time": "12:50:37",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 63,
+          "time": "13:39:40",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 55.35,
       "maxFavPrice": 60.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 63,
+      "exitTime": "13:39:40",
+      "exitDate": "2026-10-15",
+      "pnlPct": 52.95,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 60.75,
-      "livePnlPct": 68.75
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1100-KOTAKBANK-435-CE",
@@ -1322,14 +1334,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-15T08:07:40.420Z",
+  "lastUpdated": "2026-10-15T08:09:40.223Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
     "total": 14,
-    "hits": 3,
+    "hits": 5,
     "sls": 8,
-    "open": 3,
-    "winRate": 27
+    "open": 1,
+    "winRate": 38
   }
 }
