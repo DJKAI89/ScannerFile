@@ -264,8 +264,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.3,
-      "livePnlPct": 19.11
+      "livePrice": 29.1,
+      "livePnlPct": 18.29
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -349,8 +349,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.3,
-      "livePnlPct": 22.85
+      "livePrice": 29.1,
+      "livePnlPct": 22.01
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1330-CE",
@@ -434,8 +434,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 43,
-      "livePnlPct": 19.44
+      "livePrice": 43.1,
+      "livePnlPct": 19.72
     },
     {
       "id": "2026-10-14-1100-KOTAKBANK-435-CE",
@@ -1065,8 +1065,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17.6,
-      "livePnlPct": -6.88
+      "livePrice": 19.5,
+      "livePnlPct": 3.17
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1350-CE",
@@ -1157,8 +1157,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.3,
-      "livePnlPct": 36.6
+      "livePrice": 29.1,
+      "livePnlPct": 35.66
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1340-CE",
@@ -1241,19 +1241,19 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 31.761999999999997,
-      "maxFavPrice": 35.8,
+      "trailSL": 32.012,
+      "maxFavPrice": 36.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 35.8,
-      "livePnlPct": 33.09
+      "livePrice": 36.05,
+      "livePnlPct": 34.01
     }
   ],
-  "lastUpdated": "2026-10-15T04:29:26.594Z",
+  "lastUpdated": "2026-10-15T04:45:34.515Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
