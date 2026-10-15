@@ -81,7 +81,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 59.4,
+      "livePnlPct": -16.98
     },
     {
       "id": "2026-10-14-0941-TCS-2400-PE",
@@ -254,7 +256,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 29.1,
+      "livePnlPct": 18.29
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -337,7 +341,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 29.1,
+      "livePnlPct": 22.01
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1330-CE",
@@ -420,7 +426,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 42.6,
+      "livePnlPct": 18.33
     },
     {
       "id": "2026-10-14-1100-KOTAKBANK-435-CE",
@@ -667,23 +675,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 21.51,
       "targetT1": 107.56,
       "targetT2": 129.07,
       "targetT3": 150.58,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 51.9,
+          "time": "09:53:26",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 86.05,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 51.9,
+      "exitTime": "09:53:26",
+      "exitDate": "2026-10-15",
+      "pnlPct": -39.69,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1100-TCS-2400-PE",
@@ -750,23 +767,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 25.5,
       "targetT1": 127.5,
       "targetT2": 153,
       "targetT3": 178.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 63.2,
+          "time": "09:53:26",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 102,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 63.2,
+      "exitTime": "09:53:26",
+      "exitDate": "2026-10-15",
+      "pnlPct": -38.04,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1100-TCS-2360-PE",
@@ -923,23 +949,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 18.25,
       "targetT1": 91.25,
       "targetT2": 109.5,
       "targetT3": 127.75,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 45.7,
+          "time": "09:53:26",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 73,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 45.7,
+      "exitTime": "09:53:26",
+      "exitDate": "2026-10-15",
+      "pnlPct": -37.4,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1255-COALINDIA-400-CE",
@@ -1022,7 +1057,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 17.2,
+      "livePnlPct": -8.99
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1350-CE",
@@ -1095,17 +1132,26 @@
       "targetT1": 26.81,
       "targetT2": 32.17,
       "targetT3": 37.53,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 21.45,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 29.1,
+          "time": "09:53:26",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 25.884,
+      "maxFavPrice": 29.1,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 29.1,
+      "livePnlPct": 35.66
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1340-CE",
@@ -1178,27 +1224,36 @@
       "targetT1": 33.63,
       "targetT2": 40.36,
       "targetT3": 47.09,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 26.9,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 35.5,
+          "time": "09:53:26",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 31.462,
+      "maxFavPrice": 35.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 35.5,
+      "livePnlPct": 31.97
     }
   ],
-  "lastUpdated": "2026-10-15T03:46:31.465Z",
+  "lastUpdated": "2026-10-15T04:23:26.619Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
     "total": 14,
     "hits": 0,
-    "sls": 4,
-    "open": 10,
+    "sls": 7,
+    "open": 7,
     "winRate": 0
   }
 }
