@@ -89,8 +89,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 135,
-      "livePnlPct": 26.82
+      "livePrice": 125,
+      "livePnlPct": 17.43
     },
     {
       "id": "2026-10-15-0917-HINDALCO-900-PE",
@@ -264,8 +264,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 6.2,
-      "livePnlPct": -8.55
+      "livePrice": 5.56,
+      "livePnlPct": -17.99
     },
     {
       "id": "2026-10-15-0917-HAL-4900-CE",
@@ -338,19 +338,26 @@
       "targetT1": 98.31,
       "targetT2": 117.98,
       "targetT3": 137.63,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 78.65,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 100.4,
+          "time": "10:37:24",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 88.60400000000001,
+      "maxFavPrice": 100.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.1,
-      "livePnlPct": 10.74
+      "livePrice": 100.4,
+      "livePnlPct": 27.65
     },
     {
       "id": "2026-10-15-0917-HAL-4750-CE",
@@ -423,19 +430,26 @@
       "targetT1": 205,
       "targetT2": 246,
       "targetT3": 287,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 164,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 207.05,
+          "time": "10:37:24",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 182.45000000000002,
+      "maxFavPrice": 207.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 181.35,
-      "livePnlPct": 10.58
+      "livePrice": 207.05,
+      "livePnlPct": 26.25
     },
     {
       "id": "2026-10-15-0917-DIVISLAB-9200-PE",
@@ -519,8 +533,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 231.7,
-      "livePnlPct": -16.04
+      "livePrice": 224.55,
+      "livePnlPct": -18.63
     },
     {
       "id": "2026-10-15-0917-DRREDDY-1190-CE",
@@ -593,19 +607,26 @@
       "targetT1": 51.06,
       "targetT2": 61.28,
       "targetT3": 71.48,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 40.85,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 52.1,
+          "time": "10:37:24",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 45.974000000000004,
+      "maxFavPrice": 52.1,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 41.45,
-      "livePnlPct": 1.47
+      "livePrice": 52.1,
+      "livePnlPct": 27.54
     },
     {
       "id": "2026-10-15-0917-DRREDDY-1180-CE",
@@ -774,8 +795,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 41.2,
-      "livePnlPct": 11.8
+      "livePrice": 44.65,
+      "livePnlPct": 21.17
     },
     {
       "id": "2026-10-15-1000-NEWGEN-STOCK",
@@ -872,8 +893,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 491,
-      "livePnlPct": 0.03
+      "livePrice": 487.35,
+      "livePnlPct": -0.71
     },
     {
       "id": "2026-10-15-1000-MAXHEALTH-STOCK",
@@ -970,8 +991,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 868.35,
-      "livePnlPct": 0.07
+      "livePrice": 871.05,
+      "livePnlPct": 0.39
     },
     {
       "id": "2026-10-15-1000-CEATLTD-STOCK",
@@ -1068,11 +1089,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3248.5,
-      "livePnlPct": 0.02
+      "livePrice": 3218.4,
+      "livePnlPct": -0.91
     }
   ],
-  "lastUpdated": "2026-10-15T04:45:39.407Z",
+  "lastUpdated": "2026-10-15T05:07:24.698Z",
   "upstoxId": "132199",
   "date": "2026-10-15",
   "stats": {
