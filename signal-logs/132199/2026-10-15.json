@@ -264,8 +264,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 5.56,
-      "livePnlPct": -17.99
+      "livePrice": 5.44,
+      "livePnlPct": -19.76
     },
     {
       "id": "2026-10-15-0917-HAL-4900-CE",
@@ -356,8 +356,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 100.4,
-      "livePnlPct": 27.65
+      "livePrice": 100,
+      "livePnlPct": 27.15
     },
     {
       "id": "2026-10-15-0917-HAL-4750-CE",
@@ -440,16 +440,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 182.45000000000002,
-      "maxFavPrice": 207.05,
+      "trailSL": 184.35,
+      "maxFavPrice": 208.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 207.05,
-      "livePnlPct": 26.25
+      "livePrice": 208.95,
+      "livePnlPct": 27.41
     },
     {
       "id": "2026-10-15-0917-DIVISLAB-9200-PE",
@@ -533,8 +533,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 224.55,
-      "livePnlPct": -18.63
+      "livePrice": 225.65,
+      "livePnlPct": -18.23
     },
     {
       "id": "2026-10-15-0917-DRREDDY-1190-CE",
@@ -893,8 +893,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 487.35,
-      "livePnlPct": -0.71
+      "livePrice": 486.85,
+      "livePnlPct": -0.81
     },
     {
       "id": "2026-10-15-1000-MAXHEALTH-STOCK",
@@ -991,8 +991,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 871.05,
-      "livePnlPct": 0.39
+      "livePrice": 870.35,
+      "livePnlPct": 0.31
     },
     {
       "id": "2026-10-15-1000-CEATLTD-STOCK",
@@ -1089,8 +1089,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3218.4,
-      "livePnlPct": -0.91
+      "livePrice": 3215.9,
+      "livePnlPct": -0.99
     },
     {
       "id": "2026-10-15-1039-NIFTY-22950-CE",
@@ -1173,7 +1173,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 227.1,
+      "livePnlPct": 0.93
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55600-CE",
@@ -1256,7 +1258,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 791.15,
+      "livePnlPct": 1.08
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55700-CE",
@@ -1339,7 +1343,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 729.25,
+      "livePnlPct": 0.82
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55700-PE",
@@ -1422,7 +1428,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 505.85,
+      "livePnlPct": -1.2
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55900-CE",
@@ -1505,7 +1513,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 614.8,
+      "livePnlPct": 0.61
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-56000-PE",
@@ -1588,7 +1598,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 637.2,
+      "livePnlPct": -1.32
     },
     {
       "id": "2026-10-15-1039-SENSEX-73600-CE",
@@ -1671,7 +1683,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 333.25,
+      "livePnlPct": 1.59
     },
     {
       "id": "2026-10-15-1039-SENSEX-73100-CE",
@@ -1754,7 +1768,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1044.3,
+      "livePnlPct": 0.61
     },
     {
       "id": "2026-10-15-1039-SENSEX-73600-CE",
@@ -1837,7 +1853,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 716.1,
+      "livePnlPct": 1.17
     },
     {
       "id": "2026-10-15-1039-SENSEX-73700-CE",
@@ -1920,7 +1938,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 656.2,
+      "livePnlPct": 1.23
     },
     {
       "id": "2026-10-15-1039-SENSEX-73300-CE",
@@ -2003,7 +2023,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 912.5,
+      "livePnlPct": 1.39
     },
     {
       "id": "2026-10-15-1039-SENSEX-73400-CE",
@@ -2086,7 +2108,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 845.45,
+      "livePnlPct": 1.51
     },
     {
       "id": "2026-10-15-1039-SENSEX-73500-CE",
@@ -2169,7 +2193,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 775.9,
+      "livePnlPct": 1.7
     },
     {
       "id": "2026-10-15-1039-SENSEX-73200-CE",
@@ -2252,7 +2278,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 983,
+      "livePnlPct": 1.13
     },
     {
       "id": "2026-10-15-1039-SENSEX-73600-CE",
@@ -2335,7 +2363,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 985,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-SENSEX-73700-CE",
@@ -2418,7 +2448,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 937.95,
+      "livePnlPct": 3.35
     },
     {
       "id": "2026-10-15-1039-SENSEX-73500-CE",
@@ -2501,7 +2533,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1059.95,
+      "livePnlPct": 1.47
     },
     {
       "id": "2026-10-15-1039-SENSEX-73900-CE",
@@ -2584,7 +2618,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 810.45,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-FINNIFTY-25250-CE",
@@ -2667,7 +2703,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 291.4,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-BHARTIARTL-1880-PE",
@@ -2750,7 +2788,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 41.2,
+      "livePnlPct": 1.35
     },
     {
       "id": "2026-10-15-1039-ICICIGI-1720-CE",
@@ -2833,7 +2873,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 33.95,
+      "livePnlPct": -3.28
     },
     {
       "id": "2026-10-15-1039-ICICIGI-1740-CE",
@@ -2916,7 +2958,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 24.7,
+      "livePnlPct": -2.37
     },
     {
       "id": "2026-10-15-1039-HCLTECH-1360-CE",
@@ -2999,7 +3043,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 28.8,
+      "livePnlPct": -4.48
     },
     {
       "id": "2026-10-15-1039-HCLTECH-1380-CE",
@@ -3082,7 +3128,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 19.3,
+      "livePnlPct": -5.62
     },
     {
       "id": "2026-10-15-1039-TCS-2360-CE",
@@ -3165,7 +3213,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 50.4,
+      "livePnlPct": -0.49
     },
     {
       "id": "2026-10-15-1039-TCS-2380-CE",
@@ -3248,7 +3298,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 39.95,
+      "livePnlPct": -0.87
     },
     {
       "id": "2026-10-15-1039-MARUTI-11700-PE",
@@ -3331,7 +3383,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 318.8,
+      "livePnlPct": -1.89
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5150-PE",
@@ -3414,7 +3468,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 85.05,
+      "livePnlPct": -0.87
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5200-PE",
@@ -3497,7 +3553,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 111.15,
+      "livePnlPct": -4.1
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5250-PE",
@@ -3580,7 +3638,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 146.45,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5300-PE",
@@ -3663,7 +3723,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 176.6,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-MAHABANK-79-CE",
@@ -3746,7 +3808,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 2.64,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-M&M-2950-PE",
@@ -3829,7 +3893,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 101.3,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-15-1039-SUZLON-43-PE",
@@ -3912,10 +3978,12 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 2.12,
+      "livePnlPct": 0
     }
   ],
-  "lastUpdated": "2026-10-15T05:09:05.406Z",
+  "lastUpdated": "2026-10-15T05:09:10.545Z",
   "upstoxId": "132199",
   "date": "2026-10-15",
   "stats": {
