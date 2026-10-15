@@ -269,16 +269,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 37.81,
-      "maxFavPrice": 41.5,
+      "trailSL": 38.910000000000004,
+      "maxFavPrice": 42.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 41.5,
-      "livePnlPct": 68.7
+      "livePrice": 42.6,
+      "livePnlPct": 73.17
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -1322,7 +1322,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-15T07:20:47.271Z",
+  "lastUpdated": "2026-10-15T07:21:04.394Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
