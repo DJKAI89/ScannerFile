@@ -269,16 +269,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 33.71,
-      "maxFavPrice": 37.4,
+      "trailSL": 33.86,
+      "maxFavPrice": 37.55,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.3,
-      "livePnlPct": 51.63
+      "livePrice": 37.55,
+      "livePnlPct": 52.64
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -367,16 +367,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 33.824,
-      "maxFavPrice": 37.4,
+      "trailSL": 33.974,
+      "maxFavPrice": 37.55,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.3,
-      "livePnlPct": 56.39
+      "livePrice": 37.55,
+      "livePnlPct": 57.44
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1330-CE",
@@ -1098,8 +1098,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.85,
-      "livePnlPct": 10.32
+      "livePrice": 20.25,
+      "livePnlPct": 7.14
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1350-CE",
@@ -1166,7 +1166,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 5.36,
       "targetT1": 26.81,
@@ -1184,20 +1184,26 @@
           "price": 35.4,
           "time": "11:59:29",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 37.55,
+          "time": "12:18:10",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 34.184,
       "maxFavPrice": 37.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 37.55,
+      "exitTime": "12:18:10",
+      "exitDate": "2026-10-15",
+      "pnlPct": 52.35,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 37.3,
-      "livePnlPct": 73.89
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1340-CE",
@@ -1298,14 +1304,14 @@
       "livePnlPct": 65.43
     }
   ],
-  "lastUpdated": "2026-10-15T06:47:57.667Z",
+  "lastUpdated": "2026-10-15T06:48:10.264Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
     "total": 14,
-    "hits": 0,
+    "hits": 1,
     "sls": 8,
-    "open": 6,
-    "winRate": 0
+    "open": 5,
+    "winRate": 11
   }
 }
