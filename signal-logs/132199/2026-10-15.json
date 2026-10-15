@@ -834,8 +834,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40,
-      "livePnlPct": 8.55
+      "livePrice": 39.55,
+      "livePnlPct": 7.33
     },
     {
       "id": "2026-10-15-1000-NEWGEN-STOCK",
@@ -932,8 +932,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 490.8,
-      "livePnlPct": -0.01
+      "livePrice": 491.65,
+      "livePnlPct": 0.16
     },
     {
       "id": "2026-10-15-1000-MAXHEALTH-STOCK",
@@ -1030,8 +1030,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 862.9,
-      "livePnlPct": -0.55
+      "livePrice": 858.75,
+      "livePnlPct": -1.03
     },
     {
       "id": "2026-10-15-1000-CEATLTD-STOCK",
@@ -1128,8 +1128,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3213,
-      "livePnlPct": -1.07
+      "livePrice": 3225.7,
+      "livePnlPct": -0.68
     },
     {
       "id": "2026-10-15-1039-NIFTY-22950-CE",
@@ -1311,8 +1311,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 810.35,
-      "livePnlPct": 3.53
+      "livePrice": 747.55,
+      "livePnlPct": -4.49
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55700-CE",
@@ -1396,8 +1396,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 740,
-      "livePnlPct": 2.31
+      "livePrice": 687.5,
+      "livePnlPct": -4.95
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55700-PE",
@@ -1481,8 +1481,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 469.95,
-      "livePnlPct": -8.21
+      "livePrice": 485.5,
+      "livePnlPct": -5.18
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-55900-CE",
@@ -1566,8 +1566,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 622.55,
-      "livePnlPct": 1.87
+      "livePrice": 574.2,
+      "livePnlPct": -6.04
     },
     {
       "id": "2026-10-15-1039-BANKNIFTY-56000-PE",
@@ -1651,8 +1651,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 599,
-      "livePnlPct": -7.24
+      "livePrice": 623.8,
+      "livePnlPct": -3.4
     },
     {
       "id": "2026-10-15-1039-SENSEX-73600-CE",
@@ -2797,7 +2797,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 202.61,
       "targetT1": 1013.06,
@@ -2809,20 +2809,26 @@
           "price": 1097.25,
           "time": "13:37:27",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 876.1,
+          "time": "14:46:44",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 975.684,
       "maxFavPrice": 1097.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 876.1,
+      "exitTime": "14:46:44",
+      "exitDate": "2026-10-15",
+      "pnlPct": 21.75,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1026.55,
-      "livePnlPct": 26.66
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-15-1039-FINNIFTY-25250-CE",
@@ -2913,8 +2919,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 402,
-      "livePnlPct": 37.95
+      "livePrice": 358.7,
+      "livePnlPct": 23.1
     },
     {
       "id": "2026-10-15-1039-BHARTIARTL-1880-PE",
@@ -3274,8 +3280,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 26.5,
-      "livePnlPct": -12.11
+      "livePrice": 26.15,
+      "livePnlPct": -13.27
     },
     {
       "id": "2026-10-15-1039-HCLTECH-1380-CE",
@@ -3359,8 +3365,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17.7,
-      "livePnlPct": -13.45
+      "livePrice": 17.45,
+      "livePnlPct": -14.67
     },
     {
       "id": "2026-10-15-1039-TCS-2360-CE",
@@ -3444,8 +3450,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 44.15,
-      "livePnlPct": -12.83
+      "livePrice": 40.9,
+      "livePnlPct": -19.25
     },
     {
       "id": "2026-10-15-1039-TCS-2380-CE",
@@ -3529,8 +3535,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 34.5,
-      "livePnlPct": -14.39
+      "livePrice": 31.4,
+      "livePnlPct": -22.08
     },
     {
       "id": "2026-10-15-1039-MARUTI-11700-PE",
@@ -3614,8 +3620,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 288.7,
-      "livePnlPct": -11.16
+      "livePrice": 317.1,
+      "livePnlPct": -2.42
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5150-PE",
@@ -3699,8 +3705,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 75.8,
-      "livePnlPct": -11.66
+      "livePrice": 82.35,
+      "livePnlPct": -4.02
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5200-PE",
@@ -3784,8 +3790,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 99.95,
-      "livePnlPct": -13.76
+      "livePrice": 107.9,
+      "livePnlPct": -6.9
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5250-PE",
@@ -3869,8 +3875,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 135.05,
-      "livePnlPct": -7.78
+      "livePrice": 139.6,
+      "livePnlPct": -4.68
     },
     {
       "id": "2026-10-15-1039-HEROMOTOCO-5300-PE",
@@ -3954,8 +3960,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 164.85,
-      "livePnlPct": -6.65
+      "livePrice": 174.8,
+      "livePnlPct": -1.02
     },
     {
       "id": "2026-10-15-1039-MAHABANK-79-CE",
@@ -4124,8 +4130,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 100.55,
-      "livePnlPct": -0.74
+      "livePrice": 103.85,
+      "livePnlPct": 2.52
     },
     {
       "id": "2026-10-15-1039-SUZLON-43-PE",
@@ -4307,8 +4313,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 83.69,
-      "livePnlPct": -0.31
+      "livePrice": 83.88,
+      "livePnlPct": -0.08
     },
     {
       "id": "2026-10-15-1220-TATASTEEL-STOCK",
@@ -4405,8 +4411,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 176.53,
-      "livePnlPct": 0.29
+      "livePrice": 175.8,
+      "livePnlPct": -0.12
     },
     {
       "id": "2026-10-15-1220-EMMVEE-STOCK",
@@ -4503,8 +4509,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 286,
-      "livePnlPct": 0.94
+      "livePrice": 285.6,
+      "livePnlPct": 0.79
     },
     {
       "id": "2026-10-15-1220-INDHOTEL-STOCK",
@@ -4601,8 +4607,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 747.8,
-      "livePnlPct": -0.04
+      "livePrice": 745,
+      "livePnlPct": -0.41
     },
     {
       "id": "2026-10-15-1220-CROMPTON-STOCK",
@@ -4699,8 +4705,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 218.85,
-      "livePnlPct": 0.16
+      "livePrice": 217.51,
+      "livePnlPct": -0.45
     },
     {
       "id": "2026-10-15-1220-JINDALSAW-STOCK",
@@ -4797,8 +4803,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 299.15,
-      "livePnlPct": 0.18
+      "livePrice": 299.1,
+      "livePnlPct": 0.17
     },
     {
       "id": "2026-10-15-1220-JSWSTEEL-STOCK",
@@ -4895,8 +4901,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1205.8,
-      "livePnlPct": 0.38
+      "livePrice": 1199.2,
+      "livePnlPct": -0.17
     },
     {
       "id": "2026-10-15-1220-FINPIPE-STOCK",
@@ -4993,8 +4999,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 156.9,
-      "livePnlPct": 0.76
+      "livePrice": 157.05,
+      "livePnlPct": 0.85
     },
     {
       "id": "2026-10-15-1220-BALRAMCHIN-STOCK",
@@ -5091,8 +5097,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 720.65,
-      "livePnlPct": -0.01
+      "livePrice": 720.1,
+      "livePnlPct": -0.09
     },
     {
       "id": "2026-10-15-1220-AVALON-STOCK",
@@ -5189,8 +5195,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2086.5,
-      "livePnlPct": -1.02
+      "livePrice": 2083.5,
+      "livePnlPct": -1.16
     },
     {
       "id": "2026-10-15-1220-PHOENIXLTD-STOCK",
@@ -5287,8 +5293,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1927.8,
-      "livePnlPct": 0.62
+      "livePrice": 1920.2,
+      "livePnlPct": 0.22
     },
     {
       "id": "2026-10-15-1220-JSL-STOCK",
@@ -5385,8 +5391,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 728.55,
-      "livePnlPct": 0.72
+      "livePrice": 724.45,
+      "livePnlPct": 0.15
     },
     {
       "id": "2026-10-15-1416-NIFTY-22950-CE",
@@ -5469,7 +5475,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 233.65,
+      "livePnlPct": -12.93
     },
     {
       "id": "2026-10-15-1416-NIFTY-23050-CE",
@@ -5552,7 +5560,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 180.3,
+      "livePnlPct": -14.2
     },
     {
       "id": "2026-10-15-1416-BANKNIFTY-56700-PE",
@@ -5635,7 +5645,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1038.4,
+      "livePnlPct": 6.61
     },
     {
       "id": "2026-10-15-1416-BANKNIFTY-56500-PE",
@@ -5718,7 +5730,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 906.95,
+      "livePnlPct": 1.63
     },
     {
       "id": "2026-10-15-1416-BANKNIFTY-56600-PE",
@@ -5801,7 +5815,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 934,
+      "livePnlPct": -2.01
     },
     {
       "id": "2026-10-15-1416-SENSEX-73800-CE",
@@ -5884,7 +5900,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 660.9,
+      "livePnlPct": -9.66
     },
     {
       "id": "2026-10-15-1416-SENSEX-73900-CE",
@@ -5967,7 +5985,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 603,
+      "livePnlPct": -10.15
     },
     {
       "id": "2026-10-15-1416-SENSEX-73600-CE",
@@ -6050,7 +6070,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 787.45,
+      "livePnlPct": -9.34
     },
     {
       "id": "2026-10-15-1416-SENSEX-73700-CE",
@@ -6133,7 +6155,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 724.55,
+      "livePnlPct": -9.99
     },
     {
       "id": "2026-10-15-1416-SENSEX-73100-CE",
@@ -6216,7 +6240,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1179.9,
+      "livePnlPct": -6.51
     },
     {
       "id": "2026-10-15-1416-SENSEX-73400-CE",
@@ -6299,7 +6325,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 940,
+      "livePnlPct": -7.11
     },
     {
       "id": "2026-10-15-1416-SENSEX-73900-CE",
@@ -6382,7 +6410,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 876.1,
+      "livePnlPct": -11.51
     },
     {
       "id": "2026-10-15-1416-SENSEX-74000-CE",
@@ -6465,7 +6495,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 819.25,
+      "livePnlPct": -9.87
     },
     {
       "id": "2026-10-15-1416-SENSEX-74100-CE",
@@ -6548,7 +6580,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 773.4,
+      "livePnlPct": -12.91
     },
     {
       "id": "2026-10-15-1416-SENSEX-74300-CE",
@@ -6631,7 +6665,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 690.6,
+      "livePnlPct": -12.55
     },
     {
       "id": "2026-10-15-1416-SENSEX-74500-CE",
@@ -6714,7 +6750,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 570,
+      "livePnlPct": -11.21
     },
     {
       "id": "2026-10-15-1416-SENSEX-73300-CE",
@@ -6797,7 +6835,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1347.75,
+      "livePnlPct": -3.04
     },
     {
       "id": "2026-10-15-1416-FINNIFTY-25250-CE",
@@ -6880,7 +6920,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 358.7,
+      "livePnlPct": -10.77
     },
     {
       "id": "2026-10-15-1416-FINNIFTY-25300-CE",
@@ -6963,7 +7005,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 328.55,
+      "livePnlPct": -10.33
     },
     {
       "id": "2026-10-15-1416-FINNIFTY-25450-CE",
@@ -7046,7 +7090,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 255.1,
+      "livePnlPct": -7.57
     },
     {
       "id": "2026-10-15-1416-FINNIFTY-25550-CE",
@@ -7129,7 +7175,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 195,
+      "livePnlPct": -14.4
     },
     {
       "id": "2026-10-15-1416-NESTLEIND-1350-PE",
@@ -7212,7 +7260,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 66.05,
+      "livePnlPct": 20.09
     },
     {
       "id": "2026-10-15-1416-ICICIGI-1680-CE",
@@ -7295,7 +7345,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 36.55,
+      "livePnlPct": -7
     },
     {
       "id": "2026-10-15-1416-ICICIGI-1700-CE",
@@ -7378,7 +7430,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 27.1,
+      "livePnlPct": -7.19
     },
     {
       "id": "2026-10-15-1416-ICICIBANK-1410-PE",
@@ -7461,7 +7515,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 36.7,
+      "livePnlPct": -0.94
     },
     {
       "id": "2026-10-15-1416-HCLTECH-1360-CE",
@@ -7544,7 +7600,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 26.15,
+      "livePnlPct": -0.76
     },
     {
       "id": "2026-10-15-1416-MARUTI-11700-PE",
@@ -7627,7 +7685,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 317.1,
+      "livePnlPct": 9.27
     },
     {
       "id": "2026-10-15-1416-HEROMOTOCO-5200-PE",
@@ -7710,17 +7770,19 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 107.9,
+      "livePnlPct": 8.5
     }
   ],
-  "lastUpdated": "2026-10-15T08:46:58.849Z",
+  "lastUpdated": "2026-10-15T09:16:44.753Z",
   "upstoxId": "132199",
   "date": "2026-10-15",
   "stats": {
     "total": 86,
-    "hits": 15,
+    "hits": 16,
     "sls": 6,
-    "open": 65,
-    "winRate": 71
+    "open": 64,
+    "winRate": 73
   }
 }
