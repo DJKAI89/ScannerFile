@@ -269,16 +269,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 33.96,
-      "maxFavPrice": 37.65,
+      "trailSL": 37.81,
+      "maxFavPrice": 41.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.3,
-      "livePnlPct": 51.63
+      "livePrice": 41.5,
+      "livePnlPct": 68.7
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -367,16 +367,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 34.074,
-      "maxFavPrice": 37.65,
+      "trailSL": 37.924,
+      "maxFavPrice": 41.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.3,
-      "livePnlPct": 56.39
+      "livePrice": 41.5,
+      "livePnlPct": 74
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1330-CE",
@@ -455,20 +455,26 @@
           "price": 50.6,
           "time": "11:59:29",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 57.2,
+          "time": "12:50:37",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 47.6,
-      "maxFavPrice": 53,
+      "trailSL": 51.800000000000004,
+      "maxFavPrice": 57.2,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 52.4,
-      "livePnlPct": 45.56
+      "livePrice": 57.2,
+      "livePnlPct": 58.89
     },
     {
       "id": "2026-10-14-1100-KOTAKBANK-435-CE",
@@ -1098,8 +1104,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.25,
-      "livePnlPct": 7.14
+      "livePrice": 20.7,
+      "livePnlPct": 9.52
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1350-CE",
@@ -1310,7 +1316,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-15T07:20:33.384Z",
+  "lastUpdated": "2026-10-15T07:20:37.196Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
