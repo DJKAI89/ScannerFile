@@ -253,19 +253,26 @@
       "targetT1": 30.75,
       "targetT2": 36.9,
       "targetT3": 43.05,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 24.6,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 35.4,
+          "time": "11:59:29",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 31.709999999999997,
+      "maxFavPrice": 35.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.1,
-      "livePnlPct": 18.29
+      "livePrice": 35.4,
+      "livePnlPct": 43.9
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1350-CE",
@@ -338,19 +345,26 @@
       "targetT1": 29.81,
       "targetT2": 35.78,
       "targetT3": 41.73,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 23.85,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 35.4,
+          "time": "11:59:29",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 31.823999999999998,
+      "maxFavPrice": 35.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.1,
-      "livePnlPct": 22.01
+      "livePrice": 35.4,
+      "livePnlPct": 48.43
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1330-CE",
@@ -423,19 +437,26 @@
       "targetT1": 45,
       "targetT2": 54,
       "targetT3": 63,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 36,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 50.6,
+          "time": "11:59:29",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 45.2,
+      "maxFavPrice": 50.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 43.1,
-      "livePnlPct": 19.72
+      "livePrice": 50.6,
+      "livePnlPct": 40.56
     },
     {
       "id": "2026-10-14-1100-KOTAKBANK-435-CE",
@@ -1065,8 +1086,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.5,
-      "livePnlPct": 3.17
+      "livePrice": 18.95,
+      "livePnlPct": 0.26
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1350-CE",
@@ -1145,20 +1166,26 @@
           "price": 29.1,
           "time": "09:53:26",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 35.4,
+          "time": "11:59:29",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 26.134,
-      "maxFavPrice": 29.35,
+      "trailSL": 32.184,
+      "maxFavPrice": 35.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.1,
-      "livePnlPct": 35.66
+      "livePrice": 35.4,
+      "livePnlPct": 65.03
     },
     {
       "id": "2026-10-14-1255-ICICIBANK-1340-CE",
@@ -1237,23 +1264,29 @@
           "price": 35.5,
           "time": "09:53:26",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 42.6,
+          "time": "11:59:29",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 32.012,
-      "maxFavPrice": 36.05,
+      "trailSL": 38.562,
+      "maxFavPrice": 42.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 36.05,
-      "livePnlPct": 34.01
+      "livePrice": 42.6,
+      "livePnlPct": 58.36
     }
   ],
-  "lastUpdated": "2026-10-15T05:22:28.216Z",
+  "lastUpdated": "2026-10-15T06:29:29.658Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
