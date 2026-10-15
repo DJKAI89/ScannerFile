@@ -345,7 +345,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 5.96,
       "targetT1": 29.81,
@@ -363,20 +363,26 @@
           "price": 37.2,
           "time": "12:17:19",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 42.2,
+          "time": "12:50:38",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
-      "trailSL": 37.924,
-      "maxFavPrice": 41.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "trailSL": 34.074,
+      "maxFavPrice": 37.65,
+      "exitPrice": 42.2,
+      "exitTime": "12:50:38",
+      "exitDate": "2026-10-15",
+      "pnlPct": 56.39,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 41.5,
-      "livePnlPct": 74
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-14-1006-ICICIBANK-1330-CE",
@@ -1316,14 +1322,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-15T07:20:37.196Z",
+  "lastUpdated": "2026-10-15T07:20:41.225Z",
   "upstoxId": "132199",
   "date": "2026-10-14",
   "stats": {
     "total": 14,
-    "hits": 2,
+    "hits": 3,
     "sls": 8,
-    "open": 4,
-    "winRate": 20
+    "open": 3,
+    "winRate": 27
   }
 }
