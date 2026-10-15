@@ -71,17 +71,26 @@
       "targetT1": 133.06,
       "targetT2": 159.68,
       "targetT3": 186.28,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 106.45,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 135,
+          "time": "10:00:26",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 119.034,
+      "maxFavPrice": 135,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 135,
+      "livePnlPct": 26.82
     },
     {
       "id": "2026-10-15-0917-HINDALCO-900-PE",
@@ -254,7 +263,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 6.2,
+      "livePnlPct": -8.55
     },
     {
       "id": "2026-10-15-0917-HAL-4900-CE",
@@ -337,7 +348,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 87.1,
+      "livePnlPct": 10.74
     },
     {
       "id": "2026-10-15-0917-HAL-4750-CE",
@@ -420,7 +433,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 181.35,
+      "livePnlPct": 10.58
     },
     {
       "id": "2026-10-15-0917-DIVISLAB-9200-PE",
@@ -503,7 +518,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 231.7,
+      "livePnlPct": -16.04
     },
     {
       "id": "2026-10-15-0917-DRREDDY-1190-CE",
@@ -586,7 +603,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 41.45,
+      "livePnlPct": 1.47
     },
     {
       "id": "2026-10-15-0917-DRREDDY-1180-CE",
@@ -669,7 +688,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 55.8,
+      "livePnlPct": 24.14
     },
     {
       "id": "2026-10-15-0917-DRREDDY-1200-CE",
@@ -752,7 +773,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 41.2,
+      "livePnlPct": 11.8
     },
     {
       "id": "2026-10-15-1000-NEWGEN-STOCK",
@@ -848,7 +871,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 491,
+      "livePnlPct": 0.03
     },
     {
       "id": "2026-10-15-1000-MAXHEALTH-STOCK",
@@ -944,7 +969,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 868.35,
+      "livePnlPct": 0.07
     },
     {
       "id": "2026-10-15-1000-CEATLTD-STOCK",
@@ -1040,10 +1067,12 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 3248.5,
+      "livePnlPct": 0.02
     }
   ],
-  "lastUpdated": "2026-10-15T04:30:18.629Z",
+  "lastUpdated": "2026-10-15T04:30:26.110Z",
   "upstoxId": "132199",
   "date": "2026-10-15",
   "stats": {
