@@ -910,8 +910,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40.5,
-      "livePnlPct": 14.57
+      "livePrice": 43.2,
+      "livePnlPct": 22.21
     },
     {
       "id": "2026-10-16-1110-TECHM-1740-CE",
@@ -1087,8 +1087,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 29.8,
-      "livePnlPct": 12.24
+      "livePrice": 32.05,
+      "livePnlPct": 20.72
     },
     {
       "id": "2026-10-16-1110-WIPRO-185-CE",
@@ -1650,8 +1650,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40.3,
-      "livePnlPct": -20.04
+      "livePrice": 41,
+      "livePnlPct": -18.65
     },
     {
       "id": "2026-10-16-1110-HCLTECH-1380-CE",
@@ -1826,16 +1826,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 43.547999999999995,
-      "maxFavPrice": 49.05,
+      "trailSL": 49.498,
+      "maxFavPrice": 55,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 49.05,
-      "livePnlPct": 33.65
+      "livePrice": 55,
+      "livePnlPct": 49.86
     },
     {
       "id": "2026-10-16-1110-HDFCAMC-2420-PE",
@@ -3071,8 +3071,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 13.4,
-      "livePnlPct": -10.67
+      "livePrice": 14.05,
+      "livePnlPct": -6.33
     },
     {
       "id": "2026-10-16-1110-KOTAKBANK-445-CE",
@@ -3259,7 +3259,7 @@
       "livePnlPct": 6.09
     }
   ],
-  "lastUpdated": "2026-10-19T04:03:13.339Z",
+  "lastUpdated": "2026-10-19T04:10:56.075Z",
   "upstoxId": "132199",
   "date": "2026-10-16",
   "stats": {
