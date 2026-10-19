@@ -910,8 +910,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40.85,
-      "livePnlPct": 15.56
+      "livePrice": 37.8,
+      "livePnlPct": 6.93
     },
     {
       "id": "2026-10-16-1110-TECHM-1740-CE",
@@ -1087,8 +1087,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 30.8,
-      "livePnlPct": 16.01
+      "livePrice": 27.75,
+      "livePnlPct": 4.52
     },
     {
       "id": "2026-10-16-1110-WIPRO-185-CE",
@@ -1650,8 +1650,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 48.95,
-      "livePnlPct": -2.88
+      "livePrice": 40.85,
+      "livePnlPct": -18.95
     },
     {
       "id": "2026-10-16-1110-HCLTECH-1380-CE",
@@ -1816,19 +1816,26 @@
       "targetT1": 45.87,
       "targetT2": 55.05,
       "targetT3": 64.21,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 36.7,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 47.3,
+          "time": "09:32:15",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 41.797999999999995,
+      "maxFavPrice": 47.3,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.2,
-      "livePnlPct": 14.99
+      "livePrice": 47.3,
+      "livePnlPct": 28.88
     },
     {
       "id": "2026-10-16-1110-HDFCAMC-2420-PE",
@@ -3064,8 +3071,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 15.6,
-      "livePnlPct": 4
+      "livePrice": 13.15,
+      "livePnlPct": -12.33
     },
     {
       "id": "2026-10-16-1110-KOTAKBANK-445-CE",
@@ -3252,7 +3259,7 @@
       "livePnlPct": 6.09
     }
   ],
-  "lastUpdated": "2026-10-19T04:00:18.339Z",
+  "lastUpdated": "2026-10-19T04:02:15.193Z",
   "upstoxId": "132199",
   "date": "2026-10-16",
   "stats": {
