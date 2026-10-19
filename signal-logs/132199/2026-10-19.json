@@ -942,8 +942,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1.9,
-      "livePnlPct": -10.8
+      "livePrice": 1.89,
+      "livePnlPct": -11.27
     },
     {
       "id": "2026-10-19-0931-FEDERALBNK-325-CE",
@@ -1710,16 +1710,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 205.694,
-      "maxFavPrice": 228.35,
+      "trailSL": 241.344,
+      "maxFavPrice": 264,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 228.35,
-      "livePnlPct": 51.18
+      "livePrice": 264,
+      "livePnlPct": 74.78
     },
     {
       "id": "2026-10-19-0931-DIVISLAB-9200-PE",
@@ -1798,20 +1798,26 @@
           "price": 145,
           "time": "11:46:29",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 189.5,
+          "time": "15:57:31",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 145.896,
-      "maxFavPrice": 164.85,
+      "trailSL": 170.546,
+      "maxFavPrice": 189.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 164.85,
-      "livePnlPct": 56.55
+      "livePrice": 189.5,
+      "livePnlPct": 79.96
     },
     {
       "id": "2026-10-19-0931-SBIN-1000-PE",
@@ -1985,8 +1991,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.7,
-      "livePnlPct": -11.68
+      "livePrice": 8.8,
+      "livePnlPct": -10.66
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2070,8 +2076,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 25.7,
-      "livePnlPct": -11.38
+      "livePrice": 23,
+      "livePnlPct": -20.69
     },
     {
       "id": "2026-10-19-0931-INDIANB-870-CE",
@@ -2138,25 +2144,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 2.95,
       "targetT1": 14.75,
       "targetT2": 17.7,
       "targetT3": 20.65,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 7.55,
+          "time": "15:57:31",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 11.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 7.55,
+      "exitTime": "15:57:31",
+      "exitDate": "2026-10-19",
+      "pnlPct": -36.02,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 9.55,
-      "livePnlPct": -19.07
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-0931-INDUSTOWER-380-CE",
@@ -2413,25 +2426,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 0.85,
       "targetT1": 4.25,
       "targetT2": 5.1,
       "targetT3": 5.95,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 2.43,
+          "time": "15:57:31",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 3.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2.43,
+      "exitTime": "15:57:31",
+      "exitDate": "2026-10-19",
+      "pnlPct": -28.53,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 2.74,
-      "livePnlPct": -19.41
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1012-PNB-124-CE",
@@ -2607,8 +2627,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32,
-      "livePnlPct": -4.76
+      "livePrice": 29.9,
+      "livePnlPct": -11.01
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1200-CE",
@@ -2692,8 +2712,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 38.9,
-      "livePnlPct": -8.04
+      "livePrice": 38.75,
+      "livePnlPct": -8.39
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -2777,8 +2797,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 23,
-      "livePnlPct": -12.05
+      "livePrice": 22.7,
+      "livePnlPct": -13.19
     },
     {
       "id": "2026-10-19-1012-LTM-4200-CE",
@@ -3322,8 +3342,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 57.1,
-      "livePnlPct": -22.26
+      "livePrice": 59.85,
+      "livePnlPct": -18.52
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -3407,8 +3427,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.95,
-      "livePnlPct": -17.19
+      "livePrice": 89.2,
+      "livePnlPct": -15.05
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4344,18 +4364,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 148.95,
-      "livePnlPct": -14.59
+      "livePrice": 159.9,
+      "livePnlPct": -8.31
     }
   ],
-  "lastUpdated": "2026-10-19T09:10:36.940Z",
+  "lastUpdated": "2026-10-19T10:27:31.662Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 47,
     "hits": 15,
-    "sls": 19,
-    "open": 13,
-    "winRate": 44
+    "sls": 21,
+    "open": 11,
+    "winRate": 42
   }
 }
