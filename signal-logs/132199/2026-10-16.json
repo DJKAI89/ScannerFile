@@ -910,8 +910,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 38.75,
-      "livePnlPct": 9.62
+      "livePrice": 40.5,
+      "livePnlPct": 14.57
     },
     {
       "id": "2026-10-16-1110-TECHM-1740-CE",
@@ -1087,8 +1087,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 28.55,
-      "livePnlPct": 7.53
+      "livePrice": 29.8,
+      "livePnlPct": 12.24
     },
     {
       "id": "2026-10-16-1110-WIPRO-185-CE",
@@ -1826,16 +1826,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 43.198,
-      "maxFavPrice": 48.7,
+      "trailSL": 43.547999999999995,
+      "maxFavPrice": 49.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 48.7,
-      "livePnlPct": 32.7
+      "livePrice": 49.05,
+      "livePnlPct": 33.65
     },
     {
       "id": "2026-10-16-1110-HDFCAMC-2420-PE",
@@ -3259,7 +3259,7 @@
       "livePnlPct": 6.09
     }
   ],
-  "lastUpdated": "2026-10-19T04:03:01.511Z",
+  "lastUpdated": "2026-10-19T04:03:13.339Z",
   "upstoxId": "132199",
   "date": "2026-10-16",
   "stats": {
