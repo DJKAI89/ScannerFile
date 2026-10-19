@@ -910,8 +910,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 41.15,
-      "livePnlPct": 16.41
+      "livePrice": 39.65,
+      "livePnlPct": 12.16
     },
     {
       "id": "2026-10-16-1110-TECHM-1740-CE",
@@ -1087,8 +1087,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 30.55,
-      "livePnlPct": 15.07
+      "livePrice": 29.1,
+      "livePnlPct": 9.6
     },
     {
       "id": "2026-10-16-1110-WIPRO-185-CE",
@@ -1650,8 +1650,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 41,
-      "livePnlPct": -18.65
+      "livePrice": 43,
+      "livePnlPct": -14.68
     },
     {
       "id": "2026-10-16-1110-HCLTECH-1380-CE",
@@ -1810,7 +1810,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 9.17,
       "targetT1": 45.87,
@@ -1828,20 +1828,26 @@
           "price": 55.55,
           "time": "09:41:55",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 48.35,
+          "time": "09:55:13",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 50.047999999999995,
       "maxFavPrice": 55.55,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 48.35,
+      "exitTime": "09:55:13",
+      "exitDate": "2026-10-19",
+      "pnlPct": 36.2,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 55.55,
-      "livePnlPct": 51.36
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-16-1110-HDFCAMC-2420-PE",
@@ -3077,8 +3083,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.1,
-      "livePnlPct": -6
+      "livePrice": 13.35,
+      "livePnlPct": -11
     },
     {
       "id": "2026-10-16-1110-KOTAKBANK-445-CE",
@@ -3265,14 +3271,14 @@
       "livePnlPct": 6.09
     }
   ],
-  "lastUpdated": "2026-10-19T04:11:55.685Z",
+  "lastUpdated": "2026-10-19T04:25:13.440Z",
   "upstoxId": "132199",
   "date": "2026-10-16",
   "stats": {
     "total": 35,
-    "hits": 13,
+    "hits": 14,
     "sls": 17,
-    "open": 5,
-    "winRate": 43
+    "open": 4,
+    "winRate": 45
   }
 }
