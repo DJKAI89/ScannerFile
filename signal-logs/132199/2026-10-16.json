@@ -893,25 +893,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 8.84,
       "targetT1": 44.19,
       "targetT2": 53.03,
       "targetT3": 61.87,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 25.7,
+          "time": "14:40:19",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 35.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 25.7,
+      "exitTime": "14:40:19",
+      "exitDate": "2026-10-19",
+      "pnlPct": -27.3,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 39.65,
-      "livePnlPct": 12.16
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-16-1110-TECHM-1740-CE",
@@ -1070,25 +1077,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 7.96,
       "targetT1": 34.51,
       "targetT2": 42.47,
       "targetT3": 50.43,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 17.7,
+          "time": "14:40:19",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 26.55,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 17.7,
+      "exitTime": "14:40:19",
+      "exitDate": "2026-10-19",
+      "pnlPct": -33.33,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 29.1,
-      "livePnlPct": 9.6
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-16-1110-WIPRO-185-CE",
@@ -1639,19 +1653,26 @@
       "targetT1": 63,
       "targetT2": 75.6,
       "targetT3": 88.2,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 50.4,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 72.3,
+          "time": "14:40:19",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 64.74,
+      "maxFavPrice": 72.3,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 43,
-      "livePnlPct": -14.68
+      "livePrice": 72.3,
+      "livePnlPct": 43.45
     },
     {
       "id": "2026-10-16-1110-HCLTECH-1380-CE",
@@ -3083,8 +3104,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 13.35,
-      "livePnlPct": -11
+      "livePrice": 11.7,
+      "livePnlPct": -22
     },
     {
       "id": "2026-10-16-1110-KOTAKBANK-445-CE",
@@ -3271,14 +3292,14 @@
       "livePnlPct": 6.09
     }
   ],
-  "lastUpdated": "2026-10-19T04:25:13.440Z",
+  "lastUpdated": "2026-10-19T09:10:19.094Z",
   "upstoxId": "132199",
   "date": "2026-10-16",
   "stats": {
     "total": 35,
     "hits": 14,
-    "sls": 17,
-    "open": 4,
-    "winRate": 45
+    "sls": 19,
+    "open": 2,
+    "winRate": 42
   }
 }
