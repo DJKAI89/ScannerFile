@@ -269,8 +269,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.35,
-      "livePnlPct": -23.7
+      "livePrice": 2.37,
+      "livePnlPct": -23.05
     },
     {
       "id": "2026-10-19-0931-PNB-124-CE",
@@ -446,8 +446,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.85,
-      "livePnlPct": -23.18
+      "livePrice": 2.89,
+      "livePnlPct": -22.1
     },
     {
       "id": "2026-10-19-0931-AXISBANK-1210-CE",
@@ -530,16 +530,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 31.325999999999997,
-      "maxFavPrice": 35.55,
+      "trailSL": 34.275999999999996,
+      "maxFavPrice": 38.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 34.5,
-      "livePnlPct": 22.56
+      "livePrice": 38.5,
+      "livePnlPct": 36.77
     },
     {
       "id": "2026-10-19-0931-AXISBANK-1230-CE",
@@ -726,8 +726,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.3,
-      "livePnlPct": 22.08
+      "livePrice": 47.25,
+      "livePnlPct": 36.36
     },
     {
       "id": "2026-10-19-0931-AXISBANK-1220-CE",
@@ -818,8 +818,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 26.85,
-      "livePnlPct": 28.16
+      "livePrice": 30.5,
+      "livePnlPct": 45.58
     },
     {
       "id": "2026-10-19-0931-CANBK-122-PE",
@@ -1093,8 +1093,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 47.55,
-      "livePnlPct": 34.32
+      "livePrice": 45.95,
+      "livePnlPct": 29.8
     },
     {
       "id": "2026-10-19-0931-TCS-2440-CE",
@@ -1654,8 +1654,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 158.85,
-      "livePnlPct": 5.16
+      "livePrice": 161.95,
+      "livePnlPct": 7.22
     },
     {
       "id": "2026-10-19-0931-DIVISLAB-9200-PE",
@@ -1739,8 +1739,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 108.5,
-      "livePnlPct": 3.04
+      "livePrice": 112.25,
+      "livePnlPct": 6.6
     },
     {
       "id": "2026-10-19-0931-SBIN-1000-PE",
@@ -2084,8 +2084,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 12.6,
-      "livePnlPct": 6.78
+      "livePrice": 12.95,
+      "livePnlPct": 9.75
     },
     {
       "id": "2026-10-19-0931-INDUSTOWER-380-CE",
@@ -2169,8 +2169,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 9.15,
-      "livePnlPct": 10.91
+      "livePrice": 9.9,
+      "livePnlPct": 20
     },
     {
       "id": "2026-10-19-1012-PNB-123-CE",
@@ -2253,7 +2253,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 2.37,
+      "livePnlPct": 1.72
     },
     {
       "id": "2026-10-19-1012-PNB-121-CE",
@@ -2336,7 +2338,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 3.5,
+      "livePnlPct": 2.94
     },
     {
       "id": "2026-10-19-1012-PNB-124-CE",
@@ -2419,7 +2423,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1.92,
+      "livePnlPct": 2.67
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1210-CE",
@@ -2502,7 +2508,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 38.5,
+      "livePnlPct": 14.58
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1200-CE",
@@ -2585,7 +2593,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 47.25,
+      "livePnlPct": 11.7
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -2668,7 +2678,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 30.5,
+      "livePnlPct": 16.63
     },
     {
       "id": "2026-10-19-1012-LTM-4200-CE",
@@ -2751,7 +2763,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 164,
+      "livePnlPct": -2.44
     },
     {
       "id": "2026-10-19-1012-LTM-4300-CE",
@@ -2834,7 +2848,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 101,
+      "livePnlPct": -4.72
     },
     {
       "id": "2026-10-19-1012-TCS-2460-CE",
@@ -2917,7 +2933,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 45.95,
+      "livePnlPct": -3.87
     },
     {
       "id": "2026-10-19-1012-TCS-2480-CE",
@@ -3000,7 +3018,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 35.6,
+      "livePnlPct": -3.91
     },
     {
       "id": "2026-10-19-1012-TCS-2500-CE",
@@ -3083,7 +3103,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 26.65,
+      "livePnlPct": -4.82
     },
     {
       "id": "2026-10-19-1012-TCS-2420-CE",
@@ -3166,7 +3188,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 71.6,
+      "livePnlPct": -2.52
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -3249,7 +3273,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 104,
+      "livePnlPct": -0.95
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -3332,7 +3358,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 8.85,
+      "livePnlPct": -3.28
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-325-CE",
@@ -3415,7 +3443,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 5.65,
+      "livePnlPct": -5.83
     },
     {
       "id": "2026-10-19-1012-HCLTECH-1390-CE",
@@ -3498,7 +3528,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 23.1,
+      "livePnlPct": 1.32
     },
     {
       "id": "2026-10-19-1012-HCLTECH-1400-CE",
@@ -3581,7 +3613,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 18.5,
+      "livePnlPct": 0.27
     },
     {
       "id": "2026-10-19-1012-HCLTECH-1340-CE",
@@ -3664,7 +3698,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 53.85,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-19-1012-HCLTECH-1350-CE",
@@ -3747,7 +3783,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 48.7,
+      "livePnlPct": 2.63
     },
     {
       "id": "2026-10-19-1012-HCLTECH-1380-CE",
@@ -3830,7 +3868,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 28.75,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-19-1012-TECHM-1740-CE",
@@ -3913,7 +3953,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 50.85,
+      "livePnlPct": 4.41
     },
     {
       "id": "2026-10-19-1012-PREMIERENE-920-CE",
@@ -3996,7 +4038,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 19,
+      "livePnlPct": 0
     },
     {
       "id": "2026-10-19-1012-TATAELXSI-3650-CE",
@@ -4079,10 +4123,12 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 174.4,
+      "livePnlPct": 0
     }
   ],
-  "lastUpdated": "2026-10-19T04:42:43.774Z",
+  "lastUpdated": "2026-10-19T04:42:46.498Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
