@@ -1647,7 +1647,7 @@
         "fiiAgainst": true
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 12.6,
       "targetT1": 63,
@@ -1659,20 +1659,26 @@
           "price": 72.3,
           "time": "14:40:19",
           "pctClosed": 50
+        },
+        {
+          "level": "TIME_STOP",
+          "price": 69.85,
+          "time": "08:07:28",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 64.74,
       "maxFavPrice": 72.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 69.85,
+      "exitTime": "08:07:28",
+      "exitDate": "2026-10-20",
+      "pnlPct": 41.02,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 72.3,
-      "livePnlPct": 43.45
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-16-1110-HCLTECH-1380-CE",
@@ -3087,25 +3093,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 3.75,
       "targetT1": 18.75,
       "targetT2": 22.5,
       "targetT3": 26.25,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 11.8,
+          "time": "08:07:28",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 15,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 11.8,
+      "exitTime": "08:07:28",
+      "exitDate": "2026-10-20",
+      "pnlPct": -21.33,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 11.7,
-      "livePnlPct": -22
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-16-1110-KOTAKBANK-445-CE",
@@ -3292,14 +3305,14 @@
       "livePnlPct": 6.09
     }
   ],
-  "lastUpdated": "2026-10-19T09:10:26.999Z",
+  "lastUpdated": "2026-10-20T02:37:28.258Z",
   "upstoxId": "132199",
   "date": "2026-10-16",
   "stats": {
     "total": 35,
-    "hits": 14,
-    "sls": 19,
-    "open": 2,
-    "winRate": 42
+    "hits": 15,
+    "sls": 20,
+    "open": 0,
+    "winRate": 43
   }
 }
