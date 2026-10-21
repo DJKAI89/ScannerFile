@@ -3499,16 +3499,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 127.69999999999999,
-      "maxFavPrice": 143.45,
+      "trailSL": 128.35,
+      "maxFavPrice": 144.1,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 143,
-      "livePnlPct": 36.19
+      "livePrice": 144.1,
+      "livePnlPct": 37.24
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4444,8 +4444,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 191.4,
-      "livePnlPct": 9.75
+      "livePrice": 194.8,
+      "livePnlPct": 11.7
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -4696,25 +4696,32 @@
         "fiiAgainst": true
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 9.69,
       "targetT1": 48.44,
       "targetT2": 58.13,
       "targetT3": 67.82,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 27.1,
+          "time": "11:18:56",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 38.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 27.1,
+      "exitTime": "11:18:56",
+      "exitDate": "2026-10-21",
+      "pnlPct": -30.06,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 31,
-      "livePnlPct": -20
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -5497,8 +5504,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 70,
-      "livePnlPct": 61.85
+      "livePrice": 68.8,
+      "livePnlPct": 59.08
     },
     {
       "id": "2026-10-19-1701-TCS-2460-CE",
@@ -5785,20 +5792,26 @@
           "price": 171.55,
           "time": "09:28:01",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 187.55,
+          "time": "11:18:56",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 165.732,
-      "maxFavPrice": 184.2,
+      "trailSL": 169.08200000000002,
+      "maxFavPrice": 187.55,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 173.85,
-      "livePnlPct": 41.23
+      "livePrice": 187.55,
+      "livePnlPct": 52.36
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5893,14 +5906,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T05:33:52.527Z",
+  "lastUpdated": "2026-10-21T05:48:56.007Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
     "hits": 25,
-    "sls": 32,
-    "open": 5,
-    "winRate": 44
+    "sls": 33,
+    "open": 4,
+    "winRate": 43
   }
 }
