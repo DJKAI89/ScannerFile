@@ -3507,8 +3507,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 144.1,
-      "livePnlPct": 37.24
+      "livePrice": 135.9,
+      "livePnlPct": 29.43
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4444,8 +4444,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 194.8,
-      "livePnlPct": 11.7
+      "livePrice": 178,
+      "livePnlPct": 2.06
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -5474,7 +5474,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 10.81,
       "targetT1": 54.06,
@@ -5492,20 +5492,26 @@
           "price": 67.5,
           "time": "09:28:01",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 63,
+          "time": "12:56:33",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 63.514,
       "maxFavPrice": 70,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 63,
+      "exitTime": "12:56:33",
+      "exitDate": "2026-10-21",
+      "pnlPct": 38.45,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 68.8,
-      "livePnlPct": 59.08
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-TCS-2460-CE",
@@ -5810,8 +5816,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 187.55,
-      "livePnlPct": 52.36
+      "livePrice": 173,
+      "livePnlPct": 40.54
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5906,14 +5912,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T05:49:01.895Z",
+  "lastUpdated": "2026-10-21T07:26:33.580Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
-    "hits": 25,
+    "hits": 26,
     "sls": 33,
-    "open": 4,
-    "winRate": 43
+    "open": 3,
+    "winRate": 44
   }
 }
