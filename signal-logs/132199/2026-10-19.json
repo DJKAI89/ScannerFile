@@ -1993,25 +1993,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 2.46,
       "targetT1": 12.31,
       "targetT2": 14.77,
       "targetT3": 17.23,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 7.2,
+          "time": "11:00:44",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 9.85,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 7.2,
+      "exitTime": "11:00:44",
+      "exitDate": "2026-10-21",
+      "pnlPct": -26.9,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 7.65,
-      "livePnlPct": -22.34
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2751,8 +2758,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 33.35,
-      "livePnlPct": -21.16
+      "livePrice": 32.1,
+      "livePnlPct": -24.11
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -3493,8 +3500,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 131.3,
-      "livePnlPct": 25.05
+      "livePrice": 136,
+      "livePnlPct": 29.52
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4430,8 +4437,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 198.1,
-      "livePnlPct": 13.59
+      "livePrice": 192.9,
+      "livePnlPct": 10.61
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -4699,8 +4706,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 33.35,
-      "livePnlPct": -13.94
+      "livePrice": 32.1,
+      "livePnlPct": -17.16
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -5783,8 +5790,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 169.35,
-      "livePnlPct": 37.57
+      "livePrice": 173.85,
+      "livePnlPct": 41.23
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5879,14 +5886,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T05:05:27.009Z",
+  "lastUpdated": "2026-10-21T05:30:44.569Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
     "hits": 25,
-    "sls": 30,
-    "open": 7,
+    "sls": 31,
+    "open": 6,
     "winRate": 45
   }
 }
