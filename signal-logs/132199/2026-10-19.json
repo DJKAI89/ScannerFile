@@ -2010,8 +2010,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 9.25,
-      "livePnlPct": -6.09
+      "livePrice": 8.75,
+      "livePnlPct": -11.17
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2078,7 +2078,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 7.25,
       "targetT1": 36.25,
@@ -2090,20 +2090,26 @@
           "price": 37.05,
           "time": "09:38:54",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 28.8,
+          "time": "10:03:35",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 33.15,
       "maxFavPrice": 37.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 28.8,
+      "exitTime": "10:03:35",
+      "exitDate": "2026-10-21",
+      "pnlPct": 13.54,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 37.5,
-      "livePnlPct": 29.31
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-0931-INDIANB-870-CE",
@@ -2653,8 +2659,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 34.25,
-      "livePnlPct": 1.93
+      "livePrice": 31.6,
+      "livePnlPct": -5.95
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1200-CE",
@@ -2738,8 +2744,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.2,
-      "livePnlPct": -0.24
+      "livePrice": 39.6,
+      "livePnlPct": -6.38
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -2823,8 +2829,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 25.3,
-      "livePnlPct": -3.25
+      "livePrice": 23.1,
+      "livePnlPct": -11.66
     },
     {
       "id": "2026-10-19-1012-LTM-4200-CE",
@@ -3367,16 +3373,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 94.734,
-      "maxFavPrice": 105.75,
+      "trailSL": 96.78399999999999,
+      "maxFavPrice": 107.8,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 105.75,
-      "livePnlPct": 43.98
+      "livePrice": 107.8,
+      "livePnlPct": 46.77
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -3459,16 +3465,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 126.85,
-      "maxFavPrice": 142.6,
+      "trailSL": 127.69999999999999,
+      "maxFavPrice": 143.45,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 142.6,
-      "livePnlPct": 35.81
+      "livePrice": 143.45,
+      "livePnlPct": 36.62
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4404,8 +4410,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 204.75,
-      "livePnlPct": 17.4
+      "livePrice": 207.5,
+      "livePnlPct": 18.98
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -4673,8 +4679,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.2,
-      "livePnlPct": 8.9
+      "livePrice": 39.6,
+      "livePnlPct": 2.19
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -4741,7 +4747,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 0.61,
       "targetT1": 3.04,
@@ -4759,20 +4765,26 @@
           "price": 3.66,
           "time": "09:45:16",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 3.08,
+          "time": "10:03:35",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 3.294,
       "maxFavPrice": 3.66,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 3.08,
+      "exitTime": "10:03:35",
+      "exitDate": "2026-10-21",
+      "pnlPct": 36.38,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 3.56,
-      "livePnlPct": 46.5
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-PNB-122-CE",
@@ -4839,7 +4851,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 0.46,
       "targetT1": 2.32,
@@ -4857,20 +4869,26 @@
           "price": 2.93,
           "time": "09:45:16",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 2.39,
+          "time": "10:03:35",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 2.654,
       "maxFavPrice": 2.93,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2.39,
+      "exitTime": "10:03:35",
+      "exitDate": "2026-10-21",
+      "pnlPct": 40.43,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 2.79,
-      "livePnlPct": 50
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-PNB-123-CE",
@@ -4937,7 +4955,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 0.44,
       "targetT1": 1.89,
@@ -4949,20 +4967,26 @@
           "price": 1.94,
           "time": "09:28:01",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1.85,
+          "time": "10:03:35",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 2.0359999999999996,
       "maxFavPrice": 2.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1.85,
+      "exitTime": "10:03:35",
+      "exitDate": "2026-10-21",
+      "pnlPct": 30.69,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 2.22,
-      "livePnlPct": 53.1
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-ULTRACEMCO-10600-PE",
@@ -5431,16 +5455,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 63.014,
-      "maxFavPrice": 69.5,
+      "trailSL": 63.364,
+      "maxFavPrice": 69.85,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 69.5,
-      "livePnlPct": 60.69
+      "livePrice": 69.85,
+      "livePnlPct": 61.5
     },
     {
       "id": "2026-10-19-1701-TCS-2460-CE",
@@ -5739,8 +5763,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 184.2,
-      "livePnlPct": 49.63
+      "livePrice": 182.35,
+      "livePnlPct": 48.13
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5807,35 +5831,42 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 9.5,
       "targetT1": 47.5,
       "targetT2": 57,
       "targetT3": 66.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 27.25,
+          "time": "10:03:35",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 38,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 27.25,
+      "exitTime": "10:03:35",
+      "exitDate": "2026-10-21",
+      "pnlPct": -28.29,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 32.35,
-      "livePnlPct": -14.87
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T04:15:44.239Z",
+  "lastUpdated": "2026-10-21T04:33:35.979Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
-    "hits": 20,
-    "sls": 27,
-    "open": 15,
-    "winRate": 43
+    "hits": 24,
+    "sls": 28,
+    "open": 10,
+    "winRate": 46
   }
 }
