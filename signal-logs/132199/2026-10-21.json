@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 34.65,
-      "livePnlPct": 9.83
+      "livePrice": 30.3,
+      "livePnlPct": -3.96
     },
     {
       "id": "2026-10-21-0929-LTM-4300-CE",
@@ -248,25 +248,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 106.25,
       "targetT1": 531.25,
       "targetT2": 637.5,
       "targetT3": 743.75,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 274.8,
+          "time": "11:35:07",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 425,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 274.8,
+      "exitTime": "11:35:07",
+      "exitDate": "2026-10-21",
+      "pnlPct": -35.34,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 425,
-      "livePnlPct": 0
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-0945-RELIANCE-1230-PE",
@@ -446,8 +453,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.6,
-      "livePnlPct": -13.33
+      "livePrice": 2.35,
+      "livePnlPct": -21.67
     },
     {
       "id": "2026-10-21-0945-MARUTI-3700-PE",
@@ -786,19 +793,32 @@
       "targetT1": 486.87,
       "targetT2": 584.25,
       "targetT3": 681.61,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 389.5,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 486.87,
+          "time": "11:35:07",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 590.9,
+          "time": "11:35:07",
+          "pctClosed": 30
+        }
+      ],
+      "remainingPct": 20,
+      "beActive": true,
+      "trailSL": 532.478,
+      "maxFavPrice": 590.9,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 362.5,
-      "livePnlPct": -6.93
+      "livePrice": 590.9,
+      "livePnlPct": 51.71
     },
     {
       "id": "2026-10-21-1032-BAJFINANCE-940-PE",
@@ -881,16 +901,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 15.796000000000001,
-      "maxFavPrice": 17.8,
+      "trailSL": 17.796,
+      "maxFavPrice": 19.8,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 15,
-      "livePnlPct": 12.36
+      "livePrice": 19.8,
+      "livePnlPct": 48.31
     },
     {
       "id": "2026-10-21-1032-HINDZINC-560-PE",
@@ -974,8 +994,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24,
-      "livePnlPct": 5.03
+      "livePrice": 24.75,
+      "livePnlPct": 8.32
     },
     {
       "id": "2026-10-21-1032-HINDZINC-550-PE",
@@ -1059,8 +1079,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 15.75,
-      "livePnlPct": 5.35
+      "livePrice": 16.55,
+      "livePnlPct": 10.7
     },
     {
       "id": "2026-10-21-1032-KALYANKJIL-560-PE",
@@ -1144,8 +1164,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 7.55,
-      "livePnlPct": -8.48
+      "livePrice": 8.3,
+      "livePnlPct": 0.61
     },
     {
       "id": "2026-10-21-1032-BHEL-420-CE",
@@ -1304,25 +1324,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 2.4,
       "targetT1": 12,
       "targetT2": 14.4,
       "targetT3": 16.8,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 6.75,
+          "time": "11:35:07",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 9.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 6.75,
+      "exitTime": "11:35:07",
+      "exitDate": "2026-10-21",
+      "pnlPct": -29.69,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 9.35,
-      "livePnlPct": -2.6
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1032-CHOLAFIN-1540-PE",
@@ -1395,19 +1422,26 @@
       "targetT1": 42.38,
       "targetT2": 50.85,
       "targetT3": 59.34,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 33.9,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 45.2,
+          "time": "11:35:07",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 40.112,
+      "maxFavPrice": 45.2,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 38,
-      "livePnlPct": 12.09
+      "livePrice": 45.2,
+      "livePnlPct": 33.33
     },
     {
       "id": "2026-10-21-1032-IREDA-108-PE",
@@ -1491,8 +1525,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 5.09,
-      "livePnlPct": 0
+      "livePrice": 5.28,
+      "livePnlPct": 3.73
     },
     {
       "id": "2026-10-21-1043-KALYANKJIL-580-PE",
@@ -1576,8 +1610,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.75,
-      "livePnlPct": -4.59
+      "livePrice": 20.5,
+      "livePnlPct": -0.97
     },
     {
       "id": "2026-10-21-1043-BHEL-420-CE",
@@ -1736,25 +1770,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 2.49,
       "targetT1": 12.44,
       "targetT2": 14.92,
       "targetT3": 17.42,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 6.75,
+          "time": "11:35:07",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 9.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 6.75,
+      "exitTime": "11:35:07",
+      "exitDate": "2026-10-21",
+      "pnlPct": -32.16,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 9.35,
-      "livePnlPct": -6.03
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1043-CHOLAFIN-1540-PE",
@@ -1827,19 +1868,26 @@
       "targetT1": 43.75,
       "targetT2": 52.5,
       "targetT3": 61.25,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 35,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 45.2,
+          "time": "11:35:07",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 39.95,
+      "maxFavPrice": 45.2,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 38,
-      "livePnlPct": 8.57
+      "livePrice": 45.2,
+      "livePnlPct": 29.14
     },
     {
       "id": "2026-10-21-1043-POLYCAB-7900-PE",
@@ -1912,19 +1960,26 @@
       "targetT1": 162.5,
       "targetT2": 195,
       "targetT3": 227.5,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 130,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 173.15,
+          "time": "11:35:07",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 153.65,
+      "maxFavPrice": 173.15,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 155.9,
-      "livePnlPct": 19.92
+      "livePrice": 173.15,
+      "livePnlPct": 33.19
     },
     {
       "id": "2026-10-21-1044-HINDZINC-560-PE",
@@ -2008,8 +2063,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24,
-      "livePnlPct": 6.19
+      "livePrice": 24.75,
+      "livePnlPct": 9.51
     },
     {
       "id": "2026-10-21-1044-KALYANKJIL-580-PE",
@@ -2093,8 +2148,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.75,
-      "livePnlPct": 8.52
+      "livePrice": 20.5,
+      "livePnlPct": 12.64
     },
     {
       "id": "2026-10-21-1044-KALYANKJIL-570-PE",
@@ -2178,8 +2233,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 12.7,
-      "livePnlPct": 8.09
+      "livePrice": 13.25,
+      "livePnlPct": 12.77
     },
     {
       "id": "2026-10-21-1044-BHEL-420-CE",
@@ -2344,29 +2399,36 @@
       "targetT1": 172.81,
       "targetT2": 207.38,
       "targetT3": 241.93,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 138.25,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 173.15,
+          "time": "11:35:07",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 152.41400000000002,
+      "maxFavPrice": 173.15,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 155.9,
-      "livePnlPct": 12.77
+      "livePrice": 173.15,
+      "livePnlPct": 25.24
     }
   ],
-  "lastUpdated": "2026-10-21T05:49:11.453Z",
+  "lastUpdated": "2026-10-21T06:05:07.046Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
     "total": 27,
     "hits": 3,
-    "sls": 3,
-    "open": 21,
-    "winRate": 50
+    "sls": 6,
+    "open": 18,
+    "winRate": 33
   }
 }
