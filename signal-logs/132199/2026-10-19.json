@@ -2010,8 +2010,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.75,
-      "livePnlPct": -11.17
+      "livePrice": 8.05,
+      "livePnlPct": -18.27
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2659,8 +2659,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 31.6,
-      "livePnlPct": -5.95
+      "livePrice": 26.9,
+      "livePnlPct": -19.94
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1200-CE",
@@ -2744,8 +2744,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39.6,
-      "livePnlPct": -6.38
+      "livePrice": 35.45,
+      "livePnlPct": -16.19
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -2829,8 +2829,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 23.1,
-      "livePnlPct": -11.66
+      "livePrice": 19.85,
+      "livePnlPct": -24.09
     },
     {
       "id": "2026-10-19-1012-LTM-4200-CE",
@@ -3357,7 +3357,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 18.36,
       "targetT1": 91.81,
@@ -3369,20 +3369,26 @@
           "price": 98.25,
           "time": "09:28:01",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 96.55,
+          "time": "10:13:27",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 96.78399999999999,
       "maxFavPrice": 107.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 96.55,
+      "exitTime": "10:13:27",
+      "exitDate": "2026-10-21",
+      "pnlPct": 32.6,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 107.8,
-      "livePnlPct": 46.77
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -3473,8 +3479,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 143.45,
-      "livePnlPct": 36.62
+      "livePrice": 133.65,
+      "livePnlPct": 27.29
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4410,8 +4416,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 207.5,
-      "livePnlPct": 18.98
+      "livePrice": 188.65,
+      "livePnlPct": 8.17
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -4679,8 +4685,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39.6,
-      "livePnlPct": 2.19
+      "livePrice": 35.45,
+      "livePnlPct": -8.52
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -5463,8 +5469,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 69.85,
-      "livePnlPct": 61.5
+      "livePrice": 66.85,
+      "livePnlPct": 54.57
     },
     {
       "id": "2026-10-19-1701-TCS-2460-CE",
@@ -5763,8 +5769,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 182.35,
-      "livePnlPct": 48.13
+      "livePrice": 170.55,
+      "livePnlPct": 38.55
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5859,14 +5865,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T04:33:35.979Z",
+  "lastUpdated": "2026-10-21T04:43:27.816Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
-    "hits": 24,
+    "hits": 25,
     "sls": 28,
-    "open": 10,
-    "winRate": 46
+    "open": 9,
+    "winRate": 47
   }
 }
