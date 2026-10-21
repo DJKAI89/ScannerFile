@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 30.3,
-      "livePnlPct": -3.96
+      "livePrice": 30.25,
+      "livePnlPct": -4.12
     },
     {
       "id": "2026-10-21-0929-LTM-4300-CE",
@@ -903,20 +903,26 @@
           "price": 17.3,
           "time": "11:18:57",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 20.05,
+          "time": "11:36:05",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 17.796,
-      "maxFavPrice": 19.8,
+      "trailSL": 18.046,
+      "maxFavPrice": 20.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.8,
-      "livePnlPct": 48.31
+      "livePrice": 20.05,
+      "livePnlPct": 50.19
     },
     {
       "id": "2026-10-21-1032-HINDZINC-560-PE",
@@ -1000,8 +1006,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24.75,
-      "livePnlPct": 8.32
+      "livePrice": 24.5,
+      "livePnlPct": 7.22
     },
     {
       "id": "2026-10-21-1032-HINDZINC-550-PE",
@@ -1085,8 +1091,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 16.55,
-      "livePnlPct": 10.7
+      "livePrice": 16.2,
+      "livePnlPct": 8.36
     },
     {
       "id": "2026-10-21-1032-KALYANKJIL-560-PE",
@@ -1170,8 +1176,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.3,
-      "livePnlPct": 0.61
+      "livePrice": 8.1,
+      "livePnlPct": -1.82
     },
     {
       "id": "2026-10-21-1032-BHEL-420-CE",
@@ -1622,8 +1628,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.5,
-      "livePnlPct": -0.97
+      "livePrice": 21,
+      "livePnlPct": 1.45
     },
     {
       "id": "2026-10-21-1043-BHEL-420-CE",
@@ -2081,8 +2087,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24.75,
-      "livePnlPct": 9.51
+      "livePrice": 24.5,
+      "livePnlPct": 8.41
     },
     {
       "id": "2026-10-21-1044-KALYANKJIL-580-PE",
@@ -2166,8 +2172,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.5,
-      "livePnlPct": 12.64
+      "livePrice": 21,
+      "livePnlPct": 15.38
     },
     {
       "id": "2026-10-21-1044-KALYANKJIL-570-PE",
@@ -2251,8 +2257,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 13.25,
-      "livePnlPct": 12.77
+      "livePrice": 13.4,
+      "livePnlPct": 14.04
     },
     {
       "id": "2026-10-21-1044-BHEL-420-CE",
@@ -2439,7 +2445,7 @@
       "livePnlPct": 25.24
     }
   ],
-  "lastUpdated": "2026-10-21T06:05:27.671Z",
+  "lastUpdated": "2026-10-21T06:06:05.828Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
