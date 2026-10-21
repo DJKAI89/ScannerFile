@@ -2741,25 +2741,32 @@
         "fiiAgainst": true
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 10.58,
       "targetT1": 52.88,
       "targetT2": 63.46,
       "targetT3": 74.04,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 31,
+          "time": "11:03:52",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 42.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 31,
+      "exitTime": "11:03:52",
+      "exitDate": "2026-10-21",
+      "pnlPct": -26.71,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 32.1,
-      "livePnlPct": -24.11
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -3500,8 +3507,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 136,
-      "livePnlPct": 29.52
+      "livePrice": 143,
+      "livePnlPct": 36.19
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4437,8 +4444,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 192.9,
-      "livePnlPct": 10.61
+      "livePrice": 191.4,
+      "livePnlPct": 9.75
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -4706,8 +4713,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.1,
-      "livePnlPct": -17.16
+      "livePrice": 31,
+      "livePnlPct": -20
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -5886,14 +5893,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T05:30:44.569Z",
+  "lastUpdated": "2026-10-21T05:33:52.527Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
     "hits": 25,
-    "sls": 31,
-    "open": 6,
-    "winRate": 45
+    "sls": 32,
+    "open": 5,
+    "winRate": 44
   }
 }
