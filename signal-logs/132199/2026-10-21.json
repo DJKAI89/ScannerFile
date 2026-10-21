@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.2,
-      "livePnlPct": 2.06
+      "livePrice": 34.4,
+      "livePnlPct": 9.03
     },
     {
       "id": "2026-10-21-0929-LTM-4300-CE",
@@ -1215,8 +1215,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 9.15,
-      "livePnlPct": 10.91
+      "livePrice": 9.05,
+      "livePnlPct": 9.7
     },
     {
       "id": "2026-10-21-1032-BHEL-420-CE",
@@ -1582,8 +1582,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 5.27,
-      "livePnlPct": 3.54
+      "livePrice": 5.14,
+      "livePnlPct": 0.98
     },
     {
       "id": "2026-10-21-1043-KALYANKJIL-580-PE",
@@ -2893,8 +2893,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1645.65,
-      "livePnlPct": 41.37
+      "livePrice": 1634.05,
+      "livePnlPct": 40.37
     },
     {
       "id": "2026-10-21-1136-SENSEX-75100-PE",
@@ -3261,8 +3261,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 262.15,
-      "livePnlPct": 52.41
+      "livePrice": 252.2,
+      "livePnlPct": 46.63
     },
     {
       "id": "2026-10-21-1136-FINNIFTY-24900-CE",
@@ -3725,16 +3725,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 9.818,
-      "maxFavPrice": 11.15,
+      "trailSL": 9.968,
+      "maxFavPrice": 11.3,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 11.15,
-      "livePnlPct": 25.28
+      "livePrice": 11.3,
+      "livePnlPct": 26.97
     },
     {
       "id": "2026-10-21-1136-KALYANKJIL-570-PE",
@@ -4073,8 +4073,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.05,
-      "livePnlPct": 3.21
+      "livePrice": 8.25,
+      "livePnlPct": 5.77
     },
     {
       "id": "2026-10-21-1136-ADANIPOWER-192.5-PE",
@@ -4158,11 +4158,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 6.49,
-      "livePnlPct": 6.22
+      "livePrice": 6.6,
+      "livePnlPct": 8.02
     }
   ],
-  "lastUpdated": "2026-10-21T08:12:56.107Z",
+  "lastUpdated": "2026-10-21T08:13:55.671Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
