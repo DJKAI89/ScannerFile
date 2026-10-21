@@ -2010,8 +2010,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 9.3,
-      "livePnlPct": -5.58
+      "livePrice": 9.35,
+      "livePnlPct": -5.08
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2094,16 +2094,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 32.699999999999996,
-      "maxFavPrice": 37.05,
+      "trailSL": 33.15,
+      "maxFavPrice": 37.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.05,
-      "livePnlPct": 27.76
+      "livePrice": 37.5,
+      "livePnlPct": 29.31
     },
     {
       "id": "2026-10-19-0931-INDIANB-870-CE",
@@ -2653,8 +2653,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 36,
-      "livePnlPct": 7.14
+      "livePrice": 34.25,
+      "livePnlPct": 1.93
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1200-CE",
@@ -2738,8 +2738,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 45.25,
-      "livePnlPct": 6.97
+      "livePrice": 43.05,
+      "livePnlPct": 1.77
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -2823,8 +2823,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.4,
-      "livePnlPct": 4.78
+      "livePrice": 25.3,
+      "livePnlPct": -3.25
     },
     {
       "id": "2026-10-19-1012-LTM-4200-CE",
@@ -3375,8 +3375,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 105,
-      "livePnlPct": 42.95
+      "livePrice": 104.75,
+      "livePnlPct": 42.61
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -3459,16 +3459,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 123.19999999999999,
-      "maxFavPrice": 138.95,
+      "trailSL": 126.85,
+      "maxFavPrice": 142.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 138.95,
-      "livePnlPct": 32.33
+      "livePrice": 142.6,
+      "livePnlPct": 35.81
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4404,8 +4404,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 204,
-      "livePnlPct": 16.97
+      "livePrice": 204.75,
+      "livePnlPct": 17.4
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -4673,8 +4673,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 45.25,
-      "livePnlPct": 16.77
+      "livePrice": 43.05,
+      "livePnlPct": 11.1
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -4753,20 +4753,26 @@
           "price": 3.2,
           "time": "09:28:01",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 3.66,
+          "time": "09:45:16",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 3.064,
-      "maxFavPrice": 3.43,
+      "trailSL": 3.294,
+      "maxFavPrice": 3.66,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3.43,
-      "livePnlPct": 41.15
+      "livePrice": 3.66,
+      "livePnlPct": 50.62
     },
     {
       "id": "2026-10-19-1701-PNB-122-CE",
@@ -4845,20 +4851,26 @@
           "price": 2.51,
           "time": "09:28:01",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 2.93,
+          "time": "09:45:16",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 2.474,
-      "maxFavPrice": 2.75,
+      "trailSL": 2.654,
+      "maxFavPrice": 2.93,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.75,
-      "livePnlPct": 47.85
+      "livePrice": 2.93,
+      "livePnlPct": 57.53
     },
     {
       "id": "2026-10-19-1701-PNB-123-CE",
@@ -4941,16 +4953,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 1.8459999999999999,
-      "maxFavPrice": 2.11,
+      "trailSL": 2.0359999999999996,
+      "maxFavPrice": 2.3,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.11,
-      "livePnlPct": 45.52
+      "livePrice": 2.3,
+      "livePnlPct": 58.62
     },
     {
       "id": "2026-10-19-1701-ULTRACEMCO-10600-PE",
@@ -5419,16 +5431,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 62.114,
-      "maxFavPrice": 68.6,
+      "trailSL": 63.014,
+      "maxFavPrice": 69.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 68.6,
-      "livePnlPct": 58.61
+      "livePrice": 69.5,
+      "livePnlPct": 60.69
     },
     {
       "id": "2026-10-19-1701-TCS-2460-CE",
@@ -5719,16 +5731,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 159.532,
-      "maxFavPrice": 178,
+      "trailSL": 165.732,
+      "maxFavPrice": 184.2,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 178,
-      "livePnlPct": 44.6
+      "livePrice": 184.2,
+      "livePnlPct": 49.63
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5812,11 +5824,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 31.05,
-      "livePnlPct": -18.29
+      "livePrice": 32.65,
+      "livePnlPct": -14.08
     }
   ],
-  "lastUpdated": "2026-10-21T04:09:08.921Z",
+  "lastUpdated": "2026-10-21T04:15:16.465Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
