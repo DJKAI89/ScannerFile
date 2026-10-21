@@ -2010,8 +2010,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 9.35,
-      "livePnlPct": -5.08
+      "livePrice": 9.3,
+      "livePnlPct": -5.58
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2823,8 +2823,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.25,
-      "livePnlPct": 4.21
+      "livePrice": 27.4,
+      "livePnlPct": 4.78
     },
     {
       "id": "2026-10-19-1012-LTM-4200-CE",
@@ -3367,16 +3367,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 93.884,
-      "maxFavPrice": 104.9,
+      "trailSL": 93.984,
+      "maxFavPrice": 105,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 104.9,
-      "livePnlPct": 42.82
+      "livePrice": 105,
+      "livePnlPct": 42.95
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -4757,16 +4757,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 3.054,
-      "maxFavPrice": 3.42,
+      "trailSL": 3.064,
+      "maxFavPrice": 3.43,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3.42,
-      "livePnlPct": 40.74
+      "livePrice": 3.43,
+      "livePnlPct": 41.15
     },
     {
       "id": "2026-10-19-1701-PNB-122-CE",
@@ -4849,16 +4849,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 2.4240000000000004,
-      "maxFavPrice": 2.7,
+      "trailSL": 2.474,
+      "maxFavPrice": 2.75,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.7,
-      "livePnlPct": 45.16
+      "livePrice": 2.75,
+      "livePnlPct": 47.85
     },
     {
       "id": "2026-10-19-1701-PNB-123-CE",
@@ -4941,16 +4941,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 1.836,
-      "maxFavPrice": 2.1,
+      "trailSL": 1.8459999999999999,
+      "maxFavPrice": 2.11,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.09,
-      "livePnlPct": 44.14
+      "livePrice": 2.11,
+      "livePnlPct": 45.52
     },
     {
       "id": "2026-10-19-1701-ULTRACEMCO-10600-PE",
@@ -5816,7 +5816,7 @@
       "livePnlPct": -18.29
     }
   ],
-  "lastUpdated": "2026-10-21T04:08:54.339Z",
+  "lastUpdated": "2026-10-21T04:09:08.921Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
