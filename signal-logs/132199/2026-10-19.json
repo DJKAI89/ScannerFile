@@ -2010,8 +2010,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 9.35,
-      "livePnlPct": -5.08
+      "livePrice": 9.25,
+      "livePnlPct": -6.09
     },
     {
       "id": "2026-10-19-0931-INDIANB-840-CE",
@@ -2738,8 +2738,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 43.05,
-      "livePnlPct": 1.77
+      "livePrice": 42.2,
+      "livePnlPct": -0.24
     },
     {
       "id": "2026-10-19-1012-AXISBANK-1220-CE",
@@ -3367,16 +3367,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 93.984,
-      "maxFavPrice": 105,
+      "trailSL": 94.734,
+      "maxFavPrice": 105.75,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 104.75,
-      "livePnlPct": 42.61
+      "livePrice": 105.75,
+      "livePnlPct": 43.98
     },
     {
       "id": "2026-10-19-1012-TCS-2380-CE",
@@ -4673,8 +4673,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 43.05,
-      "livePnlPct": 11.1
+      "livePrice": 42.2,
+      "livePnlPct": 8.9
     },
     {
       "id": "2026-10-19-1701-PNB-121-CE",
@@ -4771,8 +4771,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3.66,
-      "livePnlPct": 50.62
+      "livePrice": 3.56,
+      "livePnlPct": 46.5
     },
     {
       "id": "2026-10-19-1701-PNB-122-CE",
@@ -4869,8 +4869,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.93,
-      "livePnlPct": 57.53
+      "livePrice": 2.79,
+      "livePnlPct": 50
     },
     {
       "id": "2026-10-19-1701-PNB-123-CE",
@@ -4961,8 +4961,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.3,
-      "livePnlPct": 58.62
+      "livePrice": 2.22,
+      "livePnlPct": 53.1
     },
     {
       "id": "2026-10-19-1701-ULTRACEMCO-10600-PE",
@@ -5824,11 +5824,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.65,
-      "livePnlPct": -14.08
+      "livePrice": 32.35,
+      "livePnlPct": -14.87
     }
   ],
-  "lastUpdated": "2026-10-21T04:15:16.465Z",
+  "lastUpdated": "2026-10-21T04:15:44.239Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
