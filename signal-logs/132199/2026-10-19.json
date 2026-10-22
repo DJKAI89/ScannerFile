@@ -3483,7 +3483,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 26.25,
       "targetT1": 131.25,
@@ -3495,20 +3495,26 @@
           "price": 132,
           "time": "09:28:01",
           "pctClosed": 50
+        },
+        {
+          "level": "TIME_STOP",
+          "price": 144.55,
+          "time": "07:41:20",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 128.35,
       "maxFavPrice": 144.1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 144.55,
+      "exitTime": "07:41:20",
+      "exitDate": "2026-10-22",
+      "pnlPct": 31.69,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 135.9,
-      "livePnlPct": 29.43
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1012-FEDERALBNK-320-CE",
@@ -4427,25 +4433,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 43.6,
       "targetT1": 218,
       "targetT2": 261.6,
       "targetT3": 305.2,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 199,
+          "time": "07:41:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 174.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 199,
+      "exitTime": "07:41:20",
+      "exitDate": "2026-10-22",
+      "pnlPct": 14.11,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 178,
-      "livePnlPct": 2.06
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-UNIONBANK-182.5-PE",
@@ -5786,7 +5799,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 30.78,
       "targetT1": 153.88,
@@ -5804,20 +5817,26 @@
           "price": 187.55,
           "time": "11:18:56",
           "pctClosed": 30
+        },
+        {
+          "level": "TIME_STOP",
+          "price": 182.3,
+          "time": "07:41:20",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 169.08200000000002,
       "maxFavPrice": 187.55,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 182.3,
+      "exitTime": "07:41:20",
+      "exitDate": "2026-10-22",
+      "pnlPct": 45.01,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 173,
-      "livePnlPct": 40.54
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-19-1701-TRENT-2900-CE",
@@ -5912,14 +5931,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-21T07:26:33.580Z",
+  "lastUpdated": "2026-10-22T02:11:20.926Z",
   "upstoxId": "132199",
   "date": "2026-10-19",
   "stats": {
     "total": 62,
-    "hits": 26,
+    "hits": 29,
     "sls": 33,
-    "open": 3,
-    "winRate": 44
+    "open": 0,
+    "winRate": 47
   }
 }
