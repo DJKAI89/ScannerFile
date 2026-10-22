@@ -65,25 +65,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 1.6,
       "targetT1": 8,
       "targetT2": 9.6,
       "targetT3": 11.2,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 4.4,
+          "time": "09:46:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 6.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 4.4,
+      "exitTime": "09:46:40",
+      "exitDate": "2026-10-22",
+      "pnlPct": -31.25,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 5.2,
-      "livePnlPct": -18.75
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-0918-INDHOTEL-760-CE",
@@ -166,16 +173,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 15.82,
-      "maxFavPrice": 17.8,
+      "trailSL": 17.169999999999998,
+      "maxFavPrice": 19.15,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17,
-      "livePnlPct": 28.79
+      "livePrice": 19.15,
+      "livePnlPct": 45.08
     },
     {
       "id": "2026-10-22-0918-INDHOTEL-770-CE",
@@ -258,16 +265,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 10.98,
-      "maxFavPrice": 12.6,
+      "trailSL": 11.280000000000001,
+      "maxFavPrice": 12.9,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 11.55,
-      "livePnlPct": 28.33
+      "livePrice": 12.9,
+      "livePnlPct": 43.33
     },
     {
       "id": "2026-10-22-0918-M&M-2850-PE",
@@ -334,25 +341,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 11.16,
       "targetT1": 55.81,
       "targetT2": 66.97,
       "targetT3": 78.13,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 33,
+          "time": "09:46:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 44.65,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 33,
+      "exitTime": "09:46:40",
+      "exitDate": "2026-10-22",
+      "pnlPct": -26.09,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 46.05,
-      "livePnlPct": 3.14
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-0918-PERSISTENT-5900-CE",
@@ -620,8 +634,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 181.1,
-      "livePnlPct": -14.35
+      "livePrice": 166.8,
+      "livePnlPct": -21.12
     },
     {
       "id": "2026-10-22-0918-ADANIGREEN-1240-PE",
@@ -688,7 +702,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 6.98,
       "targetT1": 34.88,
@@ -700,20 +714,26 @@
           "price": 35,
           "time": "09:21:23",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 19.35,
+          "time": "09:46:40",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 30.812,
       "maxFavPrice": 35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 19.35,
+      "exitTime": "09:46:40",
+      "exitDate": "2026-10-22",
+      "pnlPct": -2.6,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 35,
-      "livePnlPct": 25.45
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-0918-WAAREEENER-2400-CE",
@@ -889,8 +909,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 22.15,
-      "livePnlPct": -15.13
+      "livePrice": 19.25,
+      "livePnlPct": -26.25
     },
     {
       "id": "2026-10-22-0918-HINDALCO-880-PE",
@@ -974,8 +994,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.2,
-      "livePnlPct": 11.81
+      "livePrice": 12.6,
+      "livePnlPct": -0.79
     },
     {
       "id": "2026-10-22-0918-HINDALCO-900-PE",
@@ -1059,8 +1079,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.7,
-      "livePnlPct": 3.55
+      "livePrice": 26,
+      "livePnlPct": -2.8
     },
     {
       "id": "2026-10-22-0918-CHOLAFIN-1500-PE",
@@ -1144,18 +1164,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24.95,
-      "livePnlPct": -4.77
+      "livePrice": 24.25,
+      "livePnlPct": -7.44
     }
   ],
-  "lastUpdated": "2026-10-22T03:52:29.086Z",
+  "lastUpdated": "2026-10-22T04:16:41.706Z",
   "upstoxId": "132199",
   "date": "2026-10-22",
   "stats": {
     "total": 13,
-    "hits": 0,
-    "sls": 3,
-    "open": 10,
-    "winRate": 0
+    "hits": 1,
+    "sls": 5,
+    "open": 7,
+    "winRate": 17
   }
 }
