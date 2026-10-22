@@ -81,7 +81,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 5.2,
+      "livePnlPct": -18.75
     },
     {
       "id": "2026-10-22-0918-INDHOTEL-760-CE",
@@ -171,7 +173,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 17,
+      "livePnlPct": 28.79
     },
     {
       "id": "2026-10-22-0918-INDHOTEL-770-CE",
@@ -261,7 +265,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 11.55,
+      "livePnlPct": 28.33
     },
     {
       "id": "2026-10-22-0918-M&M-2850-PE",
@@ -344,7 +350,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 46.05,
+      "livePnlPct": 3.14
     },
     {
       "id": "2026-10-22-0918-PERSISTENT-5900-CE",
@@ -427,7 +435,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 69.9,
+      "livePnlPct": -14.7
     },
     {
       "id": "2026-10-22-0918-PERSISTENT-5800-CE",
@@ -510,7 +520,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 114.15,
+      "livePnlPct": -15.76
     },
     {
       "id": "2026-10-22-0918-PERSISTENT-5700-CE",
@@ -593,7 +605,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 181.1,
+      "livePnlPct": -14.35
     },
     {
       "id": "2026-10-22-0918-ADANIGREEN-1240-PE",
@@ -666,17 +680,26 @@
       "targetT1": 34.88,
       "targetT2": 41.85,
       "targetT3": 48.84,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 27.9,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 35,
+          "time": "09:21:23",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 30.812,
+      "maxFavPrice": 35,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 35,
+      "livePnlPct": 25.45
     },
     {
       "id": "2026-10-22-0918-WAAREEENER-2400-CE",
@@ -851,7 +874,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 22.15,
+      "livePnlPct": -15.13
     },
     {
       "id": "2026-10-22-0918-HINDALCO-880-PE",
@@ -934,7 +959,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 14.2,
+      "livePnlPct": 11.81
     },
     {
       "id": "2026-10-22-0918-HINDALCO-900-PE",
@@ -1017,7 +1044,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 27.7,
+      "livePnlPct": 3.55
     },
     {
       "id": "2026-10-22-0918-CHOLAFIN-1500-PE",
@@ -1100,10 +1129,12 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 24.95,
+      "livePnlPct": -4.77
     }
   ],
-  "lastUpdated": "2026-10-22T03:50:33.564Z",
+  "lastUpdated": "2026-10-22T03:51:25.241Z",
   "upstoxId": "132199",
   "date": "2026-10-22",
   "stats": {
