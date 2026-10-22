@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.4,
-      "livePnlPct": -13.15
+      "livePrice": 24.85,
+      "livePnlPct": -21.24
     },
     {
       "id": "2026-10-21-0929-LTM-4300-CE",
@@ -3039,16 +3039,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 1817.8400000000001,
-      "maxFavPrice": 2006.15,
+      "trailSL": 1836.74,
+      "maxFavPrice": 2025.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1969.45,
-      "livePnlPct": 56.88
+      "livePrice": 2025.05,
+      "livePnlPct": 61.31
     },
     {
       "id": "2026-10-21-1136-SENSEX-75200-PE",
@@ -4020,8 +4020,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 33.75,
-      "livePnlPct": 12.13
+      "livePrice": 37.05,
+      "livePnlPct": 23.09
     },
     {
       "id": "2026-10-21-1136-HEROMOTOCO-5300-PE",
@@ -4203,8 +4203,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.35,
-      "livePnlPct": 7.05
+      "livePrice": 9.3,
+      "livePnlPct": 19.23
     },
     {
       "id": "2026-10-21-1136-ADANIPOWER-192.5-PE",
@@ -4379,16 +4379,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 178.09799999999998,
-      "maxFavPrice": 203.1,
+      "trailSL": 186.44799999999998,
+      "maxFavPrice": 211.45,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 203.1,
-      "livePnlPct": 46.22
+      "livePrice": 211.45,
+      "livePnlPct": 52.23
     },
     {
       "id": "2026-10-21-1344-SENSEX-74200-PE",
@@ -4479,8 +4479,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1118.6,
-      "livePnlPct": 28.91
+      "livePrice": 1129.05,
+      "livePnlPct": 30.11
     },
     {
       "id": "2026-10-21-1344-SENSEX-74300-PE",
@@ -4563,16 +4563,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 1089.7,
-      "maxFavPrice": 1233.7,
+      "trailSL": 1104.95,
+      "maxFavPrice": 1248.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1207.45,
-      "livePnlPct": 25.78
+      "livePrice": 1248.95,
+      "livePnlPct": 30.1
     },
     {
       "id": "2026-10-21-1344-SENSEX-74400-PE",
@@ -4663,8 +4663,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1308.45,
-      "livePnlPct": 25.34
+      "livePrice": 1320.4,
+      "livePnlPct": 26.48
     },
     {
       "id": "2026-10-21-1344-SENSEX-74500-PE",
@@ -4747,16 +4747,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 1247.3999999999999,
-      "maxFavPrice": 1417.35,
+      "trailSL": 1250.05,
+      "maxFavPrice": 1420,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1388.85,
-      "livePnlPct": 22.58
+      "livePrice": 1420,
+      "livePnlPct": 25.33
     },
     {
       "id": "2026-10-21-1344-SENSEX-74600-PE",
@@ -4840,8 +4840,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1502.05,
-      "livePnlPct": 22.4
+      "livePrice": 1520.4,
+      "livePnlPct": 23.89
     },
     {
       "id": "2026-10-21-1344-SENSEX-74700-PE",
@@ -4925,8 +4925,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1602.25,
-      "livePnlPct": 21.4
+      "livePrice": 1624.8,
+      "livePnlPct": 23.1
     },
     {
       "id": "2026-10-21-1344-SENSEX-74800-PE",
@@ -5010,8 +5010,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1657.6,
-      "livePnlPct": 16.29
+      "livePrice": 1725.9,
+      "livePnlPct": 21.09
     },
     {
       "id": "2026-10-21-1344-SENSEX-73200-PE",
@@ -5084,19 +5084,26 @@
       "targetT1": 704.6,
       "targetT2": 867.2,
       "targetT3": 1029.8,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 542,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 709.05,
+          "time": "09:22:23",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 611.49,
+      "maxFavPrice": 709.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 688.2,
-      "livePnlPct": 26.97
+      "livePrice": 709.05,
+      "livePnlPct": 30.82
     },
     {
       "id": "2026-10-21-1344-SENSEX-73300-PE",
@@ -5180,8 +5187,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 739.95,
-      "livePnlPct": 24.59
+      "livePrice": 758,
+      "livePnlPct": 27.63
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -5905,20 +5912,26 @@
           "price": 306.65,
           "time": "09:17:51",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 350,
+          "time": "09:22:23",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 291.106,
-      "maxFavPrice": 323.95,
+      "trailSL": 317.156,
+      "maxFavPrice": 350,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 321.65,
-      "livePnlPct": 46.91
+      "livePrice": 350,
+      "livePnlPct": 59.85
     },
     {
       "id": "2026-10-21-1344-GVT&D-3800-PE",
@@ -6181,20 +6194,26 @@
           "price": 14.15,
           "time": "09:17:22",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 16,
+          "time": "09:22:23",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 13.704,
-      "maxFavPrice": 15.3,
+      "trailSL": 14.404,
+      "maxFavPrice": 16,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 15.15,
-      "livePnlPct": 42.25
+      "livePrice": 16,
+      "livePnlPct": 50.23
     },
     {
       "id": "2026-10-21-1344-VEDL-255-PE",
@@ -6370,8 +6389,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.35,
-      "livePnlPct": 3.73
+      "livePrice": 9.3,
+      "livePnlPct": 15.53
     },
     {
       "id": "2026-10-21-1344-MANAPPURAM-300-PE",
@@ -6632,8 +6651,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 33.75,
-      "livePnlPct": 4.33
+      "livePrice": 37.05,
+      "livePnlPct": 14.53
     },
     {
       "id": "2026-10-21-1344-ADANIPOWER-192.5-PE",
@@ -7070,16 +7089,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 34.656,
-      "maxFavPrice": 39,
+      "trailSL": 37.556,
+      "maxFavPrice": 41.9,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.95,
-      "livePnlPct": 31.09
+      "livePrice": 41.9,
+      "livePnlPct": 44.73
     },
     {
       "id": "2026-10-21-1344-CHOLAFIN-1500-PE",
@@ -7162,16 +7181,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 23.382,
-      "maxFavPrice": 26.85,
+      "trailSL": 25.532,
+      "maxFavPrice": 29,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24.95,
-      "livePnlPct": 29.61
+      "livePrice": 29,
+      "livePnlPct": 50.65
     },
     {
       "id": "2026-10-21-1344-MUTHOOTFIN-2500-PE",
@@ -7345,8 +7364,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 6,
-      "livePnlPct": -8.4
+      "livePrice": 5.8,
+      "livePnlPct": -11.45
     },
     {
       "id": "2026-10-21-1344-RBLBANK-355-PE",
@@ -7441,7 +7460,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-22T03:51:23.541Z",
+  "lastUpdated": "2026-10-22T03:52:23.354Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
