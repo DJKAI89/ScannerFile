@@ -419,25 +419,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 20.49,
       "targetT1": 102.44,
       "targetT2": 122.93,
       "targetT3": 143.42,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 55.75,
+          "time": "09:22:23",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 81.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 55.75,
+      "exitTime": "09:22:23",
+      "exitDate": "2026-10-22",
+      "pnlPct": -31.97,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 69.9,
-      "livePnlPct": -14.7
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-0918-PERSISTENT-5800-CE",
@@ -504,25 +511,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 33.87,
       "targetT1": 169.37,
       "targetT2": 203.25,
       "targetT3": 237.11,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 99.55,
+          "time": "09:22:23",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 135.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 99.55,
+      "exitTime": "09:22:23",
+      "exitDate": "2026-10-22",
+      "pnlPct": -26.53,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 114.15,
-      "livePnlPct": -15.76
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-0918-PERSISTENT-5700-CE",
@@ -1134,14 +1148,14 @@
       "livePnlPct": -4.77
     }
   ],
-  "lastUpdated": "2026-10-22T03:51:25.241Z",
+  "lastUpdated": "2026-10-22T03:52:29.086Z",
   "upstoxId": "132199",
   "date": "2026-10-22",
   "stats": {
     "total": 13,
     "hits": 0,
-    "sls": 1,
-    "open": 12,
+    "sls": 3,
+    "open": 10,
     "winRate": 0
   }
 }
