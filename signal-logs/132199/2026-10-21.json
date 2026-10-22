@@ -4779,7 +4779,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 283.25,
       "targetT1": 1416.25,
@@ -4791,20 +4791,26 @@
           "price": 1417.35,
           "time": "09:17:51",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1240.4,
+          "time": "09:46:49",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1250.05,
       "maxFavPrice": 1420,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1240.4,
+      "exitTime": "09:46:49",
+      "exitDate": "2026-10-22",
+      "pnlPct": 17.29,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1255.3,
-      "livePnlPct": 10.79
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1344-SENSEX-74600-PE",
@@ -5058,8 +5064,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1465.95,
-      "livePnlPct": 2.85
+      "livePrice": 1518,
+      "livePnlPct": 6.5
     },
     {
       "id": "2026-10-21-1344-SENSEX-73200-PE",
@@ -5241,8 +5247,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 657.05,
-      "livePnlPct": 10.63
+      "livePrice": 647.65,
+      "livePnlPct": 9.05
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -7468,8 +7474,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 5.65,
-      "livePnlPct": -13.74
+      "livePrice": 5.85,
+      "livePnlPct": -10.69
     },
     {
       "id": "2026-10-21-1344-RBLBANK-355-PE",
@@ -7564,14 +7570,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-22T04:16:40.143Z",
+  "lastUpdated": "2026-10-22T04:16:49.922Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
     "total": 80,
-    "hits": 38,
+    "hits": 39,
     "sls": 19,
-    "open": 23,
+    "open": 22,
     "winRate": 67
   }
 }
