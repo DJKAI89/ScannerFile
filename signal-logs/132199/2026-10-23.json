@@ -4820,21 +4820,15 @@
       "partials": [
         {
           "level": "T1",
-          "price": 649.44,
-          "time": "14:34:55",
+          "price": 775.2,
+          "time": "14:34:57",
           "pctClosed": 50
-        },
-        {
-          "level": "T2",
-          "price": 789,
-          "time": "14:34:55",
-          "pctClosed": 30
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 50,
       "beActive": true,
-      "trailSL": 711.066,
-      "maxFavPrice": 789,
+      "trailSL": 699.416,
+      "maxFavPrice": 777.35,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -4918,21 +4912,15 @@
       "partials": [
         {
           "level": "T1",
-          "price": 616.2,
-          "time": "14:34:55",
+          "price": 716.7,
+          "time": "14:34:57",
           "pctClosed": 50
-        },
-        {
-          "level": "T2",
-          "price": 731.25,
-          "time": "14:34:55",
-          "pctClosed": 30
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 50,
       "beActive": true,
-      "trailSL": 645.9300000000001,
-      "maxFavPrice": 731.25,
+      "trailSL": 634.5799999999999,
+      "maxFavPrice": 719.9,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -5016,21 +5004,15 @@
       "partials": [
         {
           "level": "T1",
-          "price": 566.28,
-          "time": "14:34:55",
+          "price": 661.95,
+          "time": "14:34:57",
           "pctClosed": 50
-        },
-        {
-          "level": "T2",
-          "price": 675.05,
-          "time": "14:34:55",
-          "pctClosed": 30
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 50,
       "beActive": true,
-      "trailSL": 596.6419999999999,
-      "maxFavPrice": 675.05,
+      "trailSL": 584.942,
+      "maxFavPrice": 663.35,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -5133,7 +5115,7 @@
       "livePnlPct": 10.22
     }
   ],
-  "lastUpdated": "2026-10-23T09:04:55.442Z",
+  "lastUpdated": "2026-10-23T09:04:57.998Z",
   "upstoxId": "132199",
   "date": "2026-10-23",
   "stats": {
