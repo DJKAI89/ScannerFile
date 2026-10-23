@@ -1767,23 +1767,32 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 0,
       "targetT1": 994.94,
       "targetT2": 1008.62,
       "targetT3": 1035.98,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 923.5,
+          "time": "13:09:01",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 953.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 923.5,
+      "exitTime": "13:09:01",
+      "exitDate": "2026-10-23",
+      "pnlPct": -3.19,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-1258-RRKABEL-STOCK",
@@ -1982,7 +1991,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1399,
+      "livePnlPct": -1.87
     },
     {
       "id": "2026-10-22-1258-GILLETTE-STOCK",
@@ -2078,17 +2089,19 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 7209,
+      "livePnlPct": 0.08
     }
   ],
-  "lastUpdated": "2026-10-23T05:07:49.474Z",
+  "lastUpdated": "2026-10-23T07:39:01.900Z",
   "upstoxId": "132199",
   "date": "2026-10-22",
   "stats": {
     "total": 22,
     "hits": 3,
-    "sls": 16,
-    "open": 3,
-    "winRate": 16
+    "sls": 17,
+    "open": 2,
+    "winRate": 15
   }
 }
