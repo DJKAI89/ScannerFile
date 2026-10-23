@@ -4068,16 +4068,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 35.688,
-      "maxFavPrice": 40.2,
+      "trailSL": 40.488,
+      "maxFavPrice": 45,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40.2,
-      "livePnlPct": 33.55
+      "livePrice": 45,
+      "livePnlPct": 49.5
     },
     {
       "id": "2026-10-21-1136-HEROMOTOCO-5300-PE",
@@ -5313,8 +5313,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 480,
-      "livePnlPct": -19.18
+      "livePrice": 436.9,
+      "livePnlPct": -26.44
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -5509,8 +5509,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 6.78,
-      "livePnlPct": 29.39
+      "livePrice": 7.2,
+      "livePnlPct": 37.4
     },
     {
       "id": "2026-10-21-1344-VMM-91-PE",
@@ -6763,8 +6763,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40.25,
-      "livePnlPct": 53.63
+      "livePrice": 37,
+      "livePnlPct": 41.22
     },
     {
       "id": "2026-10-21-1344-CGPOWER-840-PE",
@@ -6837,19 +6837,26 @@
       "targetT1": 40.44,
       "targetT2": 48.53,
       "targetT3": 56.62,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 32.35,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 45,
+          "time": "09:27:08",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 40.146,
+      "maxFavPrice": 45,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 40.2,
-      "livePnlPct": 24.27
+      "livePrice": 45,
+      "livePnlPct": 39.1
     },
     {
       "id": "2026-10-21-1344-ADANIPOWER-192.5-PE",
@@ -7714,7 +7721,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T03:53:24.607Z",
+  "lastUpdated": "2026-10-23T03:57:08.684Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
