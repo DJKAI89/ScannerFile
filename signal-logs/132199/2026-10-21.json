@@ -654,8 +654,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 315.2,
-      "livePnlPct": 12.05
+      "livePrice": 304.65,
+      "livePnlPct": 8.3
     },
     {
       "id": "2026-10-21-0945-LT-445-PE",
@@ -1609,7 +1609,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 1.27,
       "targetT1": 6.36,
@@ -1627,20 +1627,26 @@
           "price": 7.8,
           "time": "10:59:22",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 6.8,
+          "time": "14:35:01",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 7.038,
       "maxFavPrice": 7.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 6.8,
+      "exitTime": "14:35:01",
+      "exitDate": "2026-10-23",
+      "pnlPct": 35.17,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 7.8,
-      "livePnlPct": 53.24
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1043-KALYANKJIL-580-PE",
@@ -5529,7 +5535,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 1.31,
       "targetT1": 6.55,
@@ -5547,20 +5553,26 @@
           "price": 8.69,
           "time": "11:40:45",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 8.15,
+          "time": "14:35:01",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 8.184000000000001,
       "maxFavPrice": 8.97,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 8.15,
+      "exitTime": "14:35:01",
+      "exitDate": "2026-10-23",
+      "pnlPct": 44.22,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 8.97,
-      "livePnlPct": 71.18
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1344-VMM-91-PE",
@@ -7801,14 +7813,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T06:44:17.306Z",
+  "lastUpdated": "2026-10-23T09:05:01.932Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
     "total": 80,
-    "hits": 51,
+    "hits": 53,
     "sls": 22,
-    "open": 4,
-    "winRate": 70
+    "open": 2,
+    "winRate": 71
   }
 }
