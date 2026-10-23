@@ -3808,15 +3808,15 @@
       "partials": [
         {
           "level": "T1",
-          "price": 909,
-          "time": "14:34:55",
+          "price": 897.65,
+          "time": "14:34:57",
           "pctClosed": 50
         }
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 816.984,
-      "maxFavPrice": 909,
+      "trailSL": 809.884,
+      "maxFavPrice": 901.9,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -5115,7 +5115,7 @@
       "livePnlPct": 10.22
     }
   ],
-  "lastUpdated": "2026-10-23T09:04:57.998Z",
+  "lastUpdated": "2026-10-23T09:05:00.564Z",
   "upstoxId": "132199",
   "date": "2026-10-23",
   "stats": {
