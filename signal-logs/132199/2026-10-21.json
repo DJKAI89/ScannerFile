@@ -5313,8 +5313,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 447.2,
-      "livePnlPct": -24.7
+      "livePrice": 470.35,
+      "livePnlPct": -20.8
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -6749,16 +6749,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 34.02,
-      "maxFavPrice": 37.95,
+      "trailSL": 34.37,
+      "maxFavPrice": 38.3,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.95,
-      "livePnlPct": 44.85
+      "livePrice": 38.3,
+      "livePnlPct": 46.18
     },
     {
       "id": "2026-10-21-1344-CGPOWER-840-PE",
@@ -7708,7 +7708,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T03:49:41.514Z",
+  "lastUpdated": "2026-10-23T03:50:24.586Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
