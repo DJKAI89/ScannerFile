@@ -1615,19 +1615,32 @@
       "targetT1": 6.36,
       "targetT2": 7.63,
       "targetT3": 8.9,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 5.09,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 6.36,
+          "time": "10:59:22",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 7.8,
+          "time": "10:59:22",
+          "pctClosed": 30
+        }
+      ],
+      "remainingPct": 20,
+      "beActive": true,
+      "trailSL": 7.038,
+      "maxFavPrice": 7.8,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 5.28,
-      "livePnlPct": 3.73
+      "livePrice": 7.8,
+      "livePnlPct": 53.24
     },
     {
       "id": "2026-10-21-1043-KALYANKJIL-580-PE",
@@ -5324,16 +5337,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 733.098,
-      "maxFavPrice": 840,
+      "trailSL": 839.498,
+      "maxFavPrice": 946.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 840,
-      "livePnlPct": 41.44
+      "livePrice": 946.4,
+      "livePnlPct": 59.35
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -7764,7 +7777,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T05:09:58.448Z",
+  "lastUpdated": "2026-10-23T05:29:22.659Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
