@@ -5333,20 +5333,26 @@
           "price": 820.6,
           "time": "10:37:59",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 959.65,
+          "time": "11:00:02",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 839.498,
-      "maxFavPrice": 946.4,
+      "trailSL": 852.748,
+      "maxFavPrice": 959.65,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 946.4,
-      "livePnlPct": 59.35
+      "livePrice": 959.65,
+      "livePnlPct": 61.58
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -7777,7 +7783,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T05:29:22.659Z",
+  "lastUpdated": "2026-10-23T05:30:02.861Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
