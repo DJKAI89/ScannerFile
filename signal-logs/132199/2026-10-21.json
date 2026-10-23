@@ -5351,8 +5351,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 959.65,
-      "livePnlPct": 61.58
+      "livePrice": 884,
+      "livePnlPct": 48.85
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -5535,20 +5535,26 @@
           "price": 6.64,
           "time": "10:36:44",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 8.69,
+          "time": "11:40:45",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 6.614000000000001,
-      "maxFavPrice": 7.4,
+      "trailSL": 7.904,
+      "maxFavPrice": 8.69,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 7.2,
-      "livePnlPct": 37.4
+      "livePrice": 8.69,
+      "livePnlPct": 65.84
     },
     {
       "id": "2026-10-21-1344-VMM-91-PE",
@@ -7783,7 +7789,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T05:30:02.861Z",
+  "lastUpdated": "2026-10-23T06:10:45.272Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
