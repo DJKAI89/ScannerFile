@@ -5321,7 +5321,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 178.17,
       "targetT1": 772.07,
@@ -5339,20 +5339,26 @@
           "price": 959.65,
           "time": "11:00:02",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 849.6,
+          "time": "12:14:17",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 852.748,
       "maxFavPrice": 959.65,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 849.6,
+      "exitTime": "12:14:17",
+      "exitDate": "2026-10-23",
+      "pnlPct": 46.17,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 895,
-      "livePnlPct": 50.7
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1344-BAJFINANCE-930-PE",
@@ -5545,16 +5551,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 7.914,
-      "maxFavPrice": 8.7,
+      "trailSL": 8.184000000000001,
+      "maxFavPrice": 8.97,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.7,
-      "livePnlPct": 66.03
+      "livePrice": 8.97,
+      "livePnlPct": 71.18
     },
     {
       "id": "2026-10-21-1344-VMM-91-PE",
@@ -5621,7 +5627,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 0.74,
       "targetT1": 3.71,
@@ -5639,20 +5645,26 @@
           "price": 4.77,
           "time": "10:37:59",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 5.79,
+          "time": "12:14:17",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 4.326,
       "maxFavPrice": 4.77,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 5.79,
+      "exitTime": "12:14:17",
+      "exitDate": "2026-10-23",
+      "pnlPct": 52.66,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 4.77,
-      "livePnlPct": 60.61
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1344-VMM-92-PE",
@@ -7789,14 +7801,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T06:25:16.419Z",
+  "lastUpdated": "2026-10-23T06:44:17.306Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
     "total": 80,
-    "hits": 49,
+    "hits": 51,
     "sls": 22,
-    "open": 6,
-    "winRate": 69
+    "open": 4,
+    "winRate": 70
   }
 }
