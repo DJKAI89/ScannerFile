@@ -637,25 +637,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 70.32,
       "targetT1": 351.62,
       "targetT2": 421.95,
       "targetT3": 492.26,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 304.65,
+          "time": "11:21:04",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 281.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 304.65,
+      "exitTime": "11:21:04",
+      "exitDate": "2026-10-24",
+      "pnlPct": 8.3,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 304.65,
-      "livePnlPct": 8.3
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-0945-LT-445-PE",
@@ -722,25 +729,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 10.12,
       "targetT1": 50.62,
       "targetT2": 60.75,
       "targetT3": 70.86,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 46.2,
+          "time": "11:21:04",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 40.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 46.2,
+      "exitTime": "11:21:04",
+      "exitDate": "2026-10-24",
+      "pnlPct": 14.07,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 46.2,
-      "livePnlPct": 14.07
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-21-1032-SENSEX-74300-PE",
@@ -7813,14 +7827,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T09:05:01.932Z",
+  "lastUpdated": "2026-10-24T05:51:04.492Z",
   "upstoxId": "132199",
   "date": "2026-10-21",
   "stats": {
     "total": 80,
-    "hits": 53,
+    "hits": 55,
     "sls": 22,
-    "open": 2,
+    "open": 0,
     "winRate": 71
   }
 }
