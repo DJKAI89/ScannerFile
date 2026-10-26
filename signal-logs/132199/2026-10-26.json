@@ -3821,12 +3821,18 @@
           "price": 88.9,
           "time": "11:17:24",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 104.4,
+          "time": "15:33:27",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 86.128,
-      "maxFavPrice": 96.55,
+      "trailSL": 93.97800000000001,
+      "maxFavPrice": 104.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -4027,8 +4033,8 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 69.478,
-      "maxFavPrice": 77.05,
+      "trailSL": 78.428,
+      "maxFavPrice": 86,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -7931,12 +7937,18 @@
           "price": 75.05,
           "time": "14:54:22",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 86,
+          "time": "15:33:27",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 68.452,
-      "maxFavPrice": 77.05,
+      "trailSL": 77.402,
+      "maxFavPrice": 86,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -10327,8 +10339,8 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 85.694,
-      "maxFavPrice": 94.4,
+      "trailSL": 91.64399999999999,
+      "maxFavPrice": 100.35,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -12167,12 +12179,18 @@
           "price": 35.8,
           "time": "15:08:44",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 43,
+          "time": "15:33:27",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 31.966,
-      "maxFavPrice": 36.1,
+      "trailSL": 38.866,
+      "maxFavPrice": 43,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -13171,7 +13189,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-26T10:03:25.068Z",
+  "lastUpdated": "2026-10-26T10:03:27.852Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
