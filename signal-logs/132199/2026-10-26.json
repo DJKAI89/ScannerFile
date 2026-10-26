@@ -6605,8 +6605,8 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 24.65,
-      "maxFavPrice": 27.2,
+      "trailSL": 25.099999999999998,
+      "maxFavPrice": 27.65,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -8874,7 +8874,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 2.49,
       "targetT1": 10.79,
@@ -8892,17 +8892,23 @@
           "price": 12.9,
           "time": "11:37:55",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 11,
+          "time": "11:55:47",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 11.406,
       "maxFavPrice": 12.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 11,
+      "exitTime": "11:55:47",
+      "exitDate": "2026-10-26",
+      "pnlPct": 38.13,
+      "exitReason": "TRAIL_STOP",
       "note": "",
       "livePrice": 12.9,
       "livePnlPct": 55.42
@@ -9079,8 +9085,8 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 24.578,
-      "maxFavPrice": 27.2,
+      "trailSL": 25.028,
+      "maxFavPrice": 27.65,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -9639,14 +9645,14 @@
       "livePnlPct": 4.53
     }
   ],
-  "lastUpdated": "2026-10-26T06:07:55.908Z",
+  "lastUpdated": "2026-10-26T06:25:48.508Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 101,
-    "hits": 42,
+    "hits": 43,
     "sls": 40,
-    "open": 19,
-    "winRate": 51
+    "open": 18,
+    "winRate": 52
   }
 }
