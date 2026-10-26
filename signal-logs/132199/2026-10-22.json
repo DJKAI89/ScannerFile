@@ -1975,25 +1975,32 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 0,
       "targetT1": 1486.74,
       "targetT2": 1507.09,
       "targetT3": 1547.77,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 1409.2,
+          "time": "06:51:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1425.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1409.2,
+      "exitTime": "06:51:40",
+      "exitDate": "2026-10-26",
+      "pnlPct": -1.16,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 1399,
-      "livePnlPct": -1.87
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-22-1258-GILLETTE-STOCK",
@@ -2073,35 +2080,42 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "atr": 0,
       "targetT1": 7512.03,
       "targetT2": 7614.88,
       "targetT3": 7820.57,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 7220,
+          "time": "06:51:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 7203.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 7220,
+      "exitTime": "06:51:40",
+      "exitDate": "2026-10-26",
+      "pnlPct": 0.23,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 7209,
-      "livePnlPct": 0.08
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-23T07:39:01.900Z",
+  "lastUpdated": "2026-10-26T01:21:40.842Z",
   "upstoxId": "132199",
   "date": "2026-10-22",
   "stats": {
     "total": 22,
-    "hits": 3,
-    "sls": 17,
-    "open": 2,
-    "winRate": 15
+    "hits": 4,
+    "sls": 18,
+    "open": 0,
+    "winRate": 18
   }
 }
