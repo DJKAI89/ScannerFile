@@ -10305,7 +10305,7 @@
         {
           "level": "TRAIL_STOP",
           "price": 23.9,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 50
         }
       ],
@@ -10314,7 +10314,7 @@
       "trailSL": 24.626,
       "maxFavPrice": 28.1,
       "exitPrice": 23.9,
-      "exitTime": "13:57:14",
+      "exitTime": "13:57:20",
       "exitDate": "2026-10-26",
       "pnlPct": 33.8,
       "exitReason": "TRAIL_STOP",
@@ -11078,15 +11078,15 @@
       "partials": [
         {
           "level": "T1",
-          "price": 19.4,
-          "time": "13:57:14",
+          "price": 18.75,
+          "time": "13:57:20",
           "pctClosed": 50
         }
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 17.419999999999998,
-      "maxFavPrice": 19.4,
+      "trailSL": 16.77,
+      "maxFavPrice": 18.75,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -11169,13 +11169,13 @@
         {
           "level": "T1",
           "price": 9.81,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 50
         },
         {
           "level": "T2",
           "price": 12.3,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 30
         }
       ],
@@ -11367,13 +11367,13 @@
         {
           "level": "T1",
           "price": 6.83,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 50
         },
         {
           "level": "T2",
           "price": 7.9,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 30
         }
       ],
@@ -12708,7 +12708,7 @@
         {
           "level": "T1",
           "price": 12.3,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 50
         }
       ],
@@ -12881,7 +12881,7 @@
         {
           "level": "T1",
           "price": 7.75,
-          "time": "13:57:14",
+          "time": "13:57:20",
           "pctClosed": 50
         }
       ],
@@ -12897,7 +12897,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-26T08:27:15.273Z",
+  "lastUpdated": "2026-10-26T08:27:20.413Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
