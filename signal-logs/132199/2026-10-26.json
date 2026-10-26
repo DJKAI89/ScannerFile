@@ -5246,8 +5246,8 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 29.51,
-      "maxFavPrice": 32.6,
+      "trailSL": 30.16,
+      "maxFavPrice": 33.25,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -5904,22 +5904,29 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 1.31,
       "targetT1": 6.56,
       "targetT2": 7.88,
       "targetT3": 9.2,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 3.7,
+          "time": "09:42:37",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 5.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 3.7,
+      "exitTime": "09:42:37",
+      "exitDate": "2026-10-26",
+      "pnlPct": -29.52,
+      "exitReason": "SL",
       "note": "",
       "livePrice": 4.05,
       "livePnlPct": -22.86
@@ -6074,35 +6081,42 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 0.83,
       "targetT1": 3.58,
       "targetT2": 4.13,
       "targetT3": 4.82,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 1.8,
+          "time": "09:42:37",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1.8,
+      "exitTime": "09:42:37",
+      "exitDate": "2026-10-26",
+      "pnlPct": -34.55,
+      "exitReason": "SL",
       "note": "",
       "livePrice": 2.1,
       "livePnlPct": -23.64
     }
   ],
-  "lastUpdated": "2026-10-26T04:12:34.419Z",
+  "lastUpdated": "2026-10-26T04:12:37.322Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 64,
     "hits": 21,
-    "sls": 25,
-    "open": 18,
-    "winRate": 46
+    "sls": 27,
+    "open": 16,
+    "winRate": 44
   }
 }
