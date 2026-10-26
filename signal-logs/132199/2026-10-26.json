@@ -3833,8 +3833,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 83.4,
-      "livePnlPct": 20
+      "livePrice": 82.25,
+      "livePnlPct": 18.35
     },
     {
       "id": "2026-10-26-0917-INFY-1100-CE",
@@ -3901,7 +3901,7 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 8.42,
       "targetT1": 42.12,
@@ -3919,20 +3919,26 @@
           "price": 51,
           "time": "11:17:24",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 44.35,
+          "time": "11:37:55",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 46.298,
       "maxFavPrice": 51.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 44.35,
+      "exitTime": "11:37:55",
+      "exitDate": "2026-10-26",
+      "pnlPct": 43.76,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 47.45,
-      "livePnlPct": 40.8
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0917-INFY-1080-CE",
@@ -4023,8 +4029,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 66.4,
-      "livePnlPct": 31.49
+      "livePrice": 63,
+      "livePnlPct": 24.75
     },
     {
       "id": "2026-10-26-0917-INFY-1120-CE",
@@ -6607,8 +6613,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 26.1,
-      "livePnlPct": 53.53
+      "livePrice": 25,
+      "livePnlPct": 47.06
     },
     {
       "id": "2026-10-26-0943-DRREDDY-1270-CE",
@@ -6675,7 +6681,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 3.92,
       "targetT1": 16.97,
@@ -6693,20 +6699,26 @@
           "price": 20.35,
           "time": "11:26:47",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 17.9,
+          "time": "11:37:55",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 17.998,
       "maxFavPrice": 20.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 17.9,
+      "exitTime": "11:37:55",
+      "exitDate": "2026-10-26",
+      "pnlPct": 49.12,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 19.5,
-      "livePnlPct": 49.43
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0943-DRREDDY-1280-CE",
@@ -7164,8 +7176,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 12.45,
-      "livePnlPct": -17.28
+      "livePrice": 13,
+      "livePnlPct": -13.62
     },
     {
       "id": "2026-10-26-0943-CGPOWER-840-PE",
@@ -7790,7 +7802,7 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 9.75,
       "targetT1": 48.75,
@@ -7802,20 +7814,26 @@
           "price": 49.3,
           "time": "11:09:24",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 44.35,
+          "time": "11:37:55",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 45.5,
       "maxFavPrice": 51.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 44.35,
+      "exitTime": "11:37:55",
+      "exitDate": "2026-10-26",
+      "pnlPct": 20.07,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 47.45,
-      "livePnlPct": 21.67
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0943-INFY-1080-CE",
@@ -7899,8 +7917,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 66.4,
-      "livePnlPct": 15.88
+      "livePrice": 63,
+      "livePnlPct": 9.95
     },
     {
       "id": "2026-10-26-0943-OFSS-9750-PE",
@@ -8176,8 +8194,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 51.65,
-      "livePnlPct": 2.18
+      "livePrice": 50.7,
+      "livePnlPct": 0.3
     },
     {
       "id": "2026-10-26-1109-AUBANK-880-PE",
@@ -8261,8 +8279,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 21.8,
-      "livePnlPct": -9.17
+      "livePrice": 23.35,
+      "livePnlPct": -2.71
     },
     {
       "id": "2026-10-26-1109-AUBANK-870-PE",
@@ -8346,8 +8364,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 16.2,
-      "livePnlPct": -4.14
+      "livePrice": 15.35,
+      "livePnlPct": -9.17
     },
     {
       "id": "2026-10-26-1109-AUBANK-860-PE",
@@ -8533,8 +8551,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 6.7,
-      "livePnlPct": -12.99
+      "livePrice": 6.2,
+      "livePnlPct": -19.48
     },
     {
       "id": "2026-10-26-1109-SWIGGY-185-PE",
@@ -8618,8 +8636,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 4.4,
-      "livePnlPct": 1.15
+      "livePrice": 4.5,
+      "livePnlPct": 3.45
     },
     {
       "id": "2026-10-26-1109-SWIGGY-180-PE",
@@ -8703,8 +8721,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1.95,
-      "livePnlPct": -2.5
+      "livePrice": 2.1,
+      "livePnlPct": 5
     },
     {
       "id": "2026-10-26-1109-SWIGGY-190-PE",
@@ -8788,8 +8806,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.2,
-      "livePnlPct": 5.13
+      "livePrice": 8.35,
+      "livePnlPct": 7.05
     },
     {
       "id": "2026-10-26-1109-SHRIRAMFIN-820-PE",
@@ -8862,19 +8880,32 @@
       "targetT1": 10.79,
       "targetT2": 12.45,
       "targetT3": 14.54,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 8.3,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 10.79,
+          "time": "11:37:55",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 12.9,
+          "time": "11:37:55",
+          "pctClosed": 30
+        }
+      ],
+      "remainingPct": 20,
+      "beActive": true,
+      "trailSL": 11.406,
+      "maxFavPrice": 12.9,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 10.15,
-      "livePnlPct": 22.29
+      "livePrice": 12.9,
+      "livePnlPct": 55.42
     },
     {
       "id": "2026-10-26-1109-ADANIPOWER-192.5-PE",
@@ -9056,8 +9087,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 26.1,
-      "livePnlPct": 49.14
+      "livePrice": 25,
+      "livePnlPct": 42.86
     },
     {
       "id": "2026-10-26-1109-DRREDDY-1270-CE",
@@ -9434,8 +9465,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 10.75,
-      "livePnlPct": -5.7
+      "livePrice": 11.25,
+      "livePnlPct": -1.32
     },
     {
       "id": "2026-10-26-1109-CGPOWER-840-PE",
@@ -9519,8 +9550,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17.95,
-      "livePnlPct": 1.7
+      "livePrice": 17.4,
+      "livePnlPct": -1.42
     },
     {
       "id": "2026-10-26-1109-IDFCFIRSTB-74-PE",
@@ -9604,18 +9635,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.41,
-      "livePnlPct": -0.82
+      "livePrice": 2.54,
+      "livePnlPct": 4.53
     }
   ],
-  "lastUpdated": "2026-10-26T05:57:10.048Z",
+  "lastUpdated": "2026-10-26T06:07:55.908Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 101,
-    "hits": 39,
+    "hits": 42,
     "sls": 40,
-    "open": 22,
-    "winRate": 49
+    "open": 19,
+    "winRate": 51
   }
 }
