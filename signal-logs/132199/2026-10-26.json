@@ -518,25 +518,32 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 14.2,
       "targetT1": 71,
       "targetT2": 85.2,
       "targetT3": 99.4,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 42.1,
+          "time": "09:20:16",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 56.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 42.1,
+      "exitTime": "09:20:16",
+      "exitDate": "2026-10-26",
+      "pnlPct": -25.88,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 46.3,
-      "livePnlPct": -18.49
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0916-INFY-1100-CE",
@@ -5842,14 +5849,14 @@
       "livePnlPct": -23.64
     }
   ],
-  "lastUpdated": "2026-10-26T03:50:10.493Z",
+  "lastUpdated": "2026-10-26T03:50:25.554Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 64,
     "hits": 13,
-    "sls": 21,
-    "open": 30,
-    "winRate": 38
+    "sls": 22,
+    "open": 29,
+    "winRate": 37
   }
 }
