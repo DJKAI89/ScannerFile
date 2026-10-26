@@ -450,8 +450,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 12.8,
-      "livePnlPct": -7.91
+      "livePrice": 14.05,
+      "livePnlPct": 1.08
     },
     {
       "id": "2026-10-26-0916-INFY-1080-CE",
@@ -2465,8 +2465,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 13.1,
-      "livePnlPct": -1.13
+      "livePrice": 15.1,
+      "livePnlPct": 13.96
     },
     {
       "id": "2026-10-26-0916-INDUSINDBK-860-PE",
@@ -2550,8 +2550,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 18.2,
-      "livePnlPct": -8.77
+      "livePrice": 22.6,
+      "livePnlPct": 13.28
     },
     {
       "id": "2026-10-26-0916-INDUSINDBK-840-PE",
@@ -2635,8 +2635,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 8.6,
-      "livePnlPct": -7.53
+      "livePrice": 9.55,
+      "livePnlPct": 2.69
     },
     {
       "id": "2026-10-26-0916-INDUSINDBK-870-PE",
@@ -3095,7 +3095,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 0.68,
       "targetT1": 3.4,
@@ -3113,20 +3113,26 @@
           "price": 4.14,
           "time": "09:42:34",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 3.48,
+          "time": "09:42:39",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 3.7319999999999998,
       "maxFavPrice": 4.14,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 3.48,
+      "exitTime": "09:42:39",
+      "exitDate": "2026-10-26",
+      "pnlPct": 33.75,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 2.65,
-      "livePnlPct": -2.57
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0916-IDFCFIRSTB-75-PE",
@@ -3223,8 +3229,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3.48,
-      "livePnlPct": 10.13
+      "livePrice": 4.81,
+      "livePnlPct": 52.22
     },
     {
       "id": "2026-10-26-0916-IDFCFIRSTB-71-PE",
@@ -3786,8 +3792,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 65.05,
-      "livePnlPct": -6.4
+      "livePrice": 76.6,
+      "livePnlPct": 10.22
     },
     {
       "id": "2026-10-26-0917-INFY-1100-CE",
@@ -3871,8 +3877,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 30.05,
-      "livePnlPct": -10.83
+      "livePrice": 39,
+      "livePnlPct": 15.73
     },
     {
       "id": "2026-10-26-0917-INFY-1080-CE",
@@ -3956,8 +3962,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.3,
-      "livePnlPct": -8.32
+      "livePrice": 57.3,
+      "livePnlPct": 13.47
     },
     {
       "id": "2026-10-26-0917-INFY-1120-CE",
@@ -4238,8 +4244,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39.9,
-      "livePnlPct": 0.5
+      "livePrice": 63.65,
+      "livePnlPct": 60.33
     },
     {
       "id": "2026-10-26-0917-DRREDDY-1210-CE",
@@ -5246,16 +5252,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 30.16,
-      "maxFavPrice": 33.25,
+      "trailSL": 30.709999999999997,
+      "maxFavPrice": 33.8,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 21.65,
-      "livePnlPct": 5.1
+      "livePrice": 33.8,
+      "livePnlPct": 64.08
     },
     {
       "id": "2026-10-26-0917-CGPOWER-810-PE",
@@ -5456,8 +5462,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1.04,
-      "livePnlPct": -4.59
+      "livePrice": 1.75,
+      "livePnlPct": 60.55
     },
     {
       "id": "2026-10-26-0917-IDFCFIRSTB-74-PE",
@@ -5524,7 +5530,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 0.66,
       "targetT1": 3.31,
@@ -5542,20 +5548,26 @@
           "price": 4.14,
           "time": "09:42:34",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 3.48,
+          "time": "09:42:39",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 3.7439999999999998,
       "maxFavPrice": 4.14,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 3.48,
+      "exitTime": "09:42:39",
+      "exitDate": "2026-10-26",
+      "pnlPct": 35.59,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 2.65,
-      "livePnlPct": 0
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0917-IDFCFIRSTB-73-PE",
@@ -5646,8 +5658,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1.58,
-      "livePnlPct": -16.84
+      "livePrice": 2.62,
+      "livePnlPct": 37.89
     },
     {
       "id": "2026-10-26-0917-IDFCFIRSTB-71-PE",
@@ -5744,8 +5756,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 0.6,
-      "livePnlPct": -13.04
+      "livePrice": 1.09,
+      "livePnlPct": 57.97
     },
     {
       "id": "2026-10-26-0917-SWIGGY-185-PE",
@@ -6013,8 +6025,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.6,
-      "livePnlPct": 0
+      "livePrice": 11,
+      "livePnlPct": -24.66
     },
     {
       "id": "2026-10-26-0917-SWIGGY-175-PE",
@@ -6109,14 +6121,14 @@
       "livePnlPct": -23.64
     }
   ],
-  "lastUpdated": "2026-10-26T04:12:37.322Z",
+  "lastUpdated": "2026-10-26T04:12:39.778Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 64,
-    "hits": 21,
+    "hits": 23,
     "sls": 27,
-    "open": 16,
-    "winRate": 44
+    "open": 14,
+    "winRate": 46
   }
 }
