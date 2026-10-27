@@ -3809,7 +3809,7 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 17.37,
       "targetT1": 86.87,
@@ -3827,20 +3827,26 @@
           "price": 104.4,
           "time": "15:33:27",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 76.2,
+          "time": "09:20:20",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 96.928,
       "maxFavPrice": 107.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 76.2,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": 30.95,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 107.35,
-      "livePnlPct": 54.46
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0917-INFY-1100-CE",
@@ -4011,7 +4017,7 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 12.62,
       "targetT1": 63.12,
@@ -4029,20 +4035,26 @@
           "price": 77.05,
           "time": "15:08:41",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 56.8,
+          "time": "09:20:20",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 79.328,
       "maxFavPrice": 86.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 56.8,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": 34.06,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 86.9,
-      "livePnlPct": 72.08
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0917-INFY-1120-CE",
@@ -7925,7 +7937,7 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 14.33,
       "targetT1": 71.63,
@@ -7943,20 +7955,26 @@
           "price": 86,
           "time": "15:33:27",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 56.8,
+          "time": "09:20:20",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 78.302,
       "maxFavPrice": 86.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 56.8,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": 30.34,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 86.9,
-      "livePnlPct": 51.66
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-0943-OFSS-9750-PE",
@@ -9077,25 +9095,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 1.96,
       "targetT1": 9.81,
       "targetT2": 11.77,
       "targetT3": 13.73,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 4.94,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 7.85,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 4.94,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -37.07,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 7.04,
-      "livePnlPct": -10.32
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1109-DRREDDY-1260-CE",
@@ -9767,8 +9792,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.62,
-      "livePnlPct": 7.82
+      "livePrice": 2.83,
+      "livePnlPct": 16.46
     },
     {
       "id": "2026-10-26-1226-DRREDDY-1270-CE",
@@ -10517,25 +10542,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 5.37,
       "targetT1": 26.87,
       "targetT2": 32.25,
       "targetT3": 37.61,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 15.65,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 21.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 15.65,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -27.21,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 18.35,
-      "livePnlPct": -14.65
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1226-AUBANK-870-PE",
@@ -10602,25 +10634,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 3.5,
       "targetT1": 17.5,
       "targetT2": 21,
       "targetT3": 24.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 7.7,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 14,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 7.7,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -45,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 10.55,
-      "livePnlPct": -24.64
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1226-AUBANK-860-PE",
@@ -11143,25 +11182,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 1.89,
       "targetT1": 9.46,
       "targetT2": 11.36,
       "targetT3": 13.27,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 4.94,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 7.57,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 4.94,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -34.74,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 7.04,
-      "livePnlPct": -7
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1226-CGPOWER-840-PE",
@@ -11630,7 +11676,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 1.06,
       "targetT1": 5.31,
@@ -11642,20 +11688,26 @@
           "price": 5.35,
           "time": "14:54:22",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 4.35,
+          "time": "09:20:20",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 4.764,
       "maxFavPrice": 5.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 4.35,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": 14.12,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 5,
-      "livePnlPct": 17.65
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-SWIGGY-185-PE",
@@ -11739,8 +11791,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.15,
-      "livePnlPct": 13.16
+      "livePrice": 1.4,
+      "livePnlPct": -26.32
     },
     {
       "id": "2026-10-26-1330-DRREDDY-1290-CE",
@@ -11824,8 +11876,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 25.8,
-      "livePnlPct": 0.78
+      "livePrice": 22.9,
+      "livePnlPct": -10.55
     },
     {
       "id": "2026-10-26-1330-DRREDDY-1300-CE",
@@ -12088,25 +12140,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 2.61,
       "targetT1": 11.31,
       "targetT2": 13.05,
       "targetT3": 15.24,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 4,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 8.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 4,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -54.02,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 7.65,
-      "livePnlPct": -12.07
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-COFORGE-1960-CE",
@@ -12173,7 +12232,7 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 6.89,
       "targetT1": 34.44,
@@ -12191,20 +12250,26 @@
           "price": 43,
           "time": "15:33:27",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 31.5,
+          "time": "09:20:20",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 43.866,
       "maxFavPrice": 48,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 31.5,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": 34.67,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 48,
-      "livePnlPct": 74.23
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-AUBANK-870-PE",
@@ -12271,25 +12336,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 3.37,
       "targetT1": 16.87,
       "targetT2": 20.25,
       "targetT3": 23.61,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 7.7,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 13.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 7.7,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -42.96,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 10.55,
-      "livePnlPct": -21.85
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-AUBANK-860-PE",
@@ -12465,8 +12537,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 18.35,
-      "livePnlPct": -10.92
+      "livePrice": 15.65,
+      "livePnlPct": -24.03
     },
     {
       "id": "2026-10-26-1330-SHRIRAMFIN-820-PE",
@@ -13085,25 +13157,32 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 3.89,
       "targetT1": 19.44,
       "targetT2": 23.33,
       "targetT3": 27.22,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 5.9,
+          "time": "09:20:20",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 15.55,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 5.9,
+      "exitTime": "09:20:20",
+      "exitDate": "2026-10-27",
+      "pnlPct": -62.06,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 12.95,
-      "livePnlPct": -16.72
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-CGPOWER-820-PE",
@@ -13202,14 +13281,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-26T13:33:38.350Z",
+  "lastUpdated": "2026-10-27T03:50:20.974Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 138,
-    "hits": 61,
-    "sls": 61,
-    "open": 16,
-    "winRate": 50
+    "hits": 66,
+    "sls": 68,
+    "open": 4,
+    "winRate": 49
   }
 }
