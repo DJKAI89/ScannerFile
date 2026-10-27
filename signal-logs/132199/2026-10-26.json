@@ -9792,8 +9792,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.4,
-      "livePnlPct": -1.23
+      "livePrice": 2.37,
+      "livePnlPct": -2.47
     },
     {
       "id": "2026-10-26-1226-DRREDDY-1270-CE",
@@ -11866,7 +11866,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 6.4,
       "targetT1": 32,
@@ -11878,20 +11878,26 @@
           "price": 32.6,
           "time": "09:46:07",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 28.45,
+          "time": "10:02:04",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 28.959999999999997,
       "maxFavPrice": 32.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 28.45,
+      "exitTime": "10:02:04",
+      "exitDate": "2026-10-27",
+      "pnlPct": 19.23,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 32.8,
-      "livePnlPct": 28.12
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-DRREDDY-1300-CE",
@@ -13302,14 +13308,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-27T04:21:39.246Z",
+  "lastUpdated": "2026-10-27T04:32:04.374Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 138,
-    "hits": 66,
+    "hits": 67,
     "sls": 70,
-    "open": 2,
+    "open": 1,
     "winRate": 49
   }
 }
