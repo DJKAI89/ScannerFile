@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1160.85,
-      "livePnlPct": 13.5
+      "livePrice": 1127.25,
+      "livePnlPct": 10.21
     },
     {
       "id": "2026-10-27-0920-SENSEX-72200-CE",
@@ -167,8 +167,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1450,
-      "livePnlPct": 11.11
+      "livePrice": 1435.75,
+      "livePnlPct": 10.02
     },
     {
       "id": "2026-10-27-0920-SENSEX-72400-CE",
@@ -252,8 +252,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1322.25,
-      "livePnlPct": 12.18
+      "livePrice": 1338,
+      "livePnlPct": 13.52
     },
     {
       "id": "2026-10-27-0920-SONACOMS-830-PE",
@@ -429,8 +429,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 12.55,
-      "livePnlPct": -14.92
+      "livePrice": 12.05,
+      "livePnlPct": -18.31
     },
     {
       "id": "2026-10-27-0920-MAHABANK-81-PE",
@@ -617,16 +617,16 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 4.902,
-      "maxFavPrice": 5.49,
+      "trailSL": 5.212,
+      "maxFavPrice": 5.8,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 5.49,
-      "livePnlPct": 40.41
+      "livePrice": 5.8,
+      "livePnlPct": 48.34
     },
     {
       "id": "2026-10-27-0920-MAHABANK-84-PE",
@@ -1562,8 +1562,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 595.3,
-      "livePnlPct": -2.44
+      "livePrice": 658,
+      "livePnlPct": 7.83
     },
     {
       "id": "2026-10-27-0920-POWERINDIA-28500-PE",
@@ -1835,7 +1835,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-27T04:16:56.704Z",
+  "lastUpdated": "2026-10-27T04:20:19.947Z",
   "upstoxId": "132199",
   "date": "2026-10-27",
   "stats": {
