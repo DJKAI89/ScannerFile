@@ -412,25 +412,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 3.69,
       "targetT1": 18.44,
       "targetT2": 22.13,
       "targetT3": 25.82,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 11.05,
+          "time": "09:51:19",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 14.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 11.05,
+      "exitTime": "09:51:19",
+      "exitDate": "2026-10-27",
+      "pnlPct": -25.08,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 12.05,
-      "livePnlPct": -18.31
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-27-0920-MAHABANK-81-PE",
@@ -7064,14 +7071,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-27T04:20:46.179Z",
+  "lastUpdated": "2026-10-27T04:21:27.298Z",
   "upstoxId": "132199",
   "date": "2026-10-27",
   "stats": {
     "total": 83,
     "hits": 4,
-    "sls": 8,
-    "open": 71,
-    "winRate": 33
+    "sls": 9,
+    "open": 70,
+    "winRate": 31
   }
 }
