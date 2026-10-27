@@ -9792,8 +9792,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.83,
-      "livePnlPct": 16.46
+      "livePrice": 2.4,
+      "livePnlPct": -1.23
     },
     {
       "id": "2026-10-26-1226-DRREDDY-1270-CE",
@@ -11872,19 +11872,26 @@
       "targetT1": 32,
       "targetT2": 38.4,
       "targetT3": 44.8,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 25.6,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 32.6,
+          "time": "09:46:07",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 28.76,
+      "maxFavPrice": 32.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 22.9,
-      "livePnlPct": -10.55
+      "livePrice": 32.6,
+      "livePnlPct": 27.34
     },
     {
       "id": "2026-10-26-1330-DRREDDY-1300-CE",
@@ -12527,25 +12534,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 5.15,
       "targetT1": 25.75,
       "targetT2": 30.9,
       "targetT3": 36.05,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 11,
+          "time": "09:46:07",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 20.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 11,
+      "exitTime": "09:46:07",
+      "exitDate": "2026-10-27",
+      "pnlPct": -46.6,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 15.65,
-      "livePnlPct": -24.03
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1330-SHRIRAMFIN-820-PE",
@@ -13288,14 +13302,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-27T03:51:04.991Z",
+  "lastUpdated": "2026-10-27T04:16:07.724Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 138,
     "hits": 66,
-    "sls": 69,
-    "open": 3,
+    "sls": 70,
+    "open": 2,
     "winRate": 49
   }
 }
