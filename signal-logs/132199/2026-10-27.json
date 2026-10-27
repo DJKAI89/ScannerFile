@@ -81,7 +81,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1160.85,
+      "livePnlPct": 13.5
     },
     {
       "id": "2026-10-27-0920-SENSEX-72200-CE",
@@ -164,7 +166,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1450,
+      "livePnlPct": 11.11
     },
     {
       "id": "2026-10-27-0920-SENSEX-72400-CE",
@@ -247,7 +251,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1322.25,
+      "livePnlPct": 12.18
     },
     {
       "id": "2026-10-27-0920-SONACOMS-830-PE",
@@ -314,23 +320,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 2.35,
       "targetT1": 11.75,
       "targetT2": 14.1,
       "targetT3": 16.45,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 6.5,
+          "time": "09:46:56",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 9.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 6.5,
+      "exitTime": "09:46:56",
+      "exitDate": "2026-10-27",
+      "pnlPct": -30.85,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-27-0920-SONACOMS-840-PE",
@@ -413,7 +428,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 12.55,
+      "livePnlPct": -14.92
     },
     {
       "id": "2026-10-27-0920-MAHABANK-81-PE",
@@ -607,7 +624,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 5.49,
+      "livePnlPct": 40.41
     },
     {
       "id": "2026-10-27-0920-MAHABANK-84-PE",
@@ -697,7 +716,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 6.45,
+      "livePnlPct": 48.28
     },
     {
       "id": "2026-10-27-0920-MAHABANK-79-PE",
@@ -1540,7 +1561,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 595.3,
+      "livePnlPct": -2.44
     },
     {
       "id": "2026-10-27-0920-POWERINDIA-28500-PE",
@@ -1623,7 +1646,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1054.2,
+      "livePnlPct": -2.47
     },
     {
       "id": "2026-10-27-0920-KFINTECH-880-PE",
@@ -1810,14 +1835,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-27T04:16:24.602Z",
+  "lastUpdated": "2026-10-27T04:16:56.704Z",
   "upstoxId": "132199",
   "date": "2026-10-27",
   "stats": {
     "total": 20,
     "hits": 4,
-    "sls": 7,
-    "open": 9,
-    "winRate": 36
+    "sls": 8,
+    "open": 8,
+    "winRate": 33
   }
 }
