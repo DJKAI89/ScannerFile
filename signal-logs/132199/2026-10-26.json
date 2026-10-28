@@ -9775,25 +9775,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
       "riskDist": 0.61,
       "targetT1": 3.04,
       "targetT2": 3.65,
       "targetT3": 4.26,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2.43,
+          "time": "08:44:04",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2.43,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2.43,
+      "exitTime": "08:44:04",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
-      "livePrice": 2.37,
-      "livePnlPct": -2.47
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-26-1226-DRREDDY-1270-CE",
@@ -13308,14 +13315,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-27T04:32:04.374Z",
+  "lastUpdated": "2026-10-28T03:14:04.379Z",
   "upstoxId": "132199",
   "date": "2026-10-26",
   "stats": {
     "total": 138,
     "hits": 67,
     "sls": 70,
-    "open": 1,
+    "open": 0,
     "winRate": 49
   }
 }
