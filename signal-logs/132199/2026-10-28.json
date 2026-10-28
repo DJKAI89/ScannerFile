@@ -2216,8 +2216,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 136.876,
-      "maxFavPrice": 155.8,
+      "trailSL": 139.476,
+      "maxFavPrice": 158.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -3398,19 +3398,19 @@
       "partials": [
         {
           "level": "SL",
-          "price": 679.75,
-          "time": "10:23:07",
+          "price": 677.45,
+          "time": "10:23:16",
           "pctClosed": 100
         }
       ],
       "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
-      "maxFavPrice": 1020.3,
-      "exitPrice": 679.75,
-      "exitTime": "10:23:07",
+      "maxFavPrice": 1060.75,
+      "exitPrice": 677.45,
+      "exitTime": "10:23:16",
       "exitDate": "2026-10-28",
-      "pnlPct": -33.38,
+      "pnlPct": -36.13,
       "exitReason": "SL",
       "note": "",
       "livePrice": null,
@@ -3490,19 +3490,19 @@
       "partials": [
         {
           "level": "SL",
-          "price": 206.65,
-          "time": "10:23:07",
+          "price": 205.9,
+          "time": "10:23:16",
           "pctClosed": 100
         }
       ],
       "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
-      "maxFavPrice": 374.8,
-      "exitPrice": 206.65,
-      "exitTime": "10:23:07",
+      "maxFavPrice": 392.4,
+      "exitPrice": 205.9,
+      "exitTime": "10:23:16",
       "exitDate": "2026-10-28",
-      "pnlPct": -44.86,
+      "pnlPct": -47.53,
       "exitReason": "SL",
       "note": "",
       "livePrice": null,
@@ -4174,18 +4174,11 @@
       "targetT1": 154.7,
       "targetT2": 190.4,
       "targetT3": 226.1,
-      "partials": [
-        {
-          "level": "T1",
-          "price": 155.8,
-          "time": "10:23:07",
-          "pctClosed": 50
-        }
-      ],
-      "remainingPct": 50,
-      "beActive": true,
+      "partials": [],
+      "remainingPct": 100,
+      "beActive": false,
       "trailSL": 134.38,
-      "maxFavPrice": 155.8,
+      "maxFavPrice": 125.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -4607,22 +4600,29 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 265.19,
       "targetT1": 1325.94,
       "targetT2": 1591.13,
       "targetT3": 1856.32,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 677.45,
+          "time": "10:23:16",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1060.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 677.45,
+      "exitTime": "10:23:16",
+      "exitDate": "2026-10-28",
+      "pnlPct": -36.13,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -4690,22 +4690,29 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 98.1,
       "targetT1": 490.5,
       "targetT2": 588.6,
       "targetT3": 686.7,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 205.9,
+          "time": "10:23:16",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 392.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 205.9,
+      "exitTime": "10:23:16",
+      "exitDate": "2026-10-28",
+      "pnlPct": -47.53,
+      "exitReason": "SL",
       "note": ""
     },
     {
@@ -5056,14 +5063,14 @@
       "livePnlPct": 24.14
     }
   ],
-  "lastUpdated": "2026-10-28T04:53:07.769Z",
+  "lastUpdated": "2026-10-28T04:53:16.662Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 58,
     "hits": 0,
-    "sls": 14,
-    "open": 44,
+    "sls": 16,
+    "open": 42,
     "winRate": 0
   }
 }
