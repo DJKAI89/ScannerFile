@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T09:11:13.769294+00:00",
-  "count": 213,
+  "updated_at": "2026-10-28T09:52:22.082545+00:00",
+  "count": 218,
   "data": {
     "360ONE": {
       "IsFO": true,
@@ -12,7 +12,7 @@
     },
     "ABCAPITAL": {
       "IsFO": true,
-      "Lotsize": 3100
+      "Lotsize": 1550
     },
     "ADANIENSOL": {
       "IsFO": true,
@@ -44,7 +44,7 @@
     },
     "AMBUJACEM": {
       "IsFO": true,
-      "Lotsize": 1200
+      "Lotsize": 1350
     },
     "ANANDRATHI": {
       "IsFO": true,
@@ -60,7 +60,7 @@
     },
     "APOLLOHOSP": {
       "IsFO": true,
-      "Lotsize": 125
+      "Lotsize": 75
     },
     "ASHOKLEY": {
       "IsFO": true,
@@ -80,7 +80,7 @@
     },
     "AUBANK": {
       "IsFO": true,
-      "Lotsize": 1000
+      "Lotsize": 500
     },
     "AUROPHARMA": {
       "IsFO": true,
@@ -97,10 +97,6 @@
     "BAJAJFINSV": {
       "IsFO": true,
       "Lotsize": 300
-    },
-    "BAJAJHLDNG": {
-      "IsFO": true,
-      "Lotsize": 75
     },
     "BAJFINANCE": {
       "IsFO": true,
@@ -136,7 +132,7 @@
     },
     "BHEL": {
       "IsFO": true,
-      "Lotsize": 2625
+      "Lotsize": 1250
     },
     "BIOCON": {
       "IsFO": true,
@@ -144,11 +140,11 @@
     },
     "BLUESTARCO": {
       "IsFO": true,
-      "Lotsize": 325
+      "Lotsize": 350
     },
     "BOSCHLTD": {
       "IsFO": true,
-      "Lotsize": 25
+      "Lotsize": 15
     },
     "BPCL": {
       "IsFO": true,
@@ -180,7 +176,7 @@
     },
     "CHOLAFIN": {
       "IsFO": true,
-      "Lotsize": 625
+      "Lotsize": 300
     },
     "CIPLA": {
       "IsFO": true,
@@ -206,17 +202,29 @@
       "IsFO": true,
       "Lotsize": 1250
     },
+    "COROMANDEL": {
+      "IsFO": true,
+      "Lotsize": 300
+    },
     "CROMPTON": {
       "IsFO": true,
-      "Lotsize": 2150
+      "Lotsize": 2325
+    },
+    "CUB": {
+      "IsFO": true,
+      "Lotsize": 2325
     },
     "CUMMINSIND": {
       "IsFO": true,
-      "Lotsize": 200
+      "Lotsize": 100
     },
     "DABUR": {
       "IsFO": true,
-      "Lotsize": 1250
+      "Lotsize": 1375
+    },
+    "DATAPATTNS": {
+      "IsFO": true,
+      "Lotsize": 125
     },
     "DELHIVERY": {
       "IsFO": true,
@@ -260,7 +268,7 @@
     },
     "FORCEMOT": {
       "IsFO": true,
-      "Lotsize": 25
+      "Lotsize": 30
     },
     "FORTIS": {
       "IsFO": true,
@@ -284,7 +292,7 @@
     },
     "GODREJCP": {
       "IsFO": true,
-      "Lotsize": 500
+      "Lotsize": 600
     },
     "GODREJPROP": {
       "IsFO": true,
@@ -316,7 +324,7 @@
     },
     "HDFCBANK": {
       "IsFO": true,
-      "Lotsize": 650
+      "Lotsize": 750
     },
     "HDFCLIFE": {
       "IsFO": true,
@@ -352,15 +360,15 @@
     },
     "ICICIGI": {
       "IsFO": true,
-      "Lotsize": 325
+      "Lotsize": 350
     },
     "ICICILIFE": {
       "IsFO": true,
-      "Lotsize": 925
+      "Lotsize": 1100
     },
     "IDEA": {
       "IsFO": true,
-      "Lotsize": 71475
+      "Lotsize": 36125
     },
     "IDFCFIRSTB": {
       "IsFO": true,
@@ -392,7 +400,7 @@
     },
     "INFY": {
       "IsFO": true,
-      "Lotsize": 400
+      "Lotsize": 500
     },
     "INOXWIND": {
       "IsFO": true,
@@ -408,11 +416,11 @@
     },
     "IRFC": {
       "IsFO": true,
-      "Lotsize": 5425
+      "Lotsize": 6450
     },
     "ITC": {
       "IsFO": true,
-      "Lotsize": 1725
+      "Lotsize": 1975
     },
     "JINDALSTEL": {
       "IsFO": true,
@@ -438,6 +446,10 @@
       "IsFO": true,
       "Lotsize": 1350
     },
+    "KARURVYSYA": {
+      "IsFO": true,
+      "Lotsize": 1550
+    },
     "KAYNES": {
       "IsFO": true,
       "Lotsize": 150
@@ -456,11 +468,11 @@
     },
     "KPITTECH": {
       "IsFO": true,
-      "Lotsize": 775
+      "Lotsize": 975
     },
     "LAURUSLABS": {
       "IsFO": true,
-      "Lotsize": 850
+      "Lotsize": 425
     },
     "LICHSGFIN": {
       "IsFO": true,
@@ -558,6 +570,10 @@
       "IsFO": true,
       "Lotsize": 550
     },
+    "NAVINFLUOR": {
+      "IsFO": true,
+      "Lotsize": 75
+    },
     "NBCC": {
       "IsFO": true,
       "Lotsize": 6500
@@ -576,11 +592,11 @@
     },
     "NTPC": {
       "IsFO": true,
-      "Lotsize": 1500
+      "Lotsize": 1600
     },
     "NYKAA": {
       "IsFO": true,
-      "Lotsize": 3125
+      "Lotsize": 1575
     },
     "OBEROIRLTY": {
       "IsFO": true,
@@ -588,7 +604,7 @@
     },
     "OFSS": {
       "IsFO": true,
-      "Lotsize": 100
+      "Lotsize": 50
     },
     "OIL": {
       "IsFO": true,
@@ -604,11 +620,11 @@
     },
     "PATANJALI": {
       "IsFO": true,
-      "Lotsize": 1075
+      "Lotsize": 1450
     },
     "PAYTM": {
       "IsFO": true,
-      "Lotsize": 725
+      "Lotsize": 325
     },
     "PERSISTENT": {
       "IsFO": true,
@@ -620,7 +636,7 @@
     },
     "PFC": {
       "IsFO": true,
-      "Lotsize": 1300
+      "Lotsize": 1525
     },
     "PGEL": {
       "IsFO": true,
@@ -636,7 +652,7 @@
     },
     "PIIND": {
       "IsFO": true,
-      "Lotsize": 175
+      "Lotsize": 225
     },
     "PNB": {
       "IsFO": true,
@@ -676,11 +692,11 @@
     },
     "RBLBANK": {
       "IsFO": true,
-      "Lotsize": 3175
+      "Lotsize": 1275
     },
     "RECLTD": {
       "IsFO": true,
-      "Lotsize": 1575
+      "Lotsize": 1675
     },
     "RELIANCE": {
       "IsFO": true,
@@ -688,7 +704,7 @@
     },
     "RVNL": {
       "IsFO": true,
-      "Lotsize": 1925
+      "Lotsize": 2525
     },
     "SAGILITY": {
       "IsFO": true,
@@ -724,7 +740,7 @@
     },
     "SOLARINDS": {
       "IsFO": true,
-      "Lotsize": 50
+      "Lotsize": 25
     },
     "SONACOMS": {
       "IsFO": true,
@@ -748,7 +764,11 @@
     },
     "SWIGGY": {
       "IsFO": true,
-      "Lotsize": 1825
+      "Lotsize": 1925
+    },
+    "SYRMA": {
+      "IsFO": true,
+      "Lotsize": 325
     },
     "TATACONSUM": {
       "IsFO": true,
@@ -756,7 +776,7 @@
     },
     "TATAELXSI": {
       "IsFO": true,
-      "Lotsize": 125
+      "Lotsize": 175
     },
     "TATAPOWER": {
       "IsFO": true,
@@ -768,7 +788,7 @@
     },
     "TCS": {
       "IsFO": true,
-      "Lotsize": 225
+      "Lotsize": 250
     },
     "TECHM": {
       "IsFO": true,
@@ -784,7 +804,7 @@
     },
     "TMPV": {
       "IsFO": true,
-      "Lotsize": 1600
+      "Lotsize": 1750
     },
     "TORNTPHARM": {
       "IsFO": true,
@@ -828,7 +848,7 @@
     },
     "VEDL": {
       "IsFO": true,
-      "Lotsize": 1150
+      "Lotsize": 1975
     },
     "VMM": {
       "IsFO": true,
@@ -836,11 +856,11 @@
     },
     "VOLTAS": {
       "IsFO": true,
-      "Lotsize": 375
+      "Lotsize": 475
     },
     "WAAREEENER": {
       "IsFO": true,
-      "Lotsize": 175
+      "Lotsize": 225
     },
     "WIPRO": {
       "IsFO": true,
@@ -852,7 +872,7 @@
     },
     "ZYDUSLIFE": {
       "IsFO": true,
-      "Lotsize": 900
+      "Lotsize": 450
     }
   }
 }
