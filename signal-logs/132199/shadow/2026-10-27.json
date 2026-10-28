@@ -65,25 +65,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 3,
       "riskDist": 14.52,
       "targetT1": 72.62,
       "targetT2": 87.15,
       "targetT3": 101.66,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 58.1,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 58.1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 58.1,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-TATACONSUM-1060-PE",
@@ -150,25 +159,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 31.5,
       "targetT1": 157.5,
       "targetT2": 189,
       "targetT3": 220.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 126,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 126,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 126,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-TATACONSUM-1020-PE",
@@ -235,25 +253,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 14.49,
       "targetT1": 72.44,
       "targetT2": 86.93,
       "targetT3": 101.42,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 57.95,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 57.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 57.95,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-MANKIND-2600-PE",
@@ -320,25 +347,34 @@
         "fiiAgainst": true
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 86.25,
       "targetT1": 431.25,
       "targetT2": 517.5,
       "targetT3": 603.75,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 345,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 345,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 345,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-PAYTM-1700-PE",
@@ -405,25 +441,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 15.23,
       "targetT1": 76.13,
       "targetT2": 91.35,
       "targetT3": 106.59,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 60.9,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 60.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 60.9,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-PAYTM-1720-PE",
@@ -490,25 +535,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 19.53,
       "targetT1": 97.63,
       "targetT2": 117.15,
       "targetT3": 136.69,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 78.1,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 78.1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 78.1,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-PAYTM-1740-PE",
@@ -575,25 +629,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 24.08,
       "targetT1": 120.38,
       "targetT2": 144.45,
       "targetT3": 168.54,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 96.3,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 96.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 96.3,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-PAYTM-1680-PE",
@@ -660,25 +723,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 10.8,
       "targetT1": 54,
       "targetT2": 64.8,
       "targetT3": 75.6,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 43.2,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 43.2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 43.2,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-TATACONSUM-1030-PE",
@@ -745,25 +817,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 17.5,
       "targetT1": 87.5,
       "targetT2": 105,
       "targetT3": 122.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 70,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 70,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 70,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-POWERINDIA-29000-PE",
@@ -830,25 +911,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 389.71,
       "targetT1": 1948.56,
       "targetT2": 2338.27,
       "targetT3": 2727.98,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1558.85,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1558.85,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1558.85,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-KFINTECH-920-PE",
@@ -915,25 +1005,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 19.36,
       "targetT1": 96.81,
       "targetT2": 116.18,
       "targetT3": 135.53,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 77.45,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 77.45,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 77.45,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-MAHABANK-82-PE",
@@ -1000,25 +1099,34 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 1.29,
       "targetT1": 6.44,
       "targetT2": 7.73,
       "targetT3": 9.02,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 5.15,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 5.15,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 5.15,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-24950-PE",
@@ -1085,25 +1193,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 117.9,
       "targetT1": 589.5,
       "targetT2": 707.4,
       "targetT3": 825.3,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 471.6,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 471.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 471.6,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25050-PE",
@@ -1170,25 +1287,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 152.19,
       "targetT1": 760.94,
       "targetT2": 913.13,
       "targetT3": 1065.32,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 608.75,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 608.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 608.75,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25100-PE",
@@ -1255,25 +1381,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 163.86,
       "targetT1": 819.31,
       "targetT2": 983.18,
       "targetT3": 1147.03,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 655.45,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 655.45,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 655.45,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25200-PE",
@@ -1340,25 +1475,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 202.37,
       "targetT1": 1011.87,
       "targetT2": 1214.25,
       "targetT3": 1416.61,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 809.5,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 809.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 809.5,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25250-PE",
@@ -1425,25 +1569,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 188.95,
       "targetT1": 944.75,
       "targetT2": 1133.7,
       "targetT3": 1322.65,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 755.8,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 755.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 755.8,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25400-PE",
@@ -1510,25 +1663,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 252.5,
       "targetT1": 1262.5,
       "targetT2": 1515,
       "targetT3": 1767.5,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1010,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1010,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1010,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25500-PE",
@@ -1595,25 +1757,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 255.55,
       "targetT1": 1277.75,
       "targetT2": 1533.3,
       "targetT3": 1788.85,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1022.2,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1022.2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1022.2,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25600-PE",
@@ -1680,25 +1851,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 325,
       "targetT1": 1625,
       "targetT2": 1950,
       "targetT3": 2275,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1300,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1300,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1300,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-FINNIFTY-25650-PE",
@@ -1765,25 +1945,34 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 288.81,
       "targetT1": 1444.06,
       "targetT2": 1732.88,
       "targetT3": 2021.68,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1155.25,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1155.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1155.25,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-27-KFINTECH-860-PE",
@@ -1850,27 +2039,36 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 2.18,
       "targetT1": 9.43,
       "targetT2": 10.88,
       "targetT3": 12.71,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 7.25,
+          "time": "14:58:09",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 7.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 7.25,
+      "exitTime": "14:58:09",
+      "exitDate": "2026-10-28",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "minConfidence"
+      "shadowReason": "minConfidence",
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
   "date": "2026-10-27",
-  "lastUpdated": "2026-10-27T04:20:49.857Z"
+  "lastUpdated": "2026-10-28T09:28:15.082Z"
 }
