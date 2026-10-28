@@ -3021,8 +3021,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1483.05,
-      "livePnlPct": 54.16
+      "livePrice": 1400,
+      "livePnlPct": 45.53
     },
     {
       "id": "2026-10-27-0950-SENSEX-74600-PE",
@@ -3119,8 +3119,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1802,
-      "livePnlPct": 51.6
+      "livePrice": 1680,
+      "livePnlPct": 41.34
     },
     {
       "id": "2026-10-27-0950-SENSEX-74900-PE",
@@ -3211,8 +3211,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2105.7,
-      "livePnlPct": 46.84
+      "livePrice": 1935.45,
+      "livePnlPct": 34.97
     },
     {
       "id": "2026-10-27-0950-SENSEX-72800-CE",
@@ -4045,8 +4045,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1555,
-      "livePnlPct": 55.18
+      "livePrice": 1566,
+      "livePnlPct": 56.28
     },
     {
       "id": "2026-10-27-0950-SENSEX-74700-PE",
@@ -4143,8 +4143,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1877.4,
-      "livePnlPct": 51.82
+      "livePrice": 1820.55,
+      "livePnlPct": 47.22
     },
     {
       "id": "2026-10-27-0950-SENSEX-74800-PE",
@@ -4223,20 +4223,26 @@
           "price": 1912.5,
           "time": "09:33:06",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 1957.95,
+          "time": "09:44:16",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 1720.344,
-      "maxFavPrice": 1912.5,
+      "trailSL": 1765.794,
+      "maxFavPrice": 1957.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1912.5,
-      "livePnlPct": 49.29
+      "livePrice": 1957.95,
+      "livePnlPct": 52.84
     },
     {
       "id": "2026-10-27-0950-SENSEX-73100-CE",
@@ -5039,7 +5045,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 170.58,
       "targetT1": 852.88,
@@ -5057,20 +5063,26 @@
           "price": 1147.05,
           "time": "09:33:06",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1009.25,
+          "time": "09:44:16",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1046.902,
       "maxFavPrice": 1149.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1009.25,
+      "exitTime": "09:44:16",
+      "exitDate": "2026-10-28",
+      "pnlPct": 42.52,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1139.9,
-      "livePnlPct": 67.07
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-27-0950-SENSEX-74000-PE",
@@ -5137,7 +5149,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 186.12,
       "targetT1": 930.62,
@@ -5155,20 +5167,26 @@
           "price": 1227.3,
           "time": "09:33:06",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1103.3,
+          "time": "09:44:16",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1118.628,
       "maxFavPrice": 1230.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1103.3,
+      "exitTime": "09:44:16",
+      "exitDate": "2026-10-28",
+      "pnlPct": 41.59,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1230.3,
-      "livePnlPct": 65.25
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-27-0950-SENSEX-74100-PE",
@@ -5235,7 +5253,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 202.21,
       "targetT1": 1011.06,
@@ -5253,20 +5271,26 @@
           "price": 1333.15,
           "time": "09:33:06",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1181,
+          "time": "09:44:16",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1211.824,
       "maxFavPrice": 1333.15,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1181,
+      "exitTime": "09:44:16",
+      "exitDate": "2026-10-28",
+      "pnlPct": 41.15,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1293.9,
-      "livePnlPct": 59.97
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-27-0950-SENSEX-74200-PE",
@@ -5333,7 +5357,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 214.83,
       "targetT1": 1074.13,
@@ -5351,20 +5375,26 @@
           "price": 1436.35,
           "time": "09:33:06",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 1261.9,
+          "time": "09:44:16",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 1307.452,
       "maxFavPrice": 1436.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1261.9,
+      "exitTime": "09:44:16",
+      "exitDate": "2026-10-28",
+      "pnlPct": 42.02,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 1403.45,
-      "livePnlPct": 63.32
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-27-0950-SENSEX-73000-PE",
@@ -7803,14 +7833,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-28T04:04:05.552Z",
+  "lastUpdated": "2026-10-28T04:14:16.087Z",
   "upstoxId": "132199",
   "date": "2026-10-27",
   "stats": {
     "total": 83,
-    "hits": 13,
+    "hits": 17,
     "sls": 54,
-    "open": 10,
-    "winRate": 19
+    "open": 6,
+    "winRate": 24
   }
 }
