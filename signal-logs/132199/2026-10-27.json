@@ -4045,8 +4045,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1594.2,
-      "livePnlPct": 59.09
+      "livePrice": 1555,
+      "livePnlPct": 55.18
     },
     {
       "id": "2026-10-27-0950-SENSEX-74700-PE",
@@ -5069,8 +5069,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1149.25,
-      "livePnlPct": 68.44
+      "livePrice": 1139.9,
+      "livePnlPct": 67.07
     },
     {
       "id": "2026-10-27-0950-SENSEX-74000-PE",
@@ -5159,16 +5159,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 1115.628,
-      "maxFavPrice": 1227.3,
+      "trailSL": 1118.628,
+      "maxFavPrice": 1230.3,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1224.65,
-      "livePnlPct": 64.49
+      "livePrice": 1230.3,
+      "livePnlPct": 65.25
     },
     {
       "id": "2026-10-27-0950-SENSEX-74100-PE",
@@ -5265,8 +5265,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1333.15,
-      "livePnlPct": 64.82
+      "livePrice": 1293.9,
+      "livePnlPct": 59.97
     },
     {
       "id": "2026-10-27-0950-SENSEX-74200-PE",
@@ -5363,8 +5363,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1436.35,
-      "livePnlPct": 67.15
+      "livePrice": 1403.45,
+      "livePnlPct": 63.32
     },
     {
       "id": "2026-10-27-0950-SENSEX-73000-PE",
@@ -7803,7 +7803,7 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-28T04:03:22.674Z",
+  "lastUpdated": "2026-10-28T04:04:05.552Z",
   "upstoxId": "132199",
   "date": "2026-10-27",
   "stats": {
