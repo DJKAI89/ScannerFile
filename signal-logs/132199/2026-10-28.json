@@ -262,8 +262,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 66.15,
-      "livePnlPct": 5.67
+      "livePrice": 64.7,
+      "livePnlPct": 3.35
     },
     {
       "id": "2026-10-28-0933-LT-3850-PE",
@@ -347,8 +347,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 89.1,
-      "livePnlPct": 6.32
+      "livePrice": 87.45,
+      "livePnlPct": 4.36
     },
     {
       "id": "2026-10-28-0933-LT-3750-PE",
@@ -432,8 +432,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 48.7,
-      "livePnlPct": 4.51
+      "livePrice": 47.65,
+      "livePnlPct": 2.25
     },
     {
       "id": "2026-10-28-0933-PGEL-520-PE",
@@ -1048,8 +1048,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 55.2,
-      "livePnlPct": -6.68
+      "livePrice": 55.4,
+      "livePnlPct": -6.34
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1660-PE",
@@ -1286,7 +1286,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 66,
       "targetT1": 286,
@@ -1304,20 +1304,26 @@
           "price": 366.75,
           "time": "10:57:38",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 351.15,
+          "time": "11:49:22",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 351.81648,
       "maxFavPrice": 368.1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 351.15,
+      "exitTime": "11:49:22",
+      "exitDate": "2026-10-29",
+      "pnlPct": 47.61,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 351.15,
-      "livePnlPct": 59.61
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0933-RADICO-4150-PE",
@@ -3859,8 +3865,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 66.15,
-      "livePnlPct": 17.6
+      "livePrice": 64.7,
+      "livePnlPct": 15.02
     },
     {
       "id": "2026-10-28-0950-HINDUNILVR-1760-PE",
@@ -5491,8 +5497,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 665.95,
-      "livePnlPct": 42.4
+      "livePrice": 661.25,
+      "livePnlPct": 41.4
     },
     {
       "id": "2026-10-28-1023-BANKNIFTY-55300-CE",
@@ -5583,8 +5589,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 619.2,
-      "livePnlPct": 41.37
+      "livePrice": 616.6,
+      "livePnlPct": 40.78
     },
     {
       "id": "2026-10-28-1023-SENSEX-72800-PE",
@@ -6036,8 +6042,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 66.15,
-      "livePnlPct": 5.5
+      "livePrice": 64.7,
+      "livePnlPct": 3.19
     },
     {
       "id": "2026-10-28-1023-HINDUNILVR-1720-PE",
@@ -6305,8 +6311,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 55.2,
-      "livePnlPct": 0.09
+      "livePrice": 55.4,
+      "livePnlPct": 0.45
     },
     {
       "id": "2026-10-28-1023-MAZDOCK-1680-PE",
@@ -7210,8 +7216,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 66.15,
-      "livePnlPct": 2.56
+      "livePrice": 64.7,
+      "livePnlPct": 0.31
     },
     {
       "id": "2026-10-28-1112-KAYNES-2900-PE",
@@ -8973,18 +8979,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 69.41,
-      "livePnlPct": 1.94
+      "livePrice": 69.47,
+      "livePnlPct": 2.03
     }
   ],
-  "lastUpdated": "2026-10-29T06:18:31.988Z",
+  "lastUpdated": "2026-10-29T06:19:22.499Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 97,
-    "hits": 24,
+    "hits": 25,
     "sls": 49,
-    "open": 24,
-    "winRate": 33
+    "open": 23,
+    "winRate": 34
   }
 }
