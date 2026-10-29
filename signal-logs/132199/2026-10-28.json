@@ -262,8 +262,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 63.75,
-      "livePnlPct": 1.84
+      "livePrice": 65.4,
+      "livePnlPct": 4.47
     },
     {
       "id": "2026-10-28-0933-LT-3850-PE",
@@ -347,8 +347,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.1,
-      "livePnlPct": 2.74
+      "livePrice": 87.05,
+      "livePnlPct": 3.88
     },
     {
       "id": "2026-10-28-0933-LT-3750-PE",
@@ -432,8 +432,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.65,
-      "livePnlPct": 0.11
+      "livePrice": 47.85,
+      "livePnlPct": 2.68
     },
     {
       "id": "2026-10-28-0933-PGEL-520-PE",
@@ -793,8 +793,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 75.3,
-      "livePnlPct": -3.46
+      "livePrice": 74.15,
+      "livePnlPct": -4.94
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1780-PE",
@@ -963,8 +963,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.5,
-      "livePnlPct": -8.1
+      "livePrice": 47,
+      "livePnlPct": -7.11
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1720-PE",
@@ -1048,8 +1048,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 55.4,
-      "livePnlPct": -6.34
+      "livePrice": 55.75,
+      "livePnlPct": -5.75
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1660-PE",
@@ -1133,8 +1133,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 33,
-      "livePnlPct": -12.7
+      "livePrice": 33.4,
+      "livePnlPct": -11.64
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1680-PE",
@@ -1218,8 +1218,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39,
-      "livePnlPct": -11.86
+      "livePrice": 39.8,
+      "livePnlPct": -10.06
     },
     {
       "id": "2026-10-28-0933-BAJAJ-AUTO-10600-PE",
@@ -2548,7 +2548,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 95.94,
       "targetT1": 479.69,
@@ -2560,20 +2560,26 @@
           "price": 542,
           "time": "10:28:23",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 491.75,
+          "time": "12:57:15",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 502.510398,
       "maxFavPrice": 546,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 491.75,
+      "exitTime": "12:57:15",
+      "exitDate": "2026-10-29",
+      "pnlPct": 34.69,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 533.85,
-      "livePnlPct": 39.11
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0950-NIFTY-22400-CE",
@@ -3865,8 +3871,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 63.75,
-      "livePnlPct": 13.33
+      "livePrice": 65.4,
+      "livePnlPct": 16.27
     },
     {
       "id": "2026-10-28-0950-HINDUNILVR-1760-PE",
@@ -6054,8 +6060,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 63.75,
-      "livePnlPct": 1.67
+      "livePrice": 65.4,
+      "livePnlPct": 4.31
     },
     {
       "id": "2026-10-28-1023-HINDUNILVR-1720-PE",
@@ -6323,8 +6329,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 55.4,
-      "livePnlPct": 0.45
+      "livePrice": 55.75,
+      "livePnlPct": 1.09
     },
     {
       "id": "2026-10-28-1023-MAZDOCK-1680-PE",
@@ -6408,8 +6414,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39,
-      "livePnlPct": -3.35
+      "livePrice": 39.8,
+      "livePnlPct": -1.36
     },
     {
       "id": "2026-10-28-1023-MAZDOCK-1700-PE",
@@ -6493,8 +6499,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.5,
-      "livePnlPct": -1.48
+      "livePrice": 47,
+      "livePnlPct": -0.42
     },
     {
       "id": "2026-10-28-1023-WAAREEENER-2120-PE",
@@ -7228,8 +7234,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 63.75,
-      "livePnlPct": -1.16
+      "livePrice": 65.4,
+      "livePnlPct": 1.4
     },
     {
       "id": "2026-10-28-1112-KAYNES-2900-PE",
@@ -7503,8 +7509,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39,
-      "livePnlPct": -24.05
+      "livePrice": 39.8,
+      "livePnlPct": -22.49
     },
     {
       "id": "2026-10-28-1112-MAZDOCK-1640-PE",
@@ -8434,8 +8440,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.45,
-      "livePnlPct": -19.26
+      "livePrice": 28,
+      "livePnlPct": -17.65
     },
     {
       "id": "2026-10-28-1155-MAZDOCK-1660-PE",
@@ -8611,8 +8617,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.7,
-      "livePnlPct": -19.01
+      "livePrice": 15.3,
+      "livePnlPct": -15.7
     },
     {
       "id": "2026-10-28-1155-WAAREEENER-2180-PE",
@@ -8893,8 +8899,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 35.54,
-      "livePnlPct": -2.44
+      "livePrice": 35.53,
+      "livePnlPct": -2.47
     },
     {
       "id": "2026-10-28-1421-ZEEL-STOCK",
@@ -8991,18 +8997,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 69.36,
-      "livePnlPct": 1.87
+      "livePrice": 68.81,
+      "livePnlPct": 1.06
     }
   ],
-  "lastUpdated": "2026-10-29T06:22:42.328Z",
+  "lastUpdated": "2026-10-29T07:27:15.807Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 97,
-    "hits": 27,
+    "hits": 28,
     "sls": 49,
-    "open": 21,
+    "open": 20,
     "winRate": 36
   }
 }
