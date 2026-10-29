@@ -807,11 +807,18 @@
       "targetT1": 146.25,
       "targetT2": 173.25,
       "targetT3": 203.63,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 112.5,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 147.45,
+          "time": "15:01:27",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 139.62055,
+      "maxFavPrice": 148,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -7565,7 +7572,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-29T09:31:27.528Z",
+  "lastUpdated": "2026-10-29T09:31:29.715Z",
   "upstoxId": "132199",
   "date": "2026-10-29",
   "stats": {
