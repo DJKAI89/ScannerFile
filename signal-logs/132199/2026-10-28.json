@@ -262,8 +262,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 64,
-      "livePnlPct": 2.24
+      "livePrice": 63.75,
+      "livePnlPct": 1.84
     },
     {
       "id": "2026-10-28-0933-LT-3850-PE",
@@ -347,8 +347,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.45,
-      "livePnlPct": 3.16
+      "livePrice": 86.1,
+      "livePnlPct": 2.74
     },
     {
       "id": "2026-10-28-0933-LT-3750-PE",
@@ -432,8 +432,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.5,
-      "livePnlPct": -0.21
+      "livePrice": 46.65,
+      "livePnlPct": 0.11
     },
     {
       "id": "2026-10-28-0933-PGEL-520-PE",
@@ -963,8 +963,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.8,
-      "livePnlPct": -7.51
+      "livePrice": 46.5,
+      "livePnlPct": -8.1
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1720-PE",
@@ -1133,8 +1133,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.9,
-      "livePnlPct": -12.96
+      "livePrice": 33,
+      "livePnlPct": -12.7
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1680-PE",
@@ -2572,8 +2572,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 546,
-      "livePnlPct": 42.28
+      "livePrice": 533.85,
+      "livePnlPct": 39.11
     },
     {
       "id": "2026-10-28-0950-NIFTY-22400-CE",
@@ -3865,8 +3865,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 64,
-      "livePnlPct": 13.78
+      "livePrice": 63.75,
+      "livePnlPct": 13.33
     },
     {
       "id": "2026-10-28-0950-HINDUNILVR-1760-PE",
@@ -5473,7 +5473,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 140.3,
       "targetT1": 607.95,
@@ -5485,20 +5485,26 @@
           "price": 609.85,
           "time": "14:52:11",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 652.95,
+          "time": "11:52:42",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 653.187,
       "maxFavPrice": 682.65,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 652.95,
+      "exitTime": "11:52:42",
+      "exitDate": "2026-10-29",
+      "pnlPct": 35.02,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 665.35,
-      "livePnlPct": 42.28
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-1023-BANKNIFTY-55300-CE",
@@ -5565,7 +5571,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 131.4,
       "targetT1": 569.4,
@@ -5577,20 +5583,26 @@
           "price": 573.4,
           "time": "14:52:25",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 608.3,
+          "time": "11:52:42",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 609.906,
       "maxFavPrice": 637.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 608.3,
+      "exitTime": "11:52:42",
+      "exitDate": "2026-10-29",
+      "pnlPct": 34.9,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 619.3,
-      "livePnlPct": 41.39
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-1023-SENSEX-72800-PE",
@@ -6042,8 +6054,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 64,
-      "livePnlPct": 2.07
+      "livePrice": 63.75,
+      "livePnlPct": 1.67
     },
     {
       "id": "2026-10-28-1023-HINDUNILVR-1720-PE",
@@ -6481,8 +6493,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.8,
-      "livePnlPct": -0.85
+      "livePrice": 46.5,
+      "livePnlPct": -1.48
     },
     {
       "id": "2026-10-28-1023-WAAREEENER-2120-PE",
@@ -7216,8 +7228,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 64,
-      "livePnlPct": -0.78
+      "livePrice": 63.75,
+      "livePnlPct": -1.16
     },
     {
       "id": "2026-10-28-1112-KAYNES-2900-PE",
@@ -8422,8 +8434,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.3,
-      "livePnlPct": -19.71
+      "livePrice": 27.45,
+      "livePnlPct": -19.26
     },
     {
       "id": "2026-10-28-1155-MAZDOCK-1660-PE",
@@ -8599,8 +8611,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.8,
-      "livePnlPct": -18.46
+      "livePrice": 14.7,
+      "livePnlPct": -19.01
     },
     {
       "id": "2026-10-28-1155-WAAREEENER-2180-PE",
@@ -8881,8 +8893,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 35.56,
-      "livePnlPct": -2.39
+      "livePrice": 35.54,
+      "livePnlPct": -2.44
     },
     {
       "id": "2026-10-28-1421-ZEEL-STOCK",
@@ -8979,18 +8991,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 69.49,
-      "livePnlPct": 2.06
+      "livePrice": 69.36,
+      "livePnlPct": 1.87
     }
   ],
-  "lastUpdated": "2026-10-29T06:20:22.722Z",
+  "lastUpdated": "2026-10-29T06:22:42.328Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 97,
-    "hits": 25,
+    "hits": 27,
     "sls": 49,
-    "open": 23,
-    "winRate": 34
+    "open": 21,
+    "winRate": 36
   }
 }
