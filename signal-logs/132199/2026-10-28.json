@@ -1116,25 +1116,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 11.23,
       "targetT1": 49.03,
       "targetT2": 60.26,
       "targetT3": 71.49,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 25.55,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 37.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 25.55,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-10-29",
+      "pnlPct": -32.41,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 28.5,
-      "livePnlPct": -24.6
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1680-PE",
@@ -1201,25 +1208,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 13.28,
       "targetT1": 57.53,
       "targetT2": 70.81,
       "targetT3": 84.09,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 30.8,
+          "time": "15:01:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 44.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 30.8,
+      "exitTime": "15:01:06",
+      "exitDate": "2026-10-29",
+      "pnlPct": -30.4,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 33.95,
-      "livePnlPct": -23.28
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0933-BAJAJ-AUTO-10600-PE",
@@ -9015,14 +9029,14 @@
       "livePnlPct": 1.64
     }
   ],
-  "lastUpdated": "2026-10-29T08:25:57.288Z",
+  "lastUpdated": "2026-10-29T09:31:20.826Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 97,
     "hits": 28,
-    "sls": 51,
-    "open": 18,
+    "sls": 53,
+    "open": 16,
     "winRate": 35
   }
 }
