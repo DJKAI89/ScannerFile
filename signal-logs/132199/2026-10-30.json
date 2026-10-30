@@ -1733,7 +1733,8 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-10-30-1306-FINNIFTY-25300-CE",
@@ -2324,7 +2325,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-30T07:40:26.512Z",
+  "lastUpdated": "2026-10-30T07:40:36.630Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
