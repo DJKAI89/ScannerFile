@@ -1085,25 +1085,34 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 414.69,
       "targetT1": 2073.44,
       "targetT2": 2488.13,
       "targetT3": 2902.82,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1658.75,
+          "time": "15:17:00",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1658.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1658.75,
+      "exitTime": "15:17:00",
+      "exitDate": "2026-10-30",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-28-SENSEX-71600-CE",
@@ -1170,25 +1179,34 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 391.61,
       "targetT1": 1958.06,
       "targetT2": 2349.68,
       "targetT3": 2741.28,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 1566.45,
+          "time": "15:17:00",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 1566.45,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1566.45,
+      "exitTime": "15:17:00",
+      "exitDate": "2026-10-30",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "maxCapital"
+      "shadowReason": "maxCapital",
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "shadow-2026-10-28-HINDUNILVR-1800-PE",
@@ -4592,5 +4610,5 @@
     }
   ],
   "date": "2026-10-28",
-  "lastUpdated": "2026-10-28T08:51:39.232Z"
+  "lastUpdated": "2026-10-30T09:47:06.047Z"
 }
