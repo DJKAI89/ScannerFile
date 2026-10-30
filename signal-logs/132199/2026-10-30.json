@@ -1139,7 +1139,8 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-10-30-1306-BANKNIFTY-56000-CE",
@@ -2318,7 +2319,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-30T07:39:46.652Z",
+  "lastUpdated": "2026-10-30T07:39:53.274Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
