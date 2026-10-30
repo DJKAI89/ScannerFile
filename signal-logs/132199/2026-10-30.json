@@ -1649,7 +1649,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": true,
+      "takenAt": "2026-10-30T07:40:39.728Z"
     },
     {
       "id": "2026-10-30-1306-SENSEX-75300-CE",
@@ -2325,7 +2327,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-30T07:40:36.630Z",
+  "lastUpdated": "2026-10-30T07:40:40.105Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
