@@ -6441,25 +6441,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 1.4,
       "targetT1": 6.05,
       "targetT2": 7.45,
       "targetT3": 8.85,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 3.25,
+          "time": "14:34:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 4.65,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 3.25,
+      "exitTime": "14:34:40",
+      "exitDate": "2026-10-30",
+      "pnlPct": -30.11,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 3.8,
-      "livePnlPct": -18.28
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-29-1314-ITC-265-PE",
@@ -6526,25 +6533,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 1.46,
       "targetT1": 7.31,
       "targetT2": 8.77,
       "targetT3": 10.23,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 4.2,
+          "time": "14:34:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 5.85,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 4.2,
+      "exitTime": "14:34:40",
+      "exitDate": "2026-10-30",
+      "pnlPct": -28.21,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 4.8,
-      "livePnlPct": -17.95
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-29-1314-ITC-267.5-PE",
@@ -7700,14 +7714,14 @@
       "livePnlPct": -5.76
     }
   ],
-  "lastUpdated": "2026-10-30T07:20:37.447Z",
+  "lastUpdated": "2026-10-30T09:04:46.527Z",
   "upstoxId": "132199",
   "date": "2026-10-29",
   "stats": {
     "total": 83,
     "hits": 12,
-    "sls": 42,
-    "open": 28,
-    "winRate": 22
+    "sls": 44,
+    "open": 26,
+    "winRate": 21
   }
 }
