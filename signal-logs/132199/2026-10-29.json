@@ -1991,7 +1991,7 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 178.25,
       "targetT1": 891.25,
@@ -2003,20 +2003,26 @@
           "price": 905,
           "time": "14:04:36",
           "pctClosed": 50
+        },
+        {
+          "level": "EXPIRY",
+          "price": 713,
+          "time": "08:51:26",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 958.09203,
       "maxFavPrice": 1052.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 713,
+      "exitTime": "08:51:26",
+      "exitDate": "2026-10-30",
+      "pnlPct": 13.46,
+      "exitReason": "EXPIRY",
       "note": "",
-      "livePrice": 1052.7,
-      "livePnlPct": 47.64
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-29-1028-SENSEX-73300-CE",
@@ -7588,14 +7594,14 @@
       "livePnlPct": -0.68
     }
   ],
-  "lastUpdated": "2026-10-29T16:14:27.338Z",
+  "lastUpdated": "2026-10-30T03:21:26.802Z",
   "upstoxId": "132199",
   "date": "2026-10-29",
   "stats": {
     "total": 83,
     "hits": 6,
     "sls": 34,
-    "open": 43,
+    "open": 42,
     "winRate": 15
   }
 }
