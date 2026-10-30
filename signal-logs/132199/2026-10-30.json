@@ -332,7 +332,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 9.23,
       "targetT1": 39.98,
@@ -344,17 +344,23 @@
           "price": 40.15,
           "time": "09:19:11",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 36.05,
+          "time": "10:01:10",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 40.6450844,
       "maxFavPrice": 42.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 36.05,
+      "exitTime": "10:01:10",
+      "exitDate": "2026-10-30",
+      "pnlPct": 23.91,
+      "exitReason": "TRAIL_STOP",
       "note": ""
     },
     {
@@ -423,7 +429,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 7.15,
       "targetT1": 31,
@@ -435,17 +441,23 @@
           "price": 31.8,
           "time": "09:19:11",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 27,
+          "time": "10:01:10",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 31.8985,
       "maxFavPrice": 33.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 27,
+      "exitTime": "10:01:10",
+      "exitDate": "2026-10-30",
+      "pnlPct": 23.27,
+      "exitReason": "TRAIL_STOP",
       "note": ""
     },
     {
@@ -869,14 +881,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-30T04:16:15.249Z",
+  "lastUpdated": "2026-10-30T04:31:10.317Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
     "total": 10,
-    "hits": 0,
+    "hits": 2,
     "sls": 2,
-    "open": 8,
-    "winRate": 0
+    "open": 6,
+    "winRate": 50
   }
 }
