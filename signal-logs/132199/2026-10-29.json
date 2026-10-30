@@ -2812,8 +2812,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 504.8,
-      "livePnlPct": -0.58
+      "livePrice": 503.75,
+      "livePnlPct": -0.79
     },
     {
       "id": "2026-10-29-1124-ITC-STOCK",
@@ -2910,8 +2910,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 264.4,
-      "livePnlPct": -0.62
+      "livePrice": 264.95,
+      "livePnlPct": -0.41
     },
     {
       "id": "2026-10-29-1124-CUPID-STOCK",
@@ -3008,8 +3008,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 324.7,
-      "livePnlPct": -0.31
+      "livePrice": 324.5,
+      "livePnlPct": -0.37
     },
     {
       "id": "2026-10-29-1124-SJVN-STOCK",
@@ -3106,8 +3106,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 50.49,
-      "livePnlPct": -3.31
+      "livePrice": 50.61,
+      "livePnlPct": -3.08
     },
     {
       "id": "2026-10-29-1124-ADANIPORTS-STOCK",
@@ -3204,8 +3204,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1847.7,
-      "livePnlPct": 0.88
+      "livePrice": 1853,
+      "livePnlPct": 1.17
     },
     {
       "id": "2026-10-29-1124-MANAPPURAM-STOCK",
@@ -3302,8 +3302,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 294.65,
-      "livePnlPct": -2.03
+      "livePrice": 296.05,
+      "livePnlPct": -1.56
     },
     {
       "id": "2026-10-29-1124-HFCL-STOCK",
@@ -3505,8 +3505,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 707.05,
-      "livePnlPct": -2.02
+      "livePrice": 707.4,
+      "livePnlPct": -1.97
     },
     {
       "id": "2026-10-29-1124-ADANIENT-STOCK",
@@ -3603,8 +3603,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2572.7,
-      "livePnlPct": 0.69
+      "livePrice": 2589,
+      "livePnlPct": 1.33
     },
     {
       "id": "2026-10-29-1124-CARTRADE-STOCK",
@@ -3806,8 +3806,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 1500,
-      "livePnlPct": 0.96
+      "livePrice": 1499.8,
+      "livePnlPct": 0.94
     },
     {
       "id": "2026-10-29-1125-ADANIPORTS-1800-PE",
@@ -3966,7 +3966,7 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 12.23,
       "targetT1": 61.13,
@@ -3978,20 +3978,26 @@
           "price": 61.3,
           "time": "11:10:25",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 55.2,
+          "time": "12:50:35",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 57.929656599999994,
       "maxFavPrice": 61.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 55.2,
+      "exitTime": "12:50:35",
+      "exitDate": "2026-10-30",
+      "pnlPct": 19.12,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 59.35,
-      "livePnlPct": 21.37
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-29-1125-PIDILITIND-1360-PE",
@@ -4357,8 +4363,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 59.35,
-      "livePnlPct": 19.3
+      "livePrice": 55.2,
+      "livePnlPct": 10.95
     },
     {
       "id": "2026-10-29-1152-HEROMOTOCO-5300-CE",
@@ -4626,8 +4632,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 383.25,
-      "livePnlPct": -17.21
+      "livePrice": 387.6,
+      "livePnlPct": -16.27
     },
     {
       "id": "2026-10-29-1314-BANKNIFTY-53900-PE",
@@ -4711,8 +4717,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 409.4,
-      "livePnlPct": -16.93
+      "livePrice": 409.2,
+      "livePnlPct": -16.97
     },
     {
       "id": "2026-10-29-1314-BANKNIFTY-55600-CE",
@@ -4796,8 +4802,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 581.9,
-      "livePnlPct": 20.25
+      "livePrice": 556.6,
+      "livePnlPct": 15.02
     },
     {
       "id": "2026-10-29-1314-BANKNIFTY-55900-CE",
@@ -4881,8 +4887,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 457.9,
-      "livePnlPct": 22.55
+      "livePrice": 440,
+      "livePnlPct": 17.76
     },
     {
       "id": "2026-10-29-1314-SENSEX-74100-PE",
@@ -6112,8 +6118,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 230.95,
-      "livePnlPct": 20.88
+      "livePrice": 234.55,
+      "livePnlPct": 22.77
     },
     {
       "id": "2026-10-29-1314-RELIANCE-1160-PE",
@@ -6197,8 +6203,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 30.1,
-      "livePnlPct": 19.21
+      "livePrice": 30.65,
+      "livePnlPct": 21.39
     },
     {
       "id": "2026-10-29-1314-RELIANCE-1200-PE",
@@ -6282,8 +6288,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 54.75,
-      "livePnlPct": 15.51
+      "livePrice": 55.35,
+      "livePnlPct": 16.77
     },
     {
       "id": "2026-10-29-1314-RELIANCE-1210-PE",
@@ -6367,8 +6373,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 62,
-      "livePnlPct": 15.03
+      "livePrice": 63.15,
+      "livePnlPct": 17.16
     },
     {
       "id": "2026-10-29-1314-ITC-262.5-PE",
@@ -6622,8 +6628,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 6.15,
-      "livePnlPct": -13.38
+      "livePrice": 6.1,
+      "livePnlPct": -14.08
     },
     {
       "id": "2026-10-29-1314-ITC-270-PE",
@@ -6707,8 +6713,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 7.7,
-      "livePnlPct": -10.47
+      "livePrice": 7.6,
+      "livePnlPct": -11.63
     },
     {
       "id": "2026-10-29-1314-ITC-260-PE",
@@ -6792,8 +6798,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 2.95,
-      "livePnlPct": -20.27
+      "livePrice": 2.9,
+      "livePnlPct": -21.62
     },
     {
       "id": "2026-10-29-1314-LT-395-PE",
@@ -6969,8 +6975,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 46.9,
-      "livePnlPct": -26.89
+      "livePrice": 46.5,
+      "livePnlPct": -27.51
     },
     {
       "id": "2026-10-29-1314-MARUTI-3950-PE",
@@ -7054,8 +7060,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 119.7,
-      "livePnlPct": -18.68
+      "livePrice": 116.5,
+      "livePnlPct": -20.86
     },
     {
       "id": "2026-10-29-1314-MARUTI-3850-PE",
@@ -7231,8 +7237,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 88.4,
-      "livePnlPct": -23
+      "livePrice": 86.45,
+      "livePnlPct": -24.7
     },
     {
       "id": "2026-10-29-1314-MARUTI-3750-PE",
@@ -7316,8 +7322,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 33.35,
-      "livePnlPct": -28.66
+      "livePrice": 33.65,
+      "livePnlPct": -28.02
     },
     {
       "id": "2026-10-29-1314-HDFCBANK-680-PE",
@@ -7690,18 +7696,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 327,
-      "livePnlPct": -5.18
+      "livePrice": 325,
+      "livePnlPct": -5.76
     }
   ],
-  "lastUpdated": "2026-10-30T06:46:53.064Z",
+  "lastUpdated": "2026-10-30T07:20:37.447Z",
   "upstoxId": "132199",
   "date": "2026-10-29",
   "stats": {
     "total": 83,
-    "hits": 11,
+    "hits": 12,
     "sls": 42,
-    "open": 29,
-    "winRate": 21
+    "open": 28,
+    "winRate": 22
   }
 }
