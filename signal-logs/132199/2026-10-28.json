@@ -8628,25 +8628,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 5.37,
       "targetT1": 23.52,
       "targetT2": 28.89,
       "targetT3": 34.26,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 12.65,
+          "time": "10:01:10",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 18.15,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 12.65,
+      "exitTime": "10:01:10",
+      "exitDate": "2026-10-30",
+      "pnlPct": -30.3,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 15.25,
-      "livePnlPct": -15.98
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-1155-WAAREEENER-2180-PE",
@@ -9029,14 +9036,14 @@
       "livePnlPct": 1.64
     }
   ],
-  "lastUpdated": "2026-10-29T09:31:20.826Z",
+  "lastUpdated": "2026-10-30T04:31:14.804Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 97,
     "hits": 28,
-    "sls": 53,
-    "open": 16,
-    "winRate": 35
+    "sls": 54,
+    "open": 15,
+    "winRate": 34
   }
 }
