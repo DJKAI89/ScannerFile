@@ -89,7 +89,8 @@
       "exitDate": "2026-10-30",
       "pnlPct": -30.61,
       "exitReason": "SL",
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-10-30-0917-GODREJCP-770-PE",
@@ -2329,7 +2330,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-10-30T07:41:13.833Z",
+  "lastUpdated": "2026-10-30T07:41:32.107Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
