@@ -245,25 +245,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 18.78,
       "targetT1": 81.38,
       "targetT2": 100.16,
       "targetT3": 118.94,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 51.05,
+          "time": "21:53:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 62.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 51.05,
+      "exitTime": "21:53:08",
+      "exitDate": "2026-10-31",
+      "pnlPct": -18.45,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 50.8,
-      "livePnlPct": -18.85
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0933-LT-3850-PE",
@@ -330,25 +337,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 20.95,
       "targetT1": 104.75,
       "targetT2": 125.7,
       "targetT3": 146.65,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 69.7,
+          "time": "21:53:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 83.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 69.7,
+      "exitTime": "21:53:08",
+      "exitDate": "2026-10-31",
+      "pnlPct": -16.83,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 69.5,
-      "livePnlPct": -17.06
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0933-LT-3750-PE",
@@ -415,25 +429,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 13.98,
       "targetT1": 60.58,
       "targetT2": 74.56,
       "targetT3": 88.54,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 35.55,
+          "time": "21:53:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 46.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 35.55,
+      "exitTime": "21:53:08",
+      "exitDate": "2026-10-31",
+      "pnlPct": -23.71,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 36.4,
-      "livePnlPct": -21.89
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0933-PGEL-520-PE",
@@ -793,8 +814,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.85,
-      "livePnlPct": 12.63
+      "livePrice": 88.9,
+      "livePnlPct": 13.97
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1780-PE",
@@ -878,8 +899,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 109.95,
-      "livePnlPct": 22.17
+      "livePrice": 99.2,
+      "livePnlPct": 10.22
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1700-PE",
@@ -963,8 +984,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 55.05,
-      "livePnlPct": 8.79
+      "livePrice": 55.65,
+      "livePnlPct": 9.98
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1720-PE",
@@ -1048,8 +1069,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 65.25,
-      "livePnlPct": 10.31
+      "livePrice": 65.95,
+      "livePnlPct": 11.5
     },
     {
       "id": "2026-10-28-0933-MAZDOCK-1660-PE",
@@ -3868,25 +3889,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 16.87,
       "targetT1": 73.12,
       "targetT2": 89.99,
       "targetT3": 106.86,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 51.05,
+          "time": "21:53:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 56.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 51.05,
+      "exitTime": "21:53:08",
+      "exitDate": "2026-10-31",
+      "pnlPct": -9.24,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 50.8,
-      "livePnlPct": -9.69
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-0950-HINDUNILVR-1760-PE",
@@ -6057,25 +6085,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 18.81,
       "targetT1": 81.51,
       "targetT2": 100.32,
       "targetT3": 119.13,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 51.05,
+          "time": "21:53:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 62.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 51.05,
+      "exitTime": "21:53:08",
+      "exitDate": "2026-10-31",
+      "pnlPct": -18.58,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 50.8,
-      "livePnlPct": -18.98
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-28-1023-HINDUNILVR-1720-PE",
@@ -6343,8 +6378,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 65.25,
-      "livePnlPct": 18.31
+      "livePrice": 65.95,
+      "livePnlPct": 19.58
     },
     {
       "id": "2026-10-28-1023-MAZDOCK-1680-PE",
@@ -6526,8 +6561,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 55.05,
-      "livePnlPct": 16.63
+      "livePrice": 55.65,
+      "livePnlPct": 17.9
     },
     {
       "id": "2026-10-28-1023-WAAREEENER-2120-PE",
@@ -7261,8 +7296,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 50.8,
-      "livePnlPct": -21.24
+      "livePrice": 51.05,
+      "livePnlPct": -20.85
     },
     {
       "id": "2026-10-28-1112-KAYNES-2900-PE",
@@ -9035,35 +9070,42 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 5.85,
       "targetT1": 75.01,
       "targetT2": 77.32,
       "targetT3": 81.92,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 66.4,
+          "time": "21:53:08",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 68.09,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 66.4,
+      "exitTime": "21:53:08",
+      "exitDate": "2026-10-31",
+      "pnlPct": -2.48,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 66.92,
-      "livePnlPct": -1.72
+      "livePrice": null,
+      "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-10-30T09:04:40.576Z",
+  "lastUpdated": "2026-10-31T16:23:08.173Z",
   "upstoxId": "132199",
   "date": "2026-10-28",
   "stats": {
     "total": 97,
     "hits": 29,
-    "sls": 55,
-    "open": 13,
-    "winRate": 35
+    "sls": 61,
+    "open": 7,
+    "winRate": 32
   }
 }
