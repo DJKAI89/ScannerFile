@@ -2035,25 +2035,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 17.61,
       "targetT1": 76.31,
       "targetT2": 93.92,
       "targetT3": 111.53,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 40.75,
+          "time": "10:34:50",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 58.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 40.75,
+      "exitTime": "10:34:50",
+      "exitDate": "2026-11-02",
+      "pnlPct": -30.58,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 42.6,
-      "livePnlPct": -27.43
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-30-1306-TRENT-3150-CE",
@@ -3618,8 +3625,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.6,
-      "livePnlPct": -24.87
+      "livePrice": 40.75,
+      "livePnlPct": -28.13
     },
     {
       "id": "2026-10-30-1312-TRENT-3150-CE",
@@ -3687,25 +3694,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 12.09,
       "targetT1": 52.39,
       "targetT2": 64.48,
       "targetT3": 76.57,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 28.2,
+          "time": "10:34:50",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 40.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 28.2,
+      "exitTime": "10:34:50",
+      "exitDate": "2026-11-02",
+      "pnlPct": -30.02,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 29.35,
-      "livePnlPct": -27.17
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-30-1312-GODREJCP-820-PE",
@@ -3790,8 +3804,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 21.8,
-      "livePnlPct": -24.17
+      "livePrice": 22.65,
+      "livePnlPct": -21.22
     },
     {
       "id": "2026-10-30-1312-GODREJCP-790-PE",
@@ -3980,14 +3994,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-11-02T04:04:35.014Z",
+  "lastUpdated": "2026-11-02T05:04:50.887Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
     "total": 43,
     "hits": 2,
-    "sls": 37,
-    "open": 4,
+    "sls": 39,
+    "open": 2,
     "winRate": 5
   }
 }
