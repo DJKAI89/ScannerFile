@@ -330,7 +330,8 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-11-02-0937-SENSEX-75800-CE",
@@ -504,7 +505,7 @@
       "fillExit": null
     }
   ],
-  "lastUpdated": "2026-11-02T04:09:54.877Z",
+  "lastUpdated": "2026-11-02T04:09:57.846Z",
   "upstoxId": "132199",
   "date": "2026-11-02",
   "stats": {
