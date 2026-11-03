@@ -3608,25 +3608,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 17.01,
       "targetT1": 73.71,
       "targetT2": 90.72,
       "targetT3": 107.73,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 55.5,
+          "time": "06:58:01",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 56.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 55.5,
+      "exitTime": "06:58:01",
+      "exitDate": "2026-11-03",
+      "pnlPct": -2.12,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 40.75,
-      "livePnlPct": -28.13
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-30-1312-TRENT-3150-CE",
@@ -3787,25 +3794,32 @@
         "fiiAgainst": true
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 7.19,
       "targetT1": 35.94,
       "targetT2": 43.13,
       "targetT3": 50.32,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 21.85,
+          "time": "06:58:01",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 28.75,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 21.85,
+      "exitTime": "06:58:01",
+      "exitDate": "2026-11-03",
+      "pnlPct": -24,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 22.65,
-      "livePnlPct": -21.22
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-10-30-1312-GODREJCP-790-PE",
@@ -3994,14 +4008,14 @@
       "livePnlPct": null
     }
   ],
-  "lastUpdated": "2026-11-02T05:04:50.887Z",
+  "lastUpdated": "2026-11-03T01:28:01.441Z",
   "upstoxId": "132199",
   "date": "2026-10-30",
   "stats": {
     "total": 43,
     "hits": 2,
-    "sls": 39,
-    "open": 2,
+    "sls": 41,
+    "open": 0,
     "winRate": 5
   }
 }
