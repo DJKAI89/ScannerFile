@@ -368,7 +368,8 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-11-04-1119-SENSEX-77200-CE",
@@ -786,7 +787,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-04T05:49:10.962Z",
+  "lastUpdated": "2026-11-04T06:20:16.416Z",
   "upstoxId": "132199",
   "date": "2026-11-04",
   "stats": {
