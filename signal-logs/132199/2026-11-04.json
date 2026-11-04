@@ -452,7 +452,8 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-11-04-1119-GVT&D-4300-CE",
@@ -787,7 +788,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-04T06:20:16.416Z",
+  "lastUpdated": "2026-11-04T06:20:19.358Z",
   "upstoxId": "132199",
   "date": "2026-11-04",
   "stats": {
