@@ -2278,25 +2278,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 67.61,
       "targetT1": 338.06,
       "targetT2": 405.67,
       "targetT3": 473.28,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 197.75,
+          "time": "11:18:21",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 270.45,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 197.75,
+      "exitTime": "11:18:21",
+      "exitDate": "2026-11-04",
+      "pnlPct": -26.88,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 337.75,
-      "livePnlPct": 24.88
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-02-0945-MARUTI-11500-PE",
@@ -2363,25 +2370,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 44.86,
       "targetT1": 194.41,
       "targetT2": 239.27,
       "targetT3": 284.13,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 102,
+          "time": "11:18:21",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 149.55,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 102,
+      "exitTime": "11:18:21",
+      "exitDate": "2026-11-04",
+      "pnlPct": -31.8,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 189,
-      "livePnlPct": 26.38
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-02-0945-MARUTI-11600-PE",
@@ -2465,18 +2479,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 231.45,
-      "livePnlPct": 26.96
+      "livePrice": 129,
+      "livePnlPct": -29.24
     }
   ],
-  "lastUpdated": "2026-11-03T01:29:03.674Z",
+  "lastUpdated": "2026-11-04T05:48:21.294Z",
   "upstoxId": "132199",
   "date": "2026-11-02",
   "stats": {
     "total": 27,
     "hits": 0,
-    "sls": 24,
-    "open": 3,
+    "sls": 26,
+    "open": 1,
     "winRate": 0
   }
 }
