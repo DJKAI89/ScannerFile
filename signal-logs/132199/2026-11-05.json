@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.55,
-      "livePnlPct": 1.66
+      "livePrice": 26.1,
+      "livePnlPct": -3.69
     },
     {
       "id": "2026-11-05-0945-INFY-1174-PE",
@@ -167,8 +167,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 34.4,
-      "livePnlPct": 1.78
+      "livePrice": 32.6,
+      "livePnlPct": -3.55
     },
     {
       "id": "2026-11-05-0945-INFY-1154-PE",
@@ -252,8 +252,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 25.6,
-      "livePnlPct": 4.7
+      "livePrice": 23.7,
+      "livePnlPct": -3.07
     },
     {
       "id": "2026-11-05-1252-SENSEX-78600-CE",
@@ -320,7 +320,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 99.16,
       "targetT1": 495.81,
@@ -338,21 +338,27 @@
           "price": 665.1,
           "time": "13:37:53",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 871.55,
+          "time": "13:49:30",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 663.504,
       "maxFavPrice": 723,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 871.55,
+      "exitTime": "13:49:30",
+      "exitDate": "2026-11-05",
+      "pnlPct": 61.37,
+      "exitReason": "TARGET",
       "note": "",
       "taken": false,
-      "livePrice": 680.2,
-      "livePnlPct": 71.49
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-05-1252-SENSEX-78700-CE",
@@ -1030,8 +1036,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 73.4,
-      "livePnlPct": 15.23
+      "livePrice": 73,
+      "livePnlPct": 14.6
     },
     {
       "id": "2026-11-05-1252-PIIND-1860-PE",
@@ -1115,18 +1121,18 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.8,
-      "livePnlPct": 15.04
+      "livePrice": 84.25,
+      "livePnlPct": 11.66
     }
   ],
-  "lastUpdated": "2026-11-05T08:09:08.879Z",
+  "lastUpdated": "2026-11-05T08:19:30.852Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
     "total": 12,
-    "hits": 4,
+    "hits": 5,
     "sls": 2,
-    "open": 6,
-    "winRate": 67
+    "open": 5,
+    "winRate": 71
   }
 }
