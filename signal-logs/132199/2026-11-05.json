@@ -664,7 +664,9 @@
       "exitReason": null,
       "note": "",
       "taken": true,
-      "takenAt": "2026-11-05T07:23:57.161Z"
+      "takenAt": "2026-11-05T07:23:57.161Z",
+      "fillEntry": 140,
+      "fillExit": null
     },
     {
       "id": "2026-11-05-1252-SENSEX-79200-PE",
@@ -999,7 +1001,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-05T07:23:58.905Z",
+  "lastUpdated": "2026-11-05T07:24:11.642Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
