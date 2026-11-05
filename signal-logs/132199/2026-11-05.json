@@ -81,7 +81,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 27.55,
+      "livePnlPct": 1.66
     },
     {
       "id": "2026-11-05-0945-INFY-1174-PE",
@@ -164,7 +166,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 34.4,
+      "livePnlPct": 1.78
     },
     {
       "id": "2026-11-05-0945-INFY-1154-PE",
@@ -247,7 +251,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 25.6,
+      "livePnlPct": 4.7
     },
     {
       "id": "2026-11-05-1252-SENSEX-78600-CE",
@@ -336,15 +342,17 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 610.554,
-      "maxFavPrice": 670.05,
+      "trailSL": 620.7040000000001,
+      "maxFavPrice": 680.2,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 680.2,
+      "livePnlPct": 71.49
     },
     {
       "id": "2026-11-05-1252-SENSEX-78700-CE",
@@ -433,14 +441,16 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 518.41,
-      "maxFavPrice": 566.05,
+      "trailSL": 535.3100000000001,
+      "maxFavPrice": 582.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 582.95,
+      "livePnlPct": 83.55
     },
     {
       "id": "2026-11-05-1252-SENSEX-78800-CE",
@@ -1007,7 +1017,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 73.4,
+      "livePnlPct": 15.23
     },
     {
       "id": "2026-11-05-1252-PIIND-1860-PE",
@@ -1090,10 +1102,12 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 86.8,
+      "livePnlPct": 15.04
     }
   ],
-  "lastUpdated": "2026-11-05T08:08:00.731Z",
+  "lastUpdated": "2026-11-05T08:08:02.802Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
