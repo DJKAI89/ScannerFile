@@ -326,12 +326,18 @@
           "price": 532.45,
           "time": "13:15:00",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 665.1,
+          "time": "13:37:53",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 506.554,
-      "maxFavPrice": 566.05,
+      "trailSL": 605.604,
+      "maxFavPrice": 665.1,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -417,12 +423,18 @@
           "price": 437,
           "time": "13:15:00",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 566.05,
+          "time": "13:37:53",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 425.36,
-      "maxFavPrice": 473,
+      "trailSL": 518.41,
+      "maxFavPrice": 566.05,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -495,7 +507,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 61.34,
       "targetT1": 306.69,
@@ -507,17 +519,29 @@
           "price": 350.3,
           "time": "13:15:00",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 392.75,
+          "time": "13:24:16",
+          "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 473.5,
+          "time": "13:37:53",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
-      "trailSL": 345.14599999999996,
-      "maxFavPrice": 381.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "trailSL": 357.496,
+      "maxFavPrice": 394.3,
+      "exitPrice": 473.5,
+      "exitTime": "13:37:53",
+      "exitDate": "2026-11-05",
+      "pnlPct": 58.01,
+      "exitReason": "TARGET",
       "note": ""
     },
     {
@@ -1069,14 +1093,14 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-05T07:57:09.290Z",
+  "lastUpdated": "2026-11-05T08:07:54.258Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
     "total": 12,
-    "hits": 1,
+    "hits": 2,
     "sls": 2,
-    "open": 9,
-    "winRate": 33
+    "open": 8,
+    "winRate": 50
   }
 }
