@@ -189,8 +189,8 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 55.3,
-      "livePnlPct": -2.4
+      "livePrice": 56.95,
+      "livePnlPct": 0.51
     },
     {
       "id": "2026-11-04-1118-ZEEL-STOCK",
@@ -375,26 +375,45 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 164.4,
       "targetT1": 822,
       "targetT2": 986.4,
       "targetT3": 1150.8,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 822,
+          "time": "09:17:06",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 986.4,
+          "time": "09:17:06",
+          "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 1581.55,
+          "time": "09:17:06",
+          "pctClosed": 20
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 657.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1581.55,
+      "exitTime": "09:17:06",
+      "exitDate": "2026-11-05",
+      "pnlPct": 55.6,
+      "exitReason": "TARGET",
       "note": "",
       "taken": false,
-      "livePrice": 768.2,
-      "livePnlPct": 16.82
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-04-1119-SENSEX-77200-CE",
@@ -461,26 +480,45 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 151.35,
       "targetT1": 756.75,
       "targetT2": 908.1,
       "targetT3": 1059.45,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 756.75,
+          "time": "09:17:06",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 908.1,
+          "time": "09:17:06",
+          "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 1529.5,
+          "time": "09:17:06",
+          "pctClosed": 20
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 605.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 1529.5,
+      "exitTime": "09:17:06",
+      "exitDate": "2026-11-05",
+      "pnlPct": 58.03,
+      "exitReason": "TARGET",
       "note": "",
       "taken": false,
-      "livePrice": 714.25,
-      "livePnlPct": 17.98
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-04-1119-GVT&D-4300-CE",
@@ -547,25 +585,32 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 30.99,
       "targetT1": 134.29,
       "targetT2": 165.28,
       "targetT3": 196.27,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 63.4,
+          "time": "09:17:06",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 103.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 63.4,
+      "exitTime": "09:17:06",
+      "exitDate": "2026-11-05",
+      "pnlPct": -38.63,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 106.8,
-      "livePnlPct": 3.39
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-04-1119-POLICYBZR-960-PE",
@@ -649,8 +694,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.8,
-      "livePnlPct": -8.25
+      "livePrice": 27.6,
+      "livePnlPct": -8.91
     },
     {
       "id": "2026-11-04-1119-POLICYBZR-980-PE",
@@ -734,8 +779,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.9,
-      "livePnlPct": -5.25
+      "livePrice": 37.15,
+      "livePnlPct": -7.13
     },
     {
       "id": "2026-11-04-1119-TITAN-4700-CE",
@@ -843,14 +888,14 @@
       "livePnlPct": 60.62
     }
   ],
-  "lastUpdated": "2026-11-04T10:05:45.435Z",
+  "lastUpdated": "2026-11-05T03:47:06.938Z",
   "upstoxId": "132199",
   "date": "2026-11-04",
   "stats": {
     "total": 9,
-    "hits": 2,
-    "sls": 1,
-    "open": 6,
+    "hits": 4,
+    "sls": 2,
+    "open": 3,
     "winRate": 67
   }
 }
