@@ -419,7 +419,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 79.4,
       "targetT1": 397,
@@ -437,17 +437,23 @@
           "price": 566.05,
           "time": "13:37:53",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 616.15,
+          "time": "13:38:52",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 535.3100000000001,
       "maxFavPrice": 582.95,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 616.15,
+      "exitTime": "13:38:52",
+      "exitDate": "2026-11-05",
+      "pnlPct": 61.06,
+      "exitReason": "TARGET",
       "note": "",
       "livePrice": 582.95,
       "livePnlPct": 83.55
@@ -619,7 +625,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 45.8,
       "targetT1": 229,
@@ -637,17 +643,23 @@
           "price": 295.8,
           "time": "13:23:08",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 436.05,
+          "time": "13:38:52",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 277.52,
       "maxFavPrice": 305,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 436.05,
+      "exitTime": "13:38:52",
+      "exitDate": "2026-11-05",
+      "pnlPct": 70.67,
+      "exitReason": "TARGET",
       "note": ""
     },
     {
@@ -1107,14 +1119,14 @@
       "livePnlPct": 15.04
     }
   ],
-  "lastUpdated": "2026-11-05T08:08:50.230Z",
+  "lastUpdated": "2026-11-05T08:08:52.651Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
     "total": 12,
-    "hits": 2,
+    "hits": 4,
     "sls": 2,
-    "open": 8,
-    "winRate": 50
+    "open": 6,
+    "winRate": 67
   }
 }
