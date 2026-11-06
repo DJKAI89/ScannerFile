@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-06",
+  "snapshot": {
+    "version": "ai-ensemble-v2",
+    "modelName": "AI Ensemble Brain",
+    "computedAt": "2026-11-06T19:40:39.281Z",
+    "stock": {
+      "trainedOn": 252,
+      "accuracy": 0.833,
+      "edge": 0.0995,
+      "walkForward": 0.635,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 91,
+          "importance": 0
+        },
+        {
+          "feature": "rr",
+          "gain": 0,
+          "splits": 28,
+          "importance": 0
+        },
+        {
+          "feature": "riskInv",
+          "gain": 0,
+          "splits": 43,
+          "importance": 0
+        },
+        {
+          "feature": "numInds",
+          "gain": 0,
+          "splits": 2,
+          "importance": 0
+        },
+        {
+          "feature": "potential",
+          "gain": 0,
+          "splits": 107,
+          "importance": 0
+        },
+        {
+          "feature": "expectedWR",
+          "gain": 0,
+          "splits": 31,
+          "importance": 0
+        },
+        {
+          "feature": "reversal",
+          "gain": 0,
+          "splits": 14,
+          "importance": 0
+        },
+        {
+          "feature": "aboveVWAP",
+          "gain": 0,
+          "splits": 1,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_global"
+    },
+    "option": {
+      "trainedOn": 555,
+      "accuracy": 0.804,
+      "edge": 0.0972,
+      "walkForward": 0.452,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 37,
+          "importance": 0
+        },
+        {
+          "feature": "score",
+          "gain": 0,
+          "splits": 11,
+          "importance": 0
+        },
+        {
+          "feature": "composite",
+          "gain": 0,
+          "splits": 8,
+          "importance": 0
+        },
+        {
+          "feature": "volSpike",
+          "gain": 0,
+          "splits": 9,
+          "importance": 0
+        },
+        {
+          "feature": "deltaAbs",
+          "gain": 0,
+          "splits": 21,
+          "importance": 0
+        },
+        {
+          "feature": "iv",
+          "gain": 0,
+          "splits": 46,
+          "importance": 0
+        },
+        {
+          "feature": "thetaAbs",
+          "gain": 0,
+          "splits": 24,
+          "importance": 0
+        },
+        {
+          "feature": "capitalLoad",
+          "gain": 0,
+          "splits": 18,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_pe"
+    }
+  },
+  "trainedOffline": true,
+  "userId": "132199"
+}
