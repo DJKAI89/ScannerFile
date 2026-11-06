@@ -1056,7 +1056,8 @@
       "exitReason": "TARGET",
       "note": "",
       "livePrice": null,
-      "livePnlPct": null
+      "livePnlPct": null,
+      "taken": false
     },
     {
       "id": "2026-11-05-1252-PIIND-1860-PE",
@@ -1157,7 +1158,7 @@
       "livePnlPct": 73.56
     }
   ],
-  "lastUpdated": "2026-11-06T03:53:48.526Z",
+  "lastUpdated": "2026-11-06T03:54:08.720Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
