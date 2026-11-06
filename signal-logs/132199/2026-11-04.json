@@ -189,8 +189,8 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 54.17,
-      "livePnlPct": -4.39
+      "livePrice": 54.55,
+      "livePnlPct": -3.72
     },
     {
       "id": "2026-11-04-1118-ZEEL-STOCK",
@@ -677,7 +677,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 9.09,
       "targetT1": 39.39,
@@ -689,20 +689,26 @@
           "price": 39.4,
           "time": "09:25:49",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 33.55,
+          "time": "10:12:27",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 33.946,
       "maxFavPrice": 39.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 33.55,
+      "exitTime": "10:12:27",
+      "exitDate": "2026-11-06",
+      "pnlPct": 20.38,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 39.4,
-      "livePnlPct": 30.03
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-04-1119-POLICYBZR-980-PE",
@@ -769,7 +775,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 10,
       "targetT1": 50,
@@ -781,20 +787,26 @@
           "price": 51,
           "time": "09:25:49",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 44,
+          "time": "10:12:27",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 45,
       "maxFavPrice": 51,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 44,
+      "exitTime": "10:12:27",
+      "exitDate": "2026-11-06",
+      "pnlPct": 18.75,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 51,
-      "livePnlPct": 27.5
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-04-1119-TITAN-4700-CE",
@@ -902,14 +914,14 @@
       "livePnlPct": 60.62
     }
   ],
-  "lastUpdated": "2026-11-06T03:55:49.467Z",
+  "lastUpdated": "2026-11-06T04:42:27.569Z",
   "upstoxId": "132199",
   "date": "2026-11-04",
   "stats": {
     "total": 9,
-    "hits": 4,
+    "hits": 6,
     "sls": 2,
-    "open": 3,
-    "winRate": 67
+    "open": 1,
+    "winRate": 75
   }
 }
