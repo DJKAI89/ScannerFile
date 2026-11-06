@@ -82,8 +82,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 23.05,
-      "livePnlPct": -14.94
+      "livePrice": 20.05,
+      "livePnlPct": -26.01
     },
     {
       "id": "2026-11-05-0945-INFY-1174-PE",
@@ -150,25 +150,32 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 8.45,
       "targetT1": 42.25,
       "targetT2": 50.7,
       "targetT3": 59.15,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 25.15,
+          "time": "09:50:42",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 33.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 25.15,
+      "exitTime": "09:50:42",
+      "exitDate": "2026-11-06",
+      "pnlPct": -25.59,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 28.7,
-      "livePnlPct": -15.09
+      "livePrice": null,
+      "livePnlPct": null
     },
     {
       "id": "2026-11-05-0945-INFY-1154-PE",
@@ -252,8 +259,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.95,
-      "livePnlPct": -14.31
+      "livePrice": 18.2,
+      "livePnlPct": -25.56
     },
     {
       "id": "2026-11-05-1252-SENSEX-78600-CE",
@@ -1165,14 +1172,14 @@
       "taken": false
     }
   ],
-  "lastUpdated": "2026-11-06T03:54:13.374Z",
+  "lastUpdated": "2026-11-06T04:20:42.765Z",
   "upstoxId": "132199",
   "date": "2026-11-05",
   "stats": {
     "total": 12,
     "hits": 7,
-    "sls": 2,
-    "open": 3,
-    "winRate": 78
+    "sls": 3,
+    "open": 2,
+    "winRate": 70
   }
 }
