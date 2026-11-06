@@ -189,8 +189,8 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 56.95,
-      "livePnlPct": 0.51
+      "livePrice": 54.17,
+      "livePnlPct": -4.39
     },
     {
       "id": "2026-11-04-1118-ZEEL-STOCK",
@@ -683,19 +683,26 @@
       "targetT1": 39.39,
       "targetT2": 48.48,
       "targetT3": 57.57,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 30.3,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 39.4,
+          "time": "09:25:49",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 33.946,
+      "maxFavPrice": 39.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 27.6,
-      "livePnlPct": -8.91
+      "livePrice": 39.4,
+      "livePnlPct": 30.03
     },
     {
       "id": "2026-11-04-1119-POLICYBZR-980-PE",
@@ -768,19 +775,26 @@
       "targetT1": 50,
       "targetT2": 60,
       "targetT3": 70,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 40,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 51,
+          "time": "09:25:49",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 45,
+      "maxFavPrice": 51,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.15,
-      "livePnlPct": -7.13
+      "livePrice": 51,
+      "livePnlPct": 27.5
     },
     {
       "id": "2026-11-04-1119-TITAN-4700-CE",
@@ -888,7 +902,7 @@
       "livePnlPct": 60.62
     }
   ],
-  "lastUpdated": "2026-11-05T03:47:06.938Z",
+  "lastUpdated": "2026-11-06T03:55:49.467Z",
   "upstoxId": "132199",
   "date": "2026-11-04",
   "stats": {
