@@ -171,26 +171,39 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 1.94,
       "targetT1": 62.93,
       "targetT2": 65.02,
       "targetT3": 69.2,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 55.49,
+          "time": "14:23:52",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 56.66,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 55.49,
+      "exitTime": "14:23:52",
+      "exitDate": "2026-11-08",
+      "pnlPct": -2.06,
+      "exitReason": "TIME_STOP",
       "note": "",
       "taken": false,
-      "livePrice": 54.55,
-      "livePnlPct": -3.72
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -2.06,
+      "realizedR": -0.28,
+      "mfeR": 0,
+      "maeR": -0.28,
+      "holdMins": 5945
     },
     {
       "id": "2026-11-04-1118-ZEEL-STOCK",
@@ -914,14 +927,14 @@
       "livePnlPct": 60.62
     }
   ],
-  "lastUpdated": "2026-11-06T04:42:27.569Z",
+  "lastUpdated": "2026-11-08T08:53:52.014Z",
   "upstoxId": "132199",
   "date": "2026-11-04",
   "stats": {
     "total": 9,
     "hits": 6,
-    "sls": 2,
-    "open": 1,
-    "winRate": 75
+    "sls": 3,
+    "open": 0,
+    "winRate": 67
   }
 }
