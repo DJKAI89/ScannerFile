@@ -81,14 +81,18 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 137.044,
-      "maxFavPrice": 157,
+      "trailSL": 156.044,
+      "maxFavPrice": 176,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 176,
+      "livePnlPct": 58.77,
+      "mfePct": 58.77,
+      "maePct": 0
     },
     {
       "id": "2026-11-06-1112-INFY-1180-CE",
@@ -171,7 +175,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 30.95,
+      "livePnlPct": 3.86,
+      "mfePct": 3.86,
+      "maePct": 0
     },
     {
       "id": "2026-11-06-1112-INFY-1194-CE",
@@ -254,7 +262,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 24.4,
+      "livePnlPct": 3.17,
+      "mfePct": 3.17,
+      "maePct": 0
     },
     {
       "id": "2026-11-06-1112-TCS-2520-CE",
@@ -338,7 +350,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 60,
+      "livePnlPct": -5.51,
+      "mfePct": 0,
+      "maePct": -5.51
     },
     {
       "id": "2026-11-06-1253-GVT&D-4000-CE",
@@ -417,21 +433,31 @@
           "price": 157,
           "time": "15:50:05",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 176,
+          "time": "14:23:52",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 139.996,
-      "maxFavPrice": 157,
+      "trailSL": 158.996,
+      "maxFavPrice": 176,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 176,
+      "livePnlPct": 55.27,
+      "mfePct": 55.27,
+      "maePct": 0
     }
   ],
-  "lastUpdated": "2026-11-06T10:20:09.912Z",
+  "lastUpdated": "2026-11-08T08:53:59.061Z",
   "upstoxId": "132199",
   "date": "2026-11-06",
   "stats": {
