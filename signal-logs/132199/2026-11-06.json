@@ -169,27 +169,38 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 7.45,
       "targetT1": 37.25,
       "targetT2": 44.7,
       "targetT3": 52.15,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 18.85,
+          "time": "09:15:49",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 29.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 18.85,
+      "exitTime": "09:15:49",
+      "exitDate": "2026-11-09",
+      "pnlPct": -36.74,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 28.2,
-      "livePnlPct": -5.37,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 3.86,
-      "maePct": -5.37
+      "maePct": -36.74,
+      "realizedR": -1.47,
+      "mfeR": 0.15,
+      "maeR": -1.47,
+      "holdMins": 4203
     },
     {
       "id": "2026-11-06-1112-INFY-1194-CE",
@@ -354,28 +365,39 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 15.87,
       "targetT1": 79.37,
       "targetT2": 95.25,
       "targetT3": 111.11,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 38.7,
+          "time": "09:15:49",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 63.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 38.7,
+      "exitTime": "09:15:49",
+      "exitDate": "2026-11-09",
+      "pnlPct": -39.06,
+      "exitReason": "SL",
       "note": "",
       "taken": false,
-      "livePrice": 54.15,
-      "livePnlPct": -14.72,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 0,
-      "maePct": -14.72
+      "maePct": -39.06,
+      "realizedR": -1.56,
+      "mfeR": 0,
+      "maeR": -1.56,
+      "holdMins": 4203
     },
     {
       "id": "2026-11-06-1253-GVT&D-4000-CE",
@@ -488,14 +510,14 @@
       "holdMins": 4078
     }
   ],
-  "lastUpdated": "2026-11-09T03:22:01.097Z",
+  "lastUpdated": "2026-11-09T03:45:49.940Z",
   "upstoxId": "132199",
   "date": "2026-11-06",
   "stats": {
     "total": 5,
     "hits": 2,
-    "sls": 1,
-    "open": 2,
-    "winRate": 67
+    "sls": 3,
+    "open": 0,
+    "winRate": 40
   }
 }
