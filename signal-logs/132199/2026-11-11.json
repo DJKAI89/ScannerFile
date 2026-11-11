@@ -165,7 +165,9 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": true,
+      "takenAt": "2026-11-11T08:35:15.647Z"
     },
     {
       "id": "2026-11-11-1403-SENSEX-82000-PE",
@@ -588,7 +590,7 @@
       "taken": false
     }
   ],
-  "lastUpdated": "2026-11-11T08:35:12.688Z",
+  "lastUpdated": "2026-11-11T08:35:16.048Z",
   "upstoxId": "132199",
   "date": "2026-11-11",
   "stats": {
