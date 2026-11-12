@@ -3,7 +3,7 @@
   "snapshot": {
     "version": "ai-ensemble-v2",
     "modelName": "AI Ensemble Brain",
-    "computedAt": "2026-11-12T04:17:51.303Z",
+    "computedAt": "2026-11-12T20:25:21.144Z",
     "stock": {
       "trainedOn": 253,
       "accuracy": 0.842,
@@ -62,61 +62,61 @@
       "servingLabel": "stock_late"
     },
     "option": {
-      "trainedOn": 520,
-      "accuracy": 0.796,
-      "edge": 0.0969,
+      "trainedOn": 521,
+      "accuracy": 0.795,
+      "edge": 0.0986,
       "walkForward": 0.46,
       "topFeatures": [
         {
           "feature": "baseConf",
           "gain": 0,
-          "splits": 21,
+          "splits": 50,
           "importance": 0
         },
         {
           "feature": "score",
           "gain": 0,
-          "splits": 13,
+          "splits": 21,
           "importance": 0
         },
         {
           "feature": "composite",
           "gain": 0,
-          "splits": 9,
-          "importance": 0
-        },
-        {
-          "feature": "volSpike",
-          "gain": 0,
-          "splits": 20,
+          "splits": 18,
           "importance": 0
         },
         {
           "feature": "deltaAbs",
           "gain": 0,
-          "splits": 32,
+          "splits": 64,
           "importance": 0
         },
         {
           "feature": "iv",
           "gain": 0,
-          "splits": 38,
+          "splits": 85,
           "importance": 0
         },
         {
           "feature": "thetaAbs",
           "gain": 0,
-          "splits": 27,
+          "splits": 2,
           "importance": 0
         },
         {
           "feature": "capitalLoad",
           "gain": 0,
-          "splits": 8,
+          "splits": 62,
+          "importance": 0
+        },
+        {
+          "feature": "weekday",
+          "gain": 0,
+          "splits": 26,
           "importance": 0
         }
       ],
-      "servingLabel": "stock_pe"
+      "servingLabel": "index_ce"
     }
   },
   "trainedOffline": true,
