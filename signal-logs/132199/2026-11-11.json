@@ -82,7 +82,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 36.9,
+      "livePnlPct": 5.43,
+      "mfePct": 5.43,
+      "maePct": 0
     },
     {
       "id": "2026-11-11-1403-SENSEX-81900-PE",
@@ -149,27 +153,42 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 119.06,
       "targetT1": 595.31,
       "targetT2": 714.38,
       "targetT3": 833.43,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 144.25,
+          "time": "09:36:47",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 476.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 144.25,
+      "exitTime": "09:36:47",
+      "exitDate": "2026-11-12",
+      "pnlPct": -69.71,
+      "exitReason": "SL",
       "note": "",
       "taken": true,
       "takenAt": "2026-11-11T08:35:15.647Z",
       "fillEntry": 450,
-      "fillExit": null
+      "fillExit": null,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -69.71,
+      "realizedR": -2.79,
+      "mfeR": 0,
+      "maeR": -2.79,
+      "holdMins": 1173
     },
     {
       "id": "2026-11-11-1403-SENSEX-82000-PE",
@@ -236,24 +255,39 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 132.8,
       "targetT1": 664,
       "targetT2": 796.8,
       "targetT3": 929.6,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 176.4,
+          "time": "09:36:47",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 531.2,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 176.4,
+      "exitTime": "09:36:47",
+      "exitDate": "2026-11-12",
+      "pnlPct": -66.79,
+      "exitReason": "SL",
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -66.79,
+      "realizedR": -2.67,
+      "mfeR": 0,
+      "maeR": -2.67,
+      "holdMins": 1173
     },
     {
       "id": "2026-11-11-1403-SENSEX-82100-PE",
@@ -320,24 +354,39 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 148.26,
       "targetT1": 741.31,
       "targetT2": 889.57,
       "targetT3": 1037.83,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 213.7,
+          "time": "09:36:47",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 593.05,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 213.7,
+      "exitTime": "09:36:47",
+      "exitDate": "2026-11-12",
+      "pnlPct": -63.97,
+      "exitReason": "SL",
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -63.97,
+      "realizedR": -2.56,
+      "mfeR": 0,
+      "maeR": -2.56,
+      "holdMins": 1173
     },
     {
       "id": "2026-11-11-1403-SENSEX-82200-PE",
@@ -404,24 +453,39 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 163.96,
       "targetT1": 819.81,
       "targetT2": 983.78,
       "targetT3": 1147.73,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 258.7,
+          "time": "09:36:47",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 655.85,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 258.7,
+      "exitTime": "09:36:47",
+      "exitDate": "2026-11-12",
+      "pnlPct": -60.56,
+      "exitReason": "SL",
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -60.56,
+      "realizedR": -2.42,
+      "mfeR": 0,
+      "maeR": -2.42,
+      "holdMins": 1173
     },
     {
       "id": "2026-11-11-1403-SENSEX-82300-PE",
@@ -488,24 +552,39 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 180.73,
       "targetT1": 903.63,
       "targetT2": 1084.35,
       "targetT3": 1265.09,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 310.55,
+          "time": "09:36:47",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 722.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 310.55,
+      "exitTime": "09:36:47",
+      "exitDate": "2026-11-12",
+      "pnlPct": -57.04,
+      "exitReason": "SL",
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -57.04,
+      "realizedR": -2.28,
+      "mfeR": 0,
+      "maeR": -2.28,
+      "holdMins": 1173
     },
     {
       "id": "2026-11-11-1403-SWIGGY-190-PE",
@@ -589,17 +668,21 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 4.75,
+      "livePnlPct": -17.68,
+      "mfePct": 0,
+      "maePct": -17.68
     }
   ],
-  "lastUpdated": "2026-11-11T08:35:28.363Z",
+  "lastUpdated": "2026-11-12T04:06:48.000Z",
   "upstoxId": "132199",
   "date": "2026-11-11",
   "stats": {
     "total": 7,
     "hits": 0,
-    "sls": 0,
-    "open": 7,
-    "winRate": null
+    "sls": 5,
+    "open": 2,
+    "winRate": 0
   }
 }
