@@ -65,28 +65,39 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 8.75,
       "targetT1": 43.75,
       "targetT2": 52.5,
       "targetT3": 61.25,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 24.15,
+          "time": "09:16:29",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 24.15,
+      "exitTime": "09:16:29",
+      "exitDate": "2026-11-13",
+      "pnlPct": -31,
+      "exitReason": "SL",
       "note": "",
       "taken": false,
-      "livePrice": 35.5,
-      "livePnlPct": 1.43,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 5.43,
-      "maePct": 0
+      "maePct": -31,
+      "realizedR": -1.24,
+      "mfeR": 0.22,
+      "maeR": -1.24,
+      "holdMins": 2866
     },
     {
       "id": "2026-11-11-1403-SENSEX-81900-PE",
@@ -686,14 +697,14 @@
       "holdMins": 1187
     }
   ],
-  "lastUpdated": "2026-11-12T04:20:36.333Z",
+  "lastUpdated": "2026-11-13T03:46:29.071Z",
   "upstoxId": "132199",
   "date": "2026-11-11",
   "stats": {
     "total": 7,
     "hits": 0,
-    "sls": 6,
-    "open": 1,
+    "sls": 7,
+    "open": 0,
     "winRate": 0
   }
 }
