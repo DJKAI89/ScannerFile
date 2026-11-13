@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-13",
+  "snapshot": {
+    "version": "ai-ensemble-v2",
+    "modelName": "AI Ensemble Brain",
+    "computedAt": "2026-11-13T20:00:24.685Z",
+    "stock": {
+      "trainedOn": 253,
+      "accuracy": 0.842,
+      "edge": 0.0995,
+      "walkForward": 0.625,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 67,
+          "importance": 0
+        },
+        {
+          "feature": "rr",
+          "gain": 0,
+          "splits": 29,
+          "importance": 0
+        },
+        {
+          "feature": "riskInv",
+          "gain": 0,
+          "splits": 19,
+          "importance": 0
+        },
+        {
+          "feature": "numInds",
+          "gain": 0,
+          "splits": 11,
+          "importance": 0
+        },
+        {
+          "feature": "potential",
+          "gain": 0,
+          "splits": 56,
+          "importance": 0
+        },
+        {
+          "feature": "expectedWR",
+          "gain": 0,
+          "splits": 7,
+          "importance": 0
+        },
+        {
+          "feature": "reversal",
+          "gain": 0,
+          "splits": 8,
+          "importance": 0
+        },
+        {
+          "feature": "adxBull",
+          "gain": 0,
+          "splits": 2,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_late"
+    },
+    "option": {
+      "trainedOn": 523,
+      "accuracy": 0.795,
+      "edge": 0.0981,
+      "walkForward": 0.523,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 50,
+          "importance": 0
+        },
+        {
+          "feature": "score",
+          "gain": 0,
+          "splits": 21,
+          "importance": 0
+        },
+        {
+          "feature": "composite",
+          "gain": 0,
+          "splits": 18,
+          "importance": 0
+        },
+        {
+          "feature": "deltaAbs",
+          "gain": 0,
+          "splits": 64,
+          "importance": 0
+        },
+        {
+          "feature": "iv",
+          "gain": 0,
+          "splits": 85,
+          "importance": 0
+        },
+        {
+          "feature": "thetaAbs",
+          "gain": 0,
+          "splits": 2,
+          "importance": 0
+        },
+        {
+          "feature": "capitalLoad",
+          "gain": 0,
+          "splits": 62,
+          "importance": 0
+        },
+        {
+          "feature": "weekday",
+          "gain": 0,
+          "splits": 26,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "index_ce"
+    }
+  },
+  "trainedOffline": true,
+  "userId": "132199"
+}
