@@ -203,7 +203,8 @@
       "realizedR": -1.38,
       "mfeR": 0,
       "maeR": -1.38,
-      "holdMins": 41
+      "holdMins": 41,
+      "taken": false
     },
     {
       "id": "2026-11-16-0933-BHARTIARTL-2160-CE",
@@ -303,7 +304,7 @@
       "maePct": -22.12
     }
   ],
-  "lastUpdated": "2026-11-16T04:44:16.528Z",
+  "lastUpdated": "2026-11-16T04:44:18.716Z",
   "upstoxId": "132199",
   "date": "2026-11-16",
   "stats": {
