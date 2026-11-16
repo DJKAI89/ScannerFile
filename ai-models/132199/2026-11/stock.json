@@ -1,7 +1,7 @@
 {
   "modelName": "AI Ensemble Brain",
   "version": "ai-ensemble-v2",
-  "computedAt": "2026-11-13T20:00:24.685Z",
+  "computedAt": "2026-11-16T22:30:02.305Z",
   "family": {
     "global": {
       "kind": "lightgbm_style_gbdt_v2",
@@ -2814,7 +2814,7 @@
       "wins": 78,
       "losses": 175,
       "baseRate": 0.308,
-      "computedAt": "2026-11-13T20:00:15.227Z",
+      "computedAt": "2026-11-16T22:29:48.290Z",
       "params": {
         "numIterations": 42,
         "learningRate": 0.07,
@@ -4253,7 +4253,7 @@
         "wins": 30,
         "losses": 55,
         "baseRate": 0.353,
-        "computedAt": "2026-11-13T20:00:16.550Z",
+        "computedAt": "2026-11-16T22:29:50.270Z",
         "params": {
           "numIterations": 24,
           "learningRate": 0.09,
@@ -5047,7 +5047,7 @@
         "wins": 10,
         "losses": 25,
         "baseRate": 0.286,
-        "computedAt": "2026-11-13T20:00:16.734Z",
+        "computedAt": "2026-11-16T22:29:50.574Z",
         "params": {
           "numIterations": 24,
           "learningRate": 0.09,
@@ -6891,7 +6891,7 @@
         "wins": 38,
         "losses": 95,
         "baseRate": 0.286,
-        "computedAt": "2026-11-13T20:00:16.737Z",
+        "computedAt": "2026-11-16T22:29:50.579Z",
         "params": {
           "numIterations": 32,
           "learningRate": 0.09,
@@ -7118,5 +7118,5 @@
   "trainedOffline": true,
   "userId": "132199",
   "month": "2026-11",
-  "savedAt": "2026-11-13T20:00:24.685Z"
+  "savedAt": "2026-11-16T22:30:02.306Z"
 }
