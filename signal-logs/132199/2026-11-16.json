@@ -95,7 +95,8 @@
       "livePrice": 2.07,
       "livePnlPct": 6.7,
       "mfePct": 6.7,
-      "maePct": 0
+      "maePct": 0,
+      "taken": false
     },
     {
       "id": "2026-11-16-0933-EICHERMOT-7800-CE",
@@ -305,7 +306,7 @@
       "taken": false
     }
   ],
-  "lastUpdated": "2026-11-16T04:44:58.491Z",
+  "lastUpdated": "2026-11-16T04:45:01.756Z",
   "upstoxId": "132199",
   "date": "2026-11-16",
   "stats": {
