@@ -91,7 +91,8 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "taken": false
     },
     {
       "id": "2026-11-17-0947-IREDA-122-CE",
@@ -187,7 +188,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-17T04:17:05.733Z",
+  "lastUpdated": "2026-11-17T04:47:19.098Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
