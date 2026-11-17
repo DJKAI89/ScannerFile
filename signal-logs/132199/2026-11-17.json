@@ -75,7 +75,7 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 43.19,
       "targetT1": 215.94,
@@ -93,19 +93,33 @@
           "price": 259.5,
           "time": "11:48:21",
           "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 306.45,
+          "time": "12:12:58",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 235.086,
       "maxFavPrice": 261,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 306.45,
+      "exitTime": "12:12:58",
+      "exitDate": "2026-11-17",
+      "pnlPct": 45.92,
+      "exitReason": "TARGET",
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 77.4,
+      "maePct": 0,
+      "realizedR": 1.84,
+      "mfeR": 3.1,
+      "maeR": 0,
+      "holdMins": 145
     },
     {
       "id": "2026-11-17-0947-IREDA-122-CE",
@@ -299,7 +313,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 508.7,
+      "livePnlPct": 7.66,
+      "mfePct": 7.66,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1050-CANBK-136-CE",
@@ -392,17 +410,21 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 1.92,
+      "livePnlPct": -4.95,
+      "mfePct": 0,
+      "maePct": -4.95
     }
   ],
-  "lastUpdated": "2026-11-17T06:18:28.228Z",
+  "lastUpdated": "2026-11-17T06:42:58.789Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
     "total": 4,
-    "hits": 0,
+    "hits": 1,
     "sls": 1,
-    "open": 3,
-    "winRate": 0
+    "open": 2,
+    "winRate": 50
   }
 }
