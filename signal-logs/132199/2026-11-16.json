@@ -400,28 +400,39 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 0.95,
       "targetT1": 4.75,
       "targetT2": 5.7,
       "targetT3": 6.65,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 2.85,
+          "time": "10:49:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 3.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2.85,
+      "exitTime": "10:49:40",
+      "exitDate": "2026-11-17",
+      "pnlPct": -25,
+      "exitReason": "SL",
       "note": "",
       "taken": false,
-      "livePrice": 3,
-      "livePnlPct": -21.05,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 0,
-      "maePct": -21.05
+      "maePct": -25,
+      "realizedR": -1,
+      "mfeR": 0,
+      "maeR": -1,
+      "holdMins": 1474
     },
     {
       "id": "2026-11-16-1357-ATHERENERG-1960-CE",
@@ -532,14 +543,14 @@
       "holdMins": 1213
     }
   ],
-  "lastUpdated": "2026-11-17T04:40:33.343Z",
+  "lastUpdated": "2026-11-17T05:19:40.483Z",
   "upstoxId": "132199",
   "date": "2026-11-16",
   "stats": {
     "total": 5,
     "hits": 1,
-    "sls": 3,
-    "open": 1,
-    "winRate": 25
+    "sls": 4,
+    "open": 0,
+    "winRate": 20
   }
 }
