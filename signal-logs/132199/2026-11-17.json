@@ -317,7 +317,8 @@
       "livePrice": 508.7,
       "livePnlPct": 7.66,
       "mfePct": 7.66,
-      "maePct": 0
+      "maePct": 0,
+      "taken": false
     },
     {
       "id": "2026-11-17-1050-CANBK-136-CE",
@@ -417,7 +418,7 @@
       "maePct": -4.95
     }
   ],
-  "lastUpdated": "2026-11-17T06:42:58.789Z",
+  "lastUpdated": "2026-11-17T07:12:41.514Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
