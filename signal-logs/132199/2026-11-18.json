@@ -894,23 +894,38 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 16.22,
       "targetT1": 81.12,
       "targetT2": 97.35,
       "targetT3": 113.56,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 41.9,
+          "time": "15:06:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 64.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 41.9,
+      "exitTime": "15:06:40",
+      "exitDate": "2026-11-18",
+      "pnlPct": -35.44,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -35.44,
+      "realizedR": -1.42,
+      "mfeR": 0,
+      "maeR": -1.42,
+      "holdMins": 113
     },
     {
       "id": "2026-11-18-1313-MANAPPURAM-280-PE",
@@ -987,33 +1002,48 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 1.22,
       "targetT1": 6.12,
       "targetT2": 7.35,
       "targetT3": 8.58,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 3.45,
+          "time": "15:06:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 4.9,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 3.45,
+      "exitTime": "15:06:40",
+      "exitDate": "2026-11-18",
+      "pnlPct": -29.59,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -29.59,
+      "realizedR": -1.19,
+      "mfeR": 0,
+      "maeR": -1.19,
+      "holdMins": 113
     }
   ],
-  "lastUpdated": "2026-11-18T07:43:18.788Z",
+  "lastUpdated": "2026-11-18T09:36:46.200Z",
   "upstoxId": "132199",
   "date": "2026-11-18",
   "stats": {
     "total": 10,
     "hits": 1,
-    "sls": 6,
-    "open": 3,
-    "winRate": 14
+    "sls": 8,
+    "open": 1,
+    "winRate": 11
   }
 }
