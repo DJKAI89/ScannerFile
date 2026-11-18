@@ -314,10 +314,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 435.85,
-      "livePnlPct": -7.76,
+      "livePrice": 405.05,
+      "livePnlPct": -14.28,
       "mfePct": 7.66,
-      "maePct": -7.76,
+      "maePct": -14.28,
       "taken": false
     },
     {
@@ -625,10 +625,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 3.15,
-      "livePnlPct": -3.08,
+      "livePrice": 2.85,
+      "livePnlPct": -12.31,
       "mfePct": 0,
-      "maePct": -3.08
+      "maePct": -12.31
     },
     {
       "id": "2026-11-17-1435-SBIN-1110-CE",
@@ -705,7 +705,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 2.46,
       "targetT1": 12.31,
@@ -717,22 +717,32 @@
           "price": 13.5,
           "time": "09:16:50",
           "pctClosed": 50
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 11.75,
+          "time": "09:25:27",
+          "pctClosed": 50
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 12.024000000000001,
       "maxFavPrice": 13.5,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 11.75,
+      "exitTime": "09:25:27",
+      "exitDate": "2026-11-18",
+      "pnlPct": 28.18,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 13.5,
-      "livePnlPct": 37.06,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 37.06,
-      "maePct": 0
+      "maePct": 0,
+      "realizedR": 1.13,
+      "mfeR": 1.48,
+      "maeR": 0,
+      "holdMins": 1130
     },
     {
       "id": "2026-11-17-1435-TCS-2420-PE",
@@ -826,9 +836,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 43.2,
-      "livePnlPct": 14.29,
-      "mfePct": 14.29,
+      "livePrice": 44.85,
+      "livePnlPct": 18.65,
+      "mfePct": 18.65,
       "maePct": 0
     },
     {
@@ -942,9 +952,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 105.31,
-      "livePnlPct": 0.28,
-      "mfePct": 0.28,
+      "livePrice": 106.33,
+      "livePnlPct": 1.25,
+      "mfePct": 1.25,
       "maePct": 0
     },
     {
@@ -1058,9 +1068,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 358.7,
-      "livePnlPct": 1.51,
-      "mfePct": 1.51,
+      "livePrice": 359.85,
+      "livePnlPct": 1.84,
+      "mfePct": 1.84,
       "maePct": 0
     },
     {
@@ -1174,10 +1184,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 149.71,
-      "livePnlPct": 0.14,
+      "livePrice": 149.46,
+      "livePnlPct": -0.03,
       "mfePct": 0.14,
-      "maePct": 0
+      "maePct": -0.03
     },
     {
       "id": "2026-11-17-1445-CANBK-STOCK",
@@ -1290,8 +1300,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 133.24,
-      "livePnlPct": -0.69,
+      "livePrice": 133.75,
+      "livePnlPct": -0.31,
       "mfePct": 0,
       "maePct": -0.69
     },
@@ -1406,8 +1416,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 230.99,
-      "livePnlPct": 1.87,
+      "livePrice": 229.25,
+      "livePnlPct": 1.1,
       "mfePct": 1.87,
       "maePct": 0
     },
@@ -1641,10 +1651,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 815.65,
-      "livePnlPct": -0.07,
+      "livePrice": 813.9,
+      "livePnlPct": -0.29,
       "mfePct": 0,
-      "maePct": -0.07
+      "maePct": -0.29
     },
     {
       "id": "2026-11-17-1445-FIRSTCRY-STOCK",
@@ -1757,10 +1767,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 176.61,
-      "livePnlPct": -0.76,
+      "livePrice": 174.19,
+      "livePnlPct": -2.12,
       "mfePct": 0,
-      "maePct": -0.76
+      "maePct": -2.12
     },
     {
       "id": "2026-11-17-1445-MAHABANK-STOCK",
@@ -1989,9 +1999,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 391.4,
-      "livePnlPct": 0.1,
-      "mfePct": 0.1,
+      "livePrice": 391.8,
+      "livePnlPct": 0.2,
+      "mfePct": 0.2,
       "maePct": 0
     },
     {
@@ -2105,9 +2115,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 83.58,
-      "livePnlPct": 0.18,
-      "mfePct": 0.18,
+      "livePrice": 83.92,
+      "livePnlPct": 0.59,
+      "mfePct": 0.59,
       "maePct": 0
     },
     {
@@ -2221,10 +2231,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.99,
-      "livePnlPct": -0.13,
+      "livePrice": 14.89,
+      "livePnlPct": -0.8,
       "mfePct": 0,
-      "maePct": -0.13
+      "maePct": -0.8
     },
     {
       "id": "2026-11-17-1515-LICHSGFIN-625-CE",
@@ -2324,14 +2334,14 @@
       "maePct": -6.4
     }
   ],
-  "lastUpdated": "2026-11-18T03:46:50.468Z",
+  "lastUpdated": "2026-11-18T03:55:27.520Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
     "total": 21,
-    "hits": 1,
+    "hits": 2,
     "sls": 4,
-    "open": 16,
-    "winRate": 20
+    "open": 15,
+    "winRate": 33
   }
 }
