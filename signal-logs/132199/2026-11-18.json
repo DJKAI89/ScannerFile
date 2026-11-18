@@ -191,7 +191,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 66.25,
+      "livePnlPct": 2.63,
+      "mfePct": 2.63,
+      "maePct": 0
     },
     {
       "id": "2026-11-18-0917-BAJFINANCE-1110-CE",
@@ -268,33 +272,48 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 3.56,
       "targetT1": 17.81,
       "targetT2": 21.38,
       "targetT3": 24.93,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 10.4,
+          "time": "09:39:33",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 14.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 10.4,
+      "exitTime": "09:39:33",
+      "exitDate": "2026-11-18",
+      "pnlPct": -27.02,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -27.02,
+      "realizedR": -1.08,
+      "mfeR": 0,
+      "maeR": -1.08,
+      "holdMins": 22
     }
   ],
-  "lastUpdated": "2026-11-18T03:47:44.698Z",
+  "lastUpdated": "2026-11-18T04:09:33.018Z",
   "upstoxId": "132199",
   "date": "2026-11-18",
   "stats": {
     "total": 3,
     "hits": 0,
-    "sls": 1,
-    "open": 2,
+    "sls": 2,
+    "open": 1,
     "winRate": 0
   }
 }
