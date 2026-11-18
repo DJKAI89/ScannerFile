@@ -314,10 +314,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 508.7,
-      "livePnlPct": 7.66,
+      "livePrice": 435.85,
+      "livePnlPct": -7.76,
       "mfePct": 7.66,
-      "maePct": 0,
+      "maePct": -7.76,
       "taken": false
     },
     {
@@ -500,23 +500,38 @@
         "fiiAgainst": false
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 95.59,
       "targetT1": 477.94,
       "targetT2": 573.53,
       "targetT3": 669.12,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 251.5,
+          "time": "09:16:50",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 382.35,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
-      "note": ""
+      "exitPrice": 251.5,
+      "exitTime": "09:16:50",
+      "exitDate": "2026-11-18",
+      "pnlPct": -34.22,
+      "exitReason": "SL",
+      "note": "",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": -34.22,
+      "realizedR": -1.37,
+      "mfeR": 0,
+      "maeR": -1.37,
+      "holdMins": 1121
     },
     {
       "id": "2026-11-17-1435-LT-390-PE",
@@ -609,7 +624,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 3.15,
+      "livePnlPct": -3.08,
+      "mfePct": 0,
+      "maePct": -3.08
     },
     {
       "id": "2026-11-17-1435-SBIN-1110-CE",
@@ -692,17 +711,28 @@
       "targetT1": 12.31,
       "targetT2": 14.77,
       "targetT3": 17.23,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 9.85,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 13.5,
+          "time": "09:16:50",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 12.024000000000001,
+      "maxFavPrice": 13.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 13.5,
+      "livePnlPct": 37.06,
+      "mfePct": 37.06,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1435-TCS-2420-PE",
@@ -795,7 +825,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 43.2,
+      "livePnlPct": 14.29,
+      "mfePct": 14.29,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-GMRAIRPORT-STOCK",
@@ -907,7 +941,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 105.31,
+      "livePnlPct": 0.28,
+      "mfePct": 0.28,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-ANGELONE-STOCK",
@@ -1019,7 +1057,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 358.7,
+      "livePnlPct": 1.51,
+      "mfePct": 1.51,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-PNB-STOCK",
@@ -1131,7 +1173,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 149.71,
+      "livePnlPct": 0.14,
+      "mfePct": 0.14,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-CANBK-STOCK",
@@ -1243,7 +1289,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 133.24,
+      "livePnlPct": -0.69,
+      "mfePct": 0,
+      "maePct": -0.69
     },
     {
       "id": "2026-11-17-1445-GROWW-STOCK",
@@ -1355,7 +1405,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 230.99,
+      "livePnlPct": 1.87,
+      "mfePct": 1.87,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-ASHOKLEY-STOCK",
@@ -1586,7 +1640,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 815.65,
+      "livePnlPct": -0.07,
+      "mfePct": 0,
+      "maePct": -0.07
     },
     {
       "id": "2026-11-17-1445-FIRSTCRY-STOCK",
@@ -1698,7 +1756,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 176.61,
+      "livePnlPct": -0.76,
+      "mfePct": 0,
+      "maePct": -0.76
     },
     {
       "id": "2026-11-17-1445-MAHABANK-STOCK",
@@ -1810,7 +1872,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 96.29,
+      "livePnlPct": 0.73,
+      "mfePct": 0.73,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-COALINDIA-STOCK",
@@ -1922,7 +1988,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 391.4,
+      "livePnlPct": 0.1,
+      "mfePct": 0.1,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-IDFCFIRSTB-STOCK",
@@ -2034,7 +2104,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 83.58,
+      "livePnlPct": 0.18,
+      "mfePct": 0.18,
+      "maePct": 0
     },
     {
       "id": "2026-11-17-1445-PCJEWELLER-STOCK",
@@ -2146,7 +2220,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 14.99,
+      "livePnlPct": -0.13,
+      "mfePct": 0,
+      "maePct": -0.13
     },
     {
       "id": "2026-11-17-1515-LICHSGFIN-625-CE",
@@ -2239,17 +2317,21 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 8.05,
+      "livePnlPct": -6.4,
+      "mfePct": 0,
+      "maePct": -6.4
     }
   ],
-  "lastUpdated": "2026-11-17T09:45:29.247Z",
+  "lastUpdated": "2026-11-18T03:46:50.468Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
     "total": 21,
     "hits": 1,
-    "sls": 3,
-    "open": 17,
-    "winRate": 25
+    "sls": 4,
+    "open": 16,
+    "winRate": 20
   }
 }
