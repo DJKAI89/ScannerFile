@@ -853,20 +853,27 @@
       "targetT1": 47.25,
       "targetT2": 56.7,
       "targetT3": 66.15,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 37.8,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 50,
+          "time": "13:12:37",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 44.33,
+      "maxFavPrice": 50,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.45,
-      "livePnlPct": 12.3,
-      "mfePct": 18.65,
+      "livePrice": 50,
+      "livePnlPct": 32.28,
+      "mfePct": 32.28,
       "maePct": 0
     },
     {
@@ -980,8 +987,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 104.96,
-      "livePnlPct": -0.06,
+      "livePrice": 104.97,
+      "livePnlPct": -0.05,
       "mfePct": 1.25,
       "maePct": -0.08
     },
@@ -1096,10 +1103,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 346.75,
-      "livePnlPct": -1.87,
+      "livePrice": 342.35,
+      "livePnlPct": -3.11,
       "mfePct": 1.84,
-      "maePct": -1.9
+      "maePct": -3.11
     },
     {
       "id": "2026-11-17-1445-PNB-STOCK",
@@ -1212,8 +1219,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 152.28,
-      "livePnlPct": 1.86,
+      "livePrice": 150.43,
+      "livePnlPct": 0.62,
       "mfePct": 1.86,
       "maePct": -0.03
     },
@@ -1328,10 +1335,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 134.5,
-      "livePnlPct": 0.25,
+      "livePrice": 132.63,
+      "livePnlPct": -1.15,
       "mfePct": 0.25,
-      "maePct": -0.69
+      "maePct": -1.15
     },
     {
       "id": "2026-11-17-1445-GROWW-STOCK",
@@ -1444,8 +1451,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 227.5,
-      "livePnlPct": 0.33,
+      "livePrice": 227.4,
+      "livePnlPct": 0.29,
       "mfePct": 1.87,
       "maePct": 0
     },
@@ -1679,10 +1686,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 811,
-      "livePnlPct": -0.64,
+      "livePrice": 809,
+      "livePnlPct": -0.89,
       "mfePct": 0,
-      "maePct": -0.77
+      "maePct": -0.89
     },
     {
       "id": "2026-11-17-1445-FIRSTCRY-STOCK",
@@ -1795,8 +1802,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 174.42,
-      "livePnlPct": -1.99,
+      "livePrice": 174.3,
+      "livePnlPct": -2.06,
       "mfePct": 0,
       "maePct": -2.12
     },
@@ -1911,8 +1918,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 96.26,
-      "livePnlPct": 0.7,
+      "livePrice": 95.85,
+      "livePnlPct": 0.27,
       "mfePct": 0.73,
       "maePct": 0
     },
@@ -2027,8 +2034,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 388.7,
-      "livePnlPct": -0.59,
+      "livePrice": 388,
+      "livePnlPct": -0.77,
       "mfePct": 0.2,
       "maePct": -0.9
     },
@@ -2143,10 +2150,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 83.31,
-      "livePnlPct": -0.14,
+      "livePrice": 82.63,
+      "livePnlPct": -0.96,
       "mfePct": 0.59,
-      "maePct": -0.29
+      "maePct": -0.96
     },
     {
       "id": "2026-11-17-1445-PCJEWELLER-STOCK",
@@ -2384,7 +2391,7 @@
       "holdMins": 1104
     }
   ],
-  "lastUpdated": "2026-11-18T06:45:30.523Z",
+  "lastUpdated": "2026-11-18T07:42:37.359Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
