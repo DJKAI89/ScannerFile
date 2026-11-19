@@ -847,7 +847,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 9.45,
       "targetT1": 47.25,
@@ -859,22 +859,38 @@
           "price": 50,
           "time": "13:12:37",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 56.7,
+          "time": "09:17:55",
+          "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 80.65,
+          "time": "09:17:55",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 45.73,
       "maxFavPrice": 51.4,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 80.65,
+      "exitTime": "09:17:55",
+      "exitDate": "2026-11-19",
+      "pnlPct": 53.81,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 51.4,
-      "livePnlPct": 35.98,
-      "mfePct": 35.98,
-      "maePct": 0
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 113.36,
+      "maePct": 0,
+      "realizedR": 2.15,
+      "mfeR": 4.53,
+      "maeR": 0,
+      "holdMins": 2562
     },
     {
       "id": "2026-11-17-1445-GMRAIRPORT-STOCK",
@@ -987,8 +1003,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 104.4,
-      "livePnlPct": -0.59,
+      "livePrice": 105.21,
+      "livePnlPct": 0.18,
       "mfePct": 1.25,
       "maePct": -0.59
     },
@@ -1230,8 +1246,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 149.57,
-      "livePnlPct": 0.05,
+      "livePrice": 151.8,
+      "livePnlPct": 1.54,
       "mfePct": 1.86,
       "maePct": -0.03
     },
@@ -1346,8 +1362,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 133.4,
-      "livePnlPct": -0.57,
+      "livePrice": 133.43,
+      "livePnlPct": -0.55,
       "mfePct": 0.25,
       "maePct": -1.15
     },
@@ -1708,8 +1724,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 808.15,
-      "livePnlPct": -0.99,
+      "livePrice": 808.75,
+      "livePnlPct": -0.92,
       "mfePct": 0,
       "maePct": -1.43
     },
@@ -1824,10 +1840,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 175.44,
-      "livePnlPct": -1.42,
+      "livePrice": 172.19,
+      "livePnlPct": -3.24,
       "mfePct": 0,
-      "maePct": -2.12
+      "maePct": -3.24
     },
     {
       "id": "2026-11-17-1445-MAHABANK-STOCK",
@@ -1940,9 +1956,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 96,
-      "livePnlPct": 0.43,
-      "mfePct": 0.73,
+      "livePrice": 96.74,
+      "livePnlPct": 1.2,
+      "mfePct": 1.2,
       "maePct": 0
     },
     {
@@ -2172,8 +2188,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 82.45,
-      "livePnlPct": -1.17,
+      "livePrice": 83.39,
+      "livePnlPct": -0.05,
       "mfePct": 0.59,
       "maePct": -1.4
     },
@@ -2413,14 +2429,14 @@
       "holdMins": 1104
     }
   ],
-  "lastUpdated": "2026-11-19T02:09:18.063Z",
+  "lastUpdated": "2026-11-19T03:47:55.886Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
     "total": 21,
-    "hits": 3,
+    "hits": 4,
     "sls": 9,
-    "open": 9,
-    "winRate": 25
+    "open": 8,
+    "winRate": 31
   }
 }
