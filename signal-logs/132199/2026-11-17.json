@@ -863,17 +863,17 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 45.23,
-      "maxFavPrice": 50.9,
+      "trailSL": 45.73,
+      "maxFavPrice": 51.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 50.9,
-      "livePnlPct": 34.66,
-      "mfePct": 34.66,
+      "livePrice": 51.4,
+      "livePnlPct": 35.98,
+      "mfePct": 35.98,
       "maePct": 0
     },
     {
@@ -1824,8 +1824,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 175.17,
-      "livePnlPct": -1.57,
+      "livePrice": 175.44,
+      "livePnlPct": -1.42,
       "mfePct": 0,
       "maePct": -2.12
     },
@@ -2413,7 +2413,7 @@
       "holdMins": 1104
     }
   ],
-  "lastUpdated": "2026-11-18T09:59:23.161Z",
+  "lastUpdated": "2026-11-19T02:09:18.063Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
