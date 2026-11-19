@@ -387,27 +387,50 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 10.25,
       "targetT1": 51.25,
       "targetT2": 61.5,
       "targetT3": 71.75,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 51.25,
+          "time": "09:17:55",
+          "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 61.5,
+          "time": "09:17:55",
+          "pctClosed": 30
+        },
+        {
+          "level": "T3",
+          "price": 96.9,
+          "time": "09:17:55",
+          "pctClosed": 20
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 41,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 96.9,
+      "exitTime": "09:17:55",
+      "exitDate": "2026-11-19",
+      "pnlPct": 54.77,
+      "exitReason": "TARGET",
       "note": "",
-      "livePrice": 41.55,
-      "livePnlPct": 1.34,
-      "mfePct": 1.34,
-      "maePct": 0
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 136.34,
+      "maePct": 0,
+      "realizedR": 2.19,
+      "mfeR": 5.45,
+      "maeR": 0,
+      "holdMins": 1381
     },
     {
       "id": "2026-11-18-1016-ASHOKLEY-157.5-PE",
@@ -1036,14 +1059,14 @@
       "holdMins": 113
     }
   ],
-  "lastUpdated": "2026-11-18T09:36:46.200Z",
+  "lastUpdated": "2026-11-19T03:47:57.515Z",
   "upstoxId": "132199",
   "date": "2026-11-18",
   "stats": {
     "total": 10,
-    "hits": 1,
+    "hits": 2,
     "sls": 8,
-    "open": 1,
-    "winRate": 11
+    "open": 0,
+    "winRate": 20
   }
 }
