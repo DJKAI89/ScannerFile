@@ -1003,8 +1003,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 104,
-      "livePnlPct": -0.97,
+      "livePrice": 105,
+      "livePnlPct": -0.02,
       "mfePct": 1.25,
       "maePct": -0.97
     },
@@ -1246,8 +1246,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 154.85,
-      "livePnlPct": 3.58,
+      "livePrice": 153.47,
+      "livePnlPct": 2.66,
       "mfePct": 3.58,
       "maePct": -0.03
     },
@@ -1362,9 +1362,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 136.03,
-      "livePnlPct": 1.39,
-      "mfePct": 1.39,
+      "livePrice": 137.16,
+      "livePnlPct": 2.23,
+      "mfePct": 2.23,
       "maePct": -1.15
     },
     {
@@ -1713,20 +1713,27 @@
       "targetT1": 836.51,
       "targetT2": 843.27,
       "targetT3": 856.78,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 816.25,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 842.2,
+          "time": "13:00:49",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 816.25,
+      "maxFavPrice": 842.2,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 821.8,
-      "livePnlPct": 0.68,
-      "mfePct": 0.68,
+      "livePrice": 842.2,
+      "livePnlPct": 3.18,
+      "mfePct": 3.18,
       "maePct": -1.43
     },
     {
@@ -1967,9 +1974,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 97.98,
-      "livePnlPct": 2.5,
-      "mfePct": 2.5,
+      "livePrice": 98.43,
+      "livePnlPct": 2.97,
+      "mfePct": 2.97,
       "maePct": 0
     },
     {
@@ -2462,7 +2469,7 @@
       "holdMins": 1104
     }
   ],
-  "lastUpdated": "2026-11-20T01:23:40.679Z",
+  "lastUpdated": "2026-11-20T07:30:49.759Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
