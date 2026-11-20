@@ -1003,8 +1003,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 105.01,
-      "livePnlPct": -0.01,
+      "livePrice": 104.89,
+      "livePnlPct": -0.12,
       "mfePct": 1.25,
       "maePct": -0.97
     },
@@ -1246,8 +1246,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 153.56,
-      "livePnlPct": 2.72,
+      "livePrice": 154.65,
+      "livePnlPct": 3.44,
       "mfePct": 3.58,
       "maePct": -0.03
     },
@@ -1362,9 +1362,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 137.25,
-      "livePnlPct": 2.3,
-      "mfePct": 2.3,
+      "livePrice": 138.65,
+      "livePnlPct": 3.34,
+      "mfePct": 3.34,
       "maePct": -1.15
     },
     {
@@ -1719,21 +1719,27 @@
           "price": 842.2,
           "time": "13:00:49",
           "pctClosed": 50
+        },
+        {
+          "level": "T2",
+          "price": 844.5,
+          "time": "13:52:33",
+          "pctClosed": 30
         }
       ],
-      "remainingPct": 50,
+      "remainingPct": 20,
       "beActive": true,
-      "trailSL": 816.83,
-      "maxFavPrice": 843.2,
+      "trailSL": 818.13,
+      "maxFavPrice": 844.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 843.2,
-      "livePnlPct": 3.3,
-      "mfePct": 3.3,
+      "livePrice": 844.5,
+      "livePnlPct": 3.46,
+      "mfePct": 3.46,
       "maePct": -1.43
     },
     {
@@ -1974,9 +1980,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 98.4,
-      "livePnlPct": 2.94,
-      "mfePct": 2.97,
+      "livePrice": 99.09,
+      "livePnlPct": 3.66,
+      "mfePct": 3.66,
       "maePct": 0
     },
     {
@@ -2469,7 +2475,7 @@
       "holdMins": 1104
     }
   ],
-  "lastUpdated": "2026-11-20T07:31:40.846Z",
+  "lastUpdated": "2026-11-20T08:22:33.935Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
