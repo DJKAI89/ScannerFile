@@ -1003,10 +1003,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 105.21,
-      "livePnlPct": 0.18,
+      "livePrice": 104,
+      "livePnlPct": -0.97,
       "mfePct": 1.25,
-      "maePct": -0.59
+      "maePct": -0.97
     },
     {
       "id": "2026-11-17-1445-ANGELONE-STOCK",
@@ -1246,9 +1246,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 151.8,
-      "livePnlPct": 1.54,
-      "mfePct": 1.86,
+      "livePrice": 154.85,
+      "livePnlPct": 3.58,
+      "mfePct": 3.58,
       "maePct": -0.03
     },
     {
@@ -1362,9 +1362,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 133.43,
-      "livePnlPct": -0.55,
-      "mfePct": 0.25,
+      "livePrice": 136.03,
+      "livePnlPct": 1.39,
+      "mfePct": 1.39,
       "maePct": -1.15
     },
     {
@@ -1724,9 +1724,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 808.75,
-      "livePnlPct": -0.92,
-      "mfePct": 0,
+      "livePrice": 821.8,
+      "livePnlPct": 0.68,
+      "mfePct": 0.68,
       "maePct": -1.43
     },
     {
@@ -1823,27 +1823,38 @@
         "fiiAgainst": true
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 10.6,
       "targetT1": 211.17,
       "targetT2": 222.24,
       "targetT3": 244.38,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 174.67,
+          "time": "06:53:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 177.96,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 174.67,
+      "exitTime": "06:53:40",
+      "exitDate": "2026-11-20",
+      "pnlPct": -1.85,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 172.19,
-      "livePnlPct": -3.24,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 0,
-      "maePct": -3.24
+      "maePct": -3.24,
+      "realizedR": -0.15,
+      "mfeR": 0,
+      "maeR": -0.26,
+      "holdMins": 3848
     },
     {
       "id": "2026-11-17-1445-MAHABANK-STOCK",
@@ -1956,9 +1967,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 96.74,
-      "livePnlPct": 1.2,
-      "mfePct": 1.2,
+      "livePrice": 97.98,
+      "livePnlPct": 2.5,
+      "mfePct": 2.5,
       "maePct": 0
     },
     {
@@ -2055,27 +2066,38 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "atr": 9.73,
       "targetT1": 405.7,
       "targetT2": 409.26,
       "targetT3": 412.82,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 391.5,
+          "time": "06:53:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 391,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 391.5,
+      "exitTime": "06:53:40",
+      "exitDate": "2026-11-20",
+      "pnlPct": 0.13,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 388,
-      "livePnlPct": -0.77,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 0.2,
-      "maePct": -0.9
+      "maePct": -0.9,
+      "realizedR": 0.07,
+      "mfeR": 0.11,
+      "maeR": -0.49,
+      "holdMins": 3848
     },
     {
       "id": "2026-11-17-1445-IDFCFIRSTB-STOCK",
@@ -2171,27 +2193,38 @@
         "fiiAgainst": false
       },
       "regime": "NEUTRAL",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "atr": 2.57,
       "targetT1": 87.93,
       "targetT2": 89.43,
       "targetT3": 92.43,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 86.05,
+          "time": "06:53:40",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 83.43,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 86.05,
+      "exitTime": "06:53:40",
+      "exitDate": "2026-11-20",
+      "pnlPct": 3.14,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 83.39,
-      "livePnlPct": -0.05,
-      "mfePct": 0.59,
-      "maePct": -1.4
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 3.14,
+      "maePct": -1.4,
+      "realizedR": 0.87,
+      "mfeR": 0.87,
+      "maeR": -0.39,
+      "holdMins": 3848
     },
     {
       "id": "2026-11-17-1445-PCJEWELLER-STOCK",
@@ -2429,14 +2462,14 @@
       "holdMins": 1104
     }
   ],
-  "lastUpdated": "2026-11-19T03:47:55.886Z",
+  "lastUpdated": "2026-11-20T01:23:40.679Z",
   "upstoxId": "132199",
   "date": "2026-11-17",
   "stats": {
     "total": 21,
-    "hits": 4,
-    "sls": 9,
-    "open": 8,
-    "winRate": 31
+    "hits": 6,
+    "sls": 10,
+    "open": 5,
+    "winRate": 38
   }
 }
