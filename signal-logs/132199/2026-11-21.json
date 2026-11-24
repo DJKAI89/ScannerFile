@@ -94,27 +94,38 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 0.89,
       "targetT1": 14.73,
       "targetT2": 14.97,
       "targetT3": 15.14,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "TIME_STOP",
+          "price": 13.98,
+          "time": "07:55:19",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 14.05,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 13.98,
+      "exitTime": "07:55:19",
+      "exitDate": "2026-11-24",
+      "pnlPct": -0.5,
+      "exitReason": "TIME_STOP",
       "note": "",
-      "livePrice": 14.01,
-      "livePnlPct": -0.28,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 0,
-      "maePct": -0.28
+      "maePct": -0.5,
+      "realizedR": -0.21,
+      "mfeR": 0,
+      "maeR": -0.21,
+      "holdMins": 4004
     },
     {
       "id": "2026-11-21-1622-V2RETAIL-STOCK",
@@ -244,14 +255,14 @@
       "holdMins": 2754
     }
   ],
-  "lastUpdated": "2026-11-23T08:46:50.025Z",
+  "lastUpdated": "2026-11-24T02:25:19.148Z",
   "upstoxId": "132199",
   "date": "2026-11-21",
   "stats": {
     "total": 2,
     "hits": 0,
-    "sls": 1,
-    "open": 1,
+    "sls": 2,
+    "open": 0,
     "winRate": 0
   }
 }
