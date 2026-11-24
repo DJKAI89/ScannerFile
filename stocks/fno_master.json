@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T13:18:13.122780+00:00",
+  "updated_at": "2026-11-24T13:59:36.954922+00:00",
   "count": 218,
   "data": {
     "360ONE": {
@@ -13,6 +13,10 @@
     "ABCAPITAL": {
       "IsFO": true,
       "Lotsize": 1550
+    },
+    "ACUTAAS": {
+      "IsFO": true,
+      "Lotsize": 150
     },
     "ADANIENSOL": {
       "IsFO": true,
@@ -53,6 +57,10 @@
     "ANGELONE": {
       "IsFO": true,
       "Lotsize": 2500
+    },
+    "APARINDS": {
+      "IsFO": true,
+      "Lotsize": 50
     },
     "APLAPOLLO": {
       "IsFO": true,
@@ -374,10 +382,6 @@
       "IsFO": true,
       "Lotsize": 9275
     },
-    "IEX": {
-      "IsFO": true,
-      "Lotsize": 4350
-    },
     "INDHOTEL": {
       "IsFO": true,
       "Lotsize": 1000
@@ -409,10 +413,6 @@
     "IOC": {
       "IsFO": true,
       "Lotsize": 4875
-    },
-    "IREDA": {
-      "IsFO": true,
-      "Lotsize": 4525
     },
     "IRFC": {
       "IsFO": true,
