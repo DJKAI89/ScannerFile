@@ -1,7 +1,7 @@
 {
   "modelName": "AI Ensemble Brain",
   "version": "ai-ensemble-v2",
-  "computedAt": "2026-11-20T20:42:41.348Z",
+  "computedAt": "2026-11-24T00:20:18.236Z",
   "family": {
     "global": {
       "kind": "lightgbm_style_gbdt_v2",
@@ -2820,7 +2820,7 @@
       "wins": 214,
       "losses": 315,
       "baseRate": 0.405,
-      "computedAt": "2026-11-20T20:42:29.352Z",
+      "computedAt": "2026-11-24T00:20:10.594Z",
       "params": {
         "numIterations": 42,
         "learningRate": 0.07,
@@ -2967,8 +2967,8 @@
       ],
       "walkForward": {
         "tested": 89,
-        "accuracy": 0.494,
-        "brier": 0.2658
+        "accuracy": 0.517,
+        "brier": 0.2802
       }
     },
     "segments": {
@@ -4681,7 +4681,7 @@
         "wins": 51,
         "losses": 79,
         "baseRate": 0.392,
-        "computedAt": "2026-11-20T20:42:36.749Z",
+        "computedAt": "2026-11-24T00:20:15.457Z",
         "params": {
           "numIterations": 32,
           "learningRate": 0.09,
@@ -4828,8 +4828,8 @@
         ],
         "walkForward": {
           "tested": 65,
-          "accuracy": 0.508,
-          "brier": 0.3177
+          "accuracy": 0.523,
+          "brier": 0.323
         }
       },
       "index_ce": {
@@ -7579,7 +7579,7 @@
         "wins": 60,
         "losses": 91,
         "baseRate": 0.397,
-        "computedAt": "2026-11-20T20:42:37.756Z",
+        "computedAt": "2026-11-24T00:20:16.073Z",
         "params": {
           "numIterations": 42,
           "learningRate": 0.07,
@@ -7726,8 +7726,8 @@
         ],
         "walkForward": {
           "tested": 76,
-          "accuracy": 0.5,
-          "brier": 0.29
+          "accuracy": 0.474,
+          "brier": 0.3438
         }
       },
       "stock_pe": {
@@ -10519,7 +10519,7 @@
         "wins": 60,
         "losses": 94,
         "baseRate": 0.39,
-        "computedAt": "2026-11-20T20:42:39.127Z",
+        "computedAt": "2026-11-24T00:20:16.942Z",
         "params": {
           "numIterations": 42,
           "learningRate": 0.07,
@@ -10666,8 +10666,8 @@
         ],
         "walkForward": {
           "tested": 77,
-          "accuracy": 0.545,
-          "brier": 0.2715
+          "accuracy": 0.506,
+          "brier": 0.2622
         }
       },
       "stock_ce": {
@@ -12379,7 +12379,7 @@
         "wins": 43,
         "losses": 51,
         "baseRate": 0.457,
-        "computedAt": "2026-11-20T20:42:40.777Z",
+        "computedAt": "2026-11-24T00:20:17.894Z",
         "params": {
           "numIterations": 32,
           "learningRate": 0.09,
@@ -12526,15 +12526,15 @@
         ],
         "walkForward": {
           "tested": 47,
-          "accuracy": 0.532,
-          "brier": 0.2999
+          "accuracy": 0.319,
+          "brier": 0.3418
         }
       }
     },
-    "servingLabel": "stock_ce",
+    "servingLabel": "index_pe",
     "thresholds": {
-      "probability": 0.7,
-      "minConfidence": 70,
+      "probability": 0.58,
+      "minConfidence": 58,
       "maxRisk": 58,
       "minRR": 1.6,
       "maxCapital": 120000,
@@ -12570,57 +12570,57 @@
       }
     },
     "drift": {
-      "walkForwardAccuracy": 0.532,
+      "walkForwardAccuracy": 0.523,
       "stable": false,
-      "rollbackTo": "stock_ce"
+      "rollbackTo": "index_pe"
     },
     "topFeatures": [
       {
         "feature": "baseConf",
         "gain": 0,
-        "splits": 28,
+        "splits": 48,
         "importance": 0
       },
       {
-        "feature": "score",
+        "feature": "rr",
         "gain": 0,
-        "splits": 8,
+        "splits": 1,
         "importance": 0
       },
       {
         "feature": "composite",
         "gain": 0,
-        "splits": 22,
+        "splits": 7,
         "importance": 0
       },
       {
-        "feature": "freshCross",
+        "feature": "oiBuildUp",
         "gain": 0,
-        "splits": 8,
-        "importance": 0
-      },
-      {
-        "feature": "volSpike",
-        "gain": 0,
-        "splits": 9,
+        "splits": 1,
         "importance": 0
       },
       {
         "feature": "deltaAbs",
         "gain": 0,
-        "splits": 8,
+        "splits": 27,
         "importance": 0
       },
       {
         "feature": "iv",
         "gain": 0,
-        "splits": 27,
+        "splits": 53,
         "importance": 0
       },
       {
-        "feature": "thetaAbs",
+        "feature": "capitalLoad",
         "gain": 0,
-        "splits": 38,
+        "splits": 47,
+        "importance": 0
+      },
+      {
+        "feature": "weekday",
+        "gain": 0,
+        "splits": 23,
         "importance": 0
       }
     ]
@@ -12628,5 +12628,5 @@
   "trainedOffline": true,
   "userId": "132199",
   "month": "2026-11",
-  "savedAt": "2026-11-20T20:42:41.348Z"
+  "savedAt": "2026-11-24T00:20:18.236Z"
 }
