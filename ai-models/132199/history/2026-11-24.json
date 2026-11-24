@@ -3,23 +3,23 @@
   "snapshot": {
     "version": "ai-ensemble-v2",
     "modelName": "AI Ensemble Brain",
-    "computedAt": "2026-11-24T00:20:18.236Z",
+    "computedAt": "2026-11-24T22:44:52.182Z",
     "stock": {
-      "trainedOn": 266,
-      "accuracy": 0.85,
-      "edge": 0.1001,
-      "walkForward": 0.493,
+      "trainedOn": 267,
+      "accuracy": 0.843,
+      "edge": 0.0983,
+      "walkForward": 0.478,
       "topFeatures": [
         {
           "feature": "baseConf",
           "gain": 0,
-          "splits": 56,
+          "splits": 48,
           "importance": 0
         },
         {
           "feature": "rr",
           "gain": 0,
-          "splits": 31,
+          "splits": 29,
           "importance": 0
         },
         {
@@ -31,25 +31,25 @@
         {
           "feature": "numInds",
           "gain": 0,
-          "splits": 4,
+          "splits": 1,
           "importance": 0
         },
         {
           "feature": "potential",
           "gain": 0,
-          "splits": 64,
+          "splits": 71,
           "importance": 0
         },
         {
           "feature": "expectedWR",
           "gain": 0,
-          "splits": 5,
+          "splits": 3,
           "importance": 0
         },
         {
           "feature": "reversal",
           "gain": 0,
-          "splits": 12,
+          "splits": 13,
           "importance": 0
         },
         {
