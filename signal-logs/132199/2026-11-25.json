@@ -100,8 +100,8 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 52.75,
-      "livePnlPct": 30.89,
+      "livePrice": 52.15,
+      "livePnlPct": 29.4,
       "mfePct": 30.89,
       "maePct": 0
     },
@@ -196,8 +196,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 797.826,
-      "maxFavPrice": 889.95,
+      "trailSL": 797.876,
+      "maxFavPrice": 890,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -205,9 +205,9 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 883.7,
-      "livePnlPct": 43.89,
-      "mfePct": 43.89,
+      "livePrice": 890,
+      "livePnlPct": 44.92,
+      "mfePct": 44.92,
       "maePct": 0
     },
     {
@@ -321,8 +321,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 308.7,
-      "livePnlPct": 1.94,
+      "livePrice": 306.36,
+      "livePnlPct": 1.16,
       "mfePct": 2.23,
       "maePct": 0
     },
@@ -437,9 +437,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 144.85,
-      "livePnlPct": 1.85,
-      "mfePct": 1.85,
+      "livePrice": 145.65,
+      "livePnlPct": 2.41,
+      "mfePct": 2.41,
       "maePct": 0
     },
     {
@@ -553,8 +553,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.92,
-      "livePnlPct": 0.12,
+      "livePrice": 86.86,
+      "livePnlPct": 0.05,
       "mfePct": 0.12,
       "maePct": -0.03
     },
@@ -650,8 +650,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 21.6,
-      "livePnlPct": 12.21,
+      "livePrice": 21.55,
+      "livePnlPct": 11.95,
       "mfePct": 12.21,
       "maePct": 0
     },
@@ -747,10 +747,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 39.05,
-      "livePnlPct": 11.25,
+      "livePrice": 32.65,
+      "livePnlPct": -6.98,
       "mfePct": 11.25,
-      "maePct": 0
+      "maePct": -6.98
     },
     {
       "id": "2026-11-25-1020-HDFCBANK-880-CE",
@@ -844,9 +844,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 15.25,
-      "livePnlPct": 1.67,
-      "mfePct": 1.67,
+      "livePrice": 16.1,
+      "livePnlPct": 7.33,
+      "mfePct": 7.33,
       "maePct": -0.67
     },
     {
@@ -1135,8 +1135,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.5,
-      "livePnlPct": -6.25,
+      "livePrice": 19.75,
+      "livePnlPct": -5.05,
       "mfePct": 0,
       "maePct": -6.25
     },
@@ -1232,10 +1232,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.65,
-      "livePnlPct": -10.43,
+      "livePrice": 31.8,
+      "livePnlPct": -12.76,
       "mfePct": 0,
-      "maePct": -11.39
+      "maePct": -12.76
     },
     {
       "id": "2026-11-25-1020-TATASTEEL-160-PE",
@@ -1329,8 +1329,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 4.4,
-      "livePnlPct": -8.9,
+      "livePrice": 4.64,
+      "livePnlPct": -3.93,
       "mfePct": 0,
       "maePct": -8.9
     },
@@ -1426,13 +1426,13 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 263.95,
-      "livePnlPct": -7.48,
+      "livePrice": 236.7,
+      "livePnlPct": -17.03,
       "mfePct": 0,
-      "maePct": -7.48
+      "maePct": -17.03
     }
   ],
-  "lastUpdated": "2026-11-25T05:17:51.761Z",
+  "lastUpdated": "2026-11-25T05:18:18.977Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
