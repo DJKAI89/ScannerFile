@@ -91,8 +91,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 48.152,
-      "maxFavPrice": 54.2,
+      "trailSL": 48.552,
+      "maxFavPrice": 54.6,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -100,9 +100,9 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 52.15,
-      "livePnlPct": 29.4,
-      "mfePct": 30.89,
+      "livePrice": 54.6,
+      "livePnlPct": 35.48,
+      "mfePct": 35.48,
       "maePct": 0
     },
     {
@@ -333,9 +333,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 306.36,
-      "livePnlPct": 1.16,
-      "mfePct": 2.23,
+      "livePrice": 311.7,
+      "livePnlPct": 2.93,
+      "mfePct": 2.93,
       "maePct": 0
     },
     {
@@ -449,9 +449,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 145.65,
-      "livePnlPct": 2.41,
-      "mfePct": 2.41,
+      "livePrice": 146.7,
+      "livePnlPct": 3.15,
+      "mfePct": 3.15,
       "maePct": 0
     },
     {
@@ -565,9 +565,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.86,
-      "livePnlPct": 0.05,
-      "mfePct": 0.12,
+      "livePrice": 87.2,
+      "livePnlPct": 0.44,
+      "mfePct": 0.44,
       "maePct": -0.03
     },
     {
@@ -662,9 +662,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 21.55,
-      "livePnlPct": 11.95,
-      "mfePct": 12.21,
+      "livePrice": 22,
+      "livePnlPct": 14.29,
+      "mfePct": 14.29,
       "maePct": 0
     },
     {
@@ -759,10 +759,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.65,
-      "livePnlPct": -6.98,
+      "livePrice": 32,
+      "livePnlPct": -8.83,
       "mfePct": 11.25,
-      "maePct": -6.98
+      "maePct": -8.83
     },
     {
       "id": "2026-11-25-1020-HDFCBANK-880-CE",
@@ -856,9 +856,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 16.1,
-      "livePnlPct": 7.33,
-      "mfePct": 7.33,
+      "livePrice": 17.4,
+      "livePnlPct": 16,
+      "mfePct": 16,
       "maePct": -0.67
     },
     {
@@ -953,9 +953,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.55,
-      "livePnlPct": 1.76,
-      "mfePct": 2.44,
+      "livePrice": 37.85,
+      "livePnlPct": 2.57,
+      "mfePct": 2.57,
       "maePct": 0
     },
     {
@@ -1050,9 +1050,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 99.85,
-      "livePnlPct": 0,
-      "mfePct": 0,
+      "livePrice": 111,
+      "livePnlPct": 11.17,
+      "mfePct": 11.17,
       "maePct": 0
     },
     {
@@ -1147,8 +1147,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.75,
-      "livePnlPct": -5.05,
+      "livePrice": 20.65,
+      "livePnlPct": -0.72,
       "mfePct": 0,
       "maePct": -6.25
     },
@@ -1244,9 +1244,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 31.8,
-      "livePnlPct": -12.76,
-      "mfePct": 0,
+      "livePrice": 36.5,
+      "livePnlPct": 0.14,
+      "mfePct": 0.14,
       "maePct": -12.76
     },
     {
@@ -1341,10 +1341,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 4.64,
-      "livePnlPct": -3.93,
+      "livePrice": 4.25,
+      "livePnlPct": -12.01,
       "mfePct": 0,
-      "maePct": -8.9
+      "maePct": -12.01
     },
     {
       "id": "2026-11-25-1022-DIXON-14000-CE",
@@ -1438,13 +1438,13 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 236.7,
-      "livePnlPct": -17.03,
+      "livePrice": 234.9,
+      "livePnlPct": -17.67,
       "mfePct": 0,
-      "maePct": -17.03
+      "maePct": -17.67
     }
   ],
-  "lastUpdated": "2026-11-25T05:38:18.207Z",
+  "lastUpdated": "2026-11-25T05:38:23.292Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
