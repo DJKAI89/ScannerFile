@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 309.6,
-      "livePnlPct": 2.23,
+      "livePrice": 308.94,
+      "livePnlPct": 2.01,
       "mfePct": 2.93,
       "maePct": 0
     },
@@ -455,8 +455,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 147.45,
-      "livePnlPct": 3.68,
+      "livePrice": 147.2,
+      "livePnlPct": 3.5,
       "mfePct": 3.87,
       "maePct": 0
     },
@@ -571,8 +571,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.24,
-      "livePnlPct": 0.48,
+      "livePrice": 87.17,
+      "livePnlPct": 0.4,
       "mfePct": 0.51,
       "maePct": -0.03
     },
@@ -668,8 +668,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17.1,
-      "livePnlPct": -11.17,
+      "livePrice": 17.45,
+      "livePnlPct": -9.35,
       "mfePct": 14.29,
       "maePct": -11.17
     },
@@ -869,8 +869,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 15.2,
-      "livePnlPct": 1.33,
+      "livePrice": 14.9,
+      "livePnlPct": -0.67,
       "mfePct": 16,
       "maePct": -0.67
     },
@@ -966,8 +966,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 44.25,
-      "livePnlPct": 19.92,
+      "livePrice": 42.5,
+      "livePnlPct": 15.18,
       "mfePct": 19.92,
       "maePct": 0
     },
@@ -1177,10 +1177,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 18.25,
-      "livePnlPct": -12.26,
+      "livePrice": 16.5,
+      "livePnlPct": -20.67,
       "mfePct": 0,
-      "maePct": -12.26
+      "maePct": -20.67
     },
     {
       "id": "2026-11-25-1020-HINDUNILVR-2140-CE",
@@ -1367,7 +1367,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 3,
       "riskDist": 1.34,
       "targetT1": 6.17,
@@ -1385,22 +1385,32 @@
           "price": 7.51,
           "time": "14:32:52",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 6.6,
+          "time": "15:14:06",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 6.726,
       "maxFavPrice": 7.53,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
+      "exitPrice": 6.6,
+      "exitTime": "15:14:06",
+      "exitDate": "2026-11-25",
+      "pnlPct": 49.13,
       "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 4.25,
-      "livePnlPct": -12.01,
-      "mfePct": 0,
-      "maePct": -12.01
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 55.49,
+      "maePct": -12.01,
+      "realizedR": 1.77,
+      "mfeR": 2,
+      "maeR": -0.43,
+      "holdMins": 294
     },
     {
       "id": "2026-11-25-1022-DIXON-14000-CE",
@@ -1598,20 +1608,20 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 594.55,
-      "livePnlPct": 15.66,
+      "livePrice": 592.15,
+      "livePnlPct": 15.19,
       "mfePct": 15.81,
       "maePct": 0
     }
   ],
-  "lastUpdated": "2026-11-25T09:03:04.395Z",
+  "lastUpdated": "2026-11-25T09:44:06.690Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
     "total": 15,
-    "hits": 4,
+    "hits": 5,
     "sls": 2,
-    "open": 9,
-    "winRate": 67
+    "open": 8,
+    "winRate": 71
   }
 }
