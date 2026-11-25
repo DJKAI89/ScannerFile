@@ -92,7 +92,11 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 49.25,
+      "livePnlPct": 22.21,
+      "mfePct": 22.21,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-0919-SENSEX-83500-CE",
@@ -175,18 +179,29 @@
       "targetT1": 767.69,
       "targetT2": 921.22,
       "targetT3": 1074.77,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 614.15,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 770.5,
+          "time": "10:30:27",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 678.376,
+      "maxFavPrice": 770.5,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 770.5,
+      "livePnlPct": 25.46,
+      "mfePct": 25.46,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1015-GREAVESCOT-STOCK",
@@ -298,7 +313,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 307.74,
+      "livePnlPct": 1.62,
+      "mfePct": 1.62,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1015-THOMASCOOK-STOCK",
@@ -410,7 +429,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 144.16,
+      "livePnlPct": 1.36,
+      "mfePct": 1.36,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1017-IDFCFIRSTB-STOCK",
@@ -522,7 +545,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 86.79,
+      "livePnlPct": -0.03,
+      "mfePct": 0,
+      "maePct": -0.03
     },
     {
       "id": "2026-11-25-1020-ICICIBANK-1710-CE",
@@ -615,7 +642,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 19.4,
+      "livePnlPct": 0.78,
+      "mfePct": 0.78,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1020-MFSL-1580-CE",
@@ -708,7 +739,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 36.15,
+      "livePnlPct": 2.99,
+      "mfePct": 2.99,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1020-HDFCBANK-880-CE",
@@ -801,7 +836,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 14.95,
+      "livePnlPct": -0.33,
+      "mfePct": 0,
+      "maePct": -0.33
     },
     {
       "id": "2026-11-25-1020-INFY-1134-PE",
@@ -894,7 +933,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 37.8,
+      "livePnlPct": 2.44,
+      "mfePct": 2.44,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1020-KAYNES-2550-PE",
@@ -987,7 +1030,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 99.85,
+      "livePnlPct": 0,
+      "mfePct": 0,
+      "maePct": 0
     },
     {
       "id": "2026-11-25-1020-MAXHEALTH-1150-CE",
@@ -1080,7 +1127,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 20.25,
+      "livePnlPct": -2.64,
+      "mfePct": 0,
+      "maePct": -2.64
     },
     {
       "id": "2026-11-25-1020-HINDUNILVR-2140-CE",
@@ -1173,7 +1224,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 32.3,
+      "livePnlPct": -11.39,
+      "mfePct": 0,
+      "maePct": -11.39
     },
     {
       "id": "2026-11-25-1020-TATASTEEL-160-PE",
@@ -1266,7 +1321,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 4.45,
+      "livePnlPct": -7.87,
+      "mfePct": 0,
+      "maePct": -7.87
     },
     {
       "id": "2026-11-25-1022-DIXON-14000-CE",
@@ -1359,10 +1418,14 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 270.05,
+      "livePnlPct": -5.35,
+      "mfePct": 0,
+      "maePct": -5.35
     }
   ],
-  "lastUpdated": "2026-11-25T04:52:59.009Z",
+  "lastUpdated": "2026-11-25T05:00:27.050Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
