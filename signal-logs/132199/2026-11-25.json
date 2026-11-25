@@ -91,8 +91,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 45.702,
-      "maxFavPrice": 51.75,
+      "trailSL": 45.802,
+      "maxFavPrice": 51.85,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -100,9 +100,9 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 49.25,
-      "livePnlPct": 22.21,
-      "mfePct": 22.21,
+      "livePrice": 51.85,
+      "livePnlPct": 28.66,
+      "mfePct": 28.66,
       "maePct": 0
     },
     {
@@ -196,8 +196,8 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 681.576,
-      "maxFavPrice": 773.7,
+      "trailSL": 685.226,
+      "maxFavPrice": 777.35,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
@@ -205,9 +205,9 @@
       "exitReason": null,
       "note": "",
       "taken": false,
-      "livePrice": 770.5,
-      "livePnlPct": 25.46,
-      "mfePct": 25.46,
+      "livePrice": 777.35,
+      "livePnlPct": 26.57,
+      "mfePct": 26.57,
       "maePct": 0
     },
     {
@@ -321,9 +321,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 307.74,
-      "livePnlPct": 1.62,
-      "mfePct": 1.62,
+      "livePrice": 309.6,
+      "livePnlPct": 2.23,
+      "mfePct": 2.23,
       "maePct": 0
     },
     {
@@ -437,8 +437,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 144.16,
-      "livePnlPct": 1.36,
+      "livePrice": 143.32,
+      "livePnlPct": 0.77,
       "mfePct": 1.36,
       "maePct": 0
     },
@@ -553,9 +553,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.79,
-      "livePnlPct": -0.03,
-      "mfePct": 0,
+      "livePrice": 86.85,
+      "livePnlPct": 0.03,
+      "mfePct": 0.03,
       "maePct": -0.03
     },
     {
@@ -650,9 +650,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 19.4,
-      "livePnlPct": 0.78,
-      "mfePct": 0.78,
+      "livePrice": 19.5,
+      "livePnlPct": 1.3,
+      "mfePct": 1.3,
       "maePct": 0
     },
     {
@@ -747,9 +747,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 36.15,
-      "livePnlPct": 2.99,
-      "mfePct": 2.99,
+      "livePrice": 38.05,
+      "livePnlPct": 8.4,
+      "mfePct": 8.4,
       "maePct": 0
     },
     {
@@ -844,10 +844,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.95,
-      "livePnlPct": -0.33,
+      "livePrice": 14.9,
+      "livePnlPct": -0.67,
       "mfePct": 0,
-      "maePct": -0.33
+      "maePct": -0.67
     },
     {
       "id": "2026-11-25-1020-INFY-1134-PE",
@@ -941,8 +941,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 37.8,
-      "livePnlPct": 2.44,
+      "livePrice": 37.35,
+      "livePnlPct": 1.22,
       "mfePct": 2.44,
       "maePct": 0
     },
@@ -1135,10 +1135,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.25,
-      "livePnlPct": -2.64,
+      "livePrice": 20,
+      "livePnlPct": -3.85,
       "mfePct": 0,
-      "maePct": -2.64
+      "maePct": -3.85
     },
     {
       "id": "2026-11-25-1020-HINDUNILVR-2140-CE",
@@ -1232,8 +1232,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 32.3,
-      "livePnlPct": -11.39,
+      "livePrice": 32.55,
+      "livePnlPct": -10.7,
       "mfePct": 0,
       "maePct": -11.39
     },
@@ -1329,10 +1329,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 4.45,
-      "livePnlPct": -7.87,
+      "livePrice": 4.41,
+      "livePnlPct": -8.7,
       "mfePct": 0,
-      "maePct": -7.87
+      "maePct": -8.7
     },
     {
       "id": "2026-11-25-1022-DIXON-14000-CE",
@@ -1426,13 +1426,13 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 270.05,
-      "livePnlPct": -5.35,
+      "livePrice": 273.85,
+      "livePnlPct": -4.01,
       "mfePct": 0,
       "maePct": -5.35
     }
   ],
-  "lastUpdated": "2026-11-25T05:05:38.173Z",
+  "lastUpdated": "2026-11-25T05:07:19.322Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
