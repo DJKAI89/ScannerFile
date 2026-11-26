@@ -131,8 +131,8 @@
       "reason": "no new closed signals since the live model"
     },
     "option": {
-      "promote": true,
-      "reason": "out-of-fold edge 0.0324 (live 0.0299)"
+      "promote": false,
+      "reason": "no new closed signals since the live model"
     }
   },
   "trainedOffline": true,
