@@ -339,9 +339,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 308.94,
-      "livePnlPct": 2.01,
-      "mfePct": 2.93,
+      "livePrice": 318.01,
+      "livePnlPct": 5.01,
+      "mfePct": 5.01,
       "maePct": 0
     },
     {
@@ -455,10 +455,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 147.2,
-      "livePnlPct": 3.5,
+      "livePrice": 138.52,
+      "livePnlPct": -2.6,
       "mfePct": 3.87,
-      "maePct": 0
+      "maePct": -2.6
     },
     {
       "id": "2026-11-25-1017-IDFCFIRSTB-STOCK",
@@ -571,9 +571,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.17,
-      "livePnlPct": 0.4,
-      "mfePct": 0.51,
+      "livePrice": 87.33,
+      "livePnlPct": 0.59,
+      "mfePct": 0.59,
       "maePct": -0.03
     },
     {
@@ -668,10 +668,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17.45,
-      "livePnlPct": -9.35,
+      "livePrice": 16.65,
+      "livePnlPct": -13.51,
       "mfePct": 14.29,
-      "maePct": -11.17
+      "maePct": -13.51
     },
     {
       "id": "2026-11-25-1020-MFSL-1580-CE",
@@ -869,9 +869,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.9,
-      "livePnlPct": -0.67,
-      "mfePct": 16,
+      "livePrice": 17.6,
+      "livePnlPct": 17.33,
+      "mfePct": 17.33,
       "maePct": -0.67
     },
     {
@@ -966,10 +966,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 42.5,
-      "livePnlPct": 15.18,
+      "livePrice": 28.1,
+      "livePnlPct": -23.85,
       "mfePct": 19.92,
-      "maePct": 0
+      "maePct": -23.85
     },
     {
       "id": "2026-11-25-1020-KAYNES-2550-PE",
@@ -1160,27 +1160,38 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 3,
       "riskDist": 5.93,
       "targetT1": 26.73,
       "targetT2": 32.66,
       "targetT3": 38.59,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 14.6,
+          "time": "09:19:28",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 20.8,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 14.6,
+      "exitTime": "09:19:28",
+      "exitDate": "2026-11-26",
+      "pnlPct": -29.81,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 16.5,
-      "livePnlPct": -20.67,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 0,
-      "maePct": -20.67
+      "maePct": -29.81,
+      "realizedR": -1.05,
+      "mfeR": 0,
+      "maeR": -1.05,
+      "holdMins": 1379
     },
     {
       "id": "2026-11-25-1020-HINDUNILVR-2140-CE",
@@ -1608,20 +1619,20 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 592.15,
-      "livePnlPct": 15.19,
-      "mfePct": 15.81,
+      "livePrice": 633.6,
+      "livePnlPct": 23.26,
+      "mfePct": 23.26,
       "maePct": 0
     }
   ],
-  "lastUpdated": "2026-11-25T09:44:06.690Z",
+  "lastUpdated": "2026-11-26T03:49:28.505Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
     "total": 15,
     "hits": 5,
-    "sls": 2,
-    "open": 8,
-    "winRate": 71
+    "sls": 3,
+    "open": 7,
+    "winRate": 63
   }
 }
