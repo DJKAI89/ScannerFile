@@ -94,18 +94,22 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 779.402,
-      "maxFavPrice": 884,
+      "trailSL": 783.802,
+      "maxFavPrice": 888.4,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": 888.4,
+      "livePnlPct": 27.41,
+      "mfePct": 27.41,
+      "maePct": 0
     }
   ],
-  "lastUpdated": "2026-11-26T05:12:55.924Z",
+  "lastUpdated": "2026-11-26T05:15:39.558Z",
   "upstoxId": "132199",
   "date": "2026-11-26",
   "stats": {
