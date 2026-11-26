@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 318.01,
-      "livePnlPct": 5.01,
+      "livePrice": 316.7,
+      "livePnlPct": 4.58,
       "mfePct": 5.01,
       "maePct": 0
     },
@@ -455,10 +455,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 138.52,
-      "livePnlPct": -2.6,
+      "livePrice": 134.64,
+      "livePnlPct": -5.33,
       "mfePct": 3.87,
-      "maePct": -2.6
+      "maePct": -5.33
     },
     {
       "id": "2026-11-25-1017-IDFCFIRSTB-STOCK",
@@ -571,8 +571,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.33,
-      "livePnlPct": 0.59,
+      "livePrice": 87.29,
+      "livePnlPct": 0.54,
       "mfePct": 0.59,
       "maePct": -0.03
     },
@@ -668,10 +668,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 16.65,
-      "livePnlPct": -13.51,
+      "livePrice": 15.55,
+      "livePnlPct": -19.22,
       "mfePct": 14.29,
-      "maePct": -13.51
+      "maePct": -19.22
     },
     {
       "id": "2026-11-25-1020-MFSL-1580-CE",
@@ -868,17 +868,17 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 17.451999999999998,
-      "maxFavPrice": 19.9,
+      "trailSL": 18.502,
+      "maxFavPrice": 20.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 17.6,
-      "livePnlPct": 17.33,
-      "mfePct": 17.33,
+      "livePrice": 20.95,
+      "livePnlPct": 39.67,
+      "mfePct": 39.67,
       "maePct": -0.67
     },
     {
@@ -973,10 +973,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 28.1,
-      "livePnlPct": -23.85,
+      "livePrice": 26.5,
+      "livePnlPct": -28.18,
       "mfePct": 19.92,
-      "maePct": -23.85
+      "maePct": -28.18
     },
     {
       "id": "2026-11-25-1020-KAYNES-2550-PE",
@@ -1615,24 +1615,31 @@
       "targetT1": 642.56,
       "targetT2": 771.07,
       "targetT3": 899.58,
-      "partials": [],
-      "remainingPct": 100,
-      "beActive": false,
-      "trailSL": null,
-      "maxFavPrice": 514.05,
+      "partials": [
+        {
+          "level": "T1",
+          "price": 728.95,
+          "time": "10:38:35",
+          "pctClosed": 50
+        }
+      ],
+      "remainingPct": 50,
+      "beActive": true,
+      "trailSL": 651.844,
+      "maxFavPrice": 728.95,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 633.6,
-      "livePnlPct": 23.26,
-      "mfePct": 23.26,
+      "livePrice": 728.95,
+      "livePnlPct": 41.81,
+      "mfePct": 41.81,
       "maePct": 0
     }
   ],
-  "lastUpdated": "2026-11-26T04:55:37.824Z",
+  "lastUpdated": "2026-11-26T05:08:35.934Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
