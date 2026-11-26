@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 312.35,
-      "livePnlPct": 3.14,
+      "livePrice": 312.15,
+      "livePnlPct": 3.07,
       "mfePct": 5.01,
       "maePct": 0
     },
@@ -571,10 +571,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.77,
-      "livePnlPct": -0.06,
+      "livePrice": 86.76,
+      "livePnlPct": -0.07,
       "mfePct": 0.59,
-      "maePct": -0.06
+      "maePct": -0.07
     },
     {
       "id": "2026-11-25-1020-ICICIBANK-1710-CE",
@@ -668,8 +668,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.05,
-      "livePnlPct": -27.01,
+      "livePrice": 14.2,
+      "livePnlPct": -26.23,
       "mfePct": 14.29,
       "maePct": -27.53
     },
@@ -874,17 +874,17 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 21.252,
-      "maxFavPrice": 23.7,
+      "trailSL": 21.652,
+      "maxFavPrice": 24.1,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 23.7,
-      "livePnlPct": 58,
-      "mfePct": 58,
+      "livePrice": 24.1,
+      "livePnlPct": 60.67,
+      "mfePct": 60.67,
       "maePct": -0.67
     },
     {
@@ -1672,7 +1672,7 @@
       "holdMins": 1265
     }
   ],
-  "lastUpdated": "2026-11-26T05:44:48.699Z",
+  "lastUpdated": "2026-11-26T05:45:50.357Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
