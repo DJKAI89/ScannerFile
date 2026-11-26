@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 316.7,
-      "livePnlPct": 4.58,
+      "livePrice": 317,
+      "livePnlPct": 4.68,
       "mfePct": 5.01,
       "maePct": 0
     },
@@ -571,8 +571,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.29,
-      "livePnlPct": 0.54,
+      "livePrice": 87.1,
+      "livePnlPct": 0.32,
       "mfePct": 0.59,
       "maePct": -0.03
     },
@@ -868,17 +868,17 @@
       ],
       "remainingPct": 50,
       "beActive": true,
-      "trailSL": 18.502,
-      "maxFavPrice": 20.95,
+      "trailSL": 18.552,
+      "maxFavPrice": 21,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 20.95,
-      "livePnlPct": 39.67,
-      "mfePct": 39.67,
+      "livePrice": 21,
+      "livePnlPct": 40,
+      "mfePct": 40,
       "maePct": -0.67
     },
     {
@@ -973,10 +973,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 26.5,
-      "livePnlPct": -28.18,
+      "livePrice": 26.4,
+      "livePnlPct": -28.46,
       "mfePct": 19.92,
-      "maePct": -28.18
+      "maePct": -28.46
     },
     {
       "id": "2026-11-25-1020-KAYNES-2550-PE",
@@ -1633,13 +1633,13 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 728.95,
-      "livePnlPct": 41.81,
+      "livePrice": 728.05,
+      "livePnlPct": 41.63,
       "mfePct": 41.81,
       "maePct": 0
     }
   ],
-  "lastUpdated": "2026-11-26T05:08:35.934Z",
+  "lastUpdated": "2026-11-26T05:10:28.467Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
