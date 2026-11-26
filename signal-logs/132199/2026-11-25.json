@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 312.15,
-      "livePnlPct": 3.07,
+      "livePrice": 312.54,
+      "livePnlPct": 3.2,
       "mfePct": 5.01,
       "maePct": 0
     },
@@ -571,10 +571,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.76,
-      "livePnlPct": -0.07,
+      "livePrice": 86.53,
+      "livePnlPct": -0.33,
       "mfePct": 0.59,
-      "maePct": -0.07
+      "maePct": -0.33
     },
     {
       "id": "2026-11-25-1020-ICICIBANK-1710-CE",
@@ -651,27 +651,38 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 5.78,
       "targetT1": 25.03,
       "targetT2": 30.81,
       "targetT3": 36.59,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 13,
+          "time": "11:23:25",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 19.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 13,
+      "exitTime": "11:23:25",
+      "exitDate": "2026-11-26",
+      "pnlPct": -32.47,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 14.2,
-      "livePnlPct": -26.23,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 14.29,
-      "maePct": -27.53
+      "maePct": -32.47,
+      "realizedR": -1.08,
+      "mfeR": 0.48,
+      "maeR": -1.08,
+      "holdMins": 1503
     },
     {
       "id": "2026-11-25-1020-MFSL-1580-CE",
@@ -882,8 +893,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 24.1,
-      "livePnlPct": 60.67,
+      "livePrice": 22.5,
+      "livePnlPct": 50,
       "mfePct": 60.67,
       "maePct": -0.67
     },
@@ -1672,14 +1683,14 @@
       "holdMins": 1265
     }
   ],
-  "lastUpdated": "2026-11-26T05:45:50.357Z",
+  "lastUpdated": "2026-11-26T05:53:25.327Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
     "total": 15,
     "hits": 6,
-    "sls": 4,
-    "open": 5,
-    "winRate": 60
+    "sls": 5,
+    "open": 4,
+    "winRate": 55
   }
 }
