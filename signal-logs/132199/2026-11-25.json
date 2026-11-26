@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 312.54,
-      "livePnlPct": 3.2,
+      "livePrice": 314.21,
+      "livePnlPct": 3.75,
       "mfePct": 5.01,
       "maePct": 0
     },
@@ -571,10 +571,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.53,
-      "livePnlPct": -0.33,
+      "livePrice": 86.47,
+      "livePnlPct": -0.4,
       "mfePct": 0.59,
-      "maePct": -0.33
+      "maePct": -0.4
     },
     {
       "id": "2026-11-25-1020-ICICIBANK-1710-CE",
@@ -863,7 +863,7 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "TARGET_HIT",
       "holdDays": 2,
       "riskDist": 4.08,
       "targetT1": 19.08,
@@ -881,22 +881,32 @@
           "price": 23.35,
           "time": "10:50:28",
           "pctClosed": 30
+        },
+        {
+          "level": "TRAIL_STOP",
+          "price": 20.8,
+          "time": "11:36:41",
+          "pctClosed": 20
         }
       ],
-      "remainingPct": 20,
+      "remainingPct": 0,
       "beActive": true,
       "trailSL": 21.652,
       "maxFavPrice": 24.1,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 20.8,
+      "exitTime": "11:36:41",
+      "exitDate": "2026-11-26",
+      "pnlPct": 40.6,
+      "exitReason": "TRAIL_STOP",
       "note": "",
-      "livePrice": 22.5,
-      "livePnlPct": 50,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 60.67,
-      "maePct": -0.67
+      "maePct": -0.67,
+      "realizedR": 1.49,
+      "mfeR": 2.23,
+      "maeR": -0.02,
+      "holdMins": 1516
     },
     {
       "id": "2026-11-25-1020-INFY-1134-PE",
@@ -1683,14 +1693,14 @@
       "holdMins": 1265
     }
   ],
-  "lastUpdated": "2026-11-26T05:53:25.327Z",
+  "lastUpdated": "2026-11-26T06:06:41.467Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
     "total": 15,
-    "hits": 6,
+    "hits": 7,
     "sls": 5,
-    "open": 4,
-    "winRate": 55
+    "open": 3,
+    "winRate": 58
   }
 }
