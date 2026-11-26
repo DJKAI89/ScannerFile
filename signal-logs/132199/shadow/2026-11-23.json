@@ -3705,25 +3705,40 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 508.31,
       "targetT1": 2541.56,
       "targetT2": 3049.88,
       "targetT3": 3558.18,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2033.25,
+          "time": "01:49:39",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2033.25,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2033.25,
+      "exitTime": "01:49:39",
+      "exitDate": "2026-11-27",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "mtf_avoid: Daily trend and another higher timeframe are against this trade"
+      "shadowReason": "mtf_avoid: Daily trend and another higher timeframe are against this trade",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": 0,
+      "realizedR": 0,
+      "mfeR": 0,
+      "maeR": 0,
+      "holdMins": 4546
     },
     {
       "id": "shadow-2026-11-23-SENSEX-84700-PE",
@@ -3800,25 +3815,40 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 556.18,
       "targetT1": 2780.88,
       "targetT2": 3337.05,
       "targetT3": 3893.24,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2224.7,
+          "time": "01:49:39",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2224.7,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2224.7,
+      "exitTime": "01:49:39",
+      "exitDate": "2026-11-27",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "mtf_avoid: Daily trend and another higher timeframe are against this trade"
+      "shadowReason": "mtf_avoid: Daily trend and another higher timeframe are against this trade",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": 0,
+      "realizedR": 0,
+      "mfeR": 0,
+      "maeR": 0,
+      "holdMins": 4546
     },
     {
       "id": "shadow-2026-11-23-SENSEX-85000-PE",
@@ -3895,25 +3925,40 @@
         "fiiAgainst": true
       },
       "regime": "CHOPPY",
-      "status": "OPEN",
+      "status": "EXPIRED",
       "holdDays": 2,
       "riskDist": 621.65,
       "targetT1": 3108.25,
       "targetT2": 3729.9,
       "targetT3": 4351.55,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "EXPIRY",
+          "price": 2486.6,
+          "time": "01:49:39",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 2486.6,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 2486.6,
+      "exitTime": "01:49:39",
+      "exitDate": "2026-11-27",
+      "pnlPct": 0,
+      "exitReason": "EXPIRY",
       "note": "",
       "shadow": true,
-      "shadowReason": "mtf_avoid: Daily trend and another higher timeframe are against this trade"
+      "shadowReason": "mtf_avoid: Daily trend and another higher timeframe are against this trade",
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 0,
+      "maePct": 0,
+      "realizedR": 0,
+      "mfeR": 0,
+      "maeR": 0,
+      "holdMins": 4546
     },
     {
       "id": "shadow-2026-11-23-NIFTY-25400-PE",
@@ -4027,5 +4072,5 @@
     }
   ],
   "date": "2026-11-23",
-  "lastUpdated": "2026-11-25T09:06:08.155Z"
+  "lastUpdated": "2026-11-26T20:19:47.411Z"
 }
