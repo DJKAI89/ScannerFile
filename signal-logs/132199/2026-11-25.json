@@ -339,8 +339,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 312.83,
-      "livePnlPct": 3.3,
+      "livePrice": 312.29,
+      "livePnlPct": 3.12,
       "mfePct": 5.01,
       "maePct": 0
     },
@@ -571,8 +571,8 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 87.14,
-      "livePnlPct": 0.37,
+      "livePrice": 86.79,
+      "livePnlPct": -0.03,
       "mfePct": 0.59,
       "maePct": -0.03
     },
@@ -668,10 +668,10 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 14.95,
-      "livePnlPct": -22.34,
+      "livePrice": 13.95,
+      "livePnlPct": -27.53,
       "mfePct": 14.29,
-      "maePct": -22.34
+      "maePct": -27.53
     },
     {
       "id": "2026-11-25-1020-MFSL-1580-CE",
@@ -874,17 +874,17 @@
       ],
       "remainingPct": 20,
       "beActive": true,
-      "trailSL": 20.902,
-      "maxFavPrice": 23.35,
+      "trailSL": 21.102,
+      "maxFavPrice": 23.55,
       "exitPrice": null,
       "exitTime": null,
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 22.8,
-      "livePnlPct": 52,
-      "mfePct": 55.67,
+      "livePrice": 23.55,
+      "livePnlPct": 57,
+      "mfePct": 57,
       "maePct": -0.67
     },
     {
@@ -1672,7 +1672,7 @@
       "holdMins": 1265
     }
   ],
-  "lastUpdated": "2026-11-26T05:24:55.692Z",
+  "lastUpdated": "2026-11-26T05:44:37.761Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
