@@ -65,45 +65,45 @@
       "degraded": false
     },
     "option": {
-      "trainedOn": 534,
-      "accuracy": 0.629,
-      "edge": 0.0294,
-      "walkForward": 0.438,
+      "trainedOn": 541,
+      "accuracy": 0.362,
+      "edge": -0.0025,
+      "walkForward": 0.382,
       "topFeatures": [
         {
           "feature": "baseConf",
           "gain": 0,
-          "splits": 46,
+          "splits": 49,
           "importance": 0
         },
         {
           "feature": "score",
           "gain": 0,
-          "splits": 9,
+          "splits": 11,
           "importance": 0
         },
         {
           "feature": "composite",
           "gain": 0,
-          "splits": 11,
+          "splits": 15,
           "importance": 0
         },
         {
           "feature": "volSpike",
           "gain": 0,
-          "splits": 16,
+          "splits": 18,
           "importance": 0
         },
         {
           "feature": "deltaAbs",
           "gain": 0,
-          "splits": 27,
+          "splits": 31,
           "importance": 0
         },
         {
           "feature": "iv",
           "gain": 0,
-          "splits": 43,
+          "splits": 40,
           "importance": 0
         },
         {
@@ -115,12 +115,12 @@
         {
           "feature": "atm",
           "gain": 0,
-          "splits": 2,
+          "splits": 1,
           "importance": 0
         }
       ],
       "servingLabel": "stock_pe",
-      "oofEdge": -0.1279,
+      "oofEdge": -0.1563,
       "calibration": "walk-forward",
       "degraded": false
     }
@@ -132,7 +132,7 @@
     },
     "option": {
       "promote": true,
-      "reason": "out-of-fold edge 0.0299"
+      "reason": "out-of-fold edge 0.0324 (live 0.0299)"
     }
   },
   "trainedOffline": true,
