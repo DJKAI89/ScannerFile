@@ -339,9 +339,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 314.21,
-      "livePnlPct": 3.75,
-      "mfePct": 5.01,
+      "livePrice": 329.3,
+      "livePnlPct": 8.74,
+      "mfePct": 8.74,
       "maePct": 0
     },
     {
@@ -438,27 +438,38 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "atr": 2.95,
       "targetT1": 155.5,
       "targetT2": 159.93,
       "targetT3": 168.77,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 129.51,
+          "time": "09:21:24",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 142.22,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 129.51,
+      "exitTime": "09:21:24",
+      "exitDate": "2026-11-27",
+      "pnlPct": -8.94,
+      "exitReason": "SL",
       "note": "",
-      "livePrice": 134.64,
-      "livePnlPct": -5.33,
+      "livePrice": null,
+      "livePnlPct": null,
       "mfePct": 3.87,
-      "maePct": -5.33
+      "maePct": -8.94,
+      "realizedR": -1.44,
+      "mfeR": 0.62,
+      "maeR": -1.44,
+      "holdMins": 2826
     },
     {
       "id": "2026-11-25-1017-IDFCFIRSTB-STOCK",
@@ -571,9 +582,9 @@
       "pnlPct": null,
       "exitReason": null,
       "note": "",
-      "livePrice": 86.47,
-      "livePnlPct": -0.4,
-      "mfePct": 0.59,
+      "livePrice": 88.13,
+      "livePnlPct": 1.51,
+      "mfePct": 1.51,
       "maePct": -0.4
     },
     {
@@ -1693,14 +1704,14 @@
       "holdMins": 1265
     }
   ],
-  "lastUpdated": "2026-11-26T06:06:41.467Z",
+  "lastUpdated": "2026-11-27T03:51:24.470Z",
   "upstoxId": "132199",
   "date": "2026-11-25",
   "stats": {
     "total": 15,
     "hits": 7,
-    "sls": 5,
-    "open": 3,
-    "winRate": 58
+    "sls": 6,
+    "open": 2,
+    "winRate": 54
   }
 }
