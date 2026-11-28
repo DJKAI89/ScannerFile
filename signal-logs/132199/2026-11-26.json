@@ -296,24 +296,39 @@
         "fiiAgainst": false
       },
       "regime": "TRENDING",
-      "status": "OPEN",
+      "status": "SL_HIT",
       "holdDays": 2,
       "riskDist": 5.57,
       "targetT1": 27.87,
       "targetT2": 33.45,
       "targetT3": 39.01,
-      "partials": [],
-      "remainingPct": 100,
+      "partials": [
+        {
+          "level": "SL",
+          "price": 16.73,
+          "time": "14:20:00",
+          "pctClosed": 100
+        }
+      ],
+      "remainingPct": 0,
       "beActive": false,
       "trailSL": null,
       "maxFavPrice": 22.3,
-      "exitPrice": null,
-      "exitTime": null,
-      "exitDate": null,
-      "pnlPct": null,
-      "exitReason": null,
+      "exitPrice": 16.73,
+      "exitTime": "14:20:00",
+      "exitDate": "2026-11-26",
+      "pnlPct": -24.98,
+      "exitReason": "SL",
       "note": "",
-      "taken": false
+      "taken": false,
+      "livePrice": null,
+      "livePnlPct": null,
+      "mfePct": 2.24,
+      "maePct": -24.98,
+      "realizedR": -1,
+      "mfeR": 0.09,
+      "maeR": -1,
+      "holdMins": 198
     },
     {
       "id": "2026-11-26-1118-WIPRO-STOCK",
@@ -426,7 +441,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 192.1,
+      "livePnlPct": -2.3,
+      "mfePct": 0.01,
+      "maePct": -2.46
     },
     {
       "id": "2026-11-26-1212-SENSEX-84200-CE",
@@ -532,14 +551,13 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-26T07:21:31.356Z",
-  "upstoxId": "132199",
+  "lastUpdated": "2026-11-28T10:22:16.254Z",
   "date": "2026-11-26",
   "stats": {
     "total": 5,
     "hits": 1,
-    "sls": 2,
-    "open": 2,
-    "winRate": 33
+    "sls": 3,
+    "open": 1,
+    "winRate": 25
   }
 }
