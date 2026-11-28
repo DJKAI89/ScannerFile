@@ -94,7 +94,11 @@
       "exitDate": null,
       "pnlPct": null,
       "exitReason": null,
-      "note": ""
+      "note": "",
+      "livePrice": 30.95,
+      "livePnlPct": -15.44,
+      "mfePct": 1.78,
+      "maePct": -17.9
     },
     {
       "id": "2026-11-27-0949-NIFTY-25850-CE",
@@ -200,8 +204,7 @@
       "note": ""
     }
   ],
-  "lastUpdated": "2026-11-27T05:00:07.031Z",
-  "upstoxId": "132199",
+  "lastUpdated": "2026-11-28T10:22:19.120Z",
   "date": "2026-11-27",
   "stats": {
     "total": 2,
