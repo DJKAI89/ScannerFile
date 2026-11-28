@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-28",
+  "snapshot": {
+    "version": "ai-ensemble-v2",
+    "modelName": "AI Ensemble Brain",
+    "computedAt": "2026-11-28T10:25:37.805Z",
+    "stock": {
+      "trainedOn": 267,
+      "accuracy": 0.685,
+      "edge": 0.0223,
+      "walkForward": 0.418,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 28,
+          "importance": 0
+        },
+        {
+          "feature": "rr",
+          "gain": 0,
+          "splits": 7,
+          "importance": 0
+        },
+        {
+          "feature": "riskInv",
+          "gain": 0,
+          "splits": 15,
+          "importance": 0
+        },
+        {
+          "feature": "potential",
+          "gain": 0,
+          "splits": 67,
+          "importance": 0
+        },
+        {
+          "feature": "expectedWR",
+          "gain": 0,
+          "splits": 19,
+          "importance": 0
+        },
+        {
+          "feature": "adxBull",
+          "gain": 0,
+          "splits": 4,
+          "importance": 0
+        },
+        {
+          "feature": "weekday",
+          "gain": 0,
+          "splits": 14,
+          "importance": 0
+        },
+        {
+          "feature": "atrPct",
+          "gain": 0,
+          "splits": 14,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_midday",
+      "oofEdge": -0.1502,
+      "holdoutEdge": null,
+      "calibration": "walk-forward",
+      "degraded": false
+    },
+    "option": {
+      "trainedOn": 542,
+      "accuracy": 0.699,
+      "edge": 0.0343,
+      "walkForward": 0.456,
+      "topFeatures": [
+        {
+          "feature": "baseConf",
+          "gain": 0,
+          "splits": 49,
+          "importance": 0
+        },
+        {
+          "feature": "score",
+          "gain": 0,
+          "splits": 11,
+          "importance": 0
+        },
+        {
+          "feature": "composite",
+          "gain": 0,
+          "splits": 15,
+          "importance": 0
+        },
+        {
+          "feature": "volSpike",
+          "gain": 0,
+          "splits": 18,
+          "importance": 0
+        },
+        {
+          "feature": "deltaAbs",
+          "gain": 0,
+          "splits": 31,
+          "importance": 0
+        },
+        {
+          "feature": "iv",
+          "gain": 0,
+          "splits": 40,
+          "importance": 0
+        },
+        {
+          "feature": "thetaAbs",
+          "gain": 0,
+          "splits": 45,
+          "importance": 0
+        },
+        {
+          "feature": "atm",
+          "gain": 0,
+          "splits": 1,
+          "importance": 0
+        }
+      ],
+      "servingLabel": "stock_pe",
+      "oofEdge": -0.1215,
+      "holdoutEdge": null,
+      "calibration": "walk-forward",
+      "degraded": false
+    }
+  },
+  "promotion": {
+    "stock": {
+      "promote": true,
+      "reason": "out-of-fold edge -0.0493 (live -0.0493)"
+    },
+    "option": {
+      "promote": false,
+      "reason": "out-of-fold edge fell 0.0324 -> -0.0298"
+    }
+  },
+  "trainedOffline": true,
+  "userId": "132199"
+}
